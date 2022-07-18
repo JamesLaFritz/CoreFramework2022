@@ -1,0 +1,248 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/James/Documents/Unity/GitHub/DevEnviroment/Assets/Coreframework/Documentation~",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "CHANGELOG.md",
+      "output": {
+        ".html": {
+          "relative_path": "CHANGELOG.html",
+          "hash": "RhciWuVhM+wKxFc88iCofNto3l+U7XDMKUjueWwYS2o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Images/InstallPackage.gif",
+      "output": {
+        "resource": {
+          "relative_path": "Images/InstallPackage.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Images/Logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "Images/Logo.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Images/OpenPackageManager.gif",
+      "output": {
+        "resource": {
+          "relative_path": "Images/OpenPackageManager.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Images/ScreenShot.png",
+      "output": {
+        "resource": {
+          "relative_path": "Images/ScreenShot.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Images/repository-open-graph-template.png",
+      "output": {
+        "resource": {
+          "relative_path": "Images/repository-open-graph-template.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "License/Asset Licenses.md",
+      "output": {
+        ".html": {
+          "relative_path": "License/Asset Licenses.html",
+          "hash": "Q5NXe9f17dV01txfP54os8qyDukuBzIaLYWHKYAbC84="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "License/LICENSE.md",
+      "output": {
+        ".html": {
+          "relative_path": "License/LICENSE.html",
+          "hash": "mXts72CIcQm1QQ91laXygwUY4mvHudeeZnWW50Tzqzo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "License/Third Party Notices.md",
+      "output": {
+        ".html": {
+          "relative_path": "License/Third Party Notices.html",
+          "hash": "1WB2R1PkBHdiVbk6boCYvWrs9JLKMHURPvlErhskn1A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Toc",
+      "source_relative_path": "License/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "License/toc.html",
+          "hash": "cAywigrqTokZ7Jw/jLurtdANJdoR7/TQhDrp91QsWqQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Manual/Attributes/attributes.md",
+      "output": {
+        ".html": {
+          "relative_path": "Manual/Attributes/attributes.html",
+          "hash": "xUTf3ohVvhK2ZSx8OCb1QvuzXS/R67r6wmjIjCRL2aQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "Manual/MixamoAnimations.md",
+      "output": {
+        ".html": {
+          "relative_path": "Manual/MixamoAnimations.html",
+          "hash": "BP+/oi9U+xkD76ScqsqkCKL1V1/+fya1ZpbJgaOdLtE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "Manual/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "Manual/toc.html",
+          "hash": "UqUQvmeUVWdlQdcllt2Op/xiRtu62uI/eJp3/JR3s5E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "LN/IBC6BYzR8Tu+hpdg5We6z9afvEZMQUCBsNGgRP/4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "FzrT8+IW+cfny8aEdhNtVUb9H4OFt0okZS051ZUkaqQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 8,
+          "skipped_file_count": 8
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

@@ -22,7 +22,7 @@
   <a href="https://github.com/JamesLafritz/CoreFamework/issues">
 	  <img src="https://img.shields.io/github/issues/JamesLafritz/CoreFamework.svg?style=for-the-badge" title="issues Badge" alt="issues Badge">
   </a>
-  <a href="https://github.com/JamesLaFritz/CoreFamework/blob/main/LICENSE.md">
+  <a href="https://github.com/JamesLaFritz/CoreFamework/blob/main/LICENSE">
 	  <img src="https://img.shields.io/github/license/JamesLafritz/CoreFamework.svg?style=for-the-badge" title="License Badge" alt="License Badge">
   </a>
 </p>
@@ -85,6 +85,6 @@ See the [open issues](https://github.com/JamesLaFritz/CoreFamework/issues) for a
 ## License
 
 Distributed under the MIT License. See 
-  <a href="https://jameslafritz.github.io/CoreFamework/docs/License/LICENSE.html">
+  <a href="https://jameslafritz.github.io/CoreFamework/License/LICENSE.html">
 	  <img src="https://img.shields.io/github/license/JamesLafritz/CoreFamework.svg?style=for-the-badge" title="License Badge" alt="License Badge"/>
   </a> for more information.

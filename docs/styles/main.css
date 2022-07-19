@@ -144,7 +144,6 @@ ul.nav.level2>li.active.in>a.active {
     padding: 5px 8px;
     text-decoration: none;
     font-weight: normal;
-	content: "0"
 }
 
 .toc .nav>li.active>.expand-stub::before, .toc .nav>li.in>.expand-stub::before, .toc .nav>li.in.active>.expand-stub::before, .toc .nav>li.filtered>.expand-stub::before {

@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "CHANGELOG.html",
-          "hash": "eJyJzbw0EO98FBMpeHlqzXWN8bMzzLwvHeP+2Q/4r/0="
+          "hash": "oCM05HdEmKzBJThLtcoeLMPlEK0vOntS3HGyEHVS8qk="
         }
       },
       "is_incremental": false,
@@ -189,7 +189,7 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 6,
-          "skipped_file_count": 6
+          "skipped_file_count": 5
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,

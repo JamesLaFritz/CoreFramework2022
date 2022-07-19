@@ -17,7 +17,7 @@
 	  <img src="https://img.shields.io/github/forks/JamesLafritz/CoreFamework.svg?style=for-the-badge" title="fork Badge" alt="fork Badge">
   </a>
   <a href="https://github.com/JamesLafritz/CoreFamework/stargazers">
-	  <img src="https://img.shields.io/github/stars/JamesLafritzCoreFamework.svg?style=for-the-badge" title="stargazers Badge" alt="stargazers Badge">
+	  <img src="https://img.shields.io/github/stars/JamesLafritz/CoreFamework.svg?style=for-the-badge" title="stargazers Badge" alt="stargazers Badge">
   </a>
   <a href="https://github.com/JamesLafritz/CoreFamework/issues">
 	  <img src="https://img.shields.io/github/issues/JamesLafritz/CoreFamework.svg?style=for-the-badge" title="issues Badge" alt="issues Badge">

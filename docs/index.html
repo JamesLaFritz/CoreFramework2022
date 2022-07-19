@@ -5,17 +5,18 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>About The Project | Core Framework </title>
+    <title>About The Project | Core Framework Documentation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="About The Project | Core Framework ">
+    <meta name="title" content="About The Project | Core Framework Documentation ">
     <meta name="generator" content="docfx 2.58.4.0">
     
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="styles/docfx.vendor.css">
     <link rel="stylesheet" href="styles/docfx.css">
     <link rel="stylesheet" href="styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
     <meta property="docfx:navrel" content="toc.html">
-    <meta property="docfx:tocrel" content="Manual\toc.html">
+    <meta property="docfx:tocrel" content="Manual/toc.html">
     
     <meta property="docfx:rel" content="">
     
@@ -47,7 +48,6 @@
             </div>
           </div>
         </nav>
-        
       </header>
       <div class="container body-content">
         
@@ -88,7 +88,7 @@
 	  <img src="https://img.shields.io/github/forks/JamesLafritz/CoreFamework.svg?style=for-the-badge" title="fork Badge" alt="fork Badge">
   </a>
   <a href="https://github.com/JamesLafritz/CoreFamework/stargazers">
-	  <img src="https://img.shields.io/github/stars/JamesLafritzCoreFamework.svg?style=for-the-badge" title="stargazers Badge" alt="stargazers Badge">
+	  <img src="https://img.shields.io/github/stars/JamesLafritz/CoreFamework.svg?style=for-the-badge" title="stargazers Badge" alt="stargazers Badge">
   </a>
   <a href="https://github.com/JamesLafritz/CoreFamework/issues">
 	  <img src="https://img.shields.io/github/issues/JamesLafritz/CoreFamework.svg?style=for-the-badge" title="issues Badge" alt="issues Badge">
@@ -120,7 +120,7 @@
 </p>
 <!-- ABOUT THE PROJECT -->
 <h2 id="about-the-project">About The Project</h2>
-<p><img src="Images/ScreenShot.png" alt="Product Name Screen Shot"></p>
+<p><img src="../docs/Images/ScreenShot.png" alt="Product Name Screen Shot"></p>
 <p><a href="https://jameslafritz.github.io/CoreFamework">Documentation</a></p>
 <p>Framework that contains useful Modules to be Used in Unity Project.</p>
 <h3 id="built-with">Built With</h3>
@@ -141,6 +141,39 @@ Check Out <a href="https://jameslafritz.github.io/CoreFamework/docs/License/Thir
 <a href="https://jameslafritz.github.io/CoreFamework/docs/License/LICENSE.html">
 <img src="https://img.shields.io/github/license/JamesLafritz/CoreFamework.svg?style=for-the-badge" title="License Badge" alt="License Badge">
 </a> for more information.</p>
+<h1 id="add-api-documentation">Add API documentation</h1>
+<p>Add this to the doc.json file</p>
+<pre><code class="lang-cs">{
+  &quot;metadata&quot;: [
+    {
+      &quot;src&quot;: [
+        {              
+          &quot;src&quot;:&quot;../&quot;,
+          &quot;files&quot;: [&quot;**.cs&quot;],
+          &quot;exclude&quot;: [
+            &quot;docs/**&quot;,
+            &quot;**/bin/**&quot;,
+            &quot;**/obj/**&quot;,
+			&quot;Documentation~/**&quot;,
+			&quot;.git/**&quot;
+          ]
+        }
+      ],
+      &quot;dest&quot;: &quot;api&quot;,
+      &quot;disableGitFeatures&quot;: false,
+      &quot;disableDefaultFilter&quot;: false,
+      &quot;force&quot;: true
+    }
+  ],
+  &quot;build&quot;: {
+    &quot;content&quot;: [
+      {
+        &quot;files&quot;: [&quot;api/**&quot;]
+      },
+  }
+}
+
+</code></pre>
 </article>
           </div>
           

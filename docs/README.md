@@ -97,15 +97,15 @@ Currently in Work: Documentation, Samples, Attributes using UI Elements, and Scr
         * ~~Info Box~~
       * Properties
         * Drop Down Selection
-          * Input Axis
-          * Scene
+          * ~~Input Axis~~
+          * ~~Scene~~
           * Tag
         * Modifiers
           * Icon
           * Read Only
         * Folder Path
         * Required Reference
-        * Show If Bool
+        * Show If Bool``
         * Show If Enum
       * Button
     * Create From Game Object 
@@ -136,9 +136,8 @@ Currently in Work: Documentation, Samples, Attributes using UI Elements, and Scr
       * ~~Info Box~~
     * Properties
       * Drop Down Selection
-        * Animator Parameter
-        * Input Axis
-        * Scene
+        * ~~Input Axis~~
+        * ~~Scene~~
         * Tag
       * Modifiers
         * Icon

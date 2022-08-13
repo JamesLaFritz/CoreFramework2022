@@ -4,10 +4,10 @@
 
 using System;
 
-namespace CoreFramework.Attributes.Properties.DropDownSelection
+namespace CoreFramework.Animation
 {
     /// <summary>
-    /// Lets you use AnimationParameters even when it's MonoBehaviour does not have a sibling Animator component.
+    /// Lets you use Animation Parameters even when it's MonoBehaviour does not have a sibling Animator component.
     /// </summary>
     [AttributeUsage(AttributeTargets.Field | AttributeTargets.Property)]
     public class AnimatorParameterAttribute : Attribute

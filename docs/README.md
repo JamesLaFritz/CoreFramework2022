@@ -97,7 +97,6 @@ Currently in Work: Documentation, Samples, Attributes using UI Elements, and Scr
         * ~~Info Box~~
       * Properties
         * Drop Down Selection
-          * Animator Properties
           * Input Axis
           * Scene
           * Tag
@@ -137,7 +136,7 @@ Currently in Work: Documentation, Samples, Attributes using UI Elements, and Scr
       * ~~Info Box~~
     * Properties
       * Drop Down Selection
-        * Animator Properties
+        * Animator Parameter
         * Input Axis
         * Scene
         * Tag
@@ -187,7 +186,7 @@ Distributed under the MIT License. See
 * Ryan Hipple's Game Architecture with Scriptable Objects from Unite Austin 2017
   * [Ryan Hipple's Game Architecture with Scriptable Objects from Unite Austin 2017 ](https://github.com/roboryantron/Unite2017)
   * [@roboryantron](https://twitter.com/roboryantron)
-  * [The slides are on slideshare.](https://www.slideshare.net/RyanHipple/game-architecture-with-scriptable-objects)
+  * [The slides are on slide share.](https://www.slideshare.net/RyanHipple/game-architecture-with-scriptable-objects)
   * [!Video https://www.youtube.com/embed/raQ3iHhE_Kk]
   * [The video for the talk is posted on Unity's YouTube page.](https://www.youtube.com/watch?v=raQ3iHhE_Kk)
   * [![Here is a blog post He did about the talk](https://4.bp.blogspot.com/-NPqlFwFSnh0/Wdw-Td_eAII/AAAAAAAASdg/NctR71hqiD0aIGi_qwqX--pX5iK-BYKWACLcBGAs/s640/Capture.PNG)](http://www.roboryantron.com/2017/10/unite-2017-game-architecture-with.html)

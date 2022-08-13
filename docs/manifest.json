@@ -70,6 +70,17 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "Images/ScreenShotNeeded.png",
+      "output": {
+        "resource": {
+          "relative_path": "Images/ScreenShotNeeded.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "Images/repository-open-graph-template.png",
       "output": {
         "resource": {
@@ -109,7 +120,7 @@
       "output": {
         ".html": {
           "relative_path": "License/Third Party Notices.html",
-          "hash": "bLF1ce2JGMMplXdeEgki8laCTv8j7+pK6dvBtj0+D6I="
+          "hash": "arGu3fixbjTJLRu2eCi7rft9wtIyq0PqG3ojzQMkR8M="
         }
       },
       "is_incremental": false,
@@ -129,11 +140,95 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "Manual/Attributes/ButtonAttribute.md",
+      "output": {
+        ".html": {
+          "relative_path": "Manual/Attributes/ButtonAttribute.html",
+          "hash": "5XF4KZU2oO7V2Lp6towpWwYwm4EGcGh4KkRtsI5cbYM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Manual/Attributes/Decorators/HeaderAttribute.md",
+      "output": {
+        ".html": {
+          "relative_path": "Manual/Attributes/Decorators/HeaderAttribute.html",
+          "hash": "ki002xaxtcKouxwQOA8B8fVGpYvtPiur/EFuoivaR2Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Manual/Attributes/Decorators/InfoBoxAttribute.md",
+      "output": {
+        ".html": {
+          "relative_path": "Manual/Attributes/Decorators/InfoBoxAttribute.html",
+          "hash": "7M49rXIs4OTWvU8832VMMho8QvQHJIlRmzktdDM4KKM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Manual/Attributes/Properties/FolderPathAttribute.md",
+      "output": {
+        ".html": {
+          "relative_path": "Manual/Attributes/Properties/FolderPathAttribute.html",
+          "hash": "jB1jYjM9/5p1wNNTkSobwzY+c147AsqwMOqDe9IFanI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Manual/Attributes/Properties/RequiredReferenceAttribute.md",
+      "output": {
+        ".html": {
+          "relative_path": "Manual/Attributes/Properties/RequiredReferenceAttribute.html",
+          "hash": "jB1jYjM9/5p1wNNTkSobwzY+c147AsqwMOqDe9IFanI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Manual/Attributes/Properties/ShowIfBoolAttribute.md",
+      "output": {
+        ".html": {
+          "relative_path": "Manual/Attributes/Properties/ShowIfBoolAttribute.html",
+          "hash": "jB1jYjM9/5p1wNNTkSobwzY+c147AsqwMOqDe9IFanI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Manual/Attributes/Properties/ShowIfEnumValueAttribute.md",
+      "output": {
+        ".html": {
+          "relative_path": "Manual/Attributes/Properties/ShowIfEnumValueAttribute.html",
+          "hash": "jB1jYjM9/5p1wNNTkSobwzY+c147AsqwMOqDe9IFanI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "Manual/Attributes/attributes.md",
       "output": {
         ".html": {
           "relative_path": "Manual/Attributes/attributes.html",
-          "hash": "aDl4T+67LFkXi0HEMzKFs7hF3BDhaJu1bJnRZnZoFac="
+          "hash": "3RLQ4aiLYfk1Q6llM0qGk+08k8ikm/p7htDgzISNzSE="
         }
       },
       "is_incremental": false,
@@ -145,7 +240,7 @@
       "output": {
         ".html": {
           "relative_path": "Manual/toc.html",
-          "hash": "+dWKe7NH0FLlyHVW4Fif4AslWuD3uBuB5DKyrlaVnd8="
+          "hash": "pmdXzWuwidpscoZBQVF1mmh2klHAdP10b7nD+LEK+Sw="
         }
       },
       "is_incremental": false,
@@ -157,7 +252,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "yB7ZO/NJoR1YTdfR0joF1mtubjM63ZUul3i068C1ssA="
+          "hash": "yb40qYo2WoAgxDCeOorWEIx+BmpZ5KF7jk53CQ7wKrg="
         }
       },
       "is_incremental": false,
@@ -188,8 +283,8 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 6,
-          "skipped_file_count": 5
+          "total_file_count": 13,
+          "skipped_file_count": 11
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,

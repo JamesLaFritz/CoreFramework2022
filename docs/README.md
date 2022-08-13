@@ -2,33 +2,33 @@
 <!--<h3 align="center">Project Title</h3>-->
 <!--<h2 align="center">Project Description</h2>-->
 
-<p align="center">
-	<img src ="https://github-readme-stats-jameslafritz.vercel.app/api/pin?username=JamesLaFritz&repo=CoreFamework&theme=react" alt="Git Repo Title and Info" title="Repo Info"/>'
+<p style="text-align: center">
+	<img src ="https://github-readme-stats-jameslafritz.vercel.app/api/pin?username=JamesLaFritz&repo=CoreFramework2022&theme=react" alt="Git Repo Title and Info" title="Repo Info"/>'
 	<br />
-	<a href="https://github.com/JamesLaFritz/CoreFamework/issues">Report Bug or Request Feature</a>
+	<a href="https://github.com/JamesLaFritz/CoreFramework2022/issues">Report Bug or Request Feature</a>
 </p>
 
 <!-- PROJECT SHIELDS -->
-<p align="center">
-  <a href="https://github.com/JamesLafritz/CoreFamework/graphs/contributors">
-	  <img src="https://img.shields.io/github/contributors/JamesLafritz/CoreFamework.svg?style=for-the-badge" title="Contributors Badge" alt="Contributors Badge">
+<p style="text-align: center">
+  <a href="https://github.com/JamesLafritz/CoreFramework2022/graphs/contributors">
+	  <img src="https://img.shields.io/github/contributors/JamesLafritz/CoreFramework2022.svg?style=for-the-badge" title="Contributors Badge" alt="Contributors Badge">
   </a>
-  <a href="https://github.com/JamesLaFritz/CoreFamework/fork">
-	  <img src="https://img.shields.io/github/forks/JamesLafritz/CoreFamework.svg?style=for-the-badge" title="fork Badge" alt="fork Badge">
+  <a href="https://github.com/JamesLaFritz/CoreFramework2022/fork">
+	  <img src="https://img.shields.io/github/forks/JamesLafritz/CoreFramework2022.svg?style=for-the-badge" title="fork Badge" alt="fork Badge">
   </a>
-  <a href="https://github.com/JamesLafritz/CoreFamework/stargazers">
-	  <img src="https://img.shields.io/github/stars/JamesLafritz/CoreFamework.svg?style=for-the-badge" title="stargazers Badge" alt="stargazers Badge">
+  <a href="https://github.com/JamesLafritz/CoreFramework2022/stargazers">
+	  <img src="https://img.shields.io/github/stars/JamesLafritz/CoreFramework2022.svg?style=for-the-badge" title="stargazers Badge" alt="stargazers Badge">
   </a>
-  <a href="https://github.com/JamesLafritz/CoreFamework/issues">
-	  <img src="https://img.shields.io/github/issues/JamesLafritz/CoreFamework.svg?style=for-the-badge" title="issues Badge" alt="issues Badge">
+  <a href="https://github.com/JamesLafritz/CoreFramework2022/issues">
+	  <img src="https://img.shields.io/github/issues/JamesLafritz/CoreFramework2022.svg?style=for-the-badge" title="issues Badge" alt="issues Badge">
   </a>
-  <a href="https://github.com/JamesLaFritz/CoreFamework/blob/main/LICENSE">
-	  <img src="https://img.shields.io/github/license/JamesLafritz/CoreFamework.svg?style=for-the-badge" title="License Badge" alt="License Badge">
+  <a href="https://github.com/JamesLaFritz/CoreFramework2022/blob/main/LICENSE">
+	  <img src="https://img.shields.io/github/license/JamesLafritz/CoreFramework2022.svg?style=for-the-badge" title="License Badge" alt="License Badge">
   </a>
 </p>
 
 <!-- Links -->
-<p align="center">
+<p style="text-align: center">
   <a href="https://jameslafritz.intensive.gamedevhq.com/">
 	  <img src="https://img.shields.io/badge/Portfolio-21759B?style=for-the-badge&logo=wordpress&logoColor=white" title="Portfolio Badge" alt="Portfolio"/>
   </a>
@@ -45,9 +45,9 @@
 
 
 <!-- PROJECT LOGO -->
-<p align="center">
-  <a href="https://github.com/JamesLaFritz/CoreFamework">
-    <img src="Images/Logo.png" alt="Logo" width="256"/>
+<p style="text-align: center">
+  <a href="https://github.com/JamesLaFritz/CoreFramework2022">
+    <img src="Images/Logo.png" alt="Logo" style="width:50%"/>
   </a>
 </p>
 
@@ -55,9 +55,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Product Name Screen Shot](Images/ScreenShot.png)
+<img src="Images/ScreenShot.gif" alt="Product Name Screen Shot"/>
 
-[Documentation](https://jameslafritz.github.io/CoreFamework)
+[Documentation](https://jameslafritz.github.io/CoreFramework2022)
 
 Framework that contains useful Modules to be Used in Unity Project.
 
@@ -71,20 +71,124 @@ Framework that contains useful Modules to be Used in Unity Project.
 ### Installation
 To install this into your project for modifications
 Clone or Download the code from Git Hub into your project.
-Check Out [Third Party Notices](https://jameslafritz.github.io/CoreFamework/docs/License/Third%20Party%20Notices.html) for additional assets that where used in this project that you can get from the asset store.
+Check Out [Third Party Notices](https://jameslafritz.github.io/CoreFramework2022/docs/License/Third%20Party%20Notices.html) for additional assets that where used in this project that you can get from the asset store.
 
 
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/JamesLaFritz/CoreFamework/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/JamesLaFritz/CoreFramework2022/issues) for a list of proposed features (and known issues).
 
+Currently in Work: Documentation, Samples, Attributes using UI Elements, and Scriptable Object Variables and Game Events.
+
+* Scriptable Object Variables and Game Events
+* Documentation:
+  * Manual
+    * Animation
+      * Animation Parameters
+        * Bool
+        * Float
+        * Int
+        * Trigger
+      * Animation Parameter Drawer
+    * Attributes
+      * ~~Decorators~~
+        * ~~Header~~
+        * ~~Info Box~~
+      * Properties
+        * Drop Down Selection
+          * Animator Properties
+          * Input Axis
+          * Scene
+          * Tag
+        * Modifiers
+          * Icon
+          * Read Only
+        * Folder Path
+        * Required Reference
+        * Show If Bool
+        * Show If Enum
+      * Button
+    * Create From Game Object 
+    * Destroy
+      * After Time
+      * No Children
+    * Extensions
+      * Array
+      * Quaternion
+      * Text
+      * Vector4
+    * Functional
+      * Option
+    * Interactable 
+    * Scriptable Object Variables and Game Events
+  * API Documentation
+* Samples
+  * Animation
+    * Animation Parameters
+      * Bool
+      * Float
+      * Int
+      * Trigger
+    * Animation Parameter Drawer
+  * Attributes
+    * ~~Decorators~~
+      * ~~Header~~
+      * ~~Info Box~~
+    * Properties
+      * Drop Down Selection
+        * Animator Properties
+        * Input Axis
+        * Scene
+        * Tag
+      * Modifiers
+        * Icon
+        * Read Only
+      * Folder Path
+      * Required Reference
+      * Show If Bool
+      * Show If Enum
+    * Button
+  * Destroy
+    * After Time
+    * No Children
+  * Extensions
+    * Array
+    * Quaternion
+    * Text
+    * Vector4
+  * Functional
+    * Option
+  * Interactable
+  * Scriptable Object Variables and Game Events
+* Attributes using UI Elements
+  * Header
+    * ~~Add Header Element to Property Element~~
+    * Use Style Sheet
+  * Info Box
+    * ~~Add Header Element to Property Element~~
+    * Use Style Sheet
+  * ~~Icon~~
+  * Show If Bool
+  * Show If Enum
 
 
 <!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See 
-  <a href="https://jameslafritz.github.io/CoreFamework/License/LICENSE.html">
-	  <img src="https://img.shields.io/github/license/JamesLafritz/CoreFamework.svg?style=for-the-badge" title="License Badge" alt="License Badge"/>
+  <a href="https://jameslafritz.github.io/CoreFramework2022/License/LICENSE.html">
+	  <img src="https://img.shields.io/github/license/JamesLafritz/CoreFramework2022.svg?style=for-the-badge" title="License Badge" alt="License Badge"/>
   </a> for more information.
+
+<!-- Ac -->
+## License
+* ![BitCake BitStrap](https://assetstorev1-prd-cdn.unity3d.com/key-image/054e8c14-82c1-4b0e-9945-88aabf9a210a.jpg)
+* Ryan Hipple's Game Architecture with Scriptable Objects from Unite Austin 2017
+  * [Ryan Hipple's Game Architecture with Scriptable Objects from Unite Austin 2017 ](https://github.com/roboryantron/Unite2017)
+  * [@roboryantron](https://twitter.com/roboryantron)
+  * [The slides are on slideshare.](https://www.slideshare.net/RyanHipple/game-architecture-with-scriptable-objects)
+  * [!Video https://www.youtube.com/embed/raQ3iHhE_Kk]
+  * [The video for the talk is posted on Unity's YouTube page.](https://www.youtube.com/watch?v=raQ3iHhE_Kk)
+  * [![Here is a blog post He did about the talk](https://4.bp.blogspot.com/-NPqlFwFSnh0/Wdw-Td_eAII/AAAAAAAASdg/NctR71hqiD0aIGi_qwqX--pX5iK-BYKWACLcBGAs/s640/Capture.PNG)](http://www.roboryantron.com/2017/10/unite-2017-game-architecture-with.html)
+

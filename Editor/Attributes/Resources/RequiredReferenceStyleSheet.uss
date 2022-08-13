@@ -1,0 +1,14 @@
+.unity-base-field__label {
+    color: rgb(185, 4, 4);
+}
+.unity-object-field-display__label {
+    color: rgb(195, 0, 0);
+}
+.unity-base-field__input {
+    background-color: rgb(40, 0, 0);
+}
+
+.unity-object-field__selector {
+    background-color: rgb(55, 0, 0);
+    -unity-background-image-tint-color: rgb(194, 0, 0);
+}

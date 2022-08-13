@@ -1,0 +1,119 @@
+:root {
+    --warn-text-color: rgb(16, 12, 6);
+    --warn-dark-collor: rgb(195, 95, 0);
+    --warn-light-color: rgb(253, 142, 0);
+    --error-text-color: rgb(32, 11, 11);
+    --error-dark-collor: rgb(181, 24, 39);
+    --error-light-color: rgb(237, 82, 79);
+    --info-text-color: rgb(10, 30, 45);
+    --info-dark-collor: rgb(0, 104, 119);
+    --info-light-color: rgb(0, 150, 166);
+    --default-text-color: rgb(0, 0, 0);
+    --default-dark-color: rgb(74, 98, 109);
+    --default-light-color: rgb(119, 143, 155);
+}
+
+.unity-info-box-warn #unity-info-box {
+    color: var(--warn-dark-color);
+    background-color: var(--warn-light-color);
+}
+
+.unity-info-box-warn #unity-info-box-title-container {
+    background-color: var(--warn-dark-color);
+    color: var(--warn-dark-color);
+}
+
+.unity-info-box-warn #unity-info-box-title {
+    -unity-font-style: bold;
+    color: var(--warn-text-color);
+    background-color: var(--warn-dark-color);
+}
+
+.unity-info-box-warn #unity-info-box-icon {
+    color: var(--warn-light-color);
+    background-color: var(--warn-dark-color);
+}
+
+.unity-info-box-warn #unity-info-box-message {
+    color: var(--warn-text-color);
+    background-color: var(--warn-light-color);
+}
+
+.unity-info-box-error #unity-info-box {
+    color: var(--error-dark-color);
+    background-color: var(--error-light-color);
+}
+
+.unity-info-box-error #unity-info-box-title-container {
+    background-color: var(--error-dark-color);
+    color: var(--error-dark-color);
+}
+
+.unity-info-box-error #unity-info-box-title {
+    -unity-font-style: bold;
+    color: var(--error-text-color);
+    background-color: var(--error-dark-color);
+}
+
+.unity-info-box-error #unity-info-box-icon {
+    color: var(--error-light-color);
+    background-color: var(--error-dark-color);
+}
+
+.unity-info-box-error #unity-info-box-message {
+    color: var(--error-text-color);
+    background-color: var(--error-light-color);
+}
+
+.unity-info-box-info #unity-info-box {
+    color: var(--info-dark-color);
+    background-color: var(--info-light-color);
+}
+
+.unity-info-box-info #unity-info-box-title-container {
+    background-color: var(--info-dark-color);
+    color: var(--info-dark-color);
+}
+
+.unity-info-box-info #unity-info-box-title {
+    -unity-font-style: bold;
+    color: var(--info-text-color);
+    background-color: var(--info-dark-color);
+}
+
+.unity-info-box-info #unity-info-box-icon {
+    color: var(--info-light-color);
+    background-color: var(--info-dark-color);
+}
+
+.unity-info-box-info #unity-info-box-message {
+    color: var(--info-text-color);
+    background-color: var(--info-light-color);
+}
+
+
+#unity-info-box {
+    color: var(--default-dark-color);
+    background-color: var(--default-light-color);
+}
+
+#unity-info-box-title-container {
+    background-color: var(--default-dark-color);
+    color: var(--default-dark-color);
+}
+
+#unity-info-box-title {
+    -unity-font-style: bold;
+    color: var(--default-text-color);
+    background-color: var(--default-dark-color);
+}
+
+#unity-info-box-icon {
+    color: var(--default-light-color);
+    background-color: var(--default-dark-color);
+}
+
+#unity-info-box-message {
+    color: var(--default-text-color);
+    background-color: var(--default-light-color);
+}

@@ -99,7 +99,7 @@ Currently in Work: Documentation, Samples, Attributes using UI Elements, and Scr
         * Drop Down Selection
           * ~~Input Axis~~
           * ~~Scene~~
-          * Tag
+          * ~~Tag~~
         * Modifiers
           * Icon
           * Read Only
@@ -138,7 +138,7 @@ Currently in Work: Documentation, Samples, Attributes using UI Elements, and Scr
       * Drop Down Selection
         * ~~Input Axis~~
         * ~~Scene~~
-        * Tag
+        * ~~Tag~~
       * Modifiers
         * Icon
         * Read Only

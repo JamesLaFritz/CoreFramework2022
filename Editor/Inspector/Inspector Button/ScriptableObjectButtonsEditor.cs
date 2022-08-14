@@ -13,7 +13,7 @@ namespace CoreFrameworkEditor.Inspector.InspectorButton
     /// </summary>
     [CustomEditor(typeof(ScriptableObject), true, isFallback = true)]
     [CanEditMultipleObjects]
-    public sealed class ScriptableObjectButtonsEditor : Editor
+    public sealed class AttributeScriptableObjectInspector : Editor
     {
         /// <summary>
         /// The button attribute helper

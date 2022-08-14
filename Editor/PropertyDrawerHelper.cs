@@ -26,45 +26,6 @@ namespace CoreFrameworkEditor
     /// </summary>
     public static class PropertyDrawerHelper
     {
-        /// <summary>
-        /// If the target property has a [Tooltip] attribute, load it into its label.
-        /// </summary>
-        private static void LoadAttributeTooltip(PropertyDrawer self, GUIContent label)
-        {
-            Option<TooltipAttribute> attribute = self.fieldInfo
-                .GetCustomAttributes(typeof(TooltipAttribute), true)
-                .First()
-                .Select(a => a as TooltipAttribute);
-
-            label.tooltip = attribute.Match(
-                some: a => a.tooltip,
-                none: () => "");
-        }
-
-        /// <summary>
-        /// If the target property has a [Icon] attribute, load it into its label.
-        /// </summary>
-        private static void LoadAttributeIcon(PropertyDrawer self, GUIContent label)
-        {
-            Option<IconAttribute> attribute = self.fieldInfo
-                .GetCustomAttributes(typeof(IconAttribute), true)
-                .First()
-                .Select(a => a as IconAttribute);
-
-            label.image = attribute.Match(
-                some: a => EditorGUIUtility.FindTexture(a.Path),
-                none: () => null);
-        }
-
-        /// <summary>
-        /// Loads all of the attributes that are needed to modify the label.
-        /// </summary>
-        public static void LoadAttributes(PropertyDrawer self, GUIContent label)
-        {
-            LoadAttributeTooltip(self, label);
-            LoadAttributeIcon(self, label);
-        }
-
         public static T GetAttribute<T>(this SerializedProperty self) where T : Attribute
         {
             FieldInfo fieldInfo = self.serializedObject.targetObject.GetType().GetField(self.name);

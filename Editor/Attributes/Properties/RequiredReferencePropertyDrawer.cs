@@ -38,8 +38,6 @@ namespace CoreFrameworkEditor.Attributes.Properties
         public override void OnGUI(Rect position, SerializedProperty property,
                                    GUIContent label)
         {
-            PropertyDrawerHelper.LoadAttributes(this, label);
-
             Object target = property.serializedObject.targetObject;
             if (!IsFromMonoBehaviourOrScriptableObject(target) || !IsNull(property))
             {

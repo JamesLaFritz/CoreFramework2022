@@ -124,6 +124,8 @@ namespace CoreFrameworkEditor.Inspector
             return root;
         }
 
+        #endregion
+
         private void CreateProperties(VisualElement root)
         {
             _showIfBool.Clear();
@@ -205,7 +207,5 @@ namespace CoreFrameworkEditor.Inspector
 
             root.Add(_helper.CreateButtons());
         }
-
-        #endregion
     }
 }

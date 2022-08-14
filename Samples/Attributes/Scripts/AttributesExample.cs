@@ -17,7 +17,8 @@ public class AttributesExample : MonoBehaviour
     [ReadOnly, Tooltip("The Amount of Health"), Icon("Assets/CoreFramework/Samples/Attributes/Icons/Heart.png")]
     public int health = 100;
 
-    [Tooltip("The max amount of health")] public int maxHealth = 100;
+    [Tooltip("The max amount of health"), Icon("Assets/CoreFramework/Samples/Attributes/Icons/Heart.png")]
+    public int maxHealth = 100;
 
     [Header("Info Box Attributes", "", Header.PresetColor.Blue)]
     [InfoBox("Info String To Display")]

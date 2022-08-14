@@ -48,8 +48,6 @@ namespace CoreFrameworkEditor.Attributes.Properties
                 return;
             }
 
-            PropertyDrawerHelper.LoadAttributes(this, label);
-
             string path = property.stringValue;
             position.width -= ButtonWidth + Padding;
             EditorGUI.PropertyField(position, property, label);

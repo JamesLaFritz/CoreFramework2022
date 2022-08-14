@@ -27,8 +27,6 @@ namespace CoreFrameworkEditor.Attributes.Properties.DropDownSelection
         {
             if (property == null) return;
 
-            PropertyDrawerHelper.LoadAttributes(this, label);
-
             if (property.propertyType != SerializedPropertyType.String)
             {
                 label.text = SInvalidTypeMessage;

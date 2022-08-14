@@ -36,8 +36,6 @@ namespace CoreFrameworkEditor.Attributes.Properties
                 EditorGUI.LabelField(position, label.text, _errorMessage);
             }
 
-            PropertyDrawerHelper.LoadAttributes(this, label);
-
             int indent = EditorGUI.indentLevel;
             EditorGUI.indentLevel = 0;
             using (new EditorGUI.PropertyScope(position, label, property))

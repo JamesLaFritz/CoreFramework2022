@@ -28,8 +28,6 @@ namespace CoreFrameworkEditor.Animation
         /// <inheritdoc />
         public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)
         {
-            PropertyDrawerHelper.LoadAttributes(this, label);
-
             Animator animator = GetAnimator(property);
 
             if (animator == null || !animator.isActiveAndEnabled || animator.runtimeAnimatorController == null)

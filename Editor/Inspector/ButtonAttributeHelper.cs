@@ -13,7 +13,7 @@ using UnityEngine;
 using UnityEngine.UIElements;
 using Object = UnityEngine.Object;
 
-namespace CoreFrameworkEditor.Inspector.InspectorButton
+namespace CoreFrameworkEditor.Inspector
 {
     /// <summary>
     /// Searches through a target class in order to find all button attributes (<see cref="ButtonAttribute"/>/>).

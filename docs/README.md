@@ -101,8 +101,8 @@ Currently in Work: Documentation, Samples, Attributes using UI Elements, and Scr
           * ~~Scene~~
           * ~~Tag~~
         * Modifiers
-          * Icon
-          * Read Only
+          * ~~Icon~~
+          * ~~Read Only~~
         * Folder Path
         * Required Reference
         * Show If Bool``
@@ -139,9 +139,9 @@ Currently in Work: Documentation, Samples, Attributes using UI Elements, and Scr
         * ~~Input Axis~~
         * ~~Scene~~
         * ~~Tag~~
-      * Modifiers
-        * Icon
-        * Read Only
+      * ~~Modifiers~~
+        * ~~Icon~~
+        * ~~Read Only~~
       * Folder Path
       * Required Reference
       * Show If Bool

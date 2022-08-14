@@ -91,23 +91,7 @@ Currently in Work: Documentation, Samples, Attributes using UI Elements, and Scr
         * Int
         * Trigger
       * Animation Parameter Drawer
-    * Attributes
-      * ~~Decorators~~
-        * ~~Header~~
-        * ~~Info Box~~
-      * Properties
-        * Drop Down Selection
-          * ~~Input Axis~~
-          * ~~Scene~~
-          * ~~Tag~~
-        * Modifiers
-          * ~~Icon~~
-          * ~~Read Only~~
-        * Folder Path
-        * Required Reference
-        * Show If Bool``
-        * Show If Enum
-      * Button
+    * ~~Attributes~~
     * Create From Game Object 
     * Destroy
       * After Time
@@ -130,23 +114,7 @@ Currently in Work: Documentation, Samples, Attributes using UI Elements, and Scr
       * Int
       * Trigger
     * Animation Parameter Drawer
-  * Attributes
-    * ~~Decorators~~
-      * ~~Header~~
-      * ~~Info Box~~
-    * Properties
-      * Drop Down Selection
-        * ~~Input Axis~~
-        * ~~Scene~~
-        * ~~Tag~~
-      * ~~Modifiers~~
-        * ~~Icon~~
-        * ~~Read Only~~
-      * Folder Path
-      * Required Reference
-      * Show If Bool
-      * Show If Enum
-    * Button
+  * ~~Attributes~~
   * Destroy
     * After Time
     * No Children

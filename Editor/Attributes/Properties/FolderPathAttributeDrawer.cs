@@ -55,6 +55,7 @@ namespace CoreFrameworkEditor.Attributes.Properties
             position.width = ButtonWidth;
             if (!GUI.Button(position, EditorGUIUtility.FindTexture("Project"), m_folderButtonStyle)) return;
             OnFolderButtonClick(property, path, attr);
+            property.serializedObject.ApplyModifiedProperties();
         }
 
         /// <inheritdoc />
@@ -133,10 +134,12 @@ namespace CoreFrameworkEditor.Attributes.Properties
             if (!attr.pathRelativeToProject)
             {
                 property.stringValue = path;
+                //Debug.Log($"{property.displayName} set to {path}");
                 return property.stringValue;
             }
 
             property.stringValue = ToRelativePath(path);
+            //Debug.Log($"{property.displayName} set to {property.stringValue}, relative to project {path}");
 
             return property.stringValue;
         }

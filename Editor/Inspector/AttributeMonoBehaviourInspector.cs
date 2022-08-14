@@ -39,26 +39,44 @@ namespace CoreFrameworkEditor.Inspector
 
         protected static bool DoDrawDefaultInspector(SerializedObject obj)
         {
-            EditorGUI.BeginChangeCheck();
-            obj.UpdateIfRequiredOrScript();
-            SerializedProperty iterator = obj.GetIterator();
-            for (bool enterChildren = true; iterator.NextVisible(enterChildren); enterChildren = false)
+            if (obj == null) return false;
+            using (EditorGUI.ChangeCheckScope changeCheckScope = new EditorGUI.ChangeCheckScope())
             {
-                GUIContent label = new GUIContent(iterator.displayName);
+                obj.UpdateIfRequiredOrScript();
+                SerializedProperty iterator = obj.GetIterator();
+                for (bool enterChildren = true; iterator.NextVisible(enterChildren); enterChildren = false)
+                {
+                    try
+                    {
+                        GUIContent label = new GUIContent(iterator.displayName);
 
-                IconAttribute iconAttribute = iterator.GetAttribute<IconAttribute>();
-                if (iconAttribute != null)
-                    label.image = EditorGUIUtility.FindTexture(iconAttribute.Path);
-                TooltipAttribute tooltipAttribute = iterator.GetAttribute<TooltipAttribute>();
-                if (tooltipAttribute != null)
-                    label.tooltip = tooltipAttribute.tooltip;
+                        IconAttribute iconAttribute = iterator.GetAttribute<IconAttribute>();
+                        if (iconAttribute != null)
+                            label.image = EditorGUIUtility.FindTexture(iconAttribute.Path);
+                        TooltipAttribute tooltipAttribute = iterator.GetAttribute<TooltipAttribute>();
+                        if (tooltipAttribute != null)
+                            label.tooltip = tooltipAttribute.tooltip;
 
-                using (new EditorGUI.DisabledScope("m_Script" == iterator.propertyPath))
-                    EditorGUILayout.PropertyField(iterator, label, true);
+                        using (new EditorGUI.DisabledScope("m_Script" == iterator.propertyPath))
+                            EditorGUILayout.PropertyField(iterator, label, true);
+                    }
+                    catch (System.Exception e)
+                    {
+                        switch (e)
+                        {
+                            case System.InvalidOperationException:
+                            case ExitGUIException:
+                                continue;
+                            default:
+                                Debug.LogWarning(e);
+                                break;
+                        }
+                    }
+                }
+
+                obj.ApplyModifiedProperties();
+                return changeCheckScope.changed;
             }
-
-            obj.ApplyModifiedProperties();
-            return EditorGUI.EndChangeCheck();
         }
     }
 }

@@ -33,10 +33,10 @@ namespace CoreFramework.Attributes.Properties
         /// public bool showHideValue;
         ///
         /// // Shows this value if showHideValue = true;
-        /// [ShowIfBool("showHideValue") public int showIfTrueInt;
+        /// [ShowIfBool("showHideValue")] public int showIfTrueInt;
         ///
         /// // Shows this value if showHideValue = false;
-        /// [ShowIfBool("showHideValue", false) public int showIfFalseInt;
+        /// [ShowIfBool("showHideValue", false)] public int showIfFalseInt;
         /// </code>
         /// </example>
         public ShowIfBoolAttribute(string boolName, bool show = true)

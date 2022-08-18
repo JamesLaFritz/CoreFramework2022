@@ -2,57 +2,50 @@
 // 07-19-2022
 // James LaFritz
 
+using UnityEngine;
+
 namespace CoreFramework.Attributes
 {
     /// <summary>
-    /// Put this attribute above one of your MonoBehaviour method and it will draw
-    /// a button in the inspector automatically.
-    /// <remarks>The method must not have any params and can not be static.</remarks>
-    /// <example>
-    /// <code>
-    /// [Button]
-    /// public void MyMethod()
-    /// {
-    ///     Debug.Log($"{name}: MyMethod()");
-    /// }
-    /// </code>
-    /// </example>
+    /// Add this attribute above one of your MonoBehaviour method and it will draw
+    /// a button in the inspector that will run the method when clicked.
     /// </summary>
     [System.AttributeUsage(System.AttributeTargets.Method)]
     public class ButtonAttribute : System.Attribute
     {
         /// <summary>
-        /// The mode enum
+        /// Determine which Unity Editor mode a button should work in.
         /// </summary>
         public enum Mode
         {
             /// <summary>
-            /// The editor mode
+            /// The button will only work in Editor mode (Unity Editor is not in Play Mode).
             /// </summary>
             Editor,
 
             /// <summary>
-            /// The play mode
+            /// The button will only work when Unity is in Play mode.
             /// </summary>
             Play,
 
             /// <summary>
-            /// Both Editor and Play Mode
+            /// The button will work in both Editor and Play Mode
             /// </summary>
             Both
         }
 
         /// <summary>
-        /// The mode of the button.
+        /// Which mode the button is clickable in the **_Inspector_** (Play Mode, Editor Mode, or Both).
         /// </summary>
         public readonly Mode mode;
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="ButtonAttribute"/> class
+        /// Initializes a new instance of the ButtonAttribute
         /// </summary>
-        /// <param name="mode">The mode</param>
+        /// <param name="mode">The Unity Editor <see cref="Mode"/> that the button should be clickable.</param>
         public ButtonAttribute(Mode mode = Mode.Both)
         {
+            Debug.Assert(mode != Mode.Both, "ButtonAttribute.Mode.Both is not a valid mode.");
             this.mode = mode;
         }
     }

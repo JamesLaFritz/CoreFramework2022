@@ -1,6 +1,16 @@
 {
+  "sitemap": {
+    "fileOptions": {
+      "api/*": {
+        "baseUrl": "https://jameslafritz.github.io/CoreFramework2022/",
+        "changefreq": "hourly"
+      }
+    },
+    "baseUrl": "https://jameslafritz.github.io/CoreFramework2022/",
+    "changefreq": "weekly"
+  },
   "homepages": [],
-  "source_base_path": "C:/Users/James/Documents/Unity/GitHub/DevEnviroment/Assets/Coreframework/Documentation~",
+  "source_base_path": "F:/Projects/Unity/DevEnviroment/Assets/CoreFramework/Documentation~",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -18,7 +28,205 @@
       "output": {
         ".html": {
           "relative_path": "CHANGELOG.html",
-          "hash": "oCM05HdEmKzBJThLtcoeLMPlEK0vOntS3HGyEHVS8qk="
+          "hash": "ew07T2ZSlw3ml8fk80pUuhZYkfqjp+veYWt00jg4gfg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Images/Attributes/Button.gif",
+      "output": {
+        "resource": {
+          "relative_path": "Images/Attributes/Button.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Images/Attributes/FolderPath.gif",
+      "output": {
+        "resource": {
+          "relative_path": "Images/Attributes/FolderPath.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Images/Attributes/Header.png",
+      "output": {
+        "resource": {
+          "relative_path": "Images/Attributes/Header.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Images/Attributes/Header1.png",
+      "output": {
+        "resource": {
+          "relative_path": "Images/Attributes/Header1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Images/Attributes/Header2.png",
+      "output": {
+        "resource": {
+          "relative_path": "Images/Attributes/Header2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Images/Attributes/Header3.png",
+      "output": {
+        "resource": {
+          "relative_path": "Images/Attributes/Header3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Images/Attributes/Header4.png",
+      "output": {
+        "resource": {
+          "relative_path": "Images/Attributes/Header4.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Images/Attributes/Header5.png",
+      "output": {
+        "resource": {
+          "relative_path": "Images/Attributes/Header5.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Images/Attributes/Icon.png",
+      "output": {
+        "resource": {
+          "relative_path": "Images/Attributes/Icon.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Images/Attributes/InfoBox.png",
+      "output": {
+        "resource": {
+          "relative_path": "Images/Attributes/InfoBox.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Images/Attributes/InputAxis.gif",
+      "output": {
+        "resource": {
+          "relative_path": "Images/Attributes/InputAxis.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Images/Attributes/ReadOnly.png",
+      "output": {
+        "resource": {
+          "relative_path": "Images/Attributes/ReadOnly.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Images/Attributes/RequiredReference.gif",
+      "output": {
+        "resource": {
+          "relative_path": "Images/Attributes/RequiredReference.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Images/Attributes/Scene.gif",
+      "output": {
+        "resource": {
+          "relative_path": "Images/Attributes/Scene.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Images/Attributes/ShowIfBool.gif",
+      "output": {
+        "resource": {
+          "relative_path": "Images/Attributes/ShowIfBool.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Images/Attributes/ShowIfEnum.gif",
+      "output": {
+        "resource": {
+          "relative_path": "Images/Attributes/ShowIfEnum.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Images/Attributes/ShowIfMulti.gif",
+      "output": {
+        "resource": {
+          "relative_path": "Images/Attributes/ShowIfMulti.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Images/Attributes/Tag.gif",
+      "output": {
+        "resource": {
+          "relative_path": "Images/Attributes/Tag.gif"
         }
       },
       "is_incremental": false,
@@ -52,6 +260,17 @@
       "output": {
         "resource": {
           "relative_path": "Images/OpenPackageManager.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Images/ScreenShot.gif",
+      "output": {
+        "resource": {
+          "relative_path": "Images/ScreenShot.gif"
         }
       },
       "is_incremental": false,
@@ -96,7 +315,7 @@
       "output": {
         ".html": {
           "relative_path": "License/Asset Licenses.html",
-          "hash": "rL8SJNJGwymRDRpWVoxO3VotbQhW2YbheihzMbjsLVw="
+          "hash": "r+DgXGnrX3HIHlFs95ioynlWVcSbzZJejFkTqxaFmSE="
         }
       },
       "is_incremental": false,
@@ -108,7 +327,7 @@
       "output": {
         ".html": {
           "relative_path": "License/LICENSE.html",
-          "hash": "0UHanjyK8KkHnOq80Iy6mun3J13DIyYB69pFb0LKJiI="
+          "hash": "jAb1J0+6ba2kh/kW2vdnnQNMk1195bg+erlHcl+EJVY="
         }
       },
       "is_incremental": false,
@@ -120,7 +339,7 @@
       "output": {
         ".html": {
           "relative_path": "License/Third Party Notices.html",
-          "hash": "arGu3fixbjTJLRu2eCi7rft9wtIyq0PqG3ojzQMkR8M="
+          "hash": "NhIM0Ird2n1haBbuHHuR+3RNcG8qEx2KDQw+kHydpqg="
         }
       },
       "is_incremental": false,
@@ -144,7 +363,7 @@
       "output": {
         ".html": {
           "relative_path": "Manual/Attributes/ButtonAttribute.html",
-          "hash": "5XF4KZU2oO7V2Lp6towpWwYwm4EGcGh4KkRtsI5cbYM="
+          "hash": "0m1AeubNJWhE6JSxfFHaHG7PTK3WUZhsJ9G9NSa419Y="
         }
       },
       "is_incremental": false,
@@ -156,7 +375,7 @@
       "output": {
         ".html": {
           "relative_path": "Manual/Attributes/Decorators/HeaderAttribute.html",
-          "hash": "ki002xaxtcKouxwQOA8B8fVGpYvtPiur/EFuoivaR2Q="
+          "hash": "Wl54R15u28iv9UuJ78jd1OB6rJmhfHRLGRtcXGSYlLo="
         }
       },
       "is_incremental": false,
@@ -168,7 +387,43 @@
       "output": {
         ".html": {
           "relative_path": "Manual/Attributes/Decorators/InfoBoxAttribute.html",
-          "hash": "7M49rXIs4OTWvU8832VMMho8QvQHJIlRmzktdDM4KKM="
+          "hash": "DIDSZ6VJiPKbNdn2s3A9iMXV2RsO8Pigje3wZreIjIA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Manual/Attributes/Properties/Drop Down Selection/InputAxis.md",
+      "output": {
+        ".html": {
+          "relative_path": "Manual/Attributes/Properties/Drop Down Selection/InputAxis.html",
+          "hash": "5io5gUCqKTzHRzBpXML6ZgSjpWiEcjzF1B1H274aajY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Manual/Attributes/Properties/Drop Down Selection/Scene.md",
+      "output": {
+        ".html": {
+          "relative_path": "Manual/Attributes/Properties/Drop Down Selection/Scene.html",
+          "hash": "M+OOm/tu02VlLuvRIEZ5ils9XCe9JU07agmRFjxvfyo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Manual/Attributes/Properties/Drop Down Selection/Tag.md",
+      "output": {
+        ".html": {
+          "relative_path": "Manual/Attributes/Properties/Drop Down Selection/Tag.html",
+          "hash": "Vzaj3zPeazTfWtRqk1Sa+gatXo3b4mzqV+Xk1p6isX8="
         }
       },
       "is_incremental": false,
@@ -180,7 +435,31 @@
       "output": {
         ".html": {
           "relative_path": "Manual/Attributes/Properties/FolderPathAttribute.html",
-          "hash": "jB1jYjM9/5p1wNNTkSobwzY+c147AsqwMOqDe9IFanI="
+          "hash": "4mo8/uFQ3zjAnWVSnm2Q39fS8jx/9yOMpGmiNF8SwUs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Manual/Attributes/Properties/Modifiers/Icon.md",
+      "output": {
+        ".html": {
+          "relative_path": "Manual/Attributes/Properties/Modifiers/Icon.html",
+          "hash": "/3KBi3rHEX7ykSGv4ThtXRXALsJ2NX62C9lBvcTLG0U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Manual/Attributes/Properties/Modifiers/ReadOnly.md",
+      "output": {
+        ".html": {
+          "relative_path": "Manual/Attributes/Properties/Modifiers/ReadOnly.html",
+          "hash": "hvlqLx0EFjIdsT2XX4/S80dOplki2guC7sn932ALx/k="
         }
       },
       "is_incremental": false,
@@ -192,7 +471,7 @@
       "output": {
         ".html": {
           "relative_path": "Manual/Attributes/Properties/RequiredReferenceAttribute.html",
-          "hash": "jB1jYjM9/5p1wNNTkSobwzY+c147AsqwMOqDe9IFanI="
+          "hash": "dC8rTokUzFsQqk5c7Lb4Vp+u0F5RrBQPrdp54E161p0="
         }
       },
       "is_incremental": false,
@@ -204,7 +483,7 @@
       "output": {
         ".html": {
           "relative_path": "Manual/Attributes/Properties/ShowIfBoolAttribute.html",
-          "hash": "jB1jYjM9/5p1wNNTkSobwzY+c147AsqwMOqDe9IFanI="
+          "hash": "/rzKZ8jh26EiaTiyBKm60DKL+Li+yzbi3tbyTdwWCus="
         }
       },
       "is_incremental": false,
@@ -216,7 +495,7 @@
       "output": {
         ".html": {
           "relative_path": "Manual/Attributes/Properties/ShowIfEnumValueAttribute.html",
-          "hash": "jB1jYjM9/5p1wNNTkSobwzY+c147AsqwMOqDe9IFanI="
+          "hash": "adwI1g5prWegXk1PiZiQ3p73ezkXoDm19hoji4aKuac="
         }
       },
       "is_incremental": false,
@@ -228,7 +507,7 @@
       "output": {
         ".html": {
           "relative_path": "Manual/Attributes/attributes.html",
-          "hash": "3RLQ4aiLYfk1Q6llM0qGk+08k8ikm/p7htDgzISNzSE="
+          "hash": "8i9+q9VfF0u8Qn9Mbk/WPppc5L48COsUUmlvJLxTkOA="
         }
       },
       "is_incremental": false,
@@ -240,7 +519,343 @@
       "output": {
         ".html": {
           "relative_path": "Manual/toc.html",
-          "hash": "pmdXzWuwidpscoZBQVF1mmh2klHAdP10b7nD+LEK+Sw="
+          "hash": "rrmmPLr2qSMZPzFtHhyHJgBI3PjYdPC9Nsf6KgsMPW8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.Attributes.ButtonAttribute.Mode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.Attributes.ButtonAttribute.Mode.html",
+          "hash": "t7iurt4QCpiAaELxte71XkUW3qsCyqZ76M/N3Zi+X3k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.Attributes.ButtonAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.Attributes.ButtonAttribute.html",
+          "hash": "36KowFNPoFk2V0ng6LXT8uYCsuLLZ4w3udreHV+vSio="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.Attributes.FolderPathAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.Attributes.FolderPathAttribute.html",
+          "hash": "u7XqPot5KRf704omQjqOFqdsHuBeY/Vy/mvt8FcwqDM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.Attributes.HeaderAttribute.PresetColor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.Attributes.HeaderAttribute.PresetColor.html",
+          "hash": "F/8CsX1XghdzZzbqLZrYq1KV1KuswjxHfnYoWLp4n44="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.Attributes.HeaderAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.Attributes.HeaderAttribute.html",
+          "hash": "BT+7pzXF+7S4pV0eOVYyT7ebnjWr0SoisACx5JOcW5g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.Attributes.IconAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.Attributes.IconAttribute.html",
+          "hash": "JvoRDorY9qrTOYirOV3Ya9RRgm2VdNwB+zp5EmSEftM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.Attributes.InfoBoxAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.Attributes.InfoBoxAttribute.html",
+          "hash": "fWYGOIEcilxiwv/jqpONSdKRcp/S2G1HtX5y2hMk8bo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.Attributes.InfoBoxType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.Attributes.InfoBoxType.html",
+          "hash": "GAwY156TjvlwttZTxvEjLqqwVP1P03COPvodVA97NKs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.Attributes.InputAxisAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.Attributes.InputAxisAttribute.html",
+          "hash": "jntXUnXppFPkzdM6+0LFHeS8913LAS1t5eRuLfNJkZ8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.Attributes.ReadOnlyAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.Attributes.ReadOnlyAttribute.html",
+          "hash": "A+evX8U5D5uRQK5rxhzEYd+DsTVU2fO9n7LujCblmTI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.Attributes.RequiredReferenceAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.Attributes.RequiredReferenceAttribute.html",
+          "hash": "k/YM6x6zLS+QXxl5Ph9PuoqOByXrJgy+k8SiqBLOsZg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.Attributes.SceneAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.Attributes.SceneAttribute.html",
+          "hash": "erQuue/x18+YfeW6GCJtlDHtysCkCbesO9PzeKALzyM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.Attributes.ShowIfBoolAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.Attributes.ShowIfBoolAttribute.html",
+          "hash": "HX6MyNwmtmUqABXiq71pT6hLGLzCb3nF2LNIp0vFhYc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.Attributes.ShowIfEnumValueAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.Attributes.ShowIfEnumValueAttribute.html",
+          "hash": "wvC/8Ilnu3Os81Udvygsp+t42wBDc+IMpomzQsOt9qM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.Attributes.TagAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.Attributes.TagAttribute.html",
+          "hash": "YhMyLa7x+eIgpTYSTJFbjO88V77hjfHPyd3raThI8SE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.Attributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.Attributes.html",
+          "hash": "gtSXWqj0TnF+Fw4IgpdvJ6p9C21st8B9THQZd25u8+0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFrameworkEditor.Attributes.FolderPathAttributeDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFrameworkEditor.Attributes.FolderPathAttributeDrawer.html",
+          "hash": "wxgz926j8/0TWKYHISzJFyf6WNT85n0dK4LxvxSSnMI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFrameworkEditor.Attributes.HeaderAttributeDecoratorDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFrameworkEditor.Attributes.HeaderAttributeDecoratorDrawer.html",
+          "hash": "xNYWZntr/K0tlF152fMLmyr+vDQ8F8tIVp3OtYWVHTQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFrameworkEditor.Attributes.InfoBoxDecoratorDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFrameworkEditor.Attributes.InfoBoxDecoratorDrawer.html",
+          "hash": "cc4QMRQMaYiluu9dcCNh5houCeVkH5lWYibVj5WIQLQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFrameworkEditor.Attributes.InputAxisPropertyDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFrameworkEditor.Attributes.InputAxisPropertyDrawer.html",
+          "hash": "WVaHBFpVKZY3J0b5bzCGcN7lwcOsGrD3sFWv3AR2Xl0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFrameworkEditor.Attributes.ReadOnlyPropertyDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFrameworkEditor.Attributes.ReadOnlyPropertyDrawer.html",
+          "hash": "MCwVxCw8ILajWk/eNPVuWiX6pJ/SDShoKvxmAWrBjvg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFrameworkEditor.Attributes.RequiredReferencePropertyDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFrameworkEditor.Attributes.RequiredReferencePropertyDrawer.html",
+          "hash": "6WAPTzsLPyiXj4KVqHThxltp5XQTlFhredRO9szARPs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFrameworkEditor.Attributes.SceneAttributePropertyDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFrameworkEditor.Attributes.SceneAttributePropertyDrawer.html",
+          "hash": "UKyMqakWv4P9nOndeLYXvt6tz+3DrDTCboxHmhKgJe4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFrameworkEditor.Attributes.ShowIfBoolPropertyDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFrameworkEditor.Attributes.ShowIfBoolPropertyDrawer.html",
+          "hash": "98tjTSIYkj0Uq1RvzFSxNTFk8UNnnPZrBkmLGf+wWAI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFrameworkEditor.Attributes.ShowIfEnumPropertyDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFrameworkEditor.Attributes.ShowIfEnumPropertyDrawer.html",
+          "hash": "yJrNMPkDvs/U7p8d+YmfWkui3aTo6VxJ0NGWmo7cyQY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFrameworkEditor.Attributes.TagAttributePropertyDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFrameworkEditor.Attributes.TagAttributePropertyDrawer.html",
+          "hash": "2eKimucPA5Y6OiIai7Sc6fv22eyJUk6Jum9x19co7Lo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFrameworkEditor.Attributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFrameworkEditor.Attributes.html",
+          "hash": "mbX+sI/iCezeuJ29w0W7dyhmzuogHT9jyFxyGtCdgmQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "yz61sP0eZXd072TyVTX99D2N6AxFE9Z0URRZKFgHFsY="
         }
       },
       "is_incremental": false,
@@ -252,7 +867,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "yb40qYo2WoAgxDCeOorWEIx+BmpZ5KF7jk53CQ7wKrg="
+          "hash": "xm9RemUjYibjUyNmPhJz6I/K97Uplw58bJULsVNqUIk="
         }
       },
       "is_incremental": false,
@@ -264,7 +879,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "L+T2iT5Fgf9+cJAp2f2j9MsETr0lFATuV3hZdJdUy/0="
+          "hash": "CNEugnYIWvW8fO5h5gp6jsoRg0usaS7ZFbYvHO/CsiU="
         }
       },
       "is_incremental": false,
@@ -283,8 +898,14 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 13,
-          "skipped_file_count": 11
+          "total_file_count": 18,
+          "skipped_file_count": 18
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 41,
+          "skipped_file_count": 39
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,

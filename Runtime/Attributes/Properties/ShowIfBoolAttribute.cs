@@ -4,7 +4,7 @@
 
 using UnityEngine;
 
-namespace CoreFramework.Attributes.Properties
+namespace CoreFramework.Attributes
 {
     /// <summary>
     /// Show/Hide a field based on a bool value in the same script.
@@ -19,7 +19,9 @@ namespace CoreFramework.Attributes.Properties
         public readonly string boolName;
 
         /// <summary>
-        /// The value of the bool to show this property.
+        /// The value of the bool property to show this property.
+        /// show=true, the property will be shown when boolName is true and hidden when boolName is false.
+        /// show=false, the property will be shown when boolName is false and hidden when boolName is true.
         /// </summary>
         public readonly bool show;
 
@@ -28,17 +30,6 @@ namespace CoreFramework.Attributes.Properties
         /// </summary>
         /// <param name="boolName">The name of the serialized bool property to use.</param>
         /// <param name="show"> The value of the bool to show this property. Defaults to true</param>
-        /// <example>
-        /// <code>
-        /// public bool showHideValue;
-        ///
-        /// // Shows this value if showHideValue = true;
-        /// [ShowIfBool("showHideValue")] public int showIfTrueInt;
-        ///
-        /// // Shows this value if showHideValue = false;
-        /// [ShowIfBool("showHideValue", false)] public int showIfFalseInt;
-        /// </code>
-        /// </example>
         public ShowIfBoolAttribute(string boolName, bool show = true)
         {
             this.boolName = boolName;

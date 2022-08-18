@@ -4,7 +4,7 @@
 
 using UnityEngine;
 
-namespace CoreFramework.Attributes.Properties
+namespace CoreFramework.Attributes
 {
     /// <summary>
     /// Requires the field to be not null.

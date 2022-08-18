@@ -4,7 +4,7 @@
 
 using UnityEditor;
 using UnityEngine;
-using IconAttribute = CoreFramework.Attributes.Properties.Modifiers.IconAttribute;
+using IconAttribute = CoreFramework.Attributes.IconAttribute;
 
 namespace CoreFrameworkEditor.Inspector
 {

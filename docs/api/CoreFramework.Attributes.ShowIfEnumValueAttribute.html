@@ -1,0 +1,499 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>| Core Framework Documentation  ShowIfEnumValueAttribute</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="| Core Framework Documentation  ShowIfEnumValueAttribute">
+    <meta name="generator" content="docfx 2.59.3.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    <meta property="docfx:newtab" content="true">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="Core Framework">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="CoreFramework.Attributes.ShowIfEnumValueAttribute">
+  <h1 id="CoreFramework_Attributes_ShowIfEnumValueAttribute" data-uid="CoreFramework.Attributes.ShowIfEnumValueAttribute">ShowIfEnumValueAttribute</h1>
+  <h5>
+      
+  
+  
+  
+  
+  Class
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   in <a class="xref" href="CoreFramework.Attributes.html">CoreFramework.Attributes</a>
+  </h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AttributeUsage(AttributeTargets.Property | AttributeTargets.Field)]
+public class ShowIfEnumValueAttribute : PropertyAttribute</code></pre>
+  </div>
+
+  <div class="inheritance">
+    <h6>Inheritance</h6>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">ShowIfEnumValueAttribute</span></div>
+  </div>
+
+  
+  
+  <div class="description">
+      <h2 id="CoreFramework_Attributes_ShowIfEnumValueAttribute_description">Description</h2>
+      <div class="markdown level0 summary"><p>Show/Hide a field based on a enum value in the same script.</p>
+<div class="CAUTION"><h5>Caution</h5><p>Order of attribute is important. Should be placed before any other attributes.</p>
+</div>
+<p><img src="../Images/Attributes/ShowIfEnum.gif" alt="RequiredReference Example"></p>
+</div>
+      <div class="markdown level0 conceptual"><p>Can Stack Multiple Show If Bool&#39;s and Show if Enum&#39;s to create interesting conditions.</p>
+<pre><code class="lang-csharp">using CoreFramework.Attributes;
+using UnityEngine;
+
+public class ShowIfMulti : MonoBehaviour
+{
+    public bool selectScene;
+
+    public enum SceneSelectionMode
+    {
+        String,
+        Int
+    }
+
+    [ShowIfBool(&quot;selectScene&quot;)] public SceneSelectionMode sceneSelectionMode = SceneSelectionMode.String;
+
+    [ShowIfBool(&quot;selectScene&quot;), ShowIfEnumValue(&quot;sceneSelectionMode&quot;, 0), Scene]
+    public string sceneName;
+
+    [ShowIfBool(&quot;selectScene&quot;), ShowIfEnumValue(&quot;sceneSelectionMode&quot;, 1), Scene]
+    public int sceneIndex;
+}
+</code></pre><p><img src="../Images/Attributes/ShowIfMulti.gif" alt="Show If Multi Example"></p>
+</div>
+      
+      
+      
+      <h5 id="CoreFramework_Attributes_ShowIfEnumValueAttribute_examples"><strong>Examples</strong></h5>
+      <pre><code class="&quot;lang-csharp" hljs&quot;="">
+ public enum SomeEnum
+ {
+ one,
+ two,
+ three
+ }
+
+ public SomeEnum someEnum = SomeEnum.one;
+
+ [ShowIfEnumValue(&quot;someEnum&quot;, (int) SomeEnum.one)]
+ public int showIfSomeEnumOne;
+
+ [ShowIfEnumValue(&quot;someEnum&quot;, (int) SomeEnum.one, false)]
+ public int showIfSomeEnumNotOne;
+ </code></pre>
+
+  </div>
+
+    
+  
+
+  
+    
+  
+
+  
+
+  
+    
+  
+      <h3 id="constructors">Constructors
+  </h3>
+            
+            
+          
+          <a id="CoreFramework_Attributes_ShowIfEnumValueAttribute__ctor_" data-uid="CoreFramework.Attributes.ShowIfEnumValueAttribute.#ctor*"></a>
+          
+          <h4 id="CoreFramework_Attributes_ShowIfEnumValueAttribute__ctor_System_String_System_Int32_System_Boolean_" data-uid="CoreFramework.Attributes.ShowIfEnumValueAttribute.#ctor(System.String,System.Int32,System.Boolean)"><a href="#collapsible-CoreFramework_Attributes_ShowIfEnumValueAttribute__ctor_System_String_System_Int32_System_Boolean_" class="expander" data-toggle="collapse"> ShowIfEnumValueAttribute(String, Int32, Boolean)</a></h4>
+          
+          <div id="collapsible-CoreFramework_Attributes_ShowIfEnumValueAttribute__ctor_System_String_System_Int32_System_Boolean_" class="collapse in">
+          
+            
+              
+            
+          
+            
+          
+            
+            
+            <div class="codewrapper"><pre><code class="lang-csharp hljs">public ShowIfEnumValueAttribute(string enumName, int enumIndex, bool show = true)</code></pre></div>
+            
+              
+                
+              
+              
+              <h5 class="parameters">Parameters</h5>
+              <table>
+                <tr>
+                  <td>
+                    <span class="parametername pull-left codewrapper"><code class="lang-csharp hljs"><span class="xref">System.String</span> enumName</code></span>
+                    <p><p>The name of the serialized enum property to use.</p>
+</p>
+                  </td>
+                </tr><tr>
+                  <td>
+                    <span class="parametername pull-left codewrapper"><code class="lang-csharp hljs"><span class="xref">System.Int32</span> enumIndex</code></span>
+                    <p><p>The index of the enum that controls the showing of this property.</p>
+</p>
+                  </td>
+                </tr><tr>
+                  <td>
+                    <span class="parametername pull-left codewrapper"><code class="lang-csharp hljs"><span class="xref">System.Boolean</span> show</code></span>
+                    <p><p>Show if the enum value matches or not. Defaults to true</p>
+</p>
+                  </td>
+                </tr>
+              </table>
+          
+              
+          
+              
+          
+              
+          
+              
+            
+            <h5 class="decalaration">Description</h5>
+            <table>
+              <tr>
+                <td>
+                  <p><div class="markdown level1 summary"><p>Show/Hide a field based on a bool value in the same script.</p>
+</div></p>
+                  <p class="markdown level1 conceptual">
+                  
+                  
+                </td>
+              </tr>
+          
+            
+            
+          </table></div>
+      <h3 id="fields">Fields
+  </h3>
+            
+            
+          
+          
+          
+          <h4 id="CoreFramework_Attributes_ShowIfEnumValueAttribute_enumIndex" data-uid="CoreFramework.Attributes.ShowIfEnumValueAttribute.enumIndex"><a href="#collapsible-CoreFramework_Attributes_ShowIfEnumValueAttribute_enumIndex" class="expander" data-toggle="collapse"> enumIndex</a></h4>
+          
+          <div id="collapsible-CoreFramework_Attributes_ShowIfEnumValueAttribute_enumIndex" class="collapse in">
+          
+            
+              
+            
+          
+            
+          
+            
+            
+            <div class="codewrapper"><pre><code class="lang-csharp hljs">public readonly int enumIndex</code></pre></div>
+            
+              
+                
+              
+              
+              
+                
+              
+          
+              
+          
+              <h5 class="fieldValue">Field Value</h5>
+              <table>
+                <tr>
+                  <td>
+                    <span class="fieldName pull-left codewrapper"><code class="lang-csharp hljs"><span class="xref">System.Int32</span> enumIndex</code></span>
+                    <p>  <p>The index of the enum that controls the showing of this property.</p>
+ </p>
+                  </td>
+                </tr>
+              </table>
+          
+              
+          
+              
+            
+            <h5 class="decalaration">Description</h5>
+            <table>
+              <tr>
+                <td>
+                  <p><div class="markdown level1 summary"><p>The index of the enum that controls the showing of this property.</p>
+</div></p>
+                  <p class="markdown level1 conceptual">
+                    <h6 id="CoreFramework_Attributes_ShowIfEnumValueAttribute_enumIndex_remarks">Remarks</h6>
+                    <p class="markdown level1 remarks"><div class="IMPORTANT"><h5>Important</h5><p>Is used by the editor to draw in the <strong><em>Inspector</em></strong>.</p>
+</div>
+</p>
+                  
+                  
+                </td>
+              </tr>
+          
+            
+            
+          </table></div>
+            
+            
+          
+          
+          
+          <h4 id="CoreFramework_Attributes_ShowIfEnumValueAttribute_enumName" data-uid="CoreFramework.Attributes.ShowIfEnumValueAttribute.enumName"><a href="#collapsible-CoreFramework_Attributes_ShowIfEnumValueAttribute_enumName" class="expander" data-toggle="collapse"> enumName</a></h4>
+          
+          <div id="collapsible-CoreFramework_Attributes_ShowIfEnumValueAttribute_enumName" class="collapse in">
+          
+            
+              
+            
+          
+            
+          
+            
+            
+            <div class="codewrapper"><pre><code class="lang-csharp hljs">public readonly string enumName</code></pre></div>
+            
+              
+                
+              
+              
+              
+                
+              
+          
+              
+          
+              <h5 class="fieldValue">Field Value</h5>
+              <table>
+                <tr>
+                  <td>
+                    <span class="fieldName pull-left codewrapper"><code class="lang-csharp hljs"><span class="xref">System.String</span> enumName</code></span>
+                    <p>  <p>The name of the serialized enum property to use.</p>
+ </p>
+                  </td>
+                </tr>
+              </table>
+          
+              
+          
+              
+            
+            <h5 class="decalaration">Description</h5>
+            <table>
+              <tr>
+                <td>
+                  <p><div class="markdown level1 summary"><p>The name of the serialized enum property to use.</p>
+</div></p>
+                  <p class="markdown level1 conceptual">
+                    <h6 id="CoreFramework_Attributes_ShowIfEnumValueAttribute_enumName_remarks">Remarks</h6>
+                    <p class="markdown level1 remarks"><div class="IMPORTANT"><h5>Important</h5><p>Is used by the editor to draw in the <strong><em>Inspector</em></strong>.</p>
+</div>
+</p>
+                  
+                  
+                </td>
+              </tr>
+          
+            
+            
+          </table></div>
+            
+            
+          
+          
+          
+          <h4 id="CoreFramework_Attributes_ShowIfEnumValueAttribute_show" data-uid="CoreFramework.Attributes.ShowIfEnumValueAttribute.show"><a href="#collapsible-CoreFramework_Attributes_ShowIfEnumValueAttribute_show" class="expander" data-toggle="collapse"> show</a></h4>
+          
+          <div id="collapsible-CoreFramework_Attributes_ShowIfEnumValueAttribute_show" class="collapse in">
+          
+            
+              
+            
+          
+            
+          
+            
+            
+            <div class="codewrapper"><pre><code class="lang-csharp hljs">public readonly bool show</code></pre></div>
+            
+              
+                
+              
+              
+              
+                
+              
+          
+              
+          
+              <h5 class="fieldValue">Field Value</h5>
+              <table>
+                <tr>
+                  <td>
+                    <span class="fieldName pull-left codewrapper"><code class="lang-csharp hljs"><span class="xref">System.Boolean</span> show</code></span>
+                    <p>  <p>Show if the enum value matches or not.</p>
+ </p>
+                  </td>
+                </tr>
+              </table>
+          
+              
+          
+              
+            
+            <h5 class="decalaration">Description</h5>
+            <table>
+              <tr>
+                <td>
+                  <p><div class="markdown level1 summary"><p>Show if the enum value matches or not.</p>
+</div></p>
+                  <p class="markdown level1 conceptual">
+                    <h6 id="CoreFramework_Attributes_ShowIfEnumValueAttribute_show_remarks">Remarks</h6>
+                    <p class="markdown level1 remarks"><div class="IMPORTANT"><h5>Important</h5><p>Is used by the editor to draw in the <strong><em>Inspector</em></strong>.</p>
+</div>
+</p>
+                  
+                  
+                </td>
+              </tr>
+          
+            
+            
+          </table></div>
+  
+  
+  
+
+  
+  
+</article>
+          </div>
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution-panel mobile-hide">
+                <div class="nav">
+                  
+                  
+                </div>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

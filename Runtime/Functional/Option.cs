@@ -9,7 +9,7 @@
 
 #endregion
 
-namespace CoreFramework.Functional
+namespace CoreFramework
 {
 	/// <summary>
 	/// From Bit Cake Studio's BitStrap

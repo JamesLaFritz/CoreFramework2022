@@ -2,13 +2,13 @@
 // 07-22-2022
 // James LaFritz
 
-using CoreFramework.Attributes.Properties;
+using CoreFramework.Attributes;
 using UnityEditor;
 using UnityEditor.UIElements;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace CoreFrameworkEditor.Attributes.Properties
+namespace CoreFrameworkEditor.Attributes
 
 {
     /// <summary>

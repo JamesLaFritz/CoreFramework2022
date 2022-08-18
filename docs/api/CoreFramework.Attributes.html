@@ -1,0 +1,307 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>| Core Framework Documentation  CoreFramework.Attributes</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="| Core Framework Documentation  CoreFramework.Attributes">
+    <meta name="generator" content="docfx 2.59.3.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    <meta property="docfx:newtab" content="true">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="Core Framework">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="CoreFramework.Attributes">
+  <h1 id="CoreFramework_Attributes" data-uid="CoreFramework.Attributes">
+  
+  
+  Namespace
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   CoreFramework.Attributes</h1>
+  <div class="markdown level0 summary"><p>Attributes that can be used to make the <strong>Inspector</strong> look better with out creating <code>custom inspector editors</code></p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="markdown level0 remarks"></div>
+    <h3 id="classes">Classes
+  </h3>
+    <table>
+      <tr>
+        <td>
+          <p><a class="xref" href="CoreFramework.Attributes.ButtonAttribute.html">ButtonAttribute</a></p>
+          <p><p><img src="../Images/Attributes/Button.gif" alt="Button Example"></p>
+<p>Add this attribute above one of your MonoBehaviour method and it will draw
+a button in the inspector that will run the method when clicked.</p>
+</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><a class="xref" href="CoreFramework.Attributes.FolderPathAttribute.html">FolderPathAttribute</a></p>
+          <p><p>Displays a text field with a folder button to the right, with which you can select a folder path as the string value.
+If you pass false to this attribute this will use the absolute path to the folder.
+If you pass true to this attribute this will use the path relative to the Project.</p>
+<p><img src="../Images/Attributes/FolderPath.gif" alt="Folder Path Example"></p>
+</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><a class="xref" href="CoreFramework.Attributes.HeaderAttribute.html">HeaderAttribute</a></p>
+          <p><p>Draws a Header in the Inspector that allows using custom text, an icon, a color and a text height increase.</p>
+<p><img src="../Images/Attributes/Header.png" alt="Header Example"> <img src="../Images/Attributes/Header5.png" alt="Header Example 5"></p>
+<div class="TIP"><h5>Tip</h5><p>To Draw a header that is just a separator use <strong>empty strings<code>&quot;&quot;</code></strong> for the <em>Text</em> and <em>Icon</em></p>
+</div>
+</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><a class="xref" href="CoreFramework.Attributes.IconAttribute.html">IconAttribute</a></p>
+          <p><p>Displays a dropdown list of available Tags.</p>
+<div class="IMPORTANT"><h5>Important</h5><p>Must be used with a &#39;string&#39; typed field.</p>
+</div>
+<p><img src="../Images/Attributes/Icon.png" alt="Input Axis Example"></p>
+</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><a class="xref" href="CoreFramework.Attributes.InfoBoxAttribute.html">InfoBoxAttribute</a></p>
+          <p><p>Draws an Information Box in the Inspector.
+The Types of Boxes available are</p>
+<ul>
+<li>None - A Message Box</li>
+<li>Info - A Message Box with an Info Icon (Default)</li>
+<li>Warning - A Warning Message Box</li>
+<li>Error - An Error Message Box.</li>
+</ul>
+<p><img src="../Images/Attributes/Button.gif" alt="Button Example"></p>
+</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><a class="xref" href="CoreFramework.Attributes.InputAxisAttribute.html">InputAxisAttribute</a></p>
+          <p><div class="IMPORTANT"><h5>Important</h5><p>Only Usable if Unity&#39;s Legacy Input Manager is Enabled.</p>
+</div>
+<p>Displays a dropdown list of available Input Axis.</p>
+<div class="IMPORTANT"><h5>Important</h5><p>Must be used with a &#39;string&#39; typed field.</p>
+</div>
+<p><img src="../Images/Attributes/InputAxis.gif" alt="Input Axis Example"></p>
+</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><a class="xref" href="CoreFramework.Attributes.ReadOnlyAttribute.html">ReadOnlyAttribute</a></p>
+          <p><p>Use this attribute to make a field appear as read only in the <strong><em>Inspector</em></strong></p>
+<p><img src="../Images/Attributes/ReadOnly.png" alt="Read Only Example"></p>
+</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><a class="xref" href="CoreFramework.Attributes.RequiredReferenceAttribute.html">RequiredReferenceAttribute</a></p>
+          <p><p>Requires the field to be not null.
+If it is Null, the field will be displayed in red with a warning icon to the right.
+Use this to notify the user that the field is required and they should fill it in.</p>
+<div class="IMPORTANT"><h5>Important</h5><p>You should still do null checks in your code as this is only for visualization in the Inspector.</p>
+</div>
+<p><img src="../Images/Attributes/RequiredReference.gif" alt="RequiredReference Example"></p>
+</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><a class="xref" href="CoreFramework.Attributes.SceneAttribute.html">SceneAttribute</a></p>
+          <p><div class="IMPORTANT"><h5>Important</h5><p>Only Usable if Unity&#39;s Legacy Input Manager is Enabled.</p>
+</div>
+<p>Displays a dropdown list of available Input Axis.</p>
+<div class="IMPORTANT"><h5>Important</h5><p>Must be used with a &#39;string&#39; typed field.</p>
+</div>
+<p><img src="../Images/Attributes/Scene.gif" alt="Input Axis Example"></p>
+</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><a class="xref" href="CoreFramework.Attributes.ShowIfBoolAttribute.html">ShowIfBoolAttribute</a></p>
+          <p><p>Show/Hide a field based on a bool value in the same script.</p>
+<p><img src="../Images/Attributes/ShowIfBool.gif" alt="RequiredReference Example"></p>
+</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><a class="xref" href="CoreFramework.Attributes.ShowIfEnumValueAttribute.html">ShowIfEnumValueAttribute</a></p>
+          <p><p>Show/Hide a field based on a enum value in the same script.</p>
+<div class="CAUTION"><h5>Caution</h5><p>Order of attribute is important. Should be placed before any other attributes.</p>
+</div>
+<p><img src="../Images/Attributes/ShowIfEnum.gif" alt="RequiredReference Example"></p>
+</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><a class="xref" href="CoreFramework.Attributes.TagAttribute.html">TagAttribute</a></p>
+          <p><p>Displays a dropdown list of available Tags.</p>
+<div class="IMPORTANT"><h5>Important</h5><p>Must be used with a &#39;string&#39; typed field.</p>
+</div>
+<p><img src="../Images/Attributes/Tag.gif" alt="Input Axis Example"></p>
+</p>
+        </td>
+      </tr>
+    </table>
+    <h3 id="enums">Enums
+  </h3>
+    <table>
+      <tr>
+        <td>
+          <p><a class="xref" href="CoreFramework.Attributes.ButtonAttribute.Mode.html">ButtonAttribute.Mode</a></p>
+          <p><p>Determine which Unity Editor mode a button should work in.</p>
+</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><a class="xref" href="CoreFramework.Attributes.HeaderAttribute.PresetColor.html">HeaderAttribute.PresetColor</a></p>
+          <p><p>Available Colors by name that can be used.</p>
+</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p><a class="xref" href="CoreFramework.Attributes.InfoBoxType.html">InfoBoxType</a></p>
+          <p><p>The info box type enum</p>
+</p>
+        </td>
+      </tr>
+    </table>
+</article>
+          </div>
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution-panel mobile-hide">
+                <div class="nav">
+                  
+                  
+                </div>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

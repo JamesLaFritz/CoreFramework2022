@@ -1,0 +1,1077 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>| Core Framework Documentation  HeaderAttribute</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="| Core Framework Documentation  HeaderAttribute">
+    <meta name="generator" content="docfx 2.59.3.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    <meta property="docfx:newtab" content="true">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="Core Framework">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="CoreFramework.Attributes.HeaderAttribute">
+  <h1 id="CoreFramework_Attributes_HeaderAttribute" data-uid="CoreFramework.Attributes.HeaderAttribute">HeaderAttribute</h1>
+  <h5>
+      
+  
+  
+  
+  
+  Class
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   in <a class="xref" href="CoreFramework.Attributes.html">CoreFramework.Attributes</a>
+  </h5>
+  
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AttributeUsage(AttributeTargets.Field, AllowMultiple = true)]
+public class HeaderAttribute : PropertyAttribute</code></pre>
+  </div>
+
+  <div class="inheritance">
+    <h6>Inheritance</h6>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">HeaderAttribute</span></div>
+  </div>
+
+  
+  
+  <div class="description">
+      <h2 id="CoreFramework_Attributes_HeaderAttribute_description">Description</h2>
+      <div class="markdown level0 summary"><p>Draws a Header in the Inspector that allows using custom text, an icon, a color and a text height increase.</p>
+<p><img src="../Images/Attributes/Header.png" alt="Header Example"> <img src="../Images/Attributes/Header5.png" alt="Header Example 5"></p>
+<div class="TIP"><h5>Tip</h5><p>To Draw a header that is just a separator use <strong>empty strings<code>&quot;&quot;</code></strong> for the <em>Text</em> and <em>Icon</em></p>
+</div>
+</div>
+      <div class="markdown level0 conceptual"><p>Can Be Used In Connection with any other Attribute including Unity&#39;s Built-In Attributes</p>
+<p>Order does not mater. You can also have Multiple Headers.</p>
+<pre><code class="lang-csharp">using UnityEngine;
+using Header = CoreFramework.Attributes.HeaderAttribute;
+
+public class AttributesExample : MonoBehaviour
+{
+    [Header(&quot;&quot;, &quot;&quot;, HeaderAttribute.PresetColor.Black)]
+    [Header(&quot;Health Range&quot;)]
+    [Range(0, 500)]
+    public float healthRange = 100;
+
+    [Range(0, 100)] [Header(&quot;Health Range&quot;)]
+    public float healthRange1 = 100;
+}
+</code></pre><p><img src="../Images/Attributes/Header5.png" alt="Header Example 5"></p>
+</div>
+      
+      
+      
+      <h5 id="CoreFramework_Attributes_HeaderAttribute_examples"><strong>Examples</strong></h5>
+      <p>Header(string text, string iconPath, float[] colorElement, float textHeightIncrease = 1.5f)</p>
+ <pre><code class="&quot;lang-csharp" hljs&quot;="">
+ [Header(&quot;Health&quot;, &quot;&quot;, new[] {1f, 1f, 1f})] public float health = 100;
+ [Header(&quot;Health&quot;, &quot;&quot;, new[] {0.5f, 0.5f, 0.5f}, 2f)] public float health1 = 100;
+ [Header(&quot;Health&quot;, &quot;Assets/PathToYourIcon/NameOfYourIconWithExtension&quot;, new[] {1f, 1f, 1f})] public float health2 = 100;
+ [Header(&quot;&quot;, &quot;&quot;, new[] {0f, 0f, 0f, 1f})] public float health3 = 100;
+ [Header(&quot;Health&quot;, &quot;Assets/PathToYourIcon/NameOfYourIconWithExtension&quot;, new[] {0.5f, 0.5f, 0.5f}, 2f)] public float health4 = 100;
+ </code></pre>
+<p>Header(string text, string iconPath, float textHeightIncrease = 1.5f)</p>
+ <pre><code class="&quot;lang-csharp" hljs&quot;="">
+ [Header(&quot;Health&quot;, &quot;Assets/PathToYourIcon/NameOfYourIconWithExtension&quot;)] public float health5 = 100;
+ [Header(&quot;Health&quot;, &quot;Assets/PathToYourIcon/NameOfYourIconWithExtension&quot;, 2f)] public float health6 = 100;
+ </code></pre>
+<p>Header(string text, string iconPath, PresetColor presetColor, float textHeightIncrease = 1.5f)</p>
+ <pre><code class="&quot;lang-csharp" hljs&quot;="">
+ [Header(&quot;Assets/PathToYourIcon/NameOfYourIconWithExtension&quot;, false)] public float health7 = 100;
+ [Header(&quot;Health&quot;)] public float health8 = 100;
+ </code></pre>
+<p>Header(string s, bool textOnly = true)</p>
+ <pre><code class="&quot;lang-csharp" hljs&quot;="">
+ [Header(&quot;Health&quot;, &quot;&quot;, HeaderAttribute.PresetColor.Green)] public float health9 = 100;
+ [Header(&quot;&quot;, &quot;&quot;, HeaderAttribute.PresetColor.Magenta, 0.5f)] public float health10 = 100;
+ [Header(&quot;Health&quot;, &quot;Assets/PathToYourIcon/NameOfYourIconWithExtension&quot;, HeaderAttribute.PresetColor.Cyan)] public float health11 = 100;
+ [Header(&quot;&quot;, &quot;Assets/PathToYourIcon/NameOfYourIconWithExtension&quot;, HeaderAttribute.PresetColor.Blue)] public float health12 = 100;
+ </code></pre>
+
+  </div>
+
+    
+  
+
+  
+    
+  
+
+  
+
+  
+    
+  
+      <h3 id="constructors">Constructors
+  </h3>
+            
+            
+          
+          <a id="CoreFramework_Attributes_HeaderAttribute__ctor_" data-uid="CoreFramework.Attributes.HeaderAttribute.#ctor*"></a>
+          
+          <h4 id="CoreFramework_Attributes_HeaderAttribute__ctor_System_String_System_Boolean_" data-uid="CoreFramework.Attributes.HeaderAttribute.#ctor(System.String,System.Boolean)"><a href="#collapsible-CoreFramework_Attributes_HeaderAttribute__ctor_System_String_System_Boolean_" class="expander" data-toggle="collapse"> HeaderAttribute(String, Boolean)</a></h4>
+          
+          <div id="collapsible-CoreFramework_Attributes_HeaderAttribute__ctor_System_String_System_Boolean_" class="collapse in">
+          
+            
+              
+            
+          
+            
+          
+            
+            
+            <div class="codewrapper"><pre><code class="lang-csharp hljs">public HeaderAttribute(string s, bool textOnly = true)</code></pre></div>
+            
+              
+                
+              
+              
+              <h5 class="parameters">Parameters</h5>
+              <table>
+                <tr>
+                  <td>
+                    <span class="parametername pull-left codewrapper"><code class="lang-csharp hljs"><span class="xref">System.String</span> s</code></span>
+                    <p><p>If Text Only(textOnly == true), the text to use for the label of the header.
+If Icon Only(textOnly == false), the relative path (starting from &apos;Assets/&apos;) to the icon you want to display in front of the property.</p>
+</p>
+                  </td>
+                </tr><tr>
+                  <td>
+                    <span class="parametername pull-left codewrapper"><code class="lang-csharp hljs"><span class="xref">System.Boolean</span> textOnly</code></span>
+                    <p><p>Is this a text only (true) or icon only Header (false) defaults to true.</p>
+</p>
+                  </td>
+                </tr>
+              </table>
+          
+              
+          
+              
+          
+              
+          
+              
+            
+            <h5 class="decalaration">Description</h5>
+            <table>
+              <tr>
+                <td>
+                  <p><div class="markdown level1 summary"><p>Draws a Header in the Inspector that allows using custom text, or an icon with a text height increase. The text Height
+increase defaults to <em><code>1.5f</code></em>.
+Will use <strong><em>Grey</em></strong> for the separator and <strong><em>White</em></strong> for the text.</p>
+<p><img src="../Images/Attributes/Header3.png" alt="Header Example"></p>
+</div></p>
+                  <p class="markdown level1 conceptual">
+                  <h6 id="CoreFramework_Attributes_HeaderAttribute__ctor_System_String_System_Boolean__examples">Examples</h6>
+                   <pre><code class="&quot;lang-csharp" hljs&quot;="">
+ [Header(&quot;Assets/PathToYourIcon/NameOfYourIconWithExtension&quot;, false)] public float health7 = 100;
+ [Header(&quot;Health&quot;)] public float health8 = 100;
+ </code></pre>
+ 
+                </td>
+              </tr>
+          
+            
+            
+          </table></div>
+            
+            
+          
+          <a id="CoreFramework_Attributes_HeaderAttribute__ctor_" data-uid="CoreFramework.Attributes.HeaderAttribute.#ctor*"></a>
+          
+          <h4 id="CoreFramework_Attributes_HeaderAttribute__ctor_System_String_System_String_CoreFramework_Attributes_HeaderAttribute_PresetColor_System_Single_" data-uid="CoreFramework.Attributes.HeaderAttribute.#ctor(System.String,System.String,CoreFramework.Attributes.HeaderAttribute.PresetColor,System.Single)"><a href="#collapsible-CoreFramework_Attributes_HeaderAttribute__ctor_System_String_System_String_CoreFramework_Attributes_HeaderAttribute_PresetColor_System_Single_" class="expander" data-toggle="collapse"> HeaderAttribute(String, String, HeaderAttribute.PresetColor, Single)</a></h4>
+          
+          <div id="collapsible-CoreFramework_Attributes_HeaderAttribute__ctor_System_String_System_String_CoreFramework_Attributes_HeaderAttribute_PresetColor_System_Single_" class="collapse in">
+          
+            
+              
+            
+          
+            
+          
+            
+            
+            <div class="codewrapper"><pre><code class="lang-csharp hljs">public HeaderAttribute(string text, string iconPath, HeaderAttribute.PresetColor presetColor, float textHeightIncrease = 1.5F)</code></pre></div>
+            
+              
+                
+              
+              
+              <h5 class="parameters">Parameters</h5>
+              <table>
+                <tr>
+                  <td>
+                    <span class="parametername pull-left codewrapper"><code class="lang-csharp hljs"><span class="xref">System.String</span> text</code></span>
+                    <p><p>The label text to use for the header.</p>
+</p>
+                  </td>
+                </tr><tr>
+                  <td>
+                    <span class="parametername pull-left codewrapper"><code class="lang-csharp hljs"><span class="xref">System.String</span> iconPath</code></span>
+                    <p><p>The relative path (starting from &apos;Assets/&apos;) to the icon you want to display in front of the property.</p>
+</p>
+                  </td>
+                </tr><tr>
+                  <td>
+                    <span class="parametername pull-left codewrapper"><code class="lang-csharp hljs"><a class="xref" href="CoreFramework.Attributes.HeaderAttribute.PresetColor.html">HeaderAttribute.PresetColor</a> presetColor</code></span>
+                    <p><p>Uses on of the <a class="xref" href="CoreFramework.Attributes.HeaderAttribute.PresetColor.html">HeaderAttribute.PresetColor</a></p>
+</p>
+                  </td>
+                </tr><tr>
+                  <td>
+                    <span class="parametername pull-left codewrapper"><code class="lang-csharp hljs"><span class="xref">System.Single</span> textHeightIncrease</code></span>
+                    <p><p>The amount to increase the height of the text by (Min value of 1).</p>
+</p>
+                  </td>
+                </tr>
+              </table>
+          
+              
+          
+              
+          
+              
+          
+              
+            
+            <h5 class="decalaration">Description</h5>
+            <table>
+              <tr>
+                <td>
+                  <p><div class="markdown level1 summary"><p>Draws a Header in the Inspector that allows using custom text, an icon, one of the preset colors and a textheight
+increase. The text Height increase defaults to <em><code>1.5f</code></em>.</p>
+<div class="TIP"><h5>Tip</h5><p>A <em><code>Null</code></em> <em>Color</em> will use <strong><em>Grey</em></strong> for the separator and <strong><em>White</em></strong> for the text.</p>
+</div>
+<p>The Colors available are</p>
+<ul>
+<li>Black</li>
+<li>Blue</li>
+<li>Cyan</li>
+<li>Gray</li>
+<li>Green</li>
+<li>Grey</li>
+<li>Magenta</li>
+<li>Red</li>
+<li>Yellow</li>
+</ul>
+<p><img src="../Images/Attributes/Header4.png" alt="Header Example"></p>
+</div></p>
+                  <p class="markdown level1 conceptual">
+                  <h6 id="CoreFramework_Attributes_HeaderAttribute__ctor_System_String_System_String_CoreFramework_Attributes_HeaderAttribute_PresetColor_System_Single__examples">Examples</h6>
+                   <pre><code class="&quot;lang-csharp" hljs&quot;="">
+ [Header(&quot;Health&quot;, &quot;&quot;, HeaderAttribute.PresetColor.Green)] public float health9 = 100;
+ [Header(&quot;&quot;, &quot;&quot;, HeaderAttribute.PresetColor.Magenta, 0.5f)] public float health10 = 100;
+ [Header(&quot;Health&quot;, &quot;Assets/PathToYourIcon/NameOfYourIconWithExtension&quot;, HeaderAttribute.PresetColor.Cyan)] public float health11 = 100;
+ [Header(&quot;&quot;, &quot;Assets/PathToYourIcon/NameOfYourIconWithExtension&quot;, HeaderAttribute.PresetColor.Blue)] public float health12 = 100;
+ </code></pre>
+ 
+                </td>
+              </tr>
+          
+            
+            
+          </table></div>
+            
+            
+          
+          <a id="CoreFramework_Attributes_HeaderAttribute__ctor_" data-uid="CoreFramework.Attributes.HeaderAttribute.#ctor*"></a>
+          
+          <h4 id="CoreFramework_Attributes_HeaderAttribute__ctor_System_String_System_String_System_Single_" data-uid="CoreFramework.Attributes.HeaderAttribute.#ctor(System.String,System.String,System.Single)"><a href="#collapsible-CoreFramework_Attributes_HeaderAttribute__ctor_System_String_System_String_System_Single_" class="expander" data-toggle="collapse"> HeaderAttribute(String, String, Single)</a></h4>
+          
+          <div id="collapsible-CoreFramework_Attributes_HeaderAttribute__ctor_System_String_System_String_System_Single_" class="collapse in">
+          
+            
+              
+            
+          
+            
+          
+            
+            
+            <div class="codewrapper"><pre><code class="lang-csharp hljs">public HeaderAttribute(string text, string iconPath, float textHeightIncrease = 1.5F)</code></pre></div>
+            
+              
+                
+              
+              
+              <h5 class="parameters">Parameters</h5>
+              <table>
+                <tr>
+                  <td>
+                    <span class="parametername pull-left codewrapper"><code class="lang-csharp hljs"><span class="xref">System.String</span> text</code></span>
+                    <p><p>The label text to use for the header.</p>
+</p>
+                  </td>
+                </tr><tr>
+                  <td>
+                    <span class="parametername pull-left codewrapper"><code class="lang-csharp hljs"><span class="xref">System.String</span> iconPath</code></span>
+                    <p><p>The relative path (starting from &apos;Assets/&apos;) to the icon you want to display in front of the property.</p>
+</p>
+                  </td>
+                </tr><tr>
+                  <td>
+                    <span class="parametername pull-left codewrapper"><code class="lang-csharp hljs"><span class="xref">System.Single</span> textHeightIncrease</code></span>
+                    <p><p>The amount to increase the height of the text by (Min value of 1).</p>
+</p>
+                  </td>
+                </tr>
+              </table>
+          
+              
+          
+              
+          
+              
+          
+              
+            
+            <h5 class="decalaration">Description</h5>
+            <table>
+              <tr>
+                <td>
+                  <p><div class="markdown level1 summary"><p>Draws a Header in the Inspector that allows using custom text, an icon and a text height increase. The text Height
+increase defaults to <em><code>1.5f</code></em>.
+Will use <strong><em>Grey</em></strong> for the separator and <strong><em>White</em></strong> for the text.</p>
+<p><img src="../Images/Attributes/Header2.png" alt="Header Example"></p>
+</div></p>
+                  <p class="markdown level1 conceptual">
+                  <h6 id="CoreFramework_Attributes_HeaderAttribute__ctor_System_String_System_String_System_Single__examples">Examples</h6>
+                   <pre><code class="&quot;lang-csharp" hljs&quot;="">
+ [Header(&quot;Health&quot;, &quot;Assets/PathToYourIcon/NameOfYourIconWithExtension&quot;)] public float health5 = 100;
+ [Header(&quot;Health&quot;, &quot;Assets/PathToYourIcon/NameOfYourIconWithExtension&quot;, 2f)] public float health6 = 100;
+ </code></pre>
+ 
+                </td>
+              </tr>
+          
+            
+            
+          </table></div>
+            
+            
+          
+          <a id="CoreFramework_Attributes_HeaderAttribute__ctor_" data-uid="CoreFramework.Attributes.HeaderAttribute.#ctor*"></a>
+          
+          <h4 id="CoreFramework_Attributes_HeaderAttribute__ctor_System_String_System_String_System_Single___System_Single_" data-uid="CoreFramework.Attributes.HeaderAttribute.#ctor(System.String,System.String,System.Single[],System.Single)"><a href="#collapsible-CoreFramework_Attributes_HeaderAttribute__ctor_System_String_System_String_System_Single___System_Single_" class="expander" data-toggle="collapse"> HeaderAttribute(String, String, Single[], Single)</a></h4>
+          
+          <div id="collapsible-CoreFramework_Attributes_HeaderAttribute__ctor_System_String_System_String_System_Single___System_Single_" class="collapse in">
+          
+            
+              
+            
+          
+            
+          
+            
+            
+            <div class="codewrapper"><pre><code class="lang-csharp hljs">public HeaderAttribute(string text, string iconPath, float[] colorElement, float textHeightIncrease = 1.5F)</code></pre></div>
+            
+              
+                
+              
+              
+              <h5 class="parameters">Parameters</h5>
+              <table>
+                <tr>
+                  <td>
+                    <span class="parametername pull-left codewrapper"><code class="lang-csharp hljs"><span class="xref">System.String</span> text</code></span>
+                    <p><p>The label text to use for the header.</p>
+</p>
+                  </td>
+                </tr><tr>
+                  <td>
+                    <span class="parametername pull-left codewrapper"><code class="lang-csharp hljs"><span class="xref">System.String</span> iconPath</code></span>
+                    <p><p>The relative path (starting from &apos;Assets/&apos;) to the icon you want to display in front of the property.</p>
+</p>
+                  </td>
+                </tr><tr>
+                  <td>
+                    <span class="parametername pull-left codewrapper"><code class="lang-csharp hljs"><span class="xref">System.Single</span>[] colorElement</code></span>
+                    <p><p>The color to use for the label. Can be null.
+If null uses Grey for the seperator and White for the Text
+Needs at least three elements. <pre><code>new[] {r, g, b}) || new[] {r, g, b, a})</code></pre> </p>
+</p>
+                  </td>
+                </tr><tr>
+                  <td>
+                    <span class="parametername pull-left codewrapper"><code class="lang-csharp hljs"><span class="xref">System.Single</span> textHeightIncrease</code></span>
+                    <p><p>The amount to increase the height of the text by (Min value of 1).</p>
+</p>
+                  </td>
+                </tr>
+              </table>
+          
+              
+          
+              
+          
+              
+          
+              
+            
+            <h5 class="decalaration">Description</h5>
+            <table>
+              <tr>
+                <td>
+                  <p><div class="markdown level1 summary"><p>Draws a Header in the Inspector that allows using custom text, an icon, a color and a text height increase. The text
+Height increase defaults to <em><code>1.5f</code></em>.</p>
+<p><img src="../Images/Attributes/Header1.png" alt="Header Example"></p>
+</div></p>
+                  <p class="markdown level1 conceptual">
+                  <h6 id="CoreFramework_Attributes_HeaderAttribute__ctor_System_String_System_String_System_Single___System_Single__examples">Examples</h6>
+                   <pre><code class="&quot;lang-csharp" hljs&quot;="">
+ [Header(&quot;Health&quot;, &quot;&quot;, new[] {1f, 1f, 1f})] public float health = 100;
+ [Header(&quot;Health&quot;, &quot;&quot;, new[] {0.5f, 0.5f, 0.5f}, 2f)] public float health1 = 100;
+ [Header(&quot;Health&quot;, &quot;Assets/PathToYourIcon/NameOfYourIconWithExtension&quot;, new[] {1f, 1f, 1f})] public float health2 = 100;
+ [Header(&quot;&quot;, &quot;&quot;, new[] {0f, 0f, 0f, 1f})] public float health3 = 100;
+ [Header(&quot;Health&quot;, &quot;Assets/PathToYourIcon/NameOfYourIconWithExtension&quot;, new[] {0.5f, 0.5f, 0.5f}, 2f)] public float health4 = 100;
+ </code></pre>
+ 
+                </td>
+              </tr>
+          
+            
+            
+          </table></div>
+      <h3 id="fields">Fields
+  </h3>
+            
+            
+          
+          
+          
+          <h4 id="CoreFramework_Attributes_HeaderAttribute_color" data-uid="CoreFramework.Attributes.HeaderAttribute.color"><a href="#collapsible-CoreFramework_Attributes_HeaderAttribute_color" class="expander" data-toggle="collapse"> color</a></h4>
+          
+          <div id="collapsible-CoreFramework_Attributes_HeaderAttribute_color" class="collapse in">
+          
+            
+              
+            
+          
+            
+          
+            
+            
+            <div class="codewrapper"><pre><code class="lang-csharp hljs">public readonly Color? color</code></pre></div>
+            
+              
+                
+              
+              
+              
+                
+              
+          
+              
+          
+              <h5 class="fieldValue">Field Value</h5>
+              <table>
+                <tr>
+                  <td>
+                    <span class="fieldName pull-left codewrapper"><code class="lang-csharp hljs"><span class="xref">System.Nullable</span>&lt;<span class="xref">Color</span>&gt; color</code></span>
+                    <p>  <p>The color</p>
+ </p>
+                  </td>
+                </tr>
+              </table>
+          
+              
+          
+              
+            
+            <h5 class="decalaration">Description</h5>
+            <table>
+              <tr>
+                <td>
+                  <p><div class="markdown level1 summary"><p>The color</p>
+</div></p>
+                  <p class="markdown level1 conceptual">
+                    <h6 id="CoreFramework_Attributes_HeaderAttribute_color_remarks">Remarks</h6>
+                    <p class="markdown level1 remarks"><div class="IMPORTANT"><h5>Important</h5><p>Is used by the editor to draw header in the <strong><em>Inspector</em></strong>.</p>
+</div>
+</p>
+                  
+                  
+                </td>
+              </tr>
+          
+            
+            
+          </table></div>
+            
+            
+          
+          
+          
+          <h4 id="CoreFramework_Attributes_HeaderAttribute_colorIsNull" data-uid="CoreFramework.Attributes.HeaderAttribute.colorIsNull"><a href="#collapsible-CoreFramework_Attributes_HeaderAttribute_colorIsNull" class="expander" data-toggle="collapse"> colorIsNull</a></h4>
+          
+          <div id="collapsible-CoreFramework_Attributes_HeaderAttribute_colorIsNull" class="collapse in">
+          
+            
+              
+            
+          
+            
+          
+            
+            
+            <div class="codewrapper"><pre><code class="lang-csharp hljs">public readonly bool colorIsNull</code></pre></div>
+            
+              
+                
+              
+              
+              
+                
+              
+          
+              
+          
+              <h5 class="fieldValue">Field Value</h5>
+              <table>
+                <tr>
+                  <td>
+                    <span class="fieldName pull-left codewrapper"><code class="lang-csharp hljs"><span class="xref">System.Boolean</span> colorIsNull</code></span>
+                    <p>  <p>The color is null</p>
+ </p>
+                  </td>
+                </tr>
+              </table>
+          
+              
+          
+              
+            
+            <h5 class="decalaration">Description</h5>
+            <table>
+              <tr>
+                <td>
+                  <p><div class="markdown level1 summary"><p>The color is null</p>
+</div></p>
+                  <p class="markdown level1 conceptual">
+                    <h6 id="CoreFramework_Attributes_HeaderAttribute_colorIsNull_remarks">Remarks</h6>
+                    <p class="markdown level1 remarks"><div class="IMPORTANT"><h5>Important</h5><p>Is used by the editor to draw header in the <strong><em>Inspector</em></strong>.</p>
+</div>
+</p>
+                  
+                  
+                </td>
+              </tr>
+          
+            
+            
+          </table></div>
+            
+            
+          
+          
+          
+          <h4 id="CoreFramework_Attributes_HeaderAttribute_header" data-uid="CoreFramework.Attributes.HeaderAttribute.header"><a href="#collapsible-CoreFramework_Attributes_HeaderAttribute_header" class="expander" data-toggle="collapse"> header</a></h4>
+          
+          <div id="collapsible-CoreFramework_Attributes_HeaderAttribute_header" class="collapse in">
+          
+            
+              
+            
+          
+            
+          
+            
+            
+            <div class="codewrapper"><pre><code class="lang-csharp hljs">public readonly string header</code></pre></div>
+            
+              
+                
+              
+              
+              
+                
+              
+          
+              
+          
+              <h5 class="fieldValue">Field Value</h5>
+              <table>
+                <tr>
+                  <td>
+                    <span class="fieldName pull-left codewrapper"><code class="lang-csharp hljs"><span class="xref">System.String</span> header</code></span>
+                    <p>  <p>The header</p>
+ </p>
+                  </td>
+                </tr>
+              </table>
+          
+              
+          
+              
+            
+            <h5 class="decalaration">Description</h5>
+            <table>
+              <tr>
+                <td>
+                  <p><div class="markdown level1 summary"><p>The header</p>
+</div></p>
+                  <p class="markdown level1 conceptual">
+                    <h6 id="CoreFramework_Attributes_HeaderAttribute_header_remarks">Remarks</h6>
+                    <p class="markdown level1 remarks"><div class="IMPORTANT"><h5>Important</h5><p>Is used by the editor to draw header in the <strong><em>Inspector</em></strong>.</p>
+</div>
+</p>
+                  
+                  
+                </td>
+              </tr>
+          
+            
+            
+          </table></div>
+            
+            
+          
+          
+          
+          <h4 id="CoreFramework_Attributes_HeaderAttribute_headerIsNull" data-uid="CoreFramework.Attributes.HeaderAttribute.headerIsNull"><a href="#collapsible-CoreFramework_Attributes_HeaderAttribute_headerIsNull" class="expander" data-toggle="collapse"> headerIsNull</a></h4>
+          
+          <div id="collapsible-CoreFramework_Attributes_HeaderAttribute_headerIsNull" class="collapse in">
+          
+            
+              
+            
+          
+            
+          
+            
+            
+            <div class="codewrapper"><pre><code class="lang-csharp hljs">public readonly bool headerIsNull</code></pre></div>
+            
+              
+                
+              
+              
+              
+                
+              
+          
+              
+          
+              <h5 class="fieldValue">Field Value</h5>
+              <table>
+                <tr>
+                  <td>
+                    <span class="fieldName pull-left codewrapper"><code class="lang-csharp hljs"><span class="xref">System.Boolean</span> headerIsNull</code></span>
+                    <p>  <p>The header is null</p>
+ </p>
+                  </td>
+                </tr>
+              </table>
+          
+              
+          
+              
+            
+            <h5 class="decalaration">Description</h5>
+            <table>
+              <tr>
+                <td>
+                  <p><div class="markdown level1 summary"><p>The header is null</p>
+</div></p>
+                  <p class="markdown level1 conceptual">
+                    <h6 id="CoreFramework_Attributes_HeaderAttribute_headerIsNull_remarks">Remarks</h6>
+                    <p class="markdown level1 remarks"><div class="IMPORTANT"><h5>Important</h5><p>Is used by the editor to draw header in the <strong><em>Inspector</em></strong>.</p>
+</div>
+</p>
+                  
+                  
+                </td>
+              </tr>
+          
+            
+            
+          </table></div>
+            
+            
+          
+          
+          
+          <h4 id="CoreFramework_Attributes_HeaderAttribute_iconPath" data-uid="CoreFramework.Attributes.HeaderAttribute.iconPath"><a href="#collapsible-CoreFramework_Attributes_HeaderAttribute_iconPath" class="expander" data-toggle="collapse"> iconPath</a></h4>
+          
+          <div id="collapsible-CoreFramework_Attributes_HeaderAttribute_iconPath" class="collapse in">
+          
+            
+              
+            
+          
+            
+          
+            
+            
+            <div class="codewrapper"><pre><code class="lang-csharp hljs">public readonly string iconPath</code></pre></div>
+            
+              
+                
+              
+              
+              
+                
+              
+          
+              
+          
+              <h5 class="fieldValue">Field Value</h5>
+              <table>
+                <tr>
+                  <td>
+                    <span class="fieldName pull-left codewrapper"><code class="lang-csharp hljs"><span class="xref">System.String</span> iconPath</code></span>
+                    <p>  <p>The path to the icon. Relative to the Assets folder.</p>
+ </p>
+                  </td>
+                </tr>
+              </table>
+          
+              
+          
+              
+            
+            <h5 class="decalaration">Description</h5>
+            <table>
+              <tr>
+                <td>
+                  <p><div class="markdown level1 summary"><p>The path to the icon. Relative to the Assets folder.</p>
+</div></p>
+                  <p class="markdown level1 conceptual">
+                    <h6 id="CoreFramework_Attributes_HeaderAttribute_iconPath_remarks">Remarks</h6>
+                    <p class="markdown level1 remarks"><div class="IMPORTANT"><h5>Important</h5><p>Is used by the editor to draw header in the <strong><em>Inspector</em></strong>.</p>
+</div>
+</p>
+                  
+                  
+                </td>
+              </tr>
+          
+            
+            
+          </table></div>
+            
+            
+          
+          
+          
+          <h4 id="CoreFramework_Attributes_HeaderAttribute_iconPathIsNull" data-uid="CoreFramework.Attributes.HeaderAttribute.iconPathIsNull"><a href="#collapsible-CoreFramework_Attributes_HeaderAttribute_iconPathIsNull" class="expander" data-toggle="collapse"> iconPathIsNull</a></h4>
+          
+          <div id="collapsible-CoreFramework_Attributes_HeaderAttribute_iconPathIsNull" class="collapse in">
+          
+            
+              
+            
+          
+            
+          
+            
+            
+            <div class="codewrapper"><pre><code class="lang-csharp hljs">public readonly bool iconPathIsNull</code></pre></div>
+            
+              
+                
+              
+              
+              
+                
+              
+          
+              
+          
+              <h5 class="fieldValue">Field Value</h5>
+              <table>
+                <tr>
+                  <td>
+                    <span class="fieldName pull-left codewrapper"><code class="lang-csharp hljs"><span class="xref">System.Boolean</span> iconPathIsNull</code></span>
+                    <p>  <p>The icon path is null</p>
+ </p>
+                  </td>
+                </tr>
+              </table>
+          
+              
+          
+              
+            
+            <h5 class="decalaration">Description</h5>
+            <table>
+              <tr>
+                <td>
+                  <p><div class="markdown level1 summary"><p>The icon path is null</p>
+</div></p>
+                  <p class="markdown level1 conceptual">
+                    <h6 id="CoreFramework_Attributes_HeaderAttribute_iconPathIsNull_remarks">Remarks</h6>
+                    <p class="markdown level1 remarks"><div class="IMPORTANT"><h5>Important</h5><p>Is used by the editor to draw header in the <strong><em>Inspector</em></strong>.</p>
+</div>
+</p>
+                  
+                  
+                </td>
+              </tr>
+          
+            
+            
+          </table></div>
+            
+            
+          
+          
+          
+          <h4 id="CoreFramework_Attributes_HeaderAttribute_textHeightIncrease" data-uid="CoreFramework.Attributes.HeaderAttribute.textHeightIncrease"><a href="#collapsible-CoreFramework_Attributes_HeaderAttribute_textHeightIncrease" class="expander" data-toggle="collapse"> textHeightIncrease</a></h4>
+          
+          <div id="collapsible-CoreFramework_Attributes_HeaderAttribute_textHeightIncrease" class="collapse in">
+          
+            
+              
+            
+          
+            
+          
+            
+            
+            <div class="codewrapper"><pre><code class="lang-csharp hljs">public readonly float textHeightIncrease</code></pre></div>
+            
+              
+                
+              
+              
+              
+                
+              
+          
+              
+          
+              <h5 class="fieldValue">Field Value</h5>
+              <table>
+                <tr>
+                  <td>
+                    <span class="fieldName pull-left codewrapper"><code class="lang-csharp hljs"><span class="xref">System.Single</span> textHeightIncrease</code></span>
+                    <p>  <p>The text height increase</p>
+ </p>
+                  </td>
+                </tr>
+              </table>
+          
+              
+          
+              
+            
+            <h5 class="decalaration">Description</h5>
+            <table>
+              <tr>
+                <td>
+                  <p><div class="markdown level1 summary"><p>The text height increase</p>
+</div></p>
+                  <p class="markdown level1 conceptual">
+                    <h6 id="CoreFramework_Attributes_HeaderAttribute_textHeightIncrease_remarks">Remarks</h6>
+                    <p class="markdown level1 remarks"><div class="IMPORTANT"><h5>Important</h5><p>Is used by the editor to draw header in the <strong><em>Inspector</em></strong>.</p>
+</div>
+</p>
+                  
+                  
+                </td>
+              </tr>
+          
+            
+            
+          </table></div>
+            
+            
+          
+          
+          
+          <h4 id="CoreFramework_Attributes_HeaderAttribute_useDefaultFontSize" data-uid="CoreFramework.Attributes.HeaderAttribute.useDefaultFontSize"><a href="#collapsible-CoreFramework_Attributes_HeaderAttribute_useDefaultFontSize" class="expander" data-toggle="collapse"> useDefaultFontSize</a></h4>
+          
+          <div id="collapsible-CoreFramework_Attributes_HeaderAttribute_useDefaultFontSize" class="collapse in">
+          
+            
+              
+            
+          
+            
+          
+            
+            
+            <div class="codewrapper"><pre><code class="lang-csharp hljs">public readonly bool useDefaultFontSize</code></pre></div>
+            
+              
+                
+              
+              
+              
+                
+              
+          
+              
+          
+              <h5 class="fieldValue">Field Value</h5>
+              <table>
+                <tr>
+                  <td>
+                    <span class="fieldName pull-left codewrapper"><code class="lang-csharp hljs"><span class="xref">System.Boolean</span> useDefaultFontSize</code></span>
+                    <p>  <p>The use default font size</p>
+ </p>
+                  </td>
+                </tr>
+              </table>
+          
+              
+          
+              
+            
+            <h5 class="decalaration">Description</h5>
+            <table>
+              <tr>
+                <td>
+                  <p><div class="markdown level1 summary"><p>The use default font size</p>
+</div></p>
+                  <p class="markdown level1 conceptual">
+                    <h6 id="CoreFramework_Attributes_HeaderAttribute_useDefaultFontSize_remarks">Remarks</h6>
+                    <p class="markdown level1 remarks"><div class="IMPORTANT"><h5>Important</h5><p>Is used by the editor to draw header in the <strong><em>Inspector</em></strong>.</p>
+</div>
+</p>
+                  
+                  
+                </td>
+              </tr>
+          
+            
+            
+          </table></div>
+  
+  
+  
+
+  
+  
+</article>
+          </div>
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution-panel mobile-hide">
+                <div class="nav">
+                  
+                  
+                </div>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

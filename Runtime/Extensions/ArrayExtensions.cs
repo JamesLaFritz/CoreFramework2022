@@ -2,7 +2,7 @@
 // 07-19-2022
 // James LaFritz
 
-using CoreFramework.Functional;
+using CoreFramework;
 
 /// <summary>
 /// Bunch of utility extension methods to the Array class.

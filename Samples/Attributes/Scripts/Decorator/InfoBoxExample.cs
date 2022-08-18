@@ -1,4 +1,4 @@
-using CoreFramework.Attributes.Decorators;
+using CoreFramework.Attributes;
 using UnityEngine;
 
 public class InfoBoxExample : MonoBehaviour

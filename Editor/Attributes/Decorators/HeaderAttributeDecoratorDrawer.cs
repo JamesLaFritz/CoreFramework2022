@@ -5,9 +5,9 @@
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.UIElements;
-using HeaderAttribute = CoreFramework.Attributes.Decorators.HeaderAttribute;
+using HeaderAttribute = CoreFramework.Attributes.HeaderAttribute;
 
-namespace CoreFrameworkEditor.Attributes.Decorators
+namespace CoreFrameworkEditor.Attributes
 {
     /// <summary>
     /// The header attribute decorator drawer class

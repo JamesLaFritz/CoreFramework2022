@@ -1,5 +1,4 @@
-using CoreFramework.Attributes.Properties;
-using CoreFramework.Attributes.Properties.DropDownSelection;
+using CoreFramework.Attributes;
 using UnityEngine;
 
 public class ShowIfMulti : MonoBehaviour

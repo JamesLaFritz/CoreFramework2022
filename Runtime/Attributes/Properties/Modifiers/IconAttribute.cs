@@ -4,22 +4,16 @@
 
 using System;
 
-namespace CoreFramework.Attributes.Properties.Modifiers
+namespace CoreFramework.Attributes
 {
     /// <summary>
     /// Use this attribute to make a field have an icon in the label.
-    /// <example>
-    /// <code>
-    /// [Icon("Assets/Core/Demos/Attributes/Icons/Heart4Full.png")]
-    /// public float Health;
-    /// </code>
-    /// </example>
     /// </summary>
     [AttributeUsage(AttributeTargets.Field | AttributeTargets.Property)]
     public class IconAttribute : Attribute
     {
         /// <summary>
-        /// <value>A project-relative path to a texture.</value>
+        /// A project-relative path to a texture.
         /// </summary>
         public string Path { get; }
 

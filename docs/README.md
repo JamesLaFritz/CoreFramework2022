@@ -47,7 +47,7 @@
 <!-- PROJECT LOGO -->
 <p style="text-align: center">
   <a href="https://github.com/JamesLaFritz/CoreFramework2022">
-    <img src="Images/Logo.png" alt="Logo" style="width:50%"/>
+    <img src="https://github.com/JamesLaFritz/CoreFramework2022/docs/Images/Logo.png" alt="Logo" style="width:50%"/>
   </a>
 </p>
 
@@ -55,7 +55,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="Images/ScreenShot.gif" alt="Product Name Screen Shot"/>
+<img src="https://github.com/JamesLaFritz/CoreFramework2022/docs/Images/ScreenShot.gif" alt="Product Name Screen Shot"/>
 
 [Documentation](https://jameslafritz.github.io/CoreFramework2022)
 

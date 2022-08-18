@@ -1,4 +1,4 @@
-using CoreFramework.Attributes.Properties;
+using CoreFramework.Attributes;
 using UnityEngine;
 
 public class ShowIfBoolExample : MonoBehaviour

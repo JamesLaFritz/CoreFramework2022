@@ -1,4 +1,4 @@
-using CoreFramework.Attributes.Properties.Modifiers;
+using CoreFramework.Attributes;
 
 public class IconExample : UnityEngine.MonoBehaviour
 {

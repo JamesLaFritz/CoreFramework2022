@@ -5,7 +5,7 @@
 using System;
 using UnityEngine;
 
-namespace CoreFramework.Attributes.Properties.DropDownSelection
+namespace CoreFramework.Attributes
 {
     /// <summary>
     /// Displays a dropdown list of available build settings Scenes (must be used with a 'string' or 'integer' typed field).

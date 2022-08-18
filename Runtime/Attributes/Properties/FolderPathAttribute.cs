@@ -4,7 +4,7 @@
 
 using UnityEngine;
 
-namespace CoreFramework.Attributes.Properties
+namespace CoreFramework.Attributes
 {
     /// <summary>
     /// Put this attribute above a string field

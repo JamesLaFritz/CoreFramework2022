@@ -1,15 +1,23 @@
-### Initial commit
-*  Hash: 8c10ff2 Date: 2022-07-18](https://github.com/JamesLaFritz/CoreFamework/commit/8c10ff2ca30ae6cbe591bafa3c6d35fcea718017)
-***
+---
+_tocRel: api/toc.html
+---
 
+***
 ### Initial Commit
-*  Hash: 4b9d941 Date: 2022-07-18](https://github.com/JamesLaFritz/CoreFamework/commit/4b9d94168e1fc4aef365031d84ac9f72da21c13c)
+* [4b9d94168e1fc4aef365031d84ac9f72da21c13c](https://github.com/JamesLaFritz/CoreFramework2022/commit/4b9d94168e1fc4aef365031d84ac9f72da21c13c)
 ***
-
 ### Documentation Configuration.
-*  Hash: 5354d7b Date: 2022-07-19](https://github.com/JamesLaFritz/CoreFamework/commit/5354d7b3cd70afd6be27ba4fa4d63ad0ea9d72e4)
+* [5354d7b3cd70afd6be27ba4fa4d63ad0ea9d72e4](https://github.com/JamesLaFritz/CoreFramework2022/commit/5354d7b3cd70afd6be27ba4fa4d63ad0ea9d72e4)
 ***
-
-### Merge branch 'dev'
-*  Hash: 5768fd2 Date: 2022-07-19](https://github.com/JamesLaFritz/CoreFamework/commit/5768fd27568c75d58744fd6613cde8975cd0156e)
+### Attributes, Animation Parameters, Destroy, Extensions, Functional, Interactable copied and working from Local Core Framework package Started Working on Documentation and Samples
+* [bfcae1e9af625ee3fe0714dd98a476bb605231a5](https://github.com/JamesLaFritz/CoreFramework2022/commit/bfcae1e9af625ee3fe0714dd98a476bb605231a5)
+***
+### Placed Animator Parameter Attribute with Animation related files
+* [4ca03819696cf097cc6ccb31e7949c5fefef4bb7](https://github.com/JamesLaFritz/CoreFramework2022/commit/4ca03819696cf097cc6ccb31e7949c5fefef4bb7)
+***
+### Fixed Issue with Icons not displaying if property had no other attributes
+* [1d8f30d97cb898662a14f6b366158611cf041c5e](https://github.com/JamesLaFritz/CoreFramework2022/commit/1d8f30d97cb898662a14f6b366158611cf041c5e)
+***
+### Completed Attribute Samples
+* [af6ce2627b13156fb05feb23bb85847e14b8fa52](https://github.com/JamesLaFritz/CoreFramework2022/commit/af6ce2627b13156fb05feb23bb85847e14b8fa52)
 ***

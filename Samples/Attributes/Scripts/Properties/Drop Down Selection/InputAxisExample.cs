@@ -1,5 +1,4 @@
-using CoreFramework.Attributes.Properties.DropDownSelection;
-using CoreFramework.Attributes.Properties.Modifiers;
+using CoreFramework.Attributes;
 using UnityEngine;
 
 public class InputAxisExample : MonoBehaviour

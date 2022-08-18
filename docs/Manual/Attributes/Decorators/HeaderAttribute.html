@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Header | Core Framework Documentation </title>
+    <title>| Core Framework Documentation  Header</title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Header | Core Framework Documentation ">
-    <meta name="generator" content="docfx 2.58.4.0">
+    <meta name="title" content="| Core Framework Documentation  Header">
+    <meta name="generator" content="docfx 2.59.3.0">
     
     <link rel="shortcut icon" href="../../../favicon.ico">
     <link rel="stylesheet" href="../../../styles/docfx.vendor.css">
@@ -19,9 +19,8 @@
     <meta property="docfx:tocrel" content="../../toc.html">
     
     <meta property="docfx:rel" content="../../../">
-    
-  </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <meta property="docfx:newtab" content="true">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -36,7 +35,7 @@
               </button>
               
               <a class="navbar-brand" href="../../../index.html">
-                <img id="logo" class="svg" src="../../../logo.svg" alt="">
+                <img id="logo" class="svg" src="../../../logo.svg" alt="Core Framework">
               </a>
             </div>
             <div class="collapse navbar-collapse" id="navbar">
@@ -48,6 +47,14 @@
             </div>
           </div>
         </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
       </header>
       <div class="container body-content">
         
@@ -70,23 +77,18 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-
-<hr>
 <h1 id="header">Header</h1>
-<hr>
-<p>Draws a Header in the Inspector that allows using custom text, an icon, a color and a textheight increase.</p>
-<div class="TIP">
-<h5>Tip</h5>
-<p>To Draw a header that is just a seperator use <strong>empty strings<code>&quot;&quot;</code></strong> for the <em>Text</em> and <em>Icon</em></p>
+
+<p>Draws a Header in the Inspector that allows using custom text, an icon, a color and a text height increase.</p>
+<div class="TIP"><h5>Tip</h5><p>To Draw a header that is just a separator use <strong>empty strings<code>&quot;&quot;</code></strong> for the <em>Text</em> and <em>Icon</em></p>
 </div>
+<p><img src="../../../Images/Attributes/Header.png" alt="Header Example"> <img src="../../../Images/Attributes/Header5.png" alt="Header Example 5"></p>
 <h2 id="headerstring-text-string-iconpath-float-colorelement-float-textheightincrease--15f">Header(string text, string iconPath, float[] colorElement, float textHeightIncrease = 1.5f)</h2>
-<p>Draws a Header in the Inspector that allows using custom text, an icon, a color and a textheight increase. The text Height increase defaults to <em><code>1.5f</code></em>.</p>
-<div class="TIP">
-<h5>Tip</h5>
-<p>A <em><code>Null</code></em> <em>Color</em> will use <strong><em>Grey</em></strong> for the seperator and <strong><em>White</em></strong> for the text.</p>
+<p>Draws a Header in the Inspector that allows using custom text, an icon, a color and a text height increase. The text Height increase defaults to <em><code>1.5f</code></em>.</p>
+<div class="TIP"><h5>Tip</h5><p>A <em><code>Null</code></em> <em>Color</em> will use <strong><em>Grey</em></strong> for the separator and <strong><em>White</em></strong> for the text.</p>
 </div>
 <pre><code class="lang-csharp">using UnityEngine;
-using Header = CoreFramework.Attributes.Decorators.HeaderAttribute;
+using Header = CoreFramework.Attributes.HeaderAttribute;
 
 public class AttributesExample : MonoBehaviour
 {
@@ -96,50 +98,39 @@ public class AttributesExample : MonoBehaviour
     [Header(&quot;&quot;, &quot;&quot;, new[] {0f, 0f, 0f, 1f})] public float health3 = 100;
     [Header(&quot;Health&quot;, &quot;Assets/PathToYourIcon/NameOfYourIconWithExtension&quot;, new[] {0.5f, 0.5f, 0.5f}, 2f)] public float health4 = 100;
 }
-</code></pre>
-<p><img src="../../../Images/ScreenShotNeeded.png" alt="ToDo: Get a screen shot"></p>
+</code></pre><p><img src="../../../Images/Attributes/Header1.png" alt="Header Example 1"></p>
 <h2 id="headerstring-text-string-iconpath-float-textheightincrease--15f">Header(string text, string iconPath, float textHeightIncrease = 1.5f)</h2>
 <p>Draws a Header in the Inspector that allows using custom text, an icon and a textheight increase. The text Height increase defaults to <em><code>1.5f</code></em>.
-Will use <strong><em>Grey</em></strong> for the seperator and <strong><em>White</em></strong> for the text.</p>
+Will use <strong><em>Grey</em></strong> for the separator and <strong><em>White</em></strong> for the text.</p>
 <pre><code class="lang-csharp">using UnityEngine;
-using Header = CoreFramework.Attributes.Decorators.HeaderAttribute;
+using Header = CoreFramework.Attributes.HeaderAttribute;
 
 public class AttributesExample : MonoBehaviour
 {
     [Header(&quot;Health&quot;, &quot;Assets/PathToYourIcon/NameOfYourIconWithExtension&quot;)] public float health5 = 100;
     [Header(&quot;Health&quot;, &quot;Assets/PathToYourIcon/NameOfYourIconWithExtension&quot;, 2f)] public float health6 = 100;
 }
-</code></pre>
-<p><img src="../../../Images/ScreenShotNeeded.png" alt="ToDo: Get a screen shot"></p>
+</code></pre><p><img src="../../../Images/Attributes/Header2.png" alt="Header Example 2"></p>
 <h2 id="headerstring-s-bool-textonly--true">Header(string s, bool textOnly = true)</h2>
-<p>Draws a Header in the Inspector that allows using custom text, or an icon with a textheight increase. The text Height increase defaults to <em><code>1.5f</code></em>.
-Will use <strong><em>Grey</em></strong> for the seperator and <strong><em>White</em></strong> for the text.</p>
-<div class="TIP">
-<h5>Tip</h5>
-<p>To Draw a seperator use an <strong>empty string<code>&quot;&quot;</code></strong></p>
+<p>Draws a Header in the Inspector that allows using custom text, or an icon with a text height increase. The text Height increase defaults to <em><code>1.5f</code></em>.
+Will use <strong><em>Grey</em></strong> for the separator and <strong><em>White</em></strong> for the text.</p>
+<div class="TIP"><h5>Tip</h5><p>To Draw a separator use an <strong>empty string<code>&quot;&quot;</code></strong></p>
 </div>
-<div class="TIP">
-<h5>Tip</h5>
-<p>To Draw a header that is just an <em>Icon</em> pass <em><code>false</code></em></p>
+<div class="TIP"><h5>Tip</h5><p>To Draw a header that is just an <em>Icon</em> pass <em><code>false</code></em></p>
 </div>
 <pre><code class="lang-csharp">using UnityEngine;
-using Header = CoreFramework.Attributes.Decorators.HeaderAttribute;
+using Header = CoreFramework.Attributes.HeaderAttribute;
 
 public class AttributesExample : MonoBehaviour
 {
     [Header(&quot;Assets/PathToYourIcon/NameOfYourIconWithExtension&quot;, false)] public float health7 = 100;
     [Header(&quot;Health&quot;)] public float health8 = 100;
 }
-</code></pre>
-<p><img src="../../../Images/ScreenShotNeeded.png" alt="ToDo: Get a screen shot"></p>
+</code></pre><p><img src="../../../Images/Attributes/Header3.png" alt="Header Example 3"></p>
 <h2 id="headerstring-text-string-iconpath-presetcolor-presetcolor-float-textheightincrease--15f">Header(string text, string iconPath, PresetColor presetColor, float textHeightIncrease = 1.5f)</h2>
 <p>Draws a Header in the Inspector that allows using custom text, an icon, one of the preset colors and a textheight increase. The text Height increase defaults to <em><code>1.5f</code></em>.</p>
-<div class="TIP">
-<h5>Tip</h5>
-<p>A <em><code>Null</code></em> <em>Color</em> will use <strong><em>Grey</em></strong> for the seperator and <strong><em>White</em></strong> for the text.</p>
-</div>
-<blockquote>
-<p>The Colors avaliable are</p>
+<div class="TIP"><h5>Tip</h5><p>A <em><code>Null</code></em> <em>Color</em> will use <strong><em>Grey</em></strong> for the separator and <strong><em>White</em></strong> for the text.</p>
+<p>The Colors available are</p>
 <ul>
 <li>Black</li>
 <li>Blue</li>
@@ -151,9 +142,9 @@ public class AttributesExample : MonoBehaviour
 <li>Red</li>
 <li>Yellow</li>
 </ul>
-</blockquote>
+</div>
 <pre><code class="lang-csharp">using UnityEngine;
-using Header = CoreFramework.Attributes.Decorators.HeaderAttribute;
+using Header = CoreFramework.Attributes.HeaderAttribute;
 
 public class AttributesExample : MonoBehaviour
 {
@@ -162,21 +153,39 @@ public class AttributesExample : MonoBehaviour
     [Header(&quot;Health&quot;, &quot;Assets/PathToYourIcon/NameOfYourIconWithExtension&quot;, HeaderAttribute.PresetColor.Cyan)] public float health11 = 100;
     [Header(&quot;&quot;, &quot;Assets/PathToYourIcon/NameOfYourIconWithExtension&quot;, HeaderAttribute.PresetColor.Blue)] public float health12 = 100;
 }
+</code></pre><p><img src="../../../Images/Attributes/Header4.png" alt="Header Example 4"></p>
+<h2 id="can-be-used-in-connection-with-any-other-attribute-including-unitys-built-in-attributes">Can Be Used In Connection with any other Attribute including Unity&#39;s Built-In Attributes</h2>
+<p>Order does not mater. You can also have Multiple Headers.</p>
+<pre><code class="lang-csharp">using UnityEngine;
+using Header = CoreFramework.Attributes.HeaderAttribute;
 
-</code></pre>
-<p><img src="../../../Images/ScreenShotNeeded.png" alt="ToDo: Get a screen shot"></p>
+public class AttributesExample : MonoBehaviour
+{
+    [Header(&quot;&quot;, &quot;&quot;, HeaderAttribute.PresetColor.Black)]
+    [Header(&quot;Health Range&quot;)]
+    [Range(0, 500)]
+    public float healthRange = 100;
+
+    [Range(0, 100)] [Header(&quot;Health Range&quot;)]
+    public float healthRange1 = 100;
+}
+</code></pre><p><img src="../../../Images/Attributes/Header5.png" alt="Header Example 5"></p>
 </article>
           </div>
-          
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
+              <div class="contribution-panel mobile-hide">
+                <div class="nav">
+                  
+                  
+                </div>
+              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
                 <h5>In This Article</h5>
                 <div></div>
               </nav>
             </div>
-          </div>
-        </div>
+          </div>        </div>
       </div>
       
       <footer>

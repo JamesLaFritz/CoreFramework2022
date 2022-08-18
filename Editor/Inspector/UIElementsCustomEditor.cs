@@ -3,16 +3,15 @@
 // James LaFritz
 
 using System.Collections.Generic;
-using CoreFramework.Attributes.Decorators;
-using CoreFramework.Attributes.Properties;
-using CoreFramework.Attributes.Properties.Modifiers;
-using CoreFramework.Runtime;
-using CoreFrameworkEditor.Attributes.Decorators;
-using CoreFrameworkEditor.Inspector.InspectorButton;
+using CoreFramework;
+using CoreFramework.Attributes;
+using CoreFrameworkEditor.Attributes;
 using UnityEditor;
 using UnityEditor.UIElements;
+using UnityEngine;
 using UnityEngine.UIElements;
-using HeaderAttribute = CoreFramework.Attributes.Decorators.HeaderAttribute;
+using HeaderAttribute = CoreFramework.Attributes.HeaderAttribute;
+using IconAttribute = CoreFramework.Attributes.IconAttribute;
 using Toggle = UnityEngine.UIElements.Toggle;
 
 namespace CoreFrameworkEditor.Inspector
@@ -175,7 +174,7 @@ namespace CoreFrameworkEditor.Inspector
 
                 IconAttribute iconAttribute = property.GetAttribute<IconAttribute>();
                 if (iconAttribute != null)
-                    propertyField.Add(PropertyDrawerHelper.CreateIconGUI(iconAttribute.Path));
+                    propertyField.Add(CreateIconGUI(iconAttribute.Path));
 
                 propertyField.Add(new PropertyField(property, property.displayName)
                                       { name = property.name, style = { minWidth = 300 } });
@@ -206,6 +205,22 @@ namespace CoreFrameworkEditor.Inspector
             serializedObject.ApplyModifiedProperties();
 
             root.Add(_helper.CreateButtons());
+        }
+
+        private static VisualElement CreateIconGUI(string iconPath)
+        {
+            Texture texture = EditorGUIUtility.FindTexture(iconPath);
+            Image icon = new Image
+            {
+                image = texture,
+                scaleMode = ScaleMode.ScaleToFit,
+                style =
+                {
+                    width = 16,
+                    height = 16
+                }
+            };
+            return icon;
         }
     }
 }

@@ -6,16 +6,16 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
-using CoreFramework.Attributes.Properties.DropDownSelection;
+using CoreFramework.Attributes;
 using UnityEditor;
 using UnityEditor.UIElements;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace CoreFrameworkEditor.Attributes.Properties.DropDownSelection
+namespace CoreFrameworkEditor.Attributes
 {
     /// <summary>
-    /// A custom property drawer for the  <see cref="SceneAttribute"/>.
+    /// A custom property drawer for the  <see cref="CoreFramework.Attributes.SceneAttribute"/>.
     /// <seealso href="https://docs.unity3d.com/ScriptReference/PropertyDrawer.html"/>
     /// </summary>
     [CustomPropertyDrawer(typeof(SceneAttribute))]

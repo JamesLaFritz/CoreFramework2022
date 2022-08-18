@@ -2,12 +2,12 @@
 // 07-20-2022
 // James LaFritz
 
-using CoreFramework.Attributes.Decorators;
+using CoreFramework.Attributes;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace CoreFrameworkEditor.Attributes.Decorators
+namespace CoreFrameworkEditor.Attributes
 {
     /// <summary>
     /// The info box decorator drawer class

@@ -11,11 +11,10 @@
 
 using System;
 using System.Reflection;
-using CoreFramework.Functional;
+using CoreFramework;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.UIElements;
-using IconAttribute = CoreFramework.Attributes.Properties.Modifiers.IconAttribute;
 
 namespace CoreFrameworkEditor
 {
@@ -59,22 +58,6 @@ namespace CoreFrameworkEditor
             if (prop != null) return prop;
             errorMessage = $"The Field name {propertyName} cannot be found in {propPath}";
             return null;
-        }
-
-        public static VisualElement CreateIconGUI(string iconPath)
-        {
-            Texture texture = EditorGUIUtility.FindTexture(iconPath);
-            Image icon = new Image
-            {
-                image = texture,
-                scaleMode = ScaleMode.ScaleToFit,
-                style =
-                {
-                    width = 16,
-                    height = 16
-                }
-            };
-            return icon;
         }
 
         public static bool ShouldShow(bool showIfProp, bool show)

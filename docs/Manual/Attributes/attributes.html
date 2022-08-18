@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Attributes | Core Framework Documentation </title>
+    <title>| Core Framework Documentation  Attributes</title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Attributes | Core Framework Documentation ">
-    <meta name="generator" content="docfx 2.58.4.0">
+    <meta name="title" content="| Core Framework Documentation  Attributes">
+    <meta name="generator" content="docfx 2.59.3.0">
     
     <link rel="shortcut icon" href="../../favicon.ico">
     <link rel="stylesheet" href="../../styles/docfx.vendor.css">
@@ -19,9 +19,8 @@
     <meta property="docfx:tocrel" content="../toc.html">
     
     <meta property="docfx:rel" content="../../">
-    
-  </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <meta property="docfx:newtab" content="true">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -36,7 +35,7 @@
               </button>
               
               <a class="navbar-brand" href="../../index.html">
-                <img id="logo" class="svg" src="../../logo.svg" alt="">
+                <img id="logo" class="svg" src="../../logo.svg" alt="Core Framework">
               </a>
             </div>
             <div class="collapse navbar-collapse" id="navbar">
@@ -48,6 +47,14 @@
             </div>
           </div>
         </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
       </header>
       <div class="container body-content">
         
@@ -70,59 +77,127 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-
-<hr>
 <h1 id="attributes">Attributes</h1>
-<hr>
+
 <h2 id="alerts">Alerts</h2>
-<div class="NOTE">
-<h5>Note</h5>
-<p>some info</p>
+<div class="NOTE"><h5>Note</h5><p>some info</p>
 </div>
-<div class="TIP">
-<h5>Tip</h5>
-<p>This is some Tip</p>
+<div class="TIP"><h5>Tip</h5><p>This is some Tip</p>
 </div>
-<div class="WARNING">
-<h5>Warning</h5>
-<p>This is a warning</p>
+<div class="WARNING"><h5>Warning</h5><p>This is a warning</p>
 </div>
-<div class="CAUTION">
-<h5>Caution</h5>
-<p>This is a Catuion</p>
+<div class="CAUTION"><h5>Caution</h5><p>This is a Catuion</p>
 </div>
-<div class="IMPORTANT">
-<h5>Important</h5>
-<p>This is something Important</p>
+<div class="IMPORTANT"><h5>Important</h5><p>This is something Important</p>
 </div>
 <h2 id="images">Images</h2>
 <p>Put Images in the Images Directory To use them here</p>
 <p><img src="../../Images/repository-open-graph-template.png" alt="Image Description"></p>
 <h2 id="code">Code</h2>
-<h3 id="normal">Normal</h3>
-<pre><code class="lang-csharp">private void Update()
+<h3 id="inline">Inline</h3>
+<p>This <code>Code</code> is Inline</p>
+<h3 id="code-block">Code Block</h3>
+<pre><code class="lang-csharp">// ButtonAttribute.cs
+// 07-19-2022
+// James LaFritz
+
+namespace CoreFramework.Attributes
+{
+    /// &lt;summary&gt;
+    /// Add this attribute above one of your MonoBehaviour method and it will draw
+    /// a button in the inspector that will run the method when clicked.
+    /// &lt;/summary&gt;
+    /// &lt;remarks&gt;
+    /// &gt; [!WARNING]
+    /// &gt; The method must not have any parameters and can not be static.
+    /// &gt; [!TIP]
+    /// &gt; Use **`ButtonAttribute.Mode.Play`** if you want the _Button_ to only work in _Play_ mode.
+    /// &gt; [!TIP]
+    /// &gt; Use **`ButtonAttribute.Mode.Editor`** if you want the _Button_ to only work in _Edit_ mode.
+    /// &lt;/remarks&gt;
+    /// &lt;example&gt;
+    /// &lt;code class=&quot;lang-cs&quot;&gt;
+    /// [Button]
+    /// public void MyMethod()
+    /// {
+    ///     Debug.Log($&quot;{name}: MyMethod()&quot;);
+    /// }
+    /// &lt;/code&gt;
+    /// &lt;/example&gt;
+    [System.AttributeUsage(System.AttributeTargets.Method)]
+    public class ButtonAttribute : System.Attribute
+    {
+        /// &lt;summary&gt;
+        /// Determine which Unity Editor mode a button should work in.
+        /// &lt;/summary&gt;
+        public enum Mode
+        {
+            /// &lt;summary&gt;
+            /// The button will only work in Editor mode (Unity Editor is not in Play Mode).
+            /// &lt;/summary&gt;
+            Editor,
+
+            /// &lt;summary&gt;
+            /// The button will only work when Unity is in Play mode.
+            /// &lt;/summary&gt;
+            Play,
+
+            /// &lt;summary&gt;
+            /// The button will work in both Editor and Play Mode
+            /// &lt;/summary&gt;
+            Both
+        }
+
+        /// &lt;summary&gt;
+        /// Which mode the button is clickable in the **_Inspector_** (Play Mode, Editor Mode, or Both).
+        /// &lt;/summary&gt;
+        /// &lt;value&gt;Determine which Unity Editor mode a button should work in..&lt;/value&gt;
+        public readonly Mode mode;
+
+        public string description { get; set; }
+
+        /// &lt;summary&gt;
+        /// Initializes a new instance of the ButtonAttribute
+        /// &lt;/summary&gt;
+        /// &lt;param name=&quot;mode&quot;&gt;The Unity Editor &lt;see cref=&quot;Mode&quot;/&gt; that the button should be clickable.&lt;/param&gt;
+        public ButtonAttribute(Mode mode = Mode.Both)
+        {
+            Debug.Assert(mode != Mode.Both, &quot;ButtonAttribute.Mode.Both is not a valid mode.&quot;);
+            this.mode = mode;
+        }
+    }
+}
+</code></pre><h3 id="block-quote">Block Quote</h3>
+<blockquote><pre><code class="lang-csharp">private void Update()
 {
 }
-</code></pre>
-<h3 id="block-quote">Block Quote</h3>
-<blockquote>
-<pre><code class="lang-csharp">private void Update()
-{
-}
-</code></pre>
+</code></pre></blockquote>
+<h2 id="quote">Quote</h2>
+<blockquote><p>This is a Quote
+How Do we like it</p>
 </blockquote>
+<h1 id="h1">H1</h1>
+<h2 id="h2">H2</h2>
+<h3 id="h3">H3</h3>
+<h4 id="h4">H4</h4>
+<h5 id="h5">H5</h5>
+<h6 id="h6">H6</h6>
 </article>
           </div>
-          
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
+              <div class="contribution-panel mobile-hide">
+                <div class="nav">
+                  
+                  
+                </div>
+              </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
                 <h5>In This Article</h5>
                 <div></div>
               </nav>
             </div>
-          </div>
-        </div>
+          </div>        </div>
       </div>
       
       <footer>

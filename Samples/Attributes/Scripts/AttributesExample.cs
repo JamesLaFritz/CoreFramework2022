@@ -1,12 +1,8 @@
 using CoreFramework.Animation;
 using CoreFramework.Attributes;
-using CoreFramework.Attributes.Decorators;
-using CoreFramework.Attributes.Properties;
-using CoreFramework.Attributes.Properties.DropDownSelection;
-using CoreFramework.Attributes.Properties.Modifiers;
 using UnityEngine;
-using Header = CoreFramework.Attributes.Decorators.HeaderAttribute;
-using Icon = CoreFramework.Attributes.Properties.Modifiers.IconAttribute;
+using Header = CoreFramework.Attributes.HeaderAttribute;
+using Icon = CoreFramework.Attributes.IconAttribute;
 
 [RequireComponent(typeof(Animator))]
 public class AttributesExample : MonoBehaviour

@@ -4,7 +4,7 @@
 
 using UnityEngine;
 
-namespace CoreFramework.Attributes.Properties
+namespace CoreFramework.Attributes
 {
     /// <summary>
     /// Show/Hide a field based on a enum value in the same script.
@@ -34,24 +34,6 @@ namespace CoreFramework.Attributes.Properties
         /// <param name="enumName">The name of the serialized enum property to use.</param>
         /// <param name="enumIndex">The index of the enum that controls the showing of this property.</param>
         /// <param name="show"> Show if the enum value matches or not. Defaults to true</param>
-        /// <example>
-        /// <code>
-        /// public enum SomeEnum
-        /// {
-        ///     one,
-        ///     two,
-        ///     three
-        /// }
-        /// 
-        /// public SomeEnum someEnum = SomeEnum.one;
-        /// 
-        /// [ShowIfEnumValue("someEnum", (int) SomeEnum.one)]
-        /// public int showIfSomeEnumOne;
-        /// 
-        /// [ShowIfEnumValue("someEnum", (int) SomeEnum.one, false)]
-        /// public int showIfSomeEnumNotOne;
-        /// </code>
-        /// </example>
         public ShowIfEnumValueAttribute(string enumName, int enumIndex, bool show = true)
         {
             this.enumName = enumName;

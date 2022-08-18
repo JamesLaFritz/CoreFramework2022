@@ -2,16 +2,16 @@
 // 07-20-2022
 // James LaFritz
 
-using CoreFramework.Attributes.Properties.DropDownSelection;
+using CoreFramework.Attributes;
 using UnityEditor;
 using UnityEditor.UIElements;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace CoreFrameworkEditor.Attributes.Properties.DropDownSelection
+namespace CoreFrameworkEditor.Attributes
 {
     /// <summary>
-    /// A custom property drawer for the <see cref="TagAttribute"/>.
+    /// A custom property drawer for the <see cref="CoreFramework.Attributes.TagAttribute"/>.
     /// <seealso href="https://docs.unity3d.com/ScriptReference/PropertyDrawer.html"/>
     /// </summary>
     [CustomPropertyDrawer(typeof(TagAttribute))]

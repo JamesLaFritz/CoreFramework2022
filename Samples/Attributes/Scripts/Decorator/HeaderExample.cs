@@ -1,5 +1,5 @@
 using UnityEngine;
-using HeaderAttribute = CoreFramework.Attributes.Decorators.HeaderAttribute;
+using HeaderAttribute = CoreFramework.Attributes.HeaderAttribute;
 
 public class HeaderExample : MonoBehaviour
 {

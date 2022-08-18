@@ -4,7 +4,7 @@
 
 using UnityEngine;
 
-namespace CoreFramework.Attributes.Decorators
+namespace CoreFramework.Attributes
 {
     /// <summary>
     /// The info box type enum
@@ -34,31 +34,17 @@ namespace CoreFramework.Attributes.Decorators
 
     /// <summary>
     /// Draws an Info Box in the Inspector.
-    /// <example>
-    /// <code>
-    /// [InfoBox("Info String To Display")] public float someFloat;
-    /// 
-    /// [InfoBox("Some Float with no icon in box", InfoBoxType.None)]
-    /// public float someOtherFloat;
-    /// 
-    /// [InfoBox("Some Bool with a warning.", InfoBoxType.Warning)]
-    /// public bool someBool;
-    /// 
-    /// [InfoBox("Some String with an error message.", InfoBoxType.Error)]
-    /// public string someString;
-    /// </code>
-    /// </example>
     /// </summary>
     [System.AttributeUsage(System.AttributeTargets.Field, AllowMultiple = true)]
     public class InfoBoxAttribute : PropertyAttribute
     {
         /// <summary>
-        /// The text
+        /// The text to display in the info box.
         /// </summary>
         public readonly string text;
 
         /// <summary>
-        /// The info box type
+        /// The info box type.
         /// </summary>
         public readonly InfoBoxType infoBoxType;
 

@@ -166,10 +166,10 @@ namespace CoreFrameworkEditor.Inspector
         {
             ButtonAttribute attribute = _buttonAttributes[method];
             if (attribute == null) return false;
-            bool disabled = attribute.mode switch
+            bool disabled = attribute.Mode switch
             {
-                ButtonAttribute.Mode.Editor => EditorApplication.isPlaying,
-                ButtonAttribute.Mode.Play => !EditorApplication.isPlaying,
+                ButtonAttribute.ButtonMode.Editor => EditorApplication.isPlaying,
+                ButtonAttribute.ButtonMode.Play => !EditorApplication.isPlaying,
                 _ => false
             };
 

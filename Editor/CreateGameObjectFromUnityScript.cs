@@ -67,7 +67,7 @@ namespace CoreFrameworkEditor
                             DragAndDrop.objectReferences[0] is MonoScript)
                         {
                             // Check if the dragged object is a script
-                            System.Type type = (DragAndDrop.objectReferences[0] as MonoScript).GetClass();
+                            System.Type type = (DragAndDrop.objectReferences[0] as MonoScript)!.GetClass();
                             // Check if the script is a MonoBehaviour
                             if (type.IsSubclassOf(typeof(MonoBehaviour)))
                             {

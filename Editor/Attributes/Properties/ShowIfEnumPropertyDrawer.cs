@@ -29,18 +29,20 @@ namespace CoreFrameworkEditor.Attributes
                                    GUIContent label)
         {
             ShowIfEnumValueAttribute attr = attribute as ShowIfEnumValueAttribute;
+            if (attr == null) return;
             SerializedProperty showIfProp =
-                PropertyDrawerHelper.FindProperty(property, attr.enumName, out _errorMessage);
+                PropertyDrawerHelper.FindProperty(property, attr.EnumName, out _errorMessage);
             if (showIfProp == null)
             {
                 EditorGUI.LabelField(position, label.text, _errorMessage);
+                return;
             }
 
             int indent = EditorGUI.indentLevel;
             EditorGUI.indentLevel = 0;
             using (new EditorGUI.PropertyScope(position, label, property))
             {
-                if (PropertyDrawerHelper.ShouldShow(showIfProp.enumValueIndex == attr.enumIndex, attr.show))
+                if (PropertyDrawerHelper.ShouldShow(showIfProp.enumValueIndex == attr.EnumIndex, attr.Show))
                 {
                     EditorGUI.PropertyField(position, property, label, true);
                 }
@@ -53,8 +55,9 @@ namespace CoreFrameworkEditor.Attributes
         public override VisualElement CreatePropertyGUI(SerializedProperty property)
         {
             ShowIfEnumValueAttribute attr = attribute as ShowIfEnumValueAttribute;
+            if (attr == null) return base.CreatePropertyGUI(property);
             SerializedProperty showIfProp =
-                PropertyDrawerHelper.FindProperty(property, attr.enumName, out _errorMessage);
+                PropertyDrawerHelper.FindProperty(property, attr.EnumName, out _errorMessage);
             VisualElement root = new VisualElement();
 
             if (showIfProp == null)
@@ -70,7 +73,7 @@ namespace CoreFrameworkEditor.Attributes
                 return propertyLabel;
             }
 
-            if (PropertyDrawerHelper.ShouldShow(showIfProp.enumValueIndex == attr.enumIndex, attr.show))
+            if (PropertyDrawerHelper.ShouldShow(showIfProp.enumValueIndex == attr.EnumIndex, attr.Show))
                 root.Add(new PropertyField(property, property.displayName));
 
             return root;
@@ -80,10 +83,11 @@ namespace CoreFrameworkEditor.Attributes
         public override float GetPropertyHeight(SerializedProperty property, GUIContent label)
         {
             ShowIfEnumValueAttribute attr = attribute as ShowIfEnumValueAttribute;
+            if (attr == null) return base.GetPropertyHeight(property, label);
             SerializedProperty showIfProp =
-                PropertyDrawerHelper.FindProperty(property, attr.enumName, out _errorMessage);
+                PropertyDrawerHelper.FindProperty(property, attr.EnumName, out _errorMessage);
             if (showIfProp == null) return base.GetPropertyHeight(property, label);
-            if (PropertyDrawerHelper.ShouldShow(showIfProp.enumValueIndex == attr.enumIndex, attr.show))
+            if (PropertyDrawerHelper.ShouldShow(showIfProp.enumValueIndex == attr.EnumIndex, attr.Show))
                 return EditorGUI.GetPropertyHeight(property, label, true);
             return -EditorGUIUtility.standardVerticalSpacing;
         }

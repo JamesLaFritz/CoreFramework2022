@@ -12,7 +12,6 @@ using UnityEngine;
 using UnityEngine.UIElements;
 using HeaderAttribute = CoreFramework.Attributes.HeaderAttribute;
 using IconAttribute = CoreFramework.Attributes.IconAttribute;
-using Toggle = UnityEngine.UIElements.Toggle;
 
 namespace CoreFrameworkEditor.Inspector
 {

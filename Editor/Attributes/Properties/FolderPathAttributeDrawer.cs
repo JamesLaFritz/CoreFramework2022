@@ -21,16 +21,16 @@ namespace CoreFrameworkEditor.Attributes
 
         private const float ButtonWidth = 20f;
         private const float Padding = 4f;
-        private readonly GUIStyle m_folderButtonStyle;
-        private readonly int m_assetsStringLength;
+        private readonly GUIStyle _folderButtonStyle;
+        private readonly int _assetsStringLength;
 
         public FolderPathAttributeDrawer()
         {
-            m_folderButtonStyle = new GUIStyle(EditorStyles.iconButton)
+            _folderButtonStyle = new GUIStyle(EditorStyles.iconButton)
             {
                 fixedWidth = ButtonWidth
             };
-            m_assetsStringLength = EditorGUIUtility.TrTextContent("Assets").text.Length;
+            _assetsStringLength = EditorGUIUtility.TrTextContent("Assets").text.Length;
         }
 
         #region Overrides of PropertyDrawer
@@ -53,7 +53,7 @@ namespace CoreFrameworkEditor.Attributes
             EditorGUI.PropertyField(position, property, label);
             position.x += position.width + Padding;
             position.width = ButtonWidth;
-            if (!GUI.Button(position, EditorGUIUtility.FindTexture("Project"), m_folderButtonStyle)) return;
+            if (!GUI.Button(position, EditorGUIUtility.FindTexture("Project"), _folderButtonStyle)) return;
             OnFolderButtonClick(property, path, attr);
             property.serializedObject.ApplyModifiedProperties();
         }
@@ -123,7 +123,7 @@ namespace CoreFrameworkEditor.Attributes
         private string OnFolderButtonClick(SerializedProperty property, string path, FolderPathAttribute attr)
         {
             path = EditorUtility.OpenFolderPanel("Select folder",
-                                                 (attr.pathRelativeToProject)
+                                                 (attr.PathRelativeToProject)
                                                      ? ToAbsolutePath(path)
                                                      : path, string.Empty);
             if (string.IsNullOrEmpty(path))
@@ -131,7 +131,7 @@ namespace CoreFrameworkEditor.Attributes
                 return property.stringValue;
             }
 
-            if (!attr.pathRelativeToProject)
+            if (!attr.PathRelativeToProject)
             {
                 property.stringValue = path;
                 //Debug.Log($"{property.displayName} set to {path}");
@@ -146,12 +146,12 @@ namespace CoreFrameworkEditor.Attributes
 
         private string ToAbsolutePath(string relativePath)
         {
-            return Application.dataPath.Substring(0, Application.dataPath.Length - m_assetsStringLength) + relativePath;
+            return Application.dataPath.Substring(0, Application.dataPath.Length - _assetsStringLength) + relativePath;
         }
 
         private string ToRelativePath(string absolutePath)
         {
-            return absolutePath.Substring(Application.dataPath.Length - m_assetsStringLength);
+            return absolutePath.Substring(Application.dataPath.Length - _assetsStringLength);
         }
     }
 }

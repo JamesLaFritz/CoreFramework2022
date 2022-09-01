@@ -16,7 +16,6 @@ namespace CoreFrameworkEditor.Attributes
     [CustomPropertyDrawer(typeof(InfoBoxAttribute))]
     public class InfoBoxDecoratorDrawer : DecoratorDrawer
     {
-        private const int KLineHeight = 13;
         private const string KInfoClass = "unity-info-box-info";
         private const string KWarnClass = "unity-info-box-warn";
         private const string KErrorClass = "unity-info-box-error";
@@ -42,7 +41,7 @@ namespace CoreFrameworkEditor.Attributes
                 position.width - indentLength,
                 GetHeight(infoBoxAttribute));
 
-            DrawInfoBox(infoBoxRect, infoBoxAttribute.text, infoBoxAttribute.infoBoxType);
+            DrawInfoBox(infoBoxRect, infoBoxAttribute.Text, infoBoxAttribute.InfoBoxType);
         }
 
         #endregion
@@ -51,7 +50,7 @@ namespace CoreFrameworkEditor.Attributes
         {
             float minHeight = EditorGUIUtility.singleLineHeight * 2.0f;
             float desiredHeight =
-                GUI.skin.box.CalcHeight(new GUIContent(attribute.text), EditorGUIUtility.currentViewWidth);
+                GUI.skin.box.CalcHeight(new GUIContent(attribute.Text), EditorGUIUtility.currentViewWidth);
             float height = Mathf.Max(minHeight, desiredHeight);
 
             return height;
@@ -90,7 +89,7 @@ namespace CoreFrameworkEditor.Attributes
             Label message = new Label()
             {
                 name = "unity-info-box-message",
-                text = attribute.text,
+                text = attribute.Text,
                 // style =
                 // {
                 //     minHeight = GetHeight(attribute),
@@ -98,7 +97,7 @@ namespace CoreFrameworkEditor.Attributes
             };
             container.Add(message);
 
-            switch (attribute.infoBoxType)
+            switch (attribute.InfoBoxType)
             {
                 case InfoBoxType.Info:
                     titleIcon.image = EditorGUIUtility.IconContent("d_console.infoicon.sml").image;

@@ -19,12 +19,12 @@ namespace CoreFrameworkEditor.Attributes
         /// <summary>
         /// The gray
         /// </summary>
-        private Color m_headerRectColor = Color.gray;
+        private Color _headerRectColor = Color.gray;
 
         /// <summary>
         /// The white
         /// </summary>
-        private Color m_color = Color.white;
+        private Color _color = Color.white;
 
         #region Overrides of DecoratorDrawer
 
@@ -34,18 +34,18 @@ namespace CoreFrameworkEditor.Attributes
             if (!(attribute is HeaderAttribute headerAttribute)) return;
 
             position = EditorGUI.IndentedRect(position);
-            position.yMin += EditorGUIUtility.singleLineHeight * (headerAttribute.textHeightIncrease - 0.5f);
+            position.yMin += EditorGUIUtility.singleLineHeight * (headerAttribute.TextHeightIncrease - 0.5f);
 
-            if (!headerAttribute.colorIsNull)
+            if (!headerAttribute.ColorIsNull)
             {
-                Debug.Assert(headerAttribute.color != null, "headerAttribute.color != null");
-                m_headerRectColor = m_color = (Color)headerAttribute.color;
+                Debug.Assert(headerAttribute.Color != null, "headerAttribute.color != null");
+                _headerRectColor = _color = (Color)headerAttribute.Color;
             }
 
-            if (headerAttribute.headerIsNull && headerAttribute.iconPathIsNull)
+            if (headerAttribute.HeaderIsNull && headerAttribute.IconPathIsNull)
             {
-                position.height = headerAttribute.textHeightIncrease;
-                EditorGUI.DrawRect(position, m_headerRectColor);
+                position.height = headerAttribute.TextHeightIncrease;
+                EditorGUI.DrawRect(position, _headerRectColor);
                 return;
             }
 
@@ -54,38 +54,38 @@ namespace CoreFrameworkEditor.Attributes
                 richText = true,
                 normal =
                 {
-                    textColor = m_color
+                    textColor = _color
                 }
             };
             GUIContent label = new GUIContent(
-                $"<size={style.fontSize + headerAttribute.textHeightIncrease}><b>{headerAttribute.header}</b></size>");
-            if (!headerAttribute.iconPathIsNull)
+                $"<size={style.fontSize + headerAttribute.TextHeightIncrease}><b>{headerAttribute.Header}</b></size>");
+            if (!headerAttribute.IconPathIsNull)
             {
-                label.image = EditorGUIUtility.Load(headerAttribute.iconPath) as Texture2D;
+                label.image = EditorGUIUtility.Load(headerAttribute.IconPath) as Texture2D;
             }
 
             Vector2 textSize = style.CalcSize(label);
             float labelWidth = textSize.x;
-            if (!headerAttribute.iconPathIsNull)
+            if (!headerAttribute.IconPathIsNull)
                 labelWidth += position.height - 12.5f;
 
             float separatorWidth = (position.width - labelWidth) / 2.0f;
 
             Rect prefixRect = new Rect(position.xMin - 5f, position.yMin + 3f, separatorWidth,
-                                       headerAttribute.textHeightIncrease);
+                                       headerAttribute.TextHeightIncrease);
             Rect labelRect = new Rect(position.xMin + separatorWidth, position.yMin - 3f, labelWidth, position.height);
             Rect postRect = new Rect(position.xMin + separatorWidth + 3f + labelRect.width, position.yMin + 5f,
-                                     separatorWidth - 10, headerAttribute.textHeightIncrease);
-            EditorGUI.DrawRect(prefixRect, m_headerRectColor);
+                                     separatorWidth - 10, headerAttribute.TextHeightIncrease);
+            EditorGUI.DrawRect(prefixRect, _headerRectColor);
             EditorGUI.LabelField(labelRect, label, style);
-            EditorGUI.DrawRect(postRect, m_headerRectColor);
+            EditorGUI.DrawRect(postRect, _headerRectColor);
         }
 
         /// <inheritdoc />
         public override float GetHeight()
         {
             HeaderAttribute headerAttribute = attribute as HeaderAttribute;
-            return EditorGUIUtility.singleLineHeight * (headerAttribute?.textHeightIncrease + 0.25f ?? 1.5f);
+            return EditorGUIUtility.singleLineHeight * (headerAttribute?.TextHeightIncrease + 0.25f ?? 1.5f);
         }
 
         #endregion
@@ -96,10 +96,10 @@ namespace CoreFrameworkEditor.Attributes
             Color headerRectColor = Color.gray;
             Color color = Color.white;
 
-            if (!attribute.colorIsNull)
+            if (!attribute.ColorIsNull)
             {
-                Debug.Assert(attribute.color != null, "headerAttribute.color != null");
-                headerRectColor = color = (Color)attribute.color;
+                Debug.Assert(attribute.Color != null, "headerAttribute.color != null");
+                headerRectColor = color = (Color)attribute.Color;
             }
 
             VisualElement container = new VisualElement
@@ -112,36 +112,36 @@ namespace CoreFrameworkEditor.Attributes
                     flexGrow = 1
                 }
             };
-            container.Add(CreateBox(attribute.textHeightIncrease, headerRectColor));
+            container.Add(CreateBox(attribute.TextHeightIncrease, headerRectColor));
 
-            if (attribute.headerIsNull && attribute.iconPathIsNull) return container;
+            if (attribute.HeaderIsNull && attribute.IconPathIsNull) return container;
 
-            if (!attribute.iconPathIsNull)
+            if (!attribute.IconPathIsNull)
             {
                 Image image = new Image
                 {
-                    image = EditorGUIUtility.Load(attribute.iconPath) as Texture2D,
+                    image = EditorGUIUtility.Load(attribute.IconPath) as Texture2D,
                     scaleMode = ScaleMode.ScaleToFit
                 };
                 container.Add(image);
             }
 
-            if (!attribute.headerIsNull)
+            if (!attribute.HeaderIsNull)
             {
                 Label label = new Label
                 {
-                    text = attribute.header,
+                    text = attribute.Header,
                     name = "header-text",
                     style =
                     {
-                        fontSize = 12 * attribute.textHeightIncrease,
+                        fontSize = 12 * attribute.TextHeightIncrease,
                         color = color
                     }
                 };
                 container.Add(label);
             }
 
-            container.Add(CreateBox(attribute.textHeightIncrease, headerRectColor));
+            container.Add(CreateBox(attribute.TextHeightIncrease, headerRectColor));
 
             return container;
         }

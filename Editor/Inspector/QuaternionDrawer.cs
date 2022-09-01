@@ -2,6 +2,7 @@
 // 07-19-2022
 // James LaFritz
 
+using CoreFramework.Extensions;
 using UnityEditor;
 using UnityEngine;
 

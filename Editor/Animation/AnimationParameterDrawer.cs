@@ -117,7 +117,7 @@ namespace CoreFrameworkEditor.Animation
             AnimatorFieldAttribute animatorField = fieldInfo!.GetCustomAttribute<AnimatorFieldAttribute>(false);
             if (animatorField == null) return behaviour.GetComponentInChildren<Animator>();
             SerializedProperty animatorProperty =
-                property.serializedObject.FindProperty(animatorField.animatorFieldName);
+                property.serializedObject.FindProperty(animatorField.AnimatorFieldName);
             if (animatorProperty != null)
                 return animatorProperty.objectReferenceValue as Animator;
             return null;

@@ -29,7 +29,8 @@ namespace CoreFrameworkEditor.Attributes
                                    GUIContent label)
         {
             ShowIfBoolAttribute attr = attribute as ShowIfBoolAttribute;
-            SerializedProperty showIfProp = PropertyDrawerHelper.FindProperty(property, attr.boolName, out _errorMessage);
+            if (attr == null) return; 
+            SerializedProperty showIfProp = PropertyDrawerHelper.FindProperty(property, attr.BoolName, out _errorMessage);
             if (showIfProp == null)
             {
                 EditorGUI.LabelField(position, label.text, _errorMessage);
@@ -40,7 +41,7 @@ namespace CoreFrameworkEditor.Attributes
             EditorGUI.indentLevel = 0;
             using (new EditorGUI.PropertyScope(position, label, property))
             {
-                if (PropertyDrawerHelper.ShouldShow(showIfProp.boolValue, attr.show))
+                if (PropertyDrawerHelper.ShouldShow(showIfProp.boolValue, attr.Show))
                 {
                     EditorGUI.PropertyField(position, property, label, true);
                 }
@@ -53,7 +54,9 @@ namespace CoreFrameworkEditor.Attributes
         public override VisualElement CreatePropertyGUI(SerializedProperty property)
         {
             ShowIfBoolAttribute attr = attribute as ShowIfBoolAttribute;
-            SerializedProperty showIfProp = PropertyDrawerHelper.FindProperty(property, attr.boolName, out _errorMessage);
+            if (attr == null) return new VisualElement();
+
+            SerializedProperty showIfProp = PropertyDrawerHelper.FindProperty(property, attr.BoolName, out _errorMessage);
 
             if (showIfProp == null)
             {
@@ -66,7 +69,7 @@ namespace CoreFrameworkEditor.Attributes
 
             PropertyField field = new PropertyField(property, property.displayName) { name = property.displayName };
 
-            PropertyDrawerHelper.ShouldShow(showIfProp.boolValue, attr.show);
+            PropertyDrawerHelper.ShouldShow(showIfProp.boolValue, attr.Show);
 
             return field;
         }
@@ -75,10 +78,11 @@ namespace CoreFrameworkEditor.Attributes
         public override float GetPropertyHeight(SerializedProperty property, GUIContent label)
         {
             ShowIfBoolAttribute attr = attribute as ShowIfBoolAttribute;
-            SerializedProperty showIfProp = PropertyDrawerHelper.FindProperty(property, attr.boolName, out _errorMessage);
+            if (attr == null) return base.GetPropertyHeight(property, label);
+            SerializedProperty showIfProp = PropertyDrawerHelper.FindProperty(property, attr.BoolName, out _errorMessage);
             if (showIfProp == null) return base.GetPropertyHeight(property, label);
-            if ((showIfProp.boolValue && attr.show) ||
-                (!showIfProp.boolValue && !attr.show))
+            if ((showIfProp.boolValue && attr.Show) ||
+                (!showIfProp.boolValue && !attr.Show))
                 return EditorGUI.GetPropertyHeight(property, label, true);
             return -EditorGUIUtility.standardVerticalSpacing;
         }

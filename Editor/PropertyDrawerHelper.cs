@@ -11,10 +11,9 @@
 
 using System;
 using System.Reflection;
-using CoreFramework;
+using CoreFramework.Extensions;
+using CoreFramework.Functional;
 using UnityEditor;
-using UnityEngine;
-using UnityEngine.UIElements;
 
 namespace CoreFrameworkEditor
 {

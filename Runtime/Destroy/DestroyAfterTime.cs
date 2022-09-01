@@ -4,7 +4,7 @@
 
 using UnityEngine;
 
-namespace CoreFramework
+namespace CoreFramework.Destroy
 {
     /// <summary>
     /// A <a href="https://docs.unity3d.com/ScriptReference/MonoBehaviour.html">UnityEngine.MonoBehavior</a> that

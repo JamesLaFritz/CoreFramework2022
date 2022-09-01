@@ -12,11 +12,11 @@ namespace CoreFramework.Animation
     [AttributeUsage(AttributeTargets.Field | AttributeTargets.Property)]
     public class AnimatorParameterAttribute : Attribute
     {
-        public string animatorParameterName;
+        private string _animatorParameterName;
 
         public AnimatorParameterAttribute(string parameterName)
         {
-            animatorParameterName = parameterName;
+            _animatorParameterName = parameterName;
         }
     }
 }

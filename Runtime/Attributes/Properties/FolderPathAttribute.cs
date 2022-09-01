@@ -2,6 +2,7 @@
 // 07-21-2022
 // James LaFritz
 
+using System;
 using UnityEngine;
 
 namespace CoreFramework.Attributes
@@ -18,10 +19,10 @@ namespace CoreFramework.Attributes
     /// </code>
     /// </example>
     /// </summary>
-    [System.AttributeUsage(System.AttributeTargets.Field | System.AttributeTargets.Property, AllowMultiple = true)]
+    [AttributeUsage(AttributeTargets.Field | AttributeTargets.Property, AllowMultiple = true)]
     public class FolderPathAttribute : PropertyAttribute
     {
-        public readonly bool pathRelativeToProject;
+        public readonly bool PathRelativeToProject;
 
         /// <summary>
         /// Set path string relative to the project with a folder selection button
@@ -34,7 +35,7 @@ namespace CoreFramework.Attributes
         /// <param name="pathRelativeToProject">Path is absolute (false) or relative to the project (true)</param>
         public FolderPathAttribute(bool pathRelativeToProject)
         {
-            this.pathRelativeToProject = pathRelativeToProject;
+            PathRelativeToProject = pathRelativeToProject;
         }
     }
 }

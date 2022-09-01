@@ -2,6 +2,7 @@
 // 07-19-2022
 // James LaFritz
 
+using System;
 using UnityEngine;
 using Header = CoreFramework.Attributes.HeaderAttribute;
 
@@ -10,56 +11,50 @@ namespace CoreFramework.Attributes
     /// <summary>
     /// Draws a Header in the Inspector that allows using custom text, an icon, a color and a text height increase.
     /// </summary>
-    [System.AttributeUsage(System.AttributeTargets.Field, AllowMultiple = true)]
+    [AttributeUsage(AttributeTargets.Field, AllowMultiple = true)]
     public class HeaderAttribute : PropertyAttribute
     {
         /// <summary>
         /// The path to the icon. Relative to the Assets folder.
         /// </summary>
-        public readonly string iconPath;
+        public readonly string IconPath;
 
         /// <summary>
         /// The icon path is null
         /// </summary>
-        public readonly bool iconPathIsNull;
+        public readonly bool IconPathIsNull;
 
         /// <summary>
         /// The header
         /// </summary>
-        public readonly string header;
+        public readonly string Header;
 
         /// <summary>
         /// The header is null
         /// </summary>
-        public readonly bool headerIsNull;
+        public readonly bool HeaderIsNull;
 
         /// <summary>
         /// The color
         /// </summary>
-        public readonly Color? color;
+        public readonly Color? Color;
 
         /// <summary>
         /// The color is null
         /// </summary>
-        public readonly bool colorIsNull;
+        public readonly bool ColorIsNull;
 
         /// <summary>
         /// The text height increase
         /// </summary>
-        public readonly float textHeightIncrease = 1.5f;
-
-        /// <summary>
-        /// The use default font size
-        /// </summary>
-        public readonly bool useDefaultFontSize;
+        public readonly float TextHeightIncrease = 1.5f;
 
         /// <summary>
         /// Preset Colors to use. 
         /// </summary>
-        private readonly Color[] m_colorPresets = new[]
-        {
-            Color.black, Color.blue, Color.cyan, Color.gray, Color.green, Color.grey, Color.magenta, Color.red,
-            Color.yellow
+        private readonly Color[] _mColorPresets = {
+            UnityEngine.Color.black, UnityEngine.Color.blue, UnityEngine.Color.cyan, UnityEngine.Color.gray, UnityEngine.Color.green, UnityEngine.Color.grey, UnityEngine.Color.magenta, UnityEngine.Color.red,
+            UnityEngine.Color.yellow
         };
 
         /// <summary>
@@ -123,36 +118,36 @@ namespace CoreFramework.Attributes
         /// <param name="iconPath">The relative path (starting from 'Assets/') to the icon you want to display in front of the property.</param>
         /// <param name="colorElement">
         /// The color to use for the label. Can be null.
-        /// If null uses Grey for the seperator and White for the Text
+        /// If null uses Grey for the separator and White for the Text
         /// Needs at least three elements. <code>new[] {r, g, b}) || new[] {r, g, b, a})</code> 
         /// </param>
         /// <param name="textHeightIncrease">The amount to increase the height of the text by (Min value of 1).</param>
         public HeaderAttribute(string text, string iconPath, float[] colorElement, float textHeightIncrease = 1.5f)
         {
-            header = text;
-            headerIsNull = string.IsNullOrEmpty(header);
-            useDefaultFontSize = this.textHeightIncrease.Equals(textHeightIncrease);
-            this.iconPath = iconPath;
-            iconPathIsNull = string.IsNullOrEmpty(iconPath);
+            Header = text;
+            HeaderIsNull = string.IsNullOrEmpty(Header);
+            var useDefaultFontSize = TextHeightIncrease.Equals(textHeightIncrease);
+            IconPath = iconPath;
+            IconPathIsNull = string.IsNullOrEmpty(iconPath);
 
-            colorIsNull = colorElement == null || colorElement.Length < 3;
-            if (!colorIsNull)
+            ColorIsNull = colorElement == null || colorElement.Length < 3;
+            if (!ColorIsNull)
             {
-                float r = colorElement[0];
+                float r = colorElement![0];
                 float g = colorElement[1];
                 float b = colorElement[2];
                 float a = colorElement.Length > 3 ? colorElement[3] : 255;
-                color = new Color(r, g, b, a);
+                Color = new Color(r, g, b, a);
             }
 
             if (!useDefaultFontSize)
             {
-                this.textHeightIncrease = textHeightIncrease;
+                TextHeightIncrease = textHeightIncrease;
             }
         }
 
         /// <summary>
-        /// Draws a Header in the Inspector that allows using custom text, an icon and a textheight increase.
+        /// Draws a Header in the Inspector that allows using custom text, an icon and a text height increase.
         /// Defaults to a height increase of 1.5f
         /// </summary>
         /// <param name="text">The label text to use for the header.</param>
@@ -173,7 +168,7 @@ namespace CoreFramework.Attributes
         public HeaderAttribute(string s, bool textOnly = true) : this(textOnly ? s : "", textOnly ? "" : s, null) { }
 
         /// <summary>
-        /// Draws a Header in the Inspector that allows using custom text, an icon, a preset color and a textheight increase.
+        /// Draws a Header in the Inspector that allows using custom text, an icon, a preset color and a text height increase.
         /// Defaults to a height increase of 1.5.
         /// </summary>
         /// <param name="text">The label text to use for the header.</param>
@@ -183,8 +178,8 @@ namespace CoreFramework.Attributes
         public HeaderAttribute(string text, string iconPath, PresetColor presetColor, float textHeightIncrease = 1.5f) :
             this(text, iconPath, null, textHeightIncrease)
         {
-            color = m_colorPresets?[(int)presetColor];
-            colorIsNull = color == null;
+            Color = _mColorPresets?[(int)presetColor];
+            ColorIsNull = Color == null;
         }
     }
 }

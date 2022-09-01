@@ -19,18 +19,18 @@ namespace CoreFramework.Animation
     /// </summary>
     public abstract class AnimationParameter
     {
-        public string name;
+        private string _name;
 
         [NonSerialized] private bool _cached;
         [NonSerialized] private int _index;
 
-        public int Index
+        protected int Index
         {
             get
             {
                 if (!_cached)
                 {
-                    _index = Animator.StringToHash(name);
+                    _index = Animator.StringToHash(_name);
                     _cached = true;
                 }
 

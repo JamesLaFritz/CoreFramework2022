@@ -4,18 +4,21 @@
 
 using UnityEngine;
 
-/// <summary>
-/// Extension methods for <a href="https://docs.unity3d.com/ScriptReference/Vector4.html">Vector4</a>.
-/// </summary>
-public static class Vector4Extensions
+namespace CoreFramework.Extensions
 {
     /// <summary>
-    /// Returns a <a href="https://docs.unity3d.com/ScriptReference/Quaternion.html">Quaternion</a>
-    /// instance where the component values are equal to this
-    /// <a href="https://docs.unity3d.com/ScriptReference/Vector4.html">Vector4</a>'s components.
+    /// Extension methods for <a href="https://docs.unity3d.com/ScriptReference/Vector4.html">Vector4</a>.
     /// </summary>
-    public static Quaternion ToQuaternion(this Vector4 vector4)
+    public static class Vector4Extensions
     {
-        return new Quaternion(vector4.x, vector4.y, vector4.z, vector4.w);
+        /// <summary>
+        /// Returns a <a href="https://docs.unity3d.com/ScriptReference/Quaternion.html">Quaternion</a>
+        /// instance where the component values are equal to this
+        /// <a href="https://docs.unity3d.com/ScriptReference/Vector4.html">Vector4</a>'s components.
+        /// </summary>
+        public static Quaternion ToQuaternion(this Vector4 vector4)
+        {
+            return new Quaternion(vector4.x, vector4.y, vector4.z, vector4.w);
+        }
     }
 }

@@ -2,6 +2,7 @@
 // 07-20-2022
 // James LaFritz
 
+using System;
 using UnityEngine;
 
 namespace CoreFramework.Attributes
@@ -10,23 +11,23 @@ namespace CoreFramework.Attributes
     /// Show/Hide a field based on a enum value in the same script.
     /// Order of attribute is important.
     /// </summary>
-    [System.AttributeUsage(System.AttributeTargets.Field | System.AttributeTargets.Property)]
+    [AttributeUsage(AttributeTargets.Field | AttributeTargets.Property)]
     public class ShowIfEnumValueAttribute : PropertyAttribute
     {
         /// <summary>
         /// The name of the serialized enum property to use.
         /// </summary>
-        public readonly string enumName;
+        public readonly string EnumName;
 
         /// <summary>
         /// The index of the enum that controls the showing of this property.
         /// </summary>
-        public readonly int enumIndex;
+        public readonly int EnumIndex;
 
         /// <summary>
         /// Show if the enum value matches or not.
         /// </summary>
-        public readonly bool show;
+        public readonly bool Show;
 
         /// <summary>
         /// Show/Hide a field based on a bool value in the same script.
@@ -36,9 +37,9 @@ namespace CoreFramework.Attributes
         /// <param name="show"> Show if the enum value matches or not. Defaults to true</param>
         public ShowIfEnumValueAttribute(string enumName, int enumIndex, bool show = true)
         {
-            this.enumName = enumName;
-            this.enumIndex = enumIndex;
-            this.show = show;
+            EnumName = enumName;
+            EnumIndex = enumIndex;
+            Show = show;
         }
     }
 }

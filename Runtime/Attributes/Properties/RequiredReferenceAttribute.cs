@@ -2,6 +2,7 @@
 // 07-22-2022
 // James LaFritz
 
+using System;
 using UnityEngine;
 
 namespace CoreFramework.Attributes
@@ -9,6 +10,6 @@ namespace CoreFramework.Attributes
     /// <summary>
     /// Requires the field to be not null.
     /// </summary>
-    [System.AttributeUsage(System.AttributeTargets.Field | System.AttributeTargets.Property)]
+    [AttributeUsage(AttributeTargets.Field | AttributeTargets.Property)]
     public class RequiredReferenceAttribute : PropertyAttribute { }
 }

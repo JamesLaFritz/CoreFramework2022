@@ -68,13 +68,13 @@ namespace CoreFramework.Samples.Attributes.Scripts
         [ShowIfBool("selectScene"), ShowIfEnumValue("sceneSelectionMode", 1), Scene]
         public int sceneIndex;
 
-        [Button(ButtonAttribute.Mode.Play)]
+        [Button(ButtonAttribute.ButtonMode.Play)]
         public void PlayModeButton()
         {
             Debug.Log($"{name}: {GetType().Name} : Play Mode Only");
         }
 
-        [Button(ButtonAttribute.Mode.Editor)]
+        [Button(ButtonAttribute.ButtonMode.Editor)]
         public void EditModeButton()
         {
             Debug.Log($"{name}: {GetType().Name} : Edit Mode Only");

@@ -9,7 +9,9 @@
 
 #endregion
 
-namespace CoreFramework
+using System;
+
+namespace CoreFramework.Functional
 {
 	/// <summary>
 	/// From Bit Cake Studio's BitStrap
@@ -21,6 +23,7 @@ namespace CoreFramework
 		/// <summary>
 		/// The is value
 		/// </summary>
+		// ReSharper disable once StaticMemberInGenericType
 		private static readonly bool IsValue;
 
 		/// <summary>
@@ -72,7 +75,7 @@ namespace CoreFramework
 		/// <param name="some">The some</param>
 		/// <param name="none">The none</param>
 		/// <returns>The tb</returns>
-		public TB Match<TB>(System.Func<TA, TB> some, System.Func<TB> none)
+		public TB Match<TB>(Func<TA, TB> some, Func<TB> none)
 		{
 			return IsSome ? some(_value) : none();
 		}
@@ -83,9 +86,9 @@ namespace CoreFramework
 		/// <typeparam name="TB">The tb</typeparam>
 		/// <param name="select">The select</param>
 		/// <returns>An option of tb</returns>
-		public Option<TB> Select<TB>(System.Func<TA, TB> select)
+		public Option<TB> Select<TB>(Func<TA, TB> select)
 		{
-			return IsSome ? @select(_value) : default(Option<TB>);
+			return IsSome ? select(_value) : default(Option<TB>);
 		}
 	}
 }

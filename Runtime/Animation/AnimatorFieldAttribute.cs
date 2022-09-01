@@ -17,11 +17,11 @@ namespace CoreFramework.Animation
     [AttributeUsage(AttributeTargets.Field)]
     public abstract class AnimatorFieldAttribute : Attribute
     {
-        public readonly string animatorFieldName;
+        public readonly string AnimatorFieldName;
 
-        public AnimatorFieldAttribute(string animatorFieldName)
+        protected AnimatorFieldAttribute(string animatorFieldName)
         {
-            this.animatorFieldName = animatorFieldName;
+            AnimatorFieldName = animatorFieldName;
         }
     }
 }

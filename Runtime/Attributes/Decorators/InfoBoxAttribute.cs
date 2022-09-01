@@ -2,6 +2,7 @@
 // 07-19-2022
 // James LaFritz
 
+using System;
 using UnityEngine;
 
 namespace CoreFramework.Attributes
@@ -35,18 +36,18 @@ namespace CoreFramework.Attributes
     /// <summary>
     /// Draws an Info Box in the Inspector.
     /// </summary>
-    [System.AttributeUsage(System.AttributeTargets.Field, AllowMultiple = true)]
+    [AttributeUsage(AttributeTargets.Field, AllowMultiple = true)]
     public class InfoBoxAttribute : PropertyAttribute
     {
         /// <summary>
         /// The text to display in the info box.
         /// </summary>
-        public readonly string text;
+        public readonly string Text;
 
         /// <summary>
         /// The info box type.
         /// </summary>
-        public readonly InfoBoxType infoBoxType;
+        public readonly InfoBoxType InfoBoxType;
 
         /// <summary>
         /// Draws an Info Box in the Inspector.
@@ -55,8 +56,8 @@ namespace CoreFramework.Attributes
         /// <param name="type">The type of message to display, defaults to Info.</param>
         public InfoBoxAttribute(string text, InfoBoxType type = InfoBoxType.Info)
         {
-            this.text = text;
-            infoBoxType = type;
+            Text = text;
+            InfoBoxType = type;
         }
     }
 }

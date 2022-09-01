@@ -2,13 +2,10 @@
 // 07-20-2022
 // James LaFritz
 
-using CoreFramework.Attributes.Decorators;
-using CoreFramework.Attributes.Properties;
-using CoreFramework.Attributes.Properties.DropDownSelection;
-using CoreFramework.Attributes.Properties.Modifiers;
+using CoreFramework.Attributes;
 using UnityEngine;
 
-namespace CoreFramework.Runtime
+namespace CoreFramework
 {
     /// <summary>
     /// A <a href="https://docs.unity3d.com/ScriptReference/MonoBehaviour.html">UnityEngine.MonoBehavior</a> that
@@ -48,7 +45,7 @@ namespace CoreFramework.Runtime
         /// <summary>
         /// The time that this interactable was last used.
         /// </summary>
-        private float m_lastUse;
+        private float _mLastUse;
 
         #region Unity Methods
 
@@ -85,7 +82,7 @@ namespace CoreFramework.Runtime
             if (!CanInteract())
                 return;
 
-            m_lastUse = Time.time;
+            _mLastUse = Time.time;
             isActivated = true;
 
             OnInteract();
@@ -109,12 +106,12 @@ namespace CoreFramework.Runtime
         }
 
         /// <summary>
-        /// Describes whether this interactables cool down has ended.
+        /// Describes whether cool down has ended for this interactable.
         /// </summary>
         /// <returns>If the current time - the last used time >= the cool down amount.</returns>
         public bool IsCoolDownEnded()
         {
-            return Time.time - m_lastUse >= coolDown;
+            return Time.time - _mLastUse >= coolDown;
         }
     }
 }

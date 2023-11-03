@@ -12,6 +12,7 @@
   "documentationUrl": "https://jameslafritz.github.io/CoreFramework2022/",
   "changelogUrl": "https://jameslafritz.github.io/CoreFramework2022/CHANGELOG.html",
   "licensesUrl": "https://jameslafritz.github.io/CoreFramework2022/License/LICENSE.html",
+  "hideInEditor":"false",
   "keywords": [
     "Attribute",
     "Scriptable Object",

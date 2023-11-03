@@ -4,6 +4,7 @@
 
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.UIElements;
 using IconAttribute = CoreFramework.Attributes.IconAttribute;
 
 namespace CoreFrameworkEditor.Inspector
@@ -34,6 +35,14 @@ namespace CoreFrameworkEditor.Inspector
             DoDrawDefaultInspector(serializedObject);
             _helper.DrawButtons();
         }
+
+        // /// <inheritdoc />
+        // public override VisualElement CreateInspectorGUI()
+        // {
+        //     var baseVE = base.CreateInspectorGUI();
+        //     baseVE.Add(_helper.CreateButtons());
+        //     return baseVE;
+        // }
 
         #endregion
 

@@ -1,4 +1,5 @@
 ﻿using System;
+using CoreFramework.Attributes;
 using UnityEngine;
 
 namespace CoreFramework.ScriptableObjectArchitecture.Events
@@ -61,7 +62,7 @@ namespace CoreFramework.ScriptableObjectArchitecture.Events
         /// <summary>
         /// The typed game event
         /// </summary>
-        [SerializeField] private BaseGameEvent<T> typedGameEvent;
+        [SerializeField, ExposedReference] private BaseGameEvent<T> typedGameEvent;
 
         /// <summary>
         /// The typed on response

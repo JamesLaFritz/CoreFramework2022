@@ -73,6 +73,7 @@ namespace CoreFramework.ScriptableObjectArchitecture.References
         /// </summary>
         [SerializeField]
         [ShowIfEnumValue("selection", (int) Selection.ScriptableObject)]
+        [ExposedReference]
         protected TVariable variable;
 
         /// <summary>
@@ -101,6 +102,16 @@ namespace CoreFramework.ScriptableObjectArchitecture.References
                 
                 Raise();
             }
+        }
+
+        public TBase MaxValue
+        {
+            get => selection == Selection.Value ? constantValue : variable != null ? variable.MaxClampValue : default;
+        }
+        
+        public TBase MinValue
+        {
+            get => selection == Selection.Value ? constantValue : variable != null ? variable.MinClampValue : default;
         }
 
         /// <summary>

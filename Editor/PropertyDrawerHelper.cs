@@ -50,6 +50,7 @@ namespace CoreFrameworkEditor
             SerializedProperty prop = property.serializedObject.FindProperty(propertyName);
             errorMessage = string.Empty;
             if (prop != null) return prop;
+            if (!property.propertyPath.Contains($".{property.name}")) return null;
             string propPath =
                 property.propertyPath.Substring(
                     0, property.propertyPath.IndexOf($".{property.name}", StringComparison.Ordinal));

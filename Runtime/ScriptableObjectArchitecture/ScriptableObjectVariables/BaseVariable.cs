@@ -82,12 +82,12 @@ namespace CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables
         /// <summary>
         /// Gets the value of the min clamp value
         /// </summary>
-        protected TType MinClampValue => clampable ? minValue : default;
+        public TType MinClampValue => clampable ? minValue : default;
 
         /// <summary>
         /// Gets the value of the max clamp value
         /// </summary>
-        protected TType MaxClampValue => clampable ? maxValue : default;
+        public TType MaxClampValue => clampable ? maxValue : default;
 
         /// <summary>
         /// Sets the value using the specified value if it is not Read Only. If it is clamped will clamp the value.

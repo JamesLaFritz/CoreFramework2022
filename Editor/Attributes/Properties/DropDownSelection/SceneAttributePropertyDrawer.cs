@@ -3,12 +3,10 @@
 // James LaFritz
 
 using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
 using CoreFramework.Attributes;
 using UnityEditor;
-using UnityEditor.UIElements;
 using UnityEngine;
 using UnityEngine.UIElements;
 
@@ -24,7 +22,7 @@ namespace CoreFrameworkEditor.Attributes
         /// <summary>
         /// Gets the value of the any scene in build settings
         /// </summary>
-        private static bool AnySceneInBuildSettings => GetScenes()?.Length > 0;
+        public static bool AnySceneInBuildSettings => GetScenes()?.Length > 0;
 
         private static readonly string SInvalidTypeMessage =
             L10n.Tr($"{nameof(SceneAttribute)} supports only string and int fields");
@@ -52,12 +50,12 @@ namespace CoreFrameworkEditor.Attributes
                 return;
             }
 
-            string[] scenes = GetScenes();
-            string[] sceneOptions = GetSceneOptions(scenes);
+            var scenes = GetScenes();
+            var sceneOptions = GetSceneOptions(scenes);
 
             using (new EditorGUI.PropertyScope(position, label, property))
             {
-                using (EditorGUI.ChangeCheckScope changeCheck = new EditorGUI.ChangeCheckScope())
+                using (var changeCheck = new EditorGUI.ChangeCheckScope())
                 {
                     switch (property.propertyType)
                     {
@@ -85,9 +83,9 @@ namespace CoreFrameworkEditor.Attributes
             if (property.propertyType is not (SerializedPropertyType.String or SerializedPropertyType.Integer))
                 return new Label(SInvalidTypeMessage) { name = "unity-invalid-type-label" };
 
-            string[] scenes = GetScenes() ?? new[] { "" };
+            var scenes = GetScenes() ?? new[] { "" };
 
-            List<string> scenesList = scenes!.ToList();
+            var scenesList = scenes!.ToList();
 
             PopupField<string> popupField;
 
@@ -135,7 +133,7 @@ namespace CoreFrameworkEditor.Attributes
         /// Gets the scenes
         /// </summary>
         /// <returns>The string array</returns>
-        private static string[] GetScenes()
+        public static string[] GetScenes()
         {
             return (from scene in EditorBuildSettings.scenes
                     where scene.enabled
@@ -147,7 +145,7 @@ namespace CoreFrameworkEditor.Attributes
         /// </summary>
         /// <param name="scenes">The scenes</param>
         /// <returns>The string array</returns>
-        private static string[] GetSceneOptions(string[] scenes)
+        public static string[] GetSceneOptions(string[] scenes)
         {
             return (from scene in scenes
                     select Regex.Match(scene ?? string.Empty,
@@ -168,9 +166,9 @@ namespace CoreFrameworkEditor.Attributes
             if (property == null) return;
             if (scenes == null) return;
 
-            int index = Mathf.Clamp(Array.IndexOf(scenes, property.stringValue), 0, scenes.Length - 1);
-            int newIndex = EditorGUI.Popup(rect, label != null ? label.text : "", index, sceneOptions);
-            string newScene = scenes[newIndex];
+            var index = Mathf.Clamp(Array.IndexOf(scenes, property.stringValue), 0, scenes.Length - 1);
+            var newIndex = EditorGUI.Popup(rect, label != null ? label.text : "", index, sceneOptions);
+            var newScene = scenes[newIndex];
 
             if (property.stringValue?.Equals(newScene, StringComparison.Ordinal) == false)
             {
@@ -190,8 +188,8 @@ namespace CoreFrameworkEditor.Attributes
         {
             if (property == null) return;
 
-            int index = property.intValue;
-            int newIndex = EditorGUI.Popup(rect, label != null ? label.text : "", index, sceneOptions);
+            var index = property.intValue;
+            var newIndex = EditorGUI.Popup(rect, label != null ? label.text : "", index, sceneOptions);
 
             if (property.intValue != newIndex)
             {

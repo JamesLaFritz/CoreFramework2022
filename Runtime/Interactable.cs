@@ -3,7 +3,9 @@
 // James LaFritz
 
 using CoreFramework.Attributes;
+using CoreFramework.ScriptableObjectArchitecture.Events;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace CoreFramework
 {
@@ -12,7 +14,7 @@ namespace CoreFramework
     /// can be interacted with.
     /// <seealso href="https://docs.unity3d.com/ScriptReference/MonoBehaviour.html"/>
     /// </summary>
-    public abstract class Interactable : MonoBehaviour
+    public abstract class Interactable : DebugMonoBehaviour
     {
         /// <summary>
         /// Is this a one time use interactable?
@@ -22,15 +24,20 @@ namespace CoreFramework
         /// <summary>
         /// The amount of time it takes for this interactable to cool down before it can be used again.
         /// </summary>
-        [SerializeField, InfoBox("The amount of time it takes for this timer to cool down.", InfoBoxType.None)]
-        [ShowIfBool("m_isOneShot")]
+        [SerializeField]
+        [ShowIfBool("isOneShot", false)]
         protected float coolDown;
 
         /// <summary>
         /// The tag of the GameObject that can interact with this item.
         /// </summary>
-        [SerializeField, Tag, InfoBox("The tag of the Object that can interact with this")]
-        private string interactTag = "Player";
+        [FormerlySerializedAs("interactTag")] [SerializeField, Tag, InfoBox("The tag of the Object that can interact with this")]
+        private string _interactTag = "Player";
+
+        /// <summary>
+        /// The Game Event that gets raised when this object is interacted with.
+        /// </summary>
+        [SerializeField] private GameObjectGameEvent _onInteractGameEvent;
 
         /// <summary>
         /// Has this interactable been interacted with.
@@ -45,7 +52,27 @@ namespace CoreFramework
         /// <summary>
         /// The time that this interactable was last used.
         /// </summary>
-        private float _mLastUse;
+        private float _lastUse;
+
+        /// <summary>
+        /// Describes whether this interactable can be interacted with.
+        /// </summary>
+        /// <returns>True if the Interactable can be interacted with.</returns>
+        public bool CanInteract
+        {
+            get
+            {
+                if (!canUse) return false;
+                if (isOneShot && isActivated) return false;
+                return IsCoolDownEnded;
+            }
+        }
+
+        /// <summary>
+        /// Describes whether cool down has ended for this interactable.
+        /// </summary>
+        /// <returns>If the current time - the last used time >= the cool down amount.</returns>
+        public bool IsCoolDownEnded => Time.time - _lastUse >= coolDown;
 
         #region Unity Methods
 
@@ -55,7 +82,7 @@ namespace CoreFramework
         /// </summary>
         private void OnTriggerEnter2D(Collider2D other)
         {
-            if (!other.CompareTag(interactTag)) return;
+            if (!other.CompareTag(_interactTag)) return;
 
             Interact();
         }
@@ -67,7 +94,8 @@ namespace CoreFramework
         /// <param name="other">The other</param>
         private void OnTriggerEnter(Collider other)
         {
-            if (!other.CompareTag(interactTag)) return;
+            Info($"Colliding with {other.name} that has a tag of {other.tag}");
+            if (!other.CompareTag(_interactTag)) return;
 
             Interact();
         }
@@ -79,39 +107,19 @@ namespace CoreFramework
         /// </summary>
         public void Interact()
         {
-            if (!CanInteract())
+            if (!CanInteract)
                 return;
 
-            _mLastUse = Time.time;
+            _lastUse = Time.time;
             isActivated = true;
-
+            
             OnInteract();
         }
 
-        /// <summary>
-        /// On Interact is called when this Interactable is being interacted with.
-        /// Must be implemented in child classes. This is what the interactable does.
-        /// </summary>
-        protected abstract void OnInteract();
-
-        /// <summary>
-        /// Describes whether this interactable can be interacted with.
-        /// </summary>
-        /// <returns>True if the Interactable can be interacted with.</returns>
-        public bool CanInteract()
+        public virtual void OnInteract()
         {
-            if (!canUse) return false;
-            if (isOneShot && isActivated) return false;
-            return IsCoolDownEnded();
-        }
-
-        /// <summary>
-        /// Describes whether cool down has ended for this interactable.
-        /// </summary>
-        /// <returns>If the current time - the last used time >= the cool down amount.</returns>
-        public bool IsCoolDownEnded()
-        {
-            return Time.time - _mLastUse >= coolDown;
+            //Info("Raising Game Event");
+            if (_onInteractGameEvent) _onInteractGameEvent.Raise(gameObject);
         }
     }
 }

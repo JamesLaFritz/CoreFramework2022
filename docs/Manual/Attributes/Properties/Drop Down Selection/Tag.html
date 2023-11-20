@@ -81,9 +81,14 @@
 <hr>
 <h1 id="tag">Tag</h1>
 <hr>
-<p>Displays a dropdown list of available Tags.</p>
+<h2 id="overview">Overview</h2>
+<p>The <code>TagAttribute</code> is a custom attribute for Unity that provides a dropdown list of all the tags currently available in the project. It is intended to be used with fields or properties of type <code>string</code> that are meant to hold the name of a tag.</p>
+<h2 id="usage">Usage</h2>
 <div class="IMPORTANT"><h5>Important</h5><p>Must be used with a &#39;string&#39; typed field.</p>
 </div>
+<p>When you apply the <code>TagAttribute</code> to a string field in a script, the Unity Inspector will show a dropdown list from which you can select one of the existing tags. This makes it easier to assign tags within scripts and minimizes errors compared to typing out tag strings manually.</p>
+<h3 id="example">Example:</h3>
+<p><img src="../../../../Images/Attributes/Tag.gif" alt="Tag Example"></p>
 <pre><code class="lang-csharp">using CoreFramework.Attributes;
 using UnityEngine;
 
@@ -91,7 +96,32 @@ public class TagExample : MonoBehaviour
 {
     [Tag] public string targetTag;
 }
-</code></pre><p><img src="../../../../Images/Attributes/Tag.gif" alt="Tag Example"></p>
+</code></pre><p>In this example, <code>targetTag</code> will show a dropdown in the Unity Inspector populated with all the tags defined in the Unity project.
+The selected tag from the dropdown will be assigned as the string value to <code>targetTag</code>.</p>
+<h2 id="attribute-declaration">Attribute Declaration</h2>
+<pre><code class="lang-csharp">[AttributeUsage(AttributeTargets.Field | AttributeTargets.Property)]
+public class TagAttribute : PropertyAttribute { }
+</code></pre><h2 id="attribute-details">Attribute Details</h2>
+<ul>
+<li><code>[AttributeUsage(AttributeTargets.Field | AttributeTargets.Property)]</code>: Specifies that the <code>TagAttribute</code> can be used on fields and properties within a class.</li>
+<li><code>public class TagAttribute : PropertyAttribute</code>: This class inherits from <code>PropertyAttribute</code>, making it a custom attribute that Unity can use to modify the appearance and behavior of fields in the Inspector.</li>
+</ul>
+<h2 id="functionality">Functionality</h2>
+<p>By itself, the attribute acts as a marker,
+telling the Unity Inspector to invoke a custom property drawer <code>TagAttributePropertyDrawer</code>for fields annotated with <code>TagAttribute</code>.
+This custom property drawer is responsible for rendering the dropdown list and handling the selection of a tag.</p>
+<h2 id="considerations">Considerations</h2>
+<ul>
+<li>This attribute can improve the workflow by preventing typos in tag names and making it easy to assign tags without referencing them as hardcoded strings.</li>
+<li>Tags used with the <code>TagAttribute</code> must be defined in the project’s tag manager for them to appear in the dropdown list.</li>
+</ul>
+<h2 id="see-also">See Also</h2>
+<ul>
+<li>Unity Scripting API&#39;s <a href="https://docs.unity3d.com/ScriptReference/PropertyAttribute.html">PropertyAttribute</a></li>
+<li>Unity&#39;s Tag Manager where you can define and manage tags.</li>
+<li>Unity Editor scripting for creating custom drawers using <a href="https://docs.unity3d.com/ScriptReference/PropertyDrawer.html">PropertyDrawer</a>.</li>
+<li>Unity Editor&#39;s GUI functions like <a href="https://docs.unity3d.com/ScriptReference/EditorGUI.TagField.html">EditorGUI.TagField</a> or <a href="https://docs.unity3d.com/ScriptReference/EditorGUILayout.TagField.html">EditorGUILayout.TagField</a>, which are typically used to create the tag selection dropdown in the Inspector.</li>
+</ul>
 </article>
           </div>
           <div class="hidden-sm col-md-2" role="complementary">

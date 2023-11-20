@@ -77,13 +77,23 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="input-axis">Input Axis</h1>
 
+<hr>
+<h1 id="input-axis">Input Axis</h1>
+<hr>
+<h2 id="overview">Overview</h2>
+<p>The <code>InputAxisAttribute</code> is a custom attribute specifically created for Unity projects that are utilizing the legacy Input Manager.
+This attribute is intended to decorate <code>string</code> fields or properties, allowing them to be set via a dropdown menu in
+the Unity Inspector that lists all the available input axes configured in the project.</p>
+<h2 id="usage">Usage</h2>
+<p>This attribute is particularly useful when you want to ensure that the strings used to refer to input axes are correct,
+by providing a convenient dropdown of all configured axes rather than relying on manually typing them out and potentially introducing typos.</p>
 <div class="IMPORTANT"><h5>Important</h5><p>Only Usable if Unity&#39;s Legacy Input Manager is Enabled.</p>
 </div>
-<p>Displays a dropdown list of available Input Axis.</p>
 <div class="IMPORTANT"><h5>Important</h5><p>Must be used with a &#39;string&#39; typed field.</p>
 </div>
+<h3 id="example">Example:</h3>
+<p><img src="../../../../Images/Attributes/InputAxis.gif" alt="Input Axis Example"></p>
 <pre><code class="lang-csharp">using CoreFramework.Attributes;
 using UnityEngine;
 
@@ -97,7 +107,37 @@ public class InputAxisExample : MonoBehaviour
         bool buttonPressed = Input.GetButton(inputToUse);
     }
 }
-</code></pre><p><img src="../../../../Images/Attributes/InputAxis.gif" alt="Input Axis Example"></p>
+</code></pre><p>In the above example, <code>inputToUse</code> will display as dropdown menus in the Inspector.
+The dropdown menu will contain all the input axes configured in the project&#39;s Input Manager, allowing you to select the appropriate one for each field.
+The Update Method stores the <code>intputToUse</code> as an axis (<a href="https://docs.unity3d.com/ScriptReference/Input.GetAxis.html"><code>Input.GetAxis</code></a>)
+and a button press (<a href="https://docs.unity3d.com/ScriptReference/Input.GetButton.html"><code>Input.GetButton</code></a>). Typically you would use one or the other.</p>
+<h2 id="attribute-declaration">Attribute Declaration</h2>
+<pre><code class="lang-csharp">#if ENABLE_LEGACY_INPUT_MANAGER
+[AttributeUsage(AttributeTargets.Field | AttributeTargets.Property)]
+#endif
+public class InputAxisAttribute : PropertyAttribute { }
+</code></pre><h2 id="preprocessor-directive">Preprocessor Directive</h2>
+<ul>
+<li><code>#if ENABLE_LEGACY_INPUT_MANAGER</code>: This preprocessor directive checks if the legacy Input Manager is enabled in the project settings. If it is not enabled, the attribute will not be compiled into the code. This is useful to prevent errors in projects that have migrated to the new Input System.</li>
+</ul>
+<h2 id="notes">Notes</h2>
+<ul>
+<li>The attribute is intended for use only with Unity&#39;s legacy Input Manager, not with the newer Input System package that Unity currently recommends.</li>
+<li>There is no additional functionality or properties defined within the attribute class itself—it acts as a marker to trigger the custom dropdown behavior in the Unity Editor.</li>
+<li>A custom property drawer <code>InputAxisPropertyDrawer</code> is provided that implements the dropdown functionality in the Unity Inspector.</li>
+</ul>
+<h2 id="compatibility">Compatibility</h2>
+<ul>
+<li>The use of the preprocessor directive ensures that the attribute is only available when the legacy Input Manager is enabled, 
+avoiding any conflicts with Unity&#39;s newer Input System.</li>
+</ul>
+<h2 id="see-also">See Also</h2>
+<ul>
+<li>Unity Scripting API&#39;s <a href="https://docs.unity3d.com/ScriptReference/PropertyAttribute.html">PropertyAttribute</a></li>
+<li>Unity&#39;s <a href="https://docs.unity3d.com/ScriptReference/Input.html">Input Manager</a> for configuring input axes.</li>
+<li>Unity&#39;s <a href="https://docs.unity3d.com/ScriptReference/PropertyDrawer.html">CustomPropertyDrawer</a> for creating custom UI elements in the Unity Editor.</li>
+<li>Unity&#39;s <a href="https://docs.unity3d.com/ScriptReference/EditorGUILayout.Popup.html">EditorGUILayout.Popup</a> or <a href="https://docs.unity3d.com/ScriptReference/EditorGUI.Popup.html">EditorGUI.Popup</a> which can be used to create the dropdown menu in a custom property drawer.</li>
+</ul>
 </article>
           </div>
           <div class="hidden-sm col-md-2" role="complementary">

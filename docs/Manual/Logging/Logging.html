@@ -1,0 +1,346 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>| Core Framework Documentation  Logging</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="| Core Framework Documentation  Logging">
+    <meta name="generator" content="docfx 2.59.3.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    <meta property="docfx:newtab" content="true">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="Core Framework">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+
+<hr>
+<h1 id="logging">Logging</h1>
+<hr>
+<p>Several Classes designed to enhance Unity&#39;s default logging system by adding context and formatting to log messages.</p>
+<hr>
+<h1 id="log">Log</h1>
+<hr>
+<h2 id="overview">Overview</h2>
+<p>The <code>Log</code> static class is part of the CoreFramework and is designed to enhance Unity&#39;s default logging system by adding context and formatting to log messages. It provides static methods to output informational messages, warnings, and errors in a formatted manner that includes the name of the calling method and the context object&#39;s name, with configurable text sizes and colors for better visibility and differentiation in the Unity console.</p>
+<h2 id="usage">Usage</h2>
+<p>The <code>Log</code> class is utilized by calling its static methods <code>Info</code>, <code>Warn</code>, and <code>Error</code> to log messages of different severity levels. This class is not instantiated but used directly with the static method calls.</p>
+<h3 id="log-method-examples">Log Method Examples</h3>
+<p><img src="../../Images/Logging/Log.png" alt="Button Example"></p>
+<pre><code class="lang-csharp">Log.Info(&quot;This is an info message&quot;, this, nameof(MyMethod));
+Log.Warn(&quot;This is a warning message&quot;, this, nameof(MyMethod));
+Log.Error(&quot;This is an error message&quot;, this, nameof(MyMethod));
+</code></pre><h2 id="methods">Methods</h2>
+<h3 id="info">Info</h3>
+<pre><code class="lang-csharp">public static void Info(string msg, Object context, string callingMethod = &quot;&quot;)
+</code></pre><p>Logs an informational message with enhanced formatting.</p>
+<p><strong>Parameters:</strong></p>
+<ul>
+<li><code>msg</code>: The message to log.</li>
+<li><code>context</code>: The Unity object that the log relates to. Provides context in the Unity Editor.</li>
+<li><code>callingMethod</code> (optional): The name of the method that is calling the log function, which provides additional context.</li>
+</ul>
+<h3 id="warn">Warn</h3>
+<pre><code class="lang-csharp">public static void Warn(string msg, Object context, string callingMethod = &quot;&quot;)
+</code></pre><p>Logs a warning message with enhanced formatting.</p>
+<p><strong>Parameters:</strong></p>
+<ul>
+<li><code>msg</code>: The warning message to log.</li>
+<li><code>context</code>: The Unity object that the log relates to.</li>
+<li><code>callingMethod</code> (optional): The name of the method that is calling the log function.</li>
+</ul>
+<h3 id="error">Error</h3>
+<pre><code class="lang-csharp">public static void Error(string msg, Object context, string callingMethod = &quot;&quot;)
+</code></pre><p>Logs an error message with enhanced formatting.</p>
+<p><strong>Parameters:</strong></p>
+<ul>
+<li><code>msg</code>: The error message to log.</li>
+<li><code>context</code>: The Unity object that the log relates to.</li>
+<li><code>callingMethod</code> (optional): The name of the method that is calling the log function.</li>
+</ul>
+<h2 id="formatting">Formatting</h2>
+<p>The log messages are formatted with HTML-like tags to change color and size based on the message type:</p>
+<ul>
+<li>Informational messages are displayed in blue with the <code>InfoSize</code> setting from <code>CoreFrameWorkSettings</code>.</li>
+<li>Warning messages are displayed in orange and yellow with the <code>WarningSize</code> setting.</li>
+<li>Error messages are displayed in red and maroon with the <code>ErrorSize</code> setting.</li>
+</ul>
+<p>These settings allow for customization of the log appearance in the Unity console.</p>
+<h2 id="example">Example</h2>
+<p>Below is an example of how the <code>Log</code> class could be used within a MonoBehaviour:</p>
+<pre><code class="lang-csharp">public class PlayerController : MonoBehaviour
+{
+    private void Start()
+    {
+        Log.Info(&quot;Player Controller started.&quot;, this, nameof(Start));
+    }
+
+    private void Update()
+    {
+        if (CheckForErrors())
+        {
+            Log.Error(&quot;Error encountered in player update loop.&quot;, this, nameof(Update));
+        }
+    }
+}
+</code></pre><h2 id="notes">Notes</h2>
+<ul>
+<li>The <code>Log</code> class is intended for use within the Unity Editor and will format messages in a way that utilizes Unity&#39;s rich console output.</li>
+<li>The HTML-like syntax in the log messages will not work outside of Unity&#39;s console and is not suitable for logging in other environments.</li>
+<li>It is recommended to use these logging methods judiciously to avoid cluttering the console and potentially impacting performance.</li>
+</ul>
+<h2 id="see-also">See Also</h2>
+<ul>
+<li><code>UnityEngine.Debug</code></li>
+<li><code>CoreFramework.Settings.CoreFrameWorkSettings</code></li>
+</ul>
+<hr>
+<h1 id="debug-mono-behaviour">Debug Mono Behaviour</h1>
+<hr>
+<h2 id="overview">Overview</h2>
+<p>The <code>DebugMonoBehaviour</code> class extends the functionality of <code>UnityEngine.MonoBehaviour</code> by integrating advanced debug logging capabilities. It is tailored for use within the Unity Editor, empowering developers with tools to issue informational messages, warnings, and errors, facilitating easier tracking and troubleshooting during the development process.</p>
+<h2 id="usage">Usage</h2>
+<p><code>DebugMonoBehaviour</code> is designed to be a base class for other MonoBehaviour classes that require advanced debug capabilities. It is not intended to be used on its own but should be extended by other classes.</p>
+<h3 id="inheriting-from-debugmonobehaviour">Inheriting from DebugMonoBehaviour</h3>
+<p><img src="../../Images/Logging/Log.png" alt="Button Example"></p>
+<p>To utilize <code>DebugMonoBehaviour</code>, you would extend it like so:</p>
+<pre><code class="lang-csharp">public class TestDebug : DebugMonoBehaviour
+{
+    private void Start()
+    {
+        Log.Info(&quot;This is an info message&quot;, &quot;Start&quot;);
+        Log.Warn(&quot;This is a warning message&quot;, &quot;Start&quot;);
+        Log.Error(&quot;This is an error message&quot;, nameof(Start))
+    }
+}
+</code></pre><p>In the derived class, the methods <code>Info()</code>, <code>Warning()</code>, and <code>Error()</code> are available for logging different levels of information based on the situation.</p>
+<h2 id="properties">Properties</h2>
+<ul>
+<li><code>bool _showDebugInfo</code>: A serialized private field that can be toggled in the Unity Inspector. It allows for the enabling or disabling of debug logs on a per-instance basis.</li>
+</ul>
+<h2 id="methods">Methods</h2>
+<h3 id="info">Info</h3>
+<pre><code class="lang-csharp">protected void Info(string msg, string callingMethod = &quot;&quot;)
+</code></pre><p>Outputs an informational message to the Unity console, contingent on the debug settings.</p>
+<p><strong>Parameters:</strong></p>
+<ul>
+<li><code>msg</code>: The message to log.</li>
+<li><code>callingMethod</code> (optional): The name of the method issuing the log for added context.</li>
+</ul>
+<h3 id="warning">Warning</h3>
+<pre><code class="lang-csharp">protected void Warning(string msg, string callingMethod = &quot;&quot;)
+</code></pre><p>Displays a warning message in the Unity console if debug logging is active.</p>
+<p><strong>Parameters:</strong></p>
+<ul>
+<li><code>msg</code>: The warning message to log.</li>
+<li><code>callingMethod</code> (optional): The name of the method issuing the log for added context.</li>
+</ul>
+<h3 id="error">Error</h3>
+<pre><code class="lang-csharp">protected void Error(string msg, string callingMethod = &quot;&quot;)
+</code></pre><p>Logs an error message regardless of the current debug logging settings.</p>
+<p><strong>Parameters:</strong></p>
+<ul>
+<li><code>msg</code>: The error message to log.</li>
+<li><code>callingMethod</code> (optional): The name of the method issuing the log for added context.</li>
+</ul>
+<h2 id="conditional-compilation">Conditional Compilation</h2>
+<p>The <code>Info</code> and <code>Warning</code> methods are wrapped with the <code>UNITY_EDITOR</code> preprocessor directive to ensure that debug-related functionality is only compiled and executed within the Unity Editor. This is a safeguard to prevent unnecessary logging overhead in production builds.</p>
+<h2 id="example">Example</h2>
+<p>Below is a hypothetical example of a MonoBehaviour subclass that uses <code>DebugMonoBehaviour</code> to log when a player enters a specific zone:</p>
+<pre><code class="lang-csharp">public class PlayerZoneTracker : DebugMonoBehaviour
+{
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag(&quot;Player&quot;))
+        {
+            Info(&quot;Player has entered the zone&quot;, nameof(OnTriggerEnter));
+        }
+    }
+}
+</code></pre><h2 id="notes">Notes</h2>
+<ul>
+<li>It is recommended to use the logging methods with discretion to avoid performance impacts, particularly in code areas where performance is crucial.</li>
+<li>Providing the <code>callingMethod</code> parameter can increase the informational value of the log by providing clear context.</li>
+<li>The debugging tools within this class are purposed for the Unity Editor and will not be included in the final production build.</li>
+</ul>
+<h2 id="see-also">See Also</h2>
+<ul>
+<li><code>UnityEngine.MonoBehaviour</code></li>
+<li><code>UnityEngine.Debug</code></li>
+</ul>
+<hr>
+<h1 id="debug-scriptable-object">Debug Scriptable Object</h1>
+<hr>
+<h2 id="overview">Overview</h2>
+<p>The <code>DebugScriptableObject</code> is an abstract class that extends <code>UnityEngine.ScriptableObject</code> and provides integrated debug logging functionality. It is designed for use within the Unity Editor to assist developers by offering a convenient way to log informational messages, warnings, and errors.</p>
+<h2 id="usage">Usage</h2>
+<p>This class is intended to be inherited by other <code>ScriptableObject</code> classes that need debugging capabilities. It should not be instantiated directly.</p>
+<h3 id="inheriting-the-debugscriptableobject">Inheriting the DebugScriptableObject</h3>
+<p><img src="../../Images/Logging/Log.png" alt="Button Example"></p>
+<p>To use <code>DebugScriptableObject</code>, create a new class that inherits from it:</p>
+<pre><code class="lang-csharp">public class TestDebugScriptableObject : DebugScriptableObject
+{
+    public void DebugMessages()
+    {
+        Log.Info(&quot;This is an info message&quot;, &quot;DebugMessages&quot;);
+        Log.Warn(&quot;This is a warning message&quot;, &quot;DebugMessages&quot;);
+        Log.Error(&quot;This is an error message&quot;, &quot;DebugMessages&quot;)
+    }
+}
+</code></pre><p>Within this subclass, you can use the provided methods (<code>Info()</code>, <code>Warning()</code>, <code>Error()</code>) to log messages to the Unity console.</p>
+<h2 id="properties">Properties</h2>
+<ul>
+<li><code>bool _showDebugInfo</code>: Serialized private field that can be toggled in the Unity inspector to enable or disable debug logging for the specific instance of the <code>ScriptableObject</code>.</li>
+</ul>
+<h2 id="methods">Methods</h2>
+<h3 id="info">Info</h3>
+<pre><code class="lang-csharp">protected void Info(string msg, string callingMethod = &quot;&quot;)
+</code></pre><p>Logs an informational message to the Unity console if debugging is enabled.</p>
+<p><strong>Parameters:</strong></p>
+<ul>
+<li><code>msg</code>: The message to log.</li>
+<li><code>callingMethod</code> (optional): The name of the method that is calling the log function, for additional context.</li>
+</ul>
+<h3 id="warning">Warning</h3>
+<pre><code class="lang-csharp">protected void Warning(string msg, string callingMethod = &quot;&quot;)
+</code></pre><p>Logs a warning message to the Unity console if debugging is enabled.</p>
+<p><strong>Parameters:</strong></p>
+<ul>
+<li><code>msg</code>: The warning message to log.</li>
+<li><code>callingMethod</code> (optional): The name of the method that is calling the log function, for additional context.</li>
+</ul>
+<h3 id="error">Error</h3>
+<pre><code class="lang-csharp">protected void Error(string msg, string callingMethod = &quot;&quot;)
+</code></pre><p>Logs an error message to the Unity console.</p>
+<p><strong>Parameters:</strong></p>
+<ul>
+<li><code>msg</code>: The error message to log.</li>
+<li><code>callingMethod</code> (optional): The name of the method that is calling the log function, for additional context.</li>
+</ul>
+<h2 id="conditional-compilation">Conditional Compilation</h2>
+<p>The <code>Info</code> and <code>Warning</code> methods use the <code>UNITY_EDITOR</code> preprocessor directive to ensure that debug checks and logging are only compiled and performed within the Unity Editor. This avoids the performance overhead of logging in the production build of the game.</p>
+<h2 id="example">Example</h2>
+<p>Below is an example of a <code>ScriptableObject</code> subclass that uses <code>DebugScriptableObject</code> to log an error during settings validation:</p>
+<pre><code class="lang-csharp">[CreateAssetMenu(fileName = &quot;GameSettings&quot;, menuName = &quot;Game/Settings&quot;)]
+public class GameSettings : DebugScriptableObject
+{
+    public void ValidateSettings()
+    {
+        if (someInvalidCondition)
+        {
+            Error(&quot;Invalid game setting detected&quot;, nameof(ValidateSettings));
+        }
+    }
+}
+</code></pre><h2 id="notes">Notes</h2>
+<ul>
+<li>Use logging methods judiciously to prevent performance degradation, especially in performance-critical code paths.</li>
+<li>Providing the <code>callingMethod</code> argument can improve the usefulness of logs by adding context.</li>
+<li>Debugging functionality provided by this class is intended for use within the Unity Editor only and will not be included in production builds.</li>
+</ul>
+<h2 id="see-also">See Also</h2>
+<ul>
+<li><code>UnityEngine.ScriptableObject</code></li>
+<li><code>UnityEngine.Debug</code></li>
+</ul>
+</article>
+          </div>
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution-panel mobile-hide">
+                <div class="nav">
+                  
+                  
+                </div>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

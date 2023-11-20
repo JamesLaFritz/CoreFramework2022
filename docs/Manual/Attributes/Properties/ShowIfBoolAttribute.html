@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>| Core Framework Documentation  Show If Bool</title>
+    <title>| Core Framework Documentation  Show If Bool Attribute</title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="| Core Framework Documentation  Show If Bool">
+    <meta name="title" content="| Core Framework Documentation  Show If Bool Attribute">
     <meta name="generator" content="docfx 2.59.3.0">
     
     <link rel="shortcut icon" href="../../../favicon.ico">
@@ -77,11 +77,18 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="show-if-bool">Show If Bool</h1>
 
-<p>Show/Hide a field based on a bool value in the same script.</p>
+<hr>
+<h1 id="show-if-bool-attribute">Show If Bool Attribute</h1>
+<hr>
+<h2 id="overview">Overview</h2>
+<p>The <code>ShowIfBoolAttribute</code> is a custom attribute designed for use within the Unity engine to conditionally show or hide serialized fields in the Inspector. This is based on the value of a Boolean field present in the same MonoBehaviour or ScriptableObject. This attribute enhances the usability of the Unity Inspector by only displaying relevant information when certain conditions are met, which can simplify the interface for users and prevent unnecessary clutter.</p>
+<h2 id="usage">Usage</h2>
+<p>You can apply the <code>ShowIfBoolAttribute</code> to any serializable field or property in a class derived from <code>UnityEngine.Object</code>. The attribute takes the name of the Boolean field and a Boolean indicating whether to show or hide the property when the Boolean field has a specific value.</p>
 <div class="CAUTION"><h5>Caution</h5><p>Order of attribute is important. Should be placed before any other attributes.</p>
 </div>
+<h3 id="example">Example:</h3>
+<p><img src="../../../Images/Attributes/ShowIfBool.gif" alt="Show If Bool Example"></p>
 <pre><code class="lang-csharp">using CoreFramework.Attributes;
 using UnityEngine;
 
@@ -104,9 +111,16 @@ public class ShowIfBoolExample : MonoBehaviour
     [Range(5, 20), ShowIfBool(&quot;showHideValue&quot;)]
     public int showIfTrueRangeInt2;
 }
-</code></pre><p><img src="../../../Images/Attributes/ShowIfBool.gif" alt="Show If Bool Example"></p>
-<h2 id="multiple-show-if">Multiple Show If</h2>
+</code></pre><p>In this example:</p>
+<ul>
+<li><code>showIfTrueInt</code> will only be visible in the Inspector if <code>showHideValue</code> is <code>true</code>.</li>
+<li><code>showIfFalseInt</code> will only be visible in the Inspector if <code>showHideValue</code> is <code>false</code>.</li>
+<li><code>showIfTrueRangeInt1</code> will only be visible in the Inspector with a range if <code>showHideValue</code> is <code>true</code>.</li>
+<li><code>showIfTrueRangeInt2</code> will always be visible in the Inspector because &#39;ShowIfBool<code>attribute is ordered after</code>Range` attribute.</li>
+</ul>
+<h4 id="multiple-show-if">Multiple Show If</h4>
 <p>Can Stack Multiple Show If Bool&#39;s and Show if Enum&#39;s to create interesting conditions.</p>
+<p><img src="../../../Images/Attributes/ShowIfMulti.gif" alt="Show If Multi Example"></p>
 <pre><code class="lang-csharp">using CoreFramework.Attributes;
 using UnityEngine;
 
@@ -128,7 +142,31 @@ public class ShowIfMulti : MonoBehaviour
     [ShowIfBool(&quot;selectScene&quot;), ShowIfEnumValue(&quot;sceneSelectionMode&quot;, 1), Scene]
     public int sceneIndex;
 }
-</code></pre><p><img src="../../../Images/Attributes/ShowIfMulti.gif" alt="Show If Multi Example"></p>
+</code></pre><h2 id="constructor">Constructor</h2>
+<pre><code class="lang-csharp">public ShowIfBoolAttribute(string boolName, bool show = true)
+</code></pre><ul>
+<li><code>boolName</code>: The name of the serialized Boolean property within the same script.</li>
+<li><code>show</code>: Optional. A Boolean that determines if the target field should be shown (<code>true</code>) or hidden (<code>false</code>) when the named Boolean property matches its value. Defaults to <code>true</code>.</li>
+</ul>
+<h2 id="properties">Properties</h2>
+<h3 id="boolname">BoolName</h3>
+<pre><code class="lang-csharp">public readonly string BoolName;
+</code></pre><p>Holds the name of the Boolean property that dictates the visibility of the attribute&#39;s target.</p>
+<h3 id="show">Show</h3>
+<pre><code class="lang-csharp">public readonly bool Show;
+</code></pre><p>Indicates whether the target property should be shown (if <code>true</code>) or hidden (if <code>false</code>) when the named Boolean property matches this value.</p>
+<h2 id="notes">Notes</h2>
+<ul>
+<li>The attribute is marked with <code>AttributeUsage</code> set to <code>AttributeTargets.Field | AttributeTargets.Property</code>, meaning it can only be applied to fields and properties.</li>
+<li>Since this is a custom attribute not inherently understood by Unity&#39;s default Inspector, custom editor scripting is required to process and display the fields accordingly.</li>
+<li>Proper use of this attribute can significantly tidy up the Unity Inspector, making scripts easier to navigate and understand at a glance.</li>
+</ul>
+<h2 id="see-also">See Also</h2>
+<ul>
+<li>Unity Scripting API&#39;s <a href="https://docs.unity3d.com/ScriptReference/PropertyAttribute.html">PropertyAttribute</a></li>
+<li>How to extend the Unity Editor with <a href="https://docs.unity3d.com/ScriptReference/CustomEditor.html">CustomEditor</a></li>
+<li>Managing and editing serialized fields with <a href="https://docs.unity3d.com/ScriptReference/SerializedProperty.html">SerializedProperty</a></li>
+</ul>
 </article>
           </div>
           <div class="hidden-sm col-md-2" role="complementary">

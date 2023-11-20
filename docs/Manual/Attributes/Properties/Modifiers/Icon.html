@@ -77,9 +77,16 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="icon">Icon</h1>
 
-<p>Displays an icon in the label..</p>
+<hr>
+<h1 id="icon">Icon</h1>
+<hr>
+<h2 id="overview">Overview</h2>
+<p>The <code>IconAttribute</code> is a custom attribute for Unity that allows developers to associate an icon with a field or property in the Unity Inspector. This visual cue can be particularly useful for improving the clarity and usability of custom scripts in the Inspector.</p>
+<h2 id="usage">Usage</h2>
+<p>When you apply the <code>IconAttribute</code> to a field or property in a MonoBehaviour or ScriptableObject script, Unity will display the specified icon next to the field&#39;s or property&#39;s label in the Inspector.</p>
+<h3 id="example">Example:</h3>
+<p><img src="../../../../Images/Attributes/Icon.png" alt="Icon Example"></p>
 <pre><code class="lang-csharp">using UnityEngine;
 using Icon = CoreFramework.Attributes.IconAttribute;
 
@@ -88,7 +95,49 @@ public class IconExample : MonoBehaviour
     [Icon(&quot;Assets/PathToYourIcon/NameOfYourIconWithExtension&quot;)]
     public float health;
 }
-</code></pre><p><img src="../../../../Images/Attributes/Icon.png" alt="Icon Example"></p>
+</code></pre><pre><code class="lang-csharp">public class Player : MonoBehaviour
+{
+    [Icon(&quot;Assets/Icons/healthIcon.png&quot;)]
+    public int health;
+}
+</code></pre><p>In this example, the <code>health</code> field will have an icon next to its label in the Unity Inspector.
+The icon will be loaded from the specified path within the project.</p>
+<h2 id="attribute-declaration">Attribute Declaration</h2>
+<pre><code class="lang-csharp">[AttributeUsage(AttributeTargets.Field | AttributeTargets.Property)]
+public class IconAttribute : Attribute
+{
+    public string Path { get; }
+
+    public IconAttribute(string path) =&gt; Path = path;
+}
+</code></pre><h2 id="attribute-details">Attribute Details</h2>
+<ul>
+<li><code>[AttributeUsage(AttributeTargets.Field | AttributeTargets.Property)]</code>: Indicates that <code>IconAttribute</code> can be used on fields and properties.</li>
+<li><code>public string Path { get; }</code>: This property holds the project-relative path to the texture that should be used as the icon. It&#39;s a read-only property, meaning it can only be set through the constructor and not modified later.</li>
+<li><code>public IconAttribute(string path) =&gt; Path = path;</code>: This is the constructor for the attribute. It sets the <code>Path</code> property to the provided <code>path</code> argument, which should be a relative path to the icon texture in the Unity project.</li>
+</ul>
+<h2 id="functionality">Functionality</h2>
+<p>The attribute itself doesn&#39;t cause the icon to appear in the Inspector; it simply marks the field or property with the necessary metadata.
+A custom property drawer is implemented to interpret the attribute and draw the icon in the Inspector.</p>
+<h2 id="considerations">Considerations</h2>
+<ul>
+<li>The icons used should be properly imported into Unity and marked as editor resources.</li>
+<li>The path provided must be correct and relative to the project&#39;s Assets folder. If the path is incorrect, the icon will not be displayed.</li>
+<li>The rendering of the icon in the Inspector is handled by custom editor scripting, <code>AttributeMonoBehaviourInspector : Editor</code> and <code>AttributeScriptableObjectInspector : AttributeMonoBehaviourInspector</code>.<ul>
+<li>These scripts are automatically used for drawing all classes that derive from <code>MonoBehaviours</code> and <code>ScriptableObjects</code> unless you have created a <code>Custome Editor Script</code>.
+<code>csharp
+[CustomEditor(typeof(MonoBehaviour), true, isFallback = true)]
+[CanEditMultipleObjects]
+public class AttributeMonoBehaviourInspector : Editor</code></li>
+</ul>
+</li>
+</ul>
+<h2 id="see-also">See Also</h2>
+<ul>
+<li>Unity Scripting API&#39;s <a href="https://docs.unity3d.com/ScriptReference/PropertyDrawer.html">PropertyDrawer</a> for creating custom GUI elements in the Inspector.</li>
+<li>Unity&#39;s handling of <a href="https://docs.unity3d.com/Manual/Sprites.html">Textures and Sprites</a> in the editor.</li>
+<li>Unity Editor&#39;s GUI functions for custom rendering, such as <a href="https://docs.unity3d.com/ScriptReference/EditorGUIUtility.html">EditorGUIUtility</a>, which can be used to load and display icons.</li>
+</ul>
 </article>
           </div>
           <div class="hidden-sm col-md-2" role="complementary">

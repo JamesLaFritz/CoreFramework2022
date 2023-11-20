@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>| Core Framework Documentation  Show If Enum</title>
+    <title>| Core Framework Documentation  Show If Enum Value Attribute</title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="| Core Framework Documentation  Show If Enum">
+    <meta name="title" content="| Core Framework Documentation  Show If Enum Value Attribute">
     <meta name="generator" content="docfx 2.59.3.0">
     
     <link rel="shortcut icon" href="../../../favicon.ico">
@@ -77,11 +77,18 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="show-if-enum">Show If Enum</h1>
 
-<p>Show/Hide a field based on a enum value in the same script.</p>
+<hr>
+<h1 id="show-if-enum-value-attribute">Show If Enum Value Attribute</h1>
+<hr>
+<h2 id="overview">Overview</h2>
+<p>The <code>ShowIfEnumValueAttribute</code> is a custom attribute used in Unity to conditionally show or hide serialized fields in the Inspector based on the value of an enumeration field present in the same MonoBehaviour or ScriptableObject. It is useful for creating dynamic and context-sensitive editor interfaces without writing additional custom editor code.</p>
+<h2 id="usage">Usage</h2>
+<p>You apply <code>ShowIfEnumValueAttribute</code> to any serializable field or property within a class that inherits from <code>UnityEngine.Object</code>. This attribute requires the name of the enum field and the target enum value index as parameters. If the enum field has the specified value, the property with this attribute will be shown or hidden in the Inspector based on the <code>show</code> parameter.</p>
 <div class="CAUTION"><h5>Caution</h5><p>Order of attribute is important. Should be placed before any other attributes.</p>
 </div>
+<h3 id="example">Example:</h3>
+<p><img src="../../../Images/Attributes/ShowIfEnum.gif" alt="Show If Enum Example"></p>
 <pre><code class="lang-csharp">using CoreFramework.Attributes;
 using UnityEngine;
 
@@ -114,9 +121,12 @@ public class ShowIfEnumExample : MonoBehaviour
     [ShowIfEnumValue(&quot;someEnum&quot;, (int)SomeEnum.Three, false)]
     public int showIfSomeEnumNotThree;
 }
-</code></pre><p><img src="../../../Images/Attributes/ShowIfEnum.gif" alt="Show If Enum Example"></p>
-<h2 id="multiple-show-if">Multiple Show If</h2>
+</code></pre><p>In this example, <code>showIfSomeEnumOne</code> will only be visible in the Inspector when <code>someEnum</code> is set to <code>One</code>,
+and <code>showIfSomeEnumNotOne</code> will be hidden when <code>someEnum</code> is set to <code>Two</code> or <code>Three</code>.
+Similarly, all three remaining variables are toggled accordingly depending upon their respective values of &#39;someEnum&#39;</p>
+<h4 id="multiple-attributes">Multiple Attributes</h4>
 <p>Can Stack Multiple Show If Bool&#39;s and Show if Enum&#39;s to create interesting conditions.</p>
+<p><img src="../../../Images/Attributes/ShowIfMulti.gif" alt="Show If Multi Example"></p>
 <pre><code class="lang-csharp">using CoreFramework.Attributes;
 using UnityEngine;
 
@@ -138,7 +148,35 @@ public class ShowIfMulti : MonoBehaviour
     [ShowIfBool(&quot;selectScene&quot;), ShowIfEnumValue(&quot;sceneSelectionMode&quot;, 1), Scene]
     public int sceneIndex;
 }
-</code></pre><p><img src="../../../Images/Attributes/ShowIfMulti.gif" alt="Show If Multi Example"></p>
+</code></pre><h2 id="constructor">Constructor</h2>
+<pre><code class="lang-csharp">public ShowIfEnumValueAttribute(string enumName, int enumIndex, bool show = true)
+</code></pre><ul>
+<li><code>enumName</code>: The name of the serialized enum property within the same script.</li>
+<li><code>enumIndex</code>: The index of the enum value at which the attribute&#39;s target should be shown or hidden.</li>
+<li><code>show</code>: Optional. A boolean value determining if the target should be shown (<code>true</code>) or hidden (<code>false</code>) when the enum has the specified value. Defaults to <code>true</code>.</li>
+</ul>
+<h2 id="properties">Properties</h2>
+<h3 id="enumname">EnumName</h3>
+<pre><code class="lang-csharp">public readonly string EnumName;
+</code></pre><p>Stores the name of the enum property that will be used to determine the visibility of the attribute&#39;s target.</p>
+<h3 id="enumindex">EnumIndex</h3>
+<pre><code class="lang-csharp">public readonly int EnumIndex;
+</code></pre><p>Stores the index value of the enum that the attribute uses to decide if the target should be shown or hidden.</p>
+<h3 id="show">Show</h3>
+<pre><code class="lang-csharp">public readonly bool Show;
+</code></pre><p>Determines whether to show (if <code>true</code>) or hide (if <code>false</code>) the attribute&#39;s target when the specified enum value is matched.</p>
+<h2 id="notes">Notes</h2>
+<ul>
+<li>The <code>AttributeUsage</code> is set to <code>AttributeTargets.Field | AttributeTargets.Property</code> which means it can only be used on fields and properties.</li>
+<li>It is not a built-in Unity attribute, which means to make it functional, additional editor scripting is needed to interpret and enforce its behavior in the Inspector.</li>
+<li>The functionality provided by this attribute can significantly improve the user experience for designers and developers working with complex scripts by reducing clutter and making context-sensitive properties more intuitive.</li>
+</ul>
+<h2 id="see-also">See Also</h2>
+<ul>
+<li>Unity Scripting API&#39;s <a href="https://docs.unity3d.com/ScriptReference/PropertyAttribute.html">PropertyAttribute</a></li>
+<li>Custom editor scripting: <a href="https://docs.unity3d.com/ScriptReference/CustomEditor.html">CustomEditor</a></li>
+<li>Unity manual on Serialized Properties: <a href="https://docs.unity3d.com/ScriptReference/SerializedProperty.html">SerializedProperty</a></li>
+</ul>
 </article>
           </div>
           <div class="hidden-sm col-md-2" role="complementary">

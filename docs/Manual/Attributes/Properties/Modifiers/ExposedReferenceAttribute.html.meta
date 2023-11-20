@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Samples.meta
+guid: 07345f5368af77b44b097e354375effc
+folderAsset: yes
+DefaultImporter:
+========
+guid: 5d625599f08cab846bb98d8130bc18d4
+TextScriptImporter:
+>>>>>>>> c5de31c (Modify Unity Types for docs):docs/Manual/Attributes/Properties/Modifiers/ExposedReferenceAttribute.html.meta
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

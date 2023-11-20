@@ -81,7 +81,17 @@
 <hr>
 <h1 id="read-only">Read Only</h1>
 <hr>
-<p>Make a field appear as read only in the <i><b>Inspector</b></i></p>
+<h2 id="overview">Overview</h2>
+<p>The <code>ReadOnlyAttribute</code> is a Unity-specific attribute designed to make fields or properties appear read-only in the <i><b>Unity Inspector</b></i>.
+This means that while values will be visible in the <i><b>Unity Editor</b></i>,
+they cannot be modified by the user directly through the <i><b>Inspector</b></i>.</p>
+<h2 id="usage">Usage</h2>
+<p>The <code>ReadOnlyAttribute</code> is primarily used to display information in the <i><b>Inspector</b></i>
+for debugging or informational purposes without allowing it to be editable at that point.
+This can be particularly useful for showing properties that are set by the script at runtime or
+for exposing private fields for debugging without the risk of them being inadvertently changed by the user.</p>
+<h3 id="example">Example:</h3>
+<p><img src="../../../../Images/Attributes/ReadOnly.png" alt="Read Only Example"></p>
 <pre><code class="lang-csharp">using CoreFramework.Attributes;
 using UnityEngine;
 
@@ -89,7 +99,24 @@ public class ReadOnlyExample : MonoBehaviour
 {
     [ReadOnly] public int inspectorReadOnlyInt = 400;
 }
-</code></pre><p><img src="../../../../Images/Attributes/ReadOnly.png" alt="Read Only Example"></p>
+</code></pre><p>In the example above, <code>inspectorReadOnlyInt</code> will be displayed in the Inspector when the <code>ReadOnlyExample</code> component is selected,
+but it will be greyed out to indicate that it cannot be edited.</p>
+<h2 id="attribute-declaration">Attribute Declaration</h2>
+<pre><code class="lang-csharp">[AttributeUsage(AttributeTargets.Field | AttributeTargets.Property)]
+public class ReadOnlyAttribute : PropertyAttribute { }
+</code></pre><h2 id="properties">Properties</h2>
+<p>There are no properties for <code>ReadOnlyAttribute</code> as it&#39;s a marker attribute, meaning it doesn&#39;t hold any additional data—it simply marks the field or property with the intended read-only behavior.</p>
+<h2 id="notes">Notes</h2>
+<ul>
+<li>The attribute affects only the appearance in the Unity Inspector and does not change the actual mutability of the field or property in code.</li>
+<li>The read-only effect of this attribute is limited to the Unity Editor. During runtime, the field or property can still be changed programmatically as usual.</li>
+<li>To implement the read-only behavior, a custom editor script is used <code>ReadOnlyPropertyDrawer : PropertyDrawer</code>.</li>
+</ul>
+<h2 id="see-also">See Also</h2>
+<ul>
+<li>Unity Scripting API&#39;s <a href="https://docs.unity3d.com/ScriptReference/PropertyAttribute.html">PropertyAttribute</a></li>
+<li>Unity&#39;s <a href="https://docs.unity3d.com/ScriptReference/PropertyDrawer.html">CustomPropertyDrawer</a> for creating custom UI elements in the Unity Editor.</li>
+</ul>
 </article>
           </div>
           <div class="hidden-sm col-md-2" role="complementary">

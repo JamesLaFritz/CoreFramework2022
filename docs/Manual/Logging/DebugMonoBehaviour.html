@@ -1,0 +1,191 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>| Core Framework Documentation  Debug Mono Behaviour</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="| Core Framework Documentation  Debug Mono Behaviour">
+    <meta name="generator" content="docfx 2.59.3.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    
+    <meta property="docfx:rel" content="../../">
+    <meta property="docfx:newtab" content="true">
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="Core Framework">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+
+<hr>
+<h1 id="debug-mono-behaviour">Debug Mono Behaviour</h1>
+<hr>
+<h2 id="overview">Overview</h2>
+<p>The <code>DebugMonoBehaviour</code> class extends the functionality of <code>UnityEngine.MonoBehaviour</code> by integrating advanced debug logging capabilities. It is tailored for use within the Unity Editor, empowering developers with tools to issue informational messages, warnings, and errors, facilitating easier tracking and troubleshooting during the development process.</p>
+<h2 id="usage">Usage</h2>
+<p><code>DebugMonoBehaviour</code> is designed to be a base class for other MonoBehaviour classes that require advanced debug capabilities. It is not intended to be used on its own but should be extended by other classes.</p>
+<h3 id="inheriting-from-debugmonobehaviour">Inheriting from DebugMonoBehaviour</h3>
+<p><img src="../../Images/Logging/Log.png" alt="Button Example"></p>
+<p>To utilize <code>DebugMonoBehaviour</code>, you would extend it like so:</p>
+<pre><code class="lang-csharp">public class TestDebug : DebugMonoBehaviour
+{
+    private void Start()
+    {
+        Log.Info(&quot;This is an info message&quot;, &quot;Start&quot;);
+        Log.Warn(&quot;This is a warning message&quot;, &quot;Start&quot;);
+        Log.Error(&quot;This is an error message&quot;, nameof(Start))
+    }
+}
+</code></pre><p>In the derived class, the methods <code>Info()</code>, <code>Warning()</code>, and <code>Error()</code> are available for logging different levels of information based on the situation.</p>
+<h2 id="properties">Properties</h2>
+<ul>
+<li><code>bool _showDebugInfo</code>: A serialized private field that can be toggled in the Unity Inspector. It allows for the enabling or disabling of debug logs on a per-instance basis.</li>
+</ul>
+<h2 id="methods">Methods</h2>
+<h3 id="info">Info</h3>
+<pre><code class="lang-csharp">protected void Info(string msg, string callingMethod = &quot;&quot;)
+</code></pre><p>Outputs an informational message to the Unity console, contingent on the debug settings.</p>
+<p><strong>Parameters:</strong></p>
+<ul>
+<li><code>msg</code>: The message to log.</li>
+<li><code>callingMethod</code> (optional): The name of the method issuing the log for added context.</li>
+</ul>
+<h3 id="warning">Warning</h3>
+<pre><code class="lang-csharp">protected void Warning(string msg, string callingMethod = &quot;&quot;)
+</code></pre><p>Displays a warning message in the Unity console if debug logging is active.</p>
+<p><strong>Parameters:</strong></p>
+<ul>
+<li><code>msg</code>: The warning message to log.</li>
+<li><code>callingMethod</code> (optional): The name of the method issuing the log for added context.</li>
+</ul>
+<h3 id="error">Error</h3>
+<pre><code class="lang-csharp">protected void Error(string msg, string callingMethod = &quot;&quot;)
+</code></pre><p>Logs an error message regardless of the current debug logging settings.</p>
+<p><strong>Parameters:</strong></p>
+<ul>
+<li><code>msg</code>: The error message to log.</li>
+<li><code>callingMethod</code> (optional): The name of the method issuing the log for added context.</li>
+</ul>
+<h2 id="conditional-compilation">Conditional Compilation</h2>
+<p>The <code>Info</code> and <code>Warning</code> methods are wrapped with the <code>UNITY_EDITOR</code> preprocessor directive to ensure that debug-related functionality is only compiled and executed within the Unity Editor. This is a safeguard to prevent unnecessary logging overhead in production builds.</p>
+<h2 id="example">Example</h2>
+<p>Below is a hypothetical example of a MonoBehaviour subclass that uses <code>DebugMonoBehaviour</code> to log when a player enters a specific zone:</p>
+<pre><code class="lang-csharp">public class PlayerZoneTracker : DebugMonoBehaviour
+{
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag(&quot;Player&quot;))
+        {
+            Info(&quot;Player has entered the zone&quot;, nameof(OnTriggerEnter));
+        }
+    }
+}
+</code></pre><h2 id="notes">Notes</h2>
+<ul>
+<li>It is recommended to use the logging methods with discretion to avoid performance impacts, particularly in code areas where performance is crucial.</li>
+<li>Providing the <code>callingMethod</code> parameter can increase the informational value of the log by providing clear context.</li>
+<li>The debugging tools within this class are purposed for the Unity Editor and will not be included in the final production build.</li>
+</ul>
+<h2 id="see-also">See Also</h2>
+<ul>
+<li><code>UnityEngine.MonoBehaviour</code></li>
+<li><code>UnityEngine.Debug</code></li>
+</ul>
+</article>
+          </div>
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution-panel mobile-hide">
+                <div class="nav">
+                  
+                  
+                </div>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

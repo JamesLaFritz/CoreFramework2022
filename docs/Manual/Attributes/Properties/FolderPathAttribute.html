@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>| Core Framework Documentation  Folder Path</title>
+    <title>| Core Framework Documentation  Folder Path Attribute</title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="| Core Framework Documentation  Folder Path">
+    <meta name="title" content="| Core Framework Documentation  Folder Path Attribute">
     <meta name="generator" content="docfx 2.59.3.0">
     
     <link rel="shortcut icon" href="../../../favicon.ico">
@@ -77,11 +77,16 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="folder-path">Folder Path</h1>
 
-<p>Displays a text field with a folder button to the right, with which you can select a folder path as the string value.
-If you pass false to this attribute this will use the absolute path to the folder.
-If you pass true to this attribute this will use the path relative to the Project.</p>
+<hr>
+<h1 id="folder-path-attribute">Folder Path Attribute</h1>
+<hr>
+<h2 id="overview">Overview</h2>
+<p>The <code>FolderPathAttribute</code> is a Unity-specific attribute that can be applied to string fields or properties. It provides a user-friendly way to select folder paths through the Unity Inspector. The attribute enhances the string field with a folder selection button, allowing developers to choose directories from their file system, which can be set as either absolute or relative paths.</p>
+<h2 id="usage">Usage</h2>
+<p>When you want to expose a folder path in the Inspector without requiring manual path entry, you can use this attribute to provide a button that opens a folder selection dialog. This attribute is beneficial when a script needs to reference a directory for operations like saving/loading files or accessing a collection of assets at runtime.</p>
+<h3 id="example">Example:</h3>
+<p><img src="../../../Images/Attributes/FolderPath.gif" alt="Folder Path Example"></p>
 <pre><code class="lang-csharp">using CoreFramework.Attributes;
 using UnityEngine;
 
@@ -90,7 +95,33 @@ public class FolderPathExample : MonoBehaviour
     [FolderPath(false)] public string absolutePath;
     [FolderPath(true)] public string relativePath;
 }
-</code></pre><p><img src="../../../Images/Attributes/FolderPath.gif" alt="Folder Path Example"></p>
+</code></pre><p>Here, <code>absolutePathToFolder</code> will hold an absolute path, while <code>relativePathToFolder</code> will show a path relative to the project&#39;s root directory.</p>
+<h2 id="constructors">Constructors</h2>
+<h3 id="folderpathattribute">FolderPathAttribute()</h3>
+<pre><code class="lang-csharp">public FolderPathAttribute() : this(true) { }
+</code></pre><p>This constructor initializes a new instance of <code>FolderPathAttribute</code> with the path set to be relative to the project by default.</p>
+<h3 id="folderpathattributebool-pathrelativetoproject">FolderPathAttribute(bool pathRelativeToProject)</h3>
+<pre><code class="lang-csharp">public FolderPathAttribute(bool pathRelativeToProject)
+</code></pre><p>This constructor allows you to specify whether the selected folder path should be relative to the project&#39;s root directory or an absolute path.</p>
+<ul>
+<li><strong>pathRelativeToProject</strong>: A <code>bool</code> indicating whether the path should be relative (<code>true</code>) or absolute (<code>false</code>).</li>
+</ul>
+<h2 id="properties">Properties</h2>
+<h3 id="pathrelativetoproject">PathRelativeToProject</h3>
+<pre><code class="lang-csharp">public readonly bool PathRelativeToProject;
+</code></pre><p>Indicates whether the folder path is relative to the project&#39;s root directory or not.</p>
+<h2 id="notes">Notes</h2>
+<ul>
+<li>This attribute makes it more convenient to select and store folder paths in Unity without needing to manually enter the path string.</li>
+<li>The attribute will not affect runtime behavior; it only changes how the field is displayed and interacted with in the Unity Editor.</li>
+<li>Custom editor script <code>FolderPathAttributeDrawer : PropertyDrawer</code> handles drawing in the Unity Inspector.</li>
+<li>The use of this attribute is particularly useful during the development phase where folder paths are frequently accessed or modified.</li>
+</ul>
+<h2 id="see-also">See Also</h2>
+<ul>
+<li>Unity Scripting API&#39;s <a href="https://docs.unity3d.com/ScriptReference/PropertyAttribute.html">PropertyAttribute</a></li>
+<li>Creating custom UI elements in the Unity Editor with <a href="https://docs.unity3d.com/ScriptReference/PropertyDrawer.html">CustomPropertyDrawer</a></li>
+</ul>
 </article>
           </div>
           <div class="hidden-sm col-md-2" role="complementary">

@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="77e1b322-9ba3-4de6-bca8-63aa5eb20c96" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/AudioClipGameEventListener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AudioClipGameEventListener.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vector4GameEventListener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Vector4GameEventListener.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/Manual/Attributes/ButtonAttribute.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../docs/Manual/Attributes/ButtonAttribute.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/Manual/Attributes/Decorators/HeaderAttribute.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../docs/Manual/Attributes/Decorators/HeaderAttribute.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/Manual/Attributes/Decorators/InfoBoxAttribute.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../docs/Manual/Attributes/Decorators/InfoBoxAttribute.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/Manual/Attributes/Properties/Drop Down Selection/InputAxis.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../docs/Manual/Attributes/Properties/Drop Down Selection/InputAxis.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/Manual/Attributes/Properties/Drop Down Selection/Scene.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../docs/Manual/Attributes/Properties/Drop Down Selection/Scene.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/Manual/Attributes/Properties/Drop Down Selection/Tag.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../docs/Manual/Attributes/Properties/Drop Down Selection/Tag.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/Manual/Attributes/Properties/FolderPathAttribute.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../docs/Manual/Attributes/Properties/FolderPathAttribute.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/Manual/Attributes/Properties/Modifiers/Icon.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../docs/Manual/Attributes/Properties/Modifiers/Icon.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/Manual/Attributes/Properties/Modifiers/ReadOnly.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../docs/Manual/Attributes/Properties/Modifiers/ReadOnly.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/Manual/Attributes/Properties/RequiredReferenceAttribute.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../docs/Manual/Attributes/Properties/RequiredReferenceAttribute.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/Manual/Attributes/Properties/ShowIfBoolAttribute.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../docs/Manual/Attributes/Properties/ShowIfBoolAttribute.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/Manual/Attributes/Properties/ShowIfEnumValueAttribute.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../docs/Manual/Attributes/Properties/ShowIfEnumValueAttribute.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/Manual/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../docs/Manual/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Animation.AnimationParameter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Animation.AnimationParameter.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Animation.AnimatorFieldAttribute.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Animation.AnimatorFieldAttribute.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Animation.AnimatorParameterAttribute.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Animation.AnimatorParameterAttribute.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Animation.BoolAnimationParameter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Animation.BoolAnimationParameter.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Animation.FloatAnimationParameter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Animation.FloatAnimationParameter.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Animation.IntAnimationParameter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Animation.IntAnimationParameter.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Animation.TriggerAnimationParameter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Animation.TriggerAnimationParameter.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Animation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Animation.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Attributes.ButtonAttribute.ButtonMode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Attributes.ButtonAttribute.ButtonMode.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Attributes.ButtonAttribute.Mode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Attributes.ButtonAttribute.Mode.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Attributes.ButtonAttribute.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Attributes.ButtonAttribute.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Attributes.ExposedReferenceAttribute.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Attributes.ExposedReferenceAttribute.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Attributes.FolderPathAttribute.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Attributes.FolderPathAttribute.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Attributes.HeaderAttribute.PresetColor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Attributes.HeaderAttribute.PresetColor.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Attributes.HeaderAttribute.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Attributes.HeaderAttribute.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Attributes.IconAttribute.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Attributes.IconAttribute.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Attributes.InfoBoxAttribute.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Attributes.InfoBoxAttribute.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Attributes.InfoBoxType.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Attributes.InfoBoxType.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Attributes.InputAxisAttribute.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Attributes.InputAxisAttribute.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Attributes.ReadOnlyAttribute.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Attributes.ReadOnlyAttribute.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Attributes.RequiredReferenceAttribute.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Attributes.RequiredReferenceAttribute.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Attributes.SceneAttribute.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Attributes.SceneAttribute.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Attributes.ShowIfBoolAttribute.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Attributes.ShowIfBoolAttribute.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Attributes.ShowIfEnumValueAttribute.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Attributes.ShowIfEnumValueAttribute.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Attributes.TagAttribute.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Attributes.TagAttribute.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Attributes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Attributes.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Bootstrapper.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Bootstrapper.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.CoreFrameworkMenu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.CoreFrameworkMenu.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.DebugMonoBehaviour.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.DebugMonoBehaviour.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.DebugScriptableObject.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.DebugScriptableObject.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Destroy.DestroyAfterTime.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Destroy.DestroyAfterTime.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Destroy.DestroyNoChildren.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Destroy.DestroyNoChildren.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Destroy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Destroy.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Extensions.ArrayExtensions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Extensions.ArrayExtensions.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Extensions.QuaternionExtensions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Extensions.QuaternionExtensions.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Extensions.TextExtensions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Extensions.TextExtensions.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Extensions.Vector4Extensions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Extensions.Vector4Extensions.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Extensions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Extensions.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Functional.Option-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Functional.Option-1.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Functional.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Functional.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Interactable.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Interactable.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Log.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Log.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Saving.ISavable.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Saving.ISavable.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Saving.JsonStatics.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Saving.JsonStatics.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Saving.JsonStrategy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Saving.JsonStrategy.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Saving.SavableEntity.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Saving.SavableEntity.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Saving.SaveSystem.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Saving.SaveSystem.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Saving.SavingStrategy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Saving.SavingStrategy.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Saving.VersionControl.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Saving.VersionControl.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Saving.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Saving.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.BaseMonoBehaviour.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.BaseMonoBehaviour.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.BaseObject.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.BaseObject.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.AnimationCurveGameEvent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.AnimationCurveGameEvent.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.AnimationCurveUnityEvent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.AnimationCurveUnityEvent.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.AudioClipGameEvent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.AudioClipGameEvent.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.AudioClipGameEventListener.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.AudioClipGameEventListener.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.AudioClipUnityEvent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.AudioClipUnityEvent.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.BaseGameEvent-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.BaseGameEvent-1.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.BaseGameEvent-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.BaseGameEvent-2.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.BaseGameEvent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.BaseGameEvent.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.BoolGameEvent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.BoolGameEvent.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.BoolGameEventListener.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.BoolGameEventListener.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.BoolUnityEvent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.BoolUnityEvent.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.BoundsGameEvent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.BoundsGameEvent.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.BoundsGameEventListener.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.BoundsGameEventListener.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.BoundsUnityEvent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.BoundsUnityEvent.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.ByteGameEvent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.ByteGameEvent.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.ByteGameEventListener.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.ByteGameEventListener.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.ByteUnityEvent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.ByteUnityEvent.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.CharGameEvent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.CharGameEvent.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.CharUnityEvent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.CharUnityEvent.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.CodedGameEventListener-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.CodedGameEventListener-1.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.CodedGameEventListener-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.CodedGameEventListener-2.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.CodedGameEventListener.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.CodedGameEventListener.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Color32GameEvent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Color32GameEvent.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Color32GameEventListener.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Color32GameEventListener.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Color32UnityEvent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Color32UnityEvent.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.ColorGameEvent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.ColorGameEvent.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.ColorGameEventListener.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.ColorGameEventListener.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.ColorUnityEvent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.ColorUnityEvent.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.CoreFramework.ScriptableObjectArchitecture.UnityEventListeners.Vector4GameEventListener.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.CoreFramework.ScriptableObjectArchitecture.UnityEventListeners.Vector4GameEventListener.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.CoreFramework.ScriptableObjectArchitecture.UnityEventListeners.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.CoreFramework.ScriptableObjectArchitecture.UnityEventListeners.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.DoubleGameEvent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.DoubleGameEvent.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.DoubleGameEventListener.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.DoubleGameEventListener.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.DoubleUnityEvent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.DoubleUnityEvent.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.FloatGameEvent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.FloatGameEvent.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.FloatGameEventListener.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.FloatGameEventListener.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.FloatUnityEvent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.FloatUnityEvent.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.GameEvent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.GameEvent.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.GameEventListener.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.GameEventListener.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.GameObjectBoolGameEvent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.GameObjectBoolGameEvent.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.GameObjectFloatGameEvent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.GameObjectFloatGameEvent.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.GameObjectGameEvent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.GameObjectGameEvent.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.GameObjectGameEventListener.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.GameObjectGameEventListener.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.GameObjectIntGameEvent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.GameObjectIntGameEvent.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.GameObjectUnityEvent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.GameObjectUnityEvent.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.IGameEvent-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.IGameEvent-1.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.IGameEvent-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.IGameEvent-2.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.IGameEvent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.IGameEvent.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.IGameEventListener-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.IGameEventListener-1.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.IGameEventListener-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.IGameEventListener-2.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.IGameEventListener.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.IGameEventListener.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.IntGameEvent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.IntGameEvent.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.IntGameEventListener.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.IntGameEventListener.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.IntUnityEvent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.IntUnityEvent.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.LayerMaskGameEvent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.LayerMaskGameEvent.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.LayerMaskGameEventListener.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.LayerMaskGameEventListener.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.LayerMaskUnityEvent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.LayerMaskUnityEvent.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.BoolGameEventListener.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.BoolGameEventListener.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.BoundsGameEventListener.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.BoundsGameEventListener.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.ByteGameEventListener.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.ByteGameEventListener.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.CodedGameEventListener-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.CodedGameEventListener-1.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.CodedGameEventListener-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.CodedGameEventListener-2.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.CodedGameEventListener.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.CodedGameEventListener.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.Color32GameEventListener.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.Color32GameEventListener.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.ColorGameEventListener.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.ColorGameEventListener.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.CoreFramework.ScriptableObjectArchitecture.UnityEventListeners.Vector4GameEventListener.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.CoreFramework.ScriptableObjectArchitecture.UnityEventListeners.Vector4GameEventListener.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.CoreFramework.ScriptableObjectArchitecture.UnityEventListeners.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.CoreFramework.ScriptableObjectArchitecture.UnityEventListeners.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.DoubleGameEventListener.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.DoubleGameEventListener.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.FloatGameEventListener.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.FloatGameEventListener.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.GameEventListener.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.GameEventListener.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.GameObjectGameEventListener.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.GameObjectGameEventListener.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.IGameEventListener-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.IGameEventListener-1.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.IGameEventListener-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.IGameEventListener-2.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.IGameEventListener.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.IGameEventListener.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.IntGameEventListener.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.IntGameEventListener.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.LayerMaskGameEventListener.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.LayerMaskGameEventListener.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.LongGameEventListener.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.LongGameEventListener.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.ObjectGameEventListener.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.ObjectGameEventListener.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.QuaternionGameEventListener.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.QuaternionGameEventListener.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.SByteGameEventListener.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.SByteGameEventListener.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.SceneGameEventListener.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.SceneGameEventListener.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.ShortGameEventListener.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.ShortGameEventListener.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.StringGameEventListener.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.StringGameEventListener.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.UIntGameEventListener.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.UIntGameEventListener.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.ULongGameEventListener.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.ULongGameEventListener.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.Vector2GameEventListener.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.Vector2GameEventListener.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.Vector3GameEventListener.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.Vector3GameEventListener.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.LongGameEvent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.LongGameEvent.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.LongGameEventListener.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.LongGameEventListener.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.LongUnityEvent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.LongUnityEvent.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.ObjectGameEvent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.ObjectGameEvent.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.ObjectGameEventListener.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.ObjectGameEventListener.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.ObjectUnityEvent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.ObjectUnityEvent.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.QuaternionGameEvent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.QuaternionGameEvent.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.QuaternionGameEventListener.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.QuaternionGameEventListener.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.QuaternionUnityEvent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.QuaternionUnityEvent.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.SByteGameEvent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.SByteGameEvent.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.SByteGameEventListener.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.SByteGameEventListener.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.SByteUnityEvent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.SByteUnityEvent.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.SceneGameEvent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.SceneGameEvent.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.SceneGameEventListener.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.SceneGameEventListener.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.SceneUnityEvent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.SceneUnityEvent.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.ShortGameEvent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.ShortGameEvent.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.ShortGameEventListener.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.ShortGameEventListener.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.ShortUnityEvent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.ShortUnityEvent.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.StringGameEvent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.StringGameEvent.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.StringGameEventListener.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.StringGameEventListener.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.StringUnityEvent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.StringUnityEvent.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.UIntGameEvent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.UIntGameEvent.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.UIntGameEventListener.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.UIntGameEventListener.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.UIntUnityEvent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.UIntUnityEvent.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.ULongGameEvent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.ULongGameEvent.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.ULongGameEventListener.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.ULongGameEventListener.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.ULongUnityEvent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.ULongUnityEvent.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.UShortGameEvent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.UShortGameEvent.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.UShortUnityEvent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.UShortUnityEvent.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.UnityGameEventListener-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.UnityGameEventListener-2.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.UnityGameEventListener-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.UnityGameEventListener-3.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.UnityGameEventListener-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.UnityGameEventListener-4.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.UnityGameEventListener.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.UnityGameEventListener.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Vector2GameEvent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Vector2GameEvent.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Vector2GameEventListener.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Vector2GameEventListener.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Vector2UnityEvent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Vector2UnityEvent.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Vector3GameEvent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Vector3GameEvent.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Vector3GameEventListener.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Vector3GameEventListener.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Vector3UnityEvent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Vector3UnityEvent.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Vector4GameEvent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Vector4GameEvent.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Vector4UnityEvent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.Vector4UnityEvent.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Events.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.References.AnimationCurveReference.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.References.AnimationCurveReference.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.References.AudioClipReference.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.References.AudioClipReference.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.References.BaseReference-3.Selection.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.References.BaseReference-3.Selection.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.References.BaseReference-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.References.BaseReference-3.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.References.BaseReference-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.References.BaseReference-4.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.References.BoolReference.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.References.BoolReference.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.References.BoundsReference.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.References.BoundsReference.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.References.ByteReference.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.References.ByteReference.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.References.CharReference.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.References.CharReference.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.References.Color32Reference.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.References.Color32Reference.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.References.ColorReference.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.References.ColorReference.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.References.DoubleReference.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.References.DoubleReference.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.References.FloatReference.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.References.FloatReference.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.References.GameObjectReference.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.References.GameObjectReference.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.References.IntReference.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.References.IntReference.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.References.LayerMaskReference.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.References.LayerMaskReference.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.References.LongReference.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.References.LongReference.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.References.ObjectReference.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.References.ObjectReference.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.References.QuaternionReference.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.References.QuaternionReference.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.References.SByteReference.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.References.SByteReference.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.References.SceneReference.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.References.SceneReference.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.References.ShortReference.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.References.ShortReference.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.References.StringReference.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.References.StringReference.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.References.UIntReference.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.References.UIntReference.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.References.ULongReference.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.References.ULongReference.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.References.UShortReference.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.References.UShortReference.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.References.Vector2Reference.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.References.Vector2Reference.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.References.Vector3Reference.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.References.Vector3Reference.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.References.Vector4Reference.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.References.Vector4Reference.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.References.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.References.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.SceneInfo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.SceneInfo.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.AnimationCurveVariable.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.AnimationCurveVariable.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.AudioClipVariable.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.AudioClipVariable.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.BaseVariable-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.BaseVariable-2.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.BoolVariable.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.BoolVariable.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.BoundsVariable.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.BoundsVariable.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.ByteVariable.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.ByteVariable.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.CharVariable.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.CharVariable.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.Color32Variable.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.Color32Variable.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.ColorVariable.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.ColorVariable.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.DoubleVariable.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.DoubleVariable.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.FloatVariable.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.FloatVariable.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.GameObjectVariable.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.GameObjectVariable.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.IntVariable.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.IntVariable.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.LayerMaskVariable.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.LayerMaskVariable.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.LongVariable.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.LongVariable.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.ObjectVariable.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.ObjectVariable.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.QuaternionVariable.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.QuaternionVariable.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.SByteVariable.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.SByteVariable.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.SceneVariable.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.SceneVariable.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.ShortVariable.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.ShortVariable.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.StringVariable.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.StringVariable.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.UIntVariable.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.UIntVariable.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.ULongVariable.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.ULongVariable.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.UShortVariable.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.UShortVariable.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.VariableTypes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.VariableTypes.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.Vector2Variable.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.Vector2Variable.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.Vector3Variable.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.Vector3Variable.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.Vector4Variable.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.Vector4Variable.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Utility.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.Utility.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.ScriptableObjectArchitecture.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Settings.CoreFrameWorkSettings.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Settings.CoreFrameWorkSettings.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Settings.CoreFrameworkSettingsSO.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Settings.CoreFrameworkSettingsSO.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Settings.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Settings.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Singleton-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.Singleton-1.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFramework.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFrameworkEditor.Animation.AnimationParameterDrawer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFrameworkEditor.Animation.AnimationParameterDrawer.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFrameworkEditor.Animation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFrameworkEditor.Animation.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFrameworkEditor.Attributes.ExposedReferencePropertyDrawer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFrameworkEditor.Attributes.ExposedReferencePropertyDrawer.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFrameworkEditor.Attributes.FolderPathAttributeDrawer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFrameworkEditor.Attributes.FolderPathAttributeDrawer.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFrameworkEditor.Attributes.HeaderAttributeDecoratorDrawer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFrameworkEditor.Attributes.HeaderAttributeDecoratorDrawer.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFrameworkEditor.Attributes.InfoBoxDecoratorDrawer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFrameworkEditor.Attributes.InfoBoxDecoratorDrawer.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFrameworkEditor.Attributes.InputAxisPropertyDrawer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFrameworkEditor.Attributes.InputAxisPropertyDrawer.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFrameworkEditor.Attributes.ReadOnlyPropertyDrawer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFrameworkEditor.Attributes.ReadOnlyPropertyDrawer.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFrameworkEditor.Attributes.RequiredReferencePropertyDrawer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFrameworkEditor.Attributes.RequiredReferencePropertyDrawer.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFrameworkEditor.Attributes.SceneAttributePropertyDrawer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFrameworkEditor.Attributes.SceneAttributePropertyDrawer.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFrameworkEditor.Attributes.SerializedObjectExtensions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFrameworkEditor.Attributes.SerializedObjectExtensions.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFrameworkEditor.Attributes.ShowIfBoolPropertyDrawer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFrameworkEditor.Attributes.ShowIfBoolPropertyDrawer.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFrameworkEditor.Attributes.ShowIfEnumPropertyDrawer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFrameworkEditor.Attributes.ShowIfEnumPropertyDrawer.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFrameworkEditor.Attributes.TagAttributePropertyDrawer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFrameworkEditor.Attributes.TagAttributePropertyDrawer.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFrameworkEditor.Attributes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFrameworkEditor.Attributes.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFrameworkEditor.CreateGameObjectFromUnityScript.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFrameworkEditor.CreateGameObjectFromUnityScript.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFrameworkEditor.Inspector.AttributeMonoBehaviourInspector.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFrameworkEditor.Inspector.AttributeMonoBehaviourInspector.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFrameworkEditor.Inspector.AttributeScriptableObjectInspector.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFrameworkEditor.Inspector.AttributeScriptableObjectInspector.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFrameworkEditor.Inspector.ButtonAttributeHelper.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFrameworkEditor.Inspector.ButtonAttributeHelper.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFrameworkEditor.Inspector.QuaternionDrawer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFrameworkEditor.Inspector.QuaternionDrawer.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFrameworkEditor.Inspector.Vector4Drawer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFrameworkEditor.Inspector.Vector4Drawer.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFrameworkEditor.Inspector.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFrameworkEditor.Inspector.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFrameworkEditor.PropertyDrawerHelper.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFrameworkEditor.PropertyDrawerHelper.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFrameworkEditor.Saving.SaveEditorWindow.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFrameworkEditor.Saving.SaveEditorWindow.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFrameworkEditor.Saving.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFrameworkEditor.Saving.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFrameworkEditor.ScriptableObjectArchitecture.PropertyDrawers.SceneInfoPropertyDrawer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFrameworkEditor.ScriptableObjectArchitecture.PropertyDrawers.SceneInfoPropertyDrawer.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFrameworkEditor.ScriptableObjectArchitecture.PropertyDrawers.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFrameworkEditor.ScriptableObjectArchitecture.PropertyDrawers.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFrameworkEditor.Settings.CoreFrameworkSettingsEditor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFrameworkEditor.Settings.CoreFrameworkSettingsEditor.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFrameworkEditor.Settings.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFrameworkEditor.Settings.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFrameworkEditor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/CoreFrameworkEditor.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/api/toc.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/index.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../docs/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../docs/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../docs/sitemap.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/toc.html.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../../docs/xrefmap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../../docs/xrefmap.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../../../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/AudioClipGameEventListener.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BoundsGameEventListener.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Color32GameEventListener.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ColorGameEventListener.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GameObjectGameEventListener.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LayerMaskGameEventListener.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ObjectGameEventListener.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/QuaternionGameEventListener.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SceneGameEventListener.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Vector2GameEventListener.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Vector3GameEventListener.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2YRt5BzHV9ZSzJMsLSIXlinvsWh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)"
+  },
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\ktmar\\AppData\\Local\\JetBrains\\Shared\\vAny\\DecompilerCache",
+      "C:\\Users\\ktmar\\AppData\\Local\\JetBrains\\Shared\\vAny\\SourcesCache",
+      "C:\\Users\\ktmar\\AppData\\Local\\Symbols\\src"
+    ]
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="77e1b322-9ba3-4de6-bca8-63aa5eb20c96" name="Changes" comment="" />
+      <created>1700500199011</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700500199011</updated>
+      <workItem from="1700500251032" duration="703000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>

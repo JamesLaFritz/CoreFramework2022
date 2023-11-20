@@ -1,272 +1,1688 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.Attributes.ButtonAttribute.Mode.html</loc>
-    <lastmod>2022-08-18T03:58:44-04:00</lastmod>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.Animation.AnimationParameter.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.Animation.AnimatorFieldAttribute.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.Animation.AnimatorParameterAttribute.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.Animation.BoolAnimationParameter.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.Animation.FloatAnimationParameter.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.Animation.IntAnimationParameter.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.Animation.TriggerAnimationParameter.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.Animation.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.Attributes.ButtonAttribute.ButtonMode.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.Attributes.ButtonAttribute.html</loc>
-    <lastmod>2022-08-18T03:58:44-04:00</lastmod>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.Attributes.ExposedReferenceAttribute.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.Attributes.FolderPathAttribute.html</loc>
-    <lastmod>2022-08-18T03:58:44-04:00</lastmod>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.Attributes.HeaderAttribute.PresetColor.html</loc>
-    <lastmod>2022-08-18T03:58:44-04:00</lastmod>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.Attributes.HeaderAttribute.html</loc>
-    <lastmod>2022-08-18T03:58:44-04:00</lastmod>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.Attributes.IconAttribute.html</loc>
-    <lastmod>2022-08-18T03:58:44-04:00</lastmod>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.Attributes.InfoBoxAttribute.html</loc>
-    <lastmod>2022-08-18T03:58:44-04:00</lastmod>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.Attributes.InfoBoxType.html</loc>
-    <lastmod>2022-08-18T03:58:44-04:00</lastmod>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.Attributes.InputAxisAttribute.html</loc>
-    <lastmod>2022-08-18T03:58:44-04:00</lastmod>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.Attributes.ReadOnlyAttribute.html</loc>
-    <lastmod>2022-08-18T03:58:44-04:00</lastmod>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.Attributes.RequiredReferenceAttribute.html</loc>
-    <lastmod>2022-08-18T03:58:44-04:00</lastmod>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.Attributes.SceneAttribute.html</loc>
-    <lastmod>2022-08-18T03:58:44-04:00</lastmod>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.Attributes.ShowIfBoolAttribute.html</loc>
-    <lastmod>2022-08-18T03:58:44-04:00</lastmod>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.Attributes.ShowIfEnumValueAttribute.html</loc>
-    <lastmod>2022-08-18T03:58:44-04:00</lastmod>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.Attributes.TagAttribute.html</loc>
-    <lastmod>2022-08-18T03:58:44-04:00</lastmod>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.Attributes.html</loc>
-    <lastmod>2022-08-18T03:58:44-04:00</lastmod>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.Bootstrapper.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.CoreFrameworkMenu.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.DebugMonoBehaviour.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.DebugScriptableObject.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.Destroy.DestroyAfterTime.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.Destroy.DestroyNoChildren.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.Destroy.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.Extensions.ArrayExtensions.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.Extensions.GameObjectExtensions.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.Extensions.QuaternionExtensions.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.Extensions.TextExtensions.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.Extensions.Vector2Extensions.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.Extensions.Vector3Extensions.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.Extensions.Vector4Extensions.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.Extensions.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.Functional.Option-1.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.Functional.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.Interactable.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.Log.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.Saving.ISavable.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.Saving.JsonStatics.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.Saving.JsonStrategy.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.Saving.SavableEntity.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.Saving.SaveSystem.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.Saving.SavingStrategy.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.Saving.VersionControl.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.Saving.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.BaseMonoBehaviour.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.BaseObject.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.AnimationCurveGameEvent.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.AnimationCurveUnityEvent.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.AudioClipGameEvent.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.AudioClipGameEventListener.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.AudioClipUnityEvent.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.BaseGameEvent.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.BaseGameEvent-1.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.BaseGameEvent-2.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.BoolGameEvent.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.BoolUnityEvent.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.BoundsGameEvent.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.BoundsUnityEvent.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.ByteGameEvent.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.ByteUnityEvent.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.CharGameEvent.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.CharUnityEvent.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.Color32GameEvent.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.Color32UnityEvent.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.ColorGameEvent.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.ColorUnityEvent.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.DoubleGameEvent.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.DoubleUnityEvent.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.FloatGameEvent.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.FloatUnityEvent.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.GameEvent.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.GameObjectBoolGameEvent.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.GameObjectFloatGameEvent.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.GameObjectGameEvent.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.GameObjectIntGameEvent.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.GameObjectUnityEvent.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.IGameEvent.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.IGameEvent-1.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.IGameEvent-2.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.IntGameEvent.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.IntUnityEvent.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.LayerMaskGameEvent.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.LayerMaskUnityEvent.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.BoolGameEventListener.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.BoundsGameEventListener.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.ByteGameEventListener.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.CodedGameEventListener.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.CodedGameEventListener-1.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.CodedGameEventListener-2.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.Color32GameEventListener.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.ColorGameEventListener.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.DoubleGameEventListener.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.FloatGameEventListener.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.GameEventListener.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.GameObjectGameEventListener.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.IGameEventListener.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.IGameEventListener-1.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.IGameEventListener-2.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.IntGameEventListener.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.LayerMaskGameEventListener.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.LongGameEventListener.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.ObjectGameEventListener.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.QuaternionGameEventListener.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.SByteGameEventListener.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.SceneGameEventListener.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.ShortGameEventListener.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.StringGameEventListener.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.UIntGameEventListener.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.ULongGameEventListener.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.Vector2GameEventListener.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.Vector3GameEventListener.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.Vector4GameEventListener.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.LongGameEvent.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.LongUnityEvent.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.ObjectGameEvent.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.ObjectUnityEvent.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.QuaternionGameEvent.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.QuaternionUnityEvent.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.SByteGameEvent.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.SByteUnityEvent.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.SceneGameEvent.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.SceneUnityEvent.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.ShortGameEvent.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.ShortUnityEvent.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.StringGameEvent.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.StringUnityEvent.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.UIntGameEvent.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.UIntUnityEvent.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.ULongGameEvent.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.ULongUnityEvent.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.UnityGameEventListener.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.UnityGameEventListener-2.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.UnityGameEventListener-3.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.UnityGameEventListener-4.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.UShortGameEvent.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.UShortUnityEvent.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.Vector2GameEvent.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.Vector2UnityEvent.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.Vector3GameEvent.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.Vector3UnityEvent.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.Vector4GameEvent.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.Vector4UnityEvent.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Events.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.References.AnimationCurveReference.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.References.AudioClipReference.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.References.BaseReference-3.Selection.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.References.BaseReference-3.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.References.BaseReference-4.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.References.BoolReference.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.References.BoundsReference.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.References.ByteReference.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.References.CharReference.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.References.Color32Reference.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.References.ColorReference.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.References.DoubleReference.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.References.FloatReference.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.References.GameObjectReference.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.References.IntReference.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.References.LayerMaskReference.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.References.LongReference.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.References.ObjectReference.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.References.QuaternionReference.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.References.SByteReference.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.References.SceneReference.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.References.ShortReference.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.References.StringReference.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.References.UIntReference.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.References.ULongReference.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.References.UShortReference.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.References.Vector2Reference.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.References.Vector3Reference.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.References.Vector4Reference.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.References.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.SceneInfo.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.AnimationCurveVariable.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.AudioClipVariable.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.BaseVariable-2.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.BoolVariable.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.BoundsVariable.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.ByteVariable.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.CharVariable.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.Color32Variable.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.ColorVariable.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.DoubleVariable.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.FloatVariable.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.GameObjectVariable.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.IntVariable.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.LayerMaskVariable.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.LongVariable.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.ObjectVariable.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.QuaternionVariable.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.SByteVariable.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.SceneVariable.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.ShortVariable.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.StringVariable.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.UIntVariable.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.ULongVariable.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.UShortVariable.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.VariableTypes.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.Vector2Variable.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.Vector3Variable.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.Vector4Variable.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.Utility.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.ScriptableObjectArchitecture.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.Settings.CoreFrameWorkSettings.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.Settings.CoreFrameworkSettingsSO.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.Settings.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.Singleton-1.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.Utilities.Application.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.Utilities.CountdownTimer.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.Utilities.StopwatchTimer.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.Utilities.Timer.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.Utilities.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFrameworkEditor.Animation.AnimationParameterDrawer.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFrameworkEditor.Animation.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFrameworkEditor.Attributes.ExposedReferencePropertyDrawer.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFrameworkEditor.Attributes.FolderPathAttributeDrawer.html</loc>
-    <lastmod>2022-08-18T03:58:44-04:00</lastmod>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFrameworkEditor.Attributes.HeaderAttributeDecoratorDrawer.html</loc>
-    <lastmod>2022-08-18T03:58:44-04:00</lastmod>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFrameworkEditor.Attributes.InfoBoxDecoratorDrawer.html</loc>
-    <lastmod>2022-08-18T03:58:44-04:00</lastmod>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFrameworkEditor.Attributes.InputAxisPropertyDrawer.html</loc>
-    <lastmod>2022-08-18T03:58:44-04:00</lastmod>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFrameworkEditor.Attributes.ReadOnlyPropertyDrawer.html</loc>
-    <lastmod>2022-08-18T03:58:44-04:00</lastmod>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFrameworkEditor.Attributes.RequiredReferencePropertyDrawer.html</loc>
-    <lastmod>2022-08-18T03:58:44-04:00</lastmod>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFrameworkEditor.Attributes.SceneAttributePropertyDrawer.html</loc>
-    <lastmod>2022-08-18T03:58:44-04:00</lastmod>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFrameworkEditor.Attributes.SerializedObjectExtensions.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFrameworkEditor.Attributes.ShowIfBoolPropertyDrawer.html</loc>
-    <lastmod>2022-08-18T03:58:44-04:00</lastmod>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFrameworkEditor.Attributes.ShowIfEnumPropertyDrawer.html</loc>
-    <lastmod>2022-08-18T03:58:44-04:00</lastmod>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFrameworkEditor.Attributes.TagAttributePropertyDrawer.html</loc>
-    <lastmod>2022-08-18T03:58:44-04:00</lastmod>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFrameworkEditor.Attributes.html</loc>
-    <lastmod>2022-08-18T03:58:44-04:00</lastmod>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFrameworkEditor.CreateGameObjectFromUnityScript.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFrameworkEditor.Inspector.AttributeMonoBehaviourInspector.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFrameworkEditor.Inspector.AttributeScriptableObjectInspector.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFrameworkEditor.Inspector.ButtonAttributeHelper.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFrameworkEditor.Inspector.QuaternionDrawer.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFrameworkEditor.Inspector.Vector4Drawer.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFrameworkEditor.Inspector.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFrameworkEditor.PropertyDrawerHelper.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFrameworkEditor.Saving.SaveEditorWindow.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFrameworkEditor.Saving.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFrameworkEditor.ScriptableObjectArchitecture.PropertyDrawers.SceneInfoPropertyDrawer.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFrameworkEditor.ScriptableObjectArchitecture.PropertyDrawers.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFrameworkEditor.Settings.CoreFrameworkSettingsEditor.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFrameworkEditor.Settings.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/api/CoreFrameworkEditor.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://jameslafritz.github.io/CoreFramework2022/CHANGELOG.html</loc>
-    <lastmod>2022-08-18T03:58:44-04:00</lastmod>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://jameslafritz.github.io/CoreFramework2022/index.html</loc>
-    <lastmod>2022-08-18T03:58:44-04:00</lastmod>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://jameslafritz.github.io/CoreFramework2022/License/Asset%20Licenses.html</loc>
-    <lastmod>2022-08-18T03:58:44-04:00</lastmod>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://jameslafritz.github.io/CoreFramework2022/License/LICENSE.html</loc>
-    <lastmod>2022-08-18T03:58:44-04:00</lastmod>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://jameslafritz.github.io/CoreFramework2022/License/Third%20Party%20Notices.html</loc>
-    <lastmod>2022-08-18T03:58:44-04:00</lastmod>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://jameslafritz.github.io/CoreFramework2022/Manual/Attributes/attributes.html</loc>
-    <lastmod>2022-08-18T03:58:44-04:00</lastmod>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://jameslafritz.github.io/CoreFramework2022/Manual/Attributes/ButtonAttribute.html</loc>
-    <lastmod>2022-08-18T03:58:44-04:00</lastmod>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://jameslafritz.github.io/CoreFramework2022/Manual/Attributes/Decorators/HeaderAttribute.html</loc>
-    <lastmod>2022-08-18T03:58:44-04:00</lastmod>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://jameslafritz.github.io/CoreFramework2022/Manual/Attributes/Decorators/InfoBoxAttribute.html</loc>
-    <lastmod>2022-08-18T03:58:44-04:00</lastmod>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://jameslafritz.github.io/CoreFramework2022/Manual/Attributes/Properties/Drop%20Down%20Selection/InputAxis.html</loc>
-    <lastmod>2022-08-18T03:58:44-04:00</lastmod>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://jameslafritz.github.io/CoreFramework2022/Manual/Attributes/Properties/Drop%20Down%20Selection/Scene.html</loc>
-    <lastmod>2022-08-18T03:58:44-04:00</lastmod>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://jameslafritz.github.io/CoreFramework2022/Manual/Attributes/Properties/Drop%20Down%20Selection/Tag.html</loc>
-    <lastmod>2022-08-18T03:58:44-04:00</lastmod>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://jameslafritz.github.io/CoreFramework2022/Manual/Attributes/Properties/FolderPathAttribute.html</loc>
-    <lastmod>2022-08-18T03:58:44-04:00</lastmod>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/Manual/Attributes/Properties/Modifiers/ExposedReferenceAttribute.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://jameslafritz.github.io/CoreFramework2022/Manual/Attributes/Properties/Modifiers/Icon.html</loc>
-    <lastmod>2022-08-18T03:58:44-04:00</lastmod>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://jameslafritz.github.io/CoreFramework2022/Manual/Attributes/Properties/Modifiers/ReadOnly.html</loc>
-    <lastmod>2022-08-18T03:58:44-04:00</lastmod>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://jameslafritz.github.io/CoreFramework2022/Manual/Attributes/Properties/RequiredReferenceAttribute.html</loc>
-    <lastmod>2022-08-18T03:58:44-04:00</lastmod>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://jameslafritz.github.io/CoreFramework2022/Manual/Attributes/Properties/ShowIfBoolAttribute.html</loc>
-    <lastmod>2022-08-18T03:58:44-04:00</lastmod>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://jameslafritz.github.io/CoreFramework2022/Manual/Attributes/Properties/ShowIfEnumValueAttribute.html</loc>
-    <lastmod>2022-08-18T03:58:44-04:00</lastmod>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/Manual/Bootstrapper.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/Manual/CoreFrameworkMenu.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/Manual/Interactable.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/Manual/Logging/DebugMonoBehaviour.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/Manual/Logging/DebugScriptableObject.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/Manual/Logging/Log.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/Manual/Logging/Logging.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jameslafritz.github.io/CoreFramework2022/Manual/Singleton.html</loc>
+    <lastmod>2023-11-20T12:45:10-05:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

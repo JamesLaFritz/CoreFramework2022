@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>| Core Framework Documentation  Button</title>
+    <title>| Core Framework Documentation  Button Attribute</title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="| Core Framework Documentation  Button">
+    <meta name="title" content="| Core Framework Documentation  Button Attribute">
     <meta name="generator" content="docfx 2.59.3.0">
     
     <link rel="shortcut icon" href="../../favicon.ico">
@@ -77,15 +77,22 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="button">Button</h1>
 
-<p>A method can be marked as a button. A button appears in the inspector and executes the method if clicked.</p>
+<hr>
+<h1 id="button-attribute">Button Attribute</h1>
+<hr>
+<h2 id="overview">Overview</h2>
+<p>The <code>ButtonAttribute</code> class is a custom attribute that can be used in Unity to draw a clickable button in the Unity Inspector window. When this attribute is applied to a method within a MonoBehaviour script, it allows the method to be invoked directly from the Inspector by clicking the button, without the need to play the scene or write additional editor scripting.</p>
+<h2 id="usage">Usage</h2>
+<p>To use <code>ButtonAttribute</code>, you simply place it above a MonoBehaviour method. This attribute takes an optional <code>ButtonMode</code> parameter that controls when the button is active.</p>
 <div class="WARNING"><h5>Warning</h5><p>The method must not have any parameters and can not be static.</p>
 </div>
 <div class="TIP"><h5>Tip</h5><p>Use <strong><code>ButtonAttribute.Mode.Play</code></strong> if you want the <em>Button</em> to only work in <em>Play</em> mode.</p>
 </div>
-<div class="TIP"><h5>Tip</h5><p>Use <strong><code>ButtonAttribute.Mode.Editor</code></strong> if you want the <em>Button</em> to only work in <em>Edit</em> mode. </p>
+<div class="TIP"><h5>Tip</h5><p>Use <strong><code>ButtonAttribute.Mode.Editor</code></strong> if you want the <em>Button</em> to only work in <em>Edit</em> mode.</p>
 </div>
+<h3 id="example">Example:</h3>
+<p><img src="../../Images/Attributes/Button.gif" alt="Button Example"></p>
 <pre><code class="lang-csharp">using CoreFramework.Attributes;
 using UnityEngine;
 
@@ -109,7 +116,58 @@ public class ButtonExample : MonoBehaviour
         Debug.Log($&quot;{name}: {GetType().Name} : Play Mode and Edit Mode&quot;);
     }
 }
-</code></pre><p><img src="../../Images/Attributes/Button.gif" alt="Button Example"></p>
+</code></pre><pre><code class="lang-csharp">public class MyComponent : MonoBehaviour
+{
+    [Button]
+    private void ResetValues()
+    {
+        // Reset some values here
+    }
+
+    [Button(ButtonAttribute.ButtonMode.Editor)]
+    private void InitializeSettings()
+    {
+        // Some initialization logic that should only run in the editor
+    }
+}
+</code></pre><p>In this example, the <code>ResetValues</code> method will have a button in the Inspector that is clickable both in Play and Editor modes, while <code>InitializeSettings</code> will only be clickable in Editor mode.</p>
+<h2 id="properties">Properties</h2>
+<h3 id="mode">Mode</h3>
+<pre><code class="lang-csharp">public readonly ButtonMode Mode;
+</code></pre><p>Read-only property that gets the mode in which the button should be active. The mode can be <code>Editor</code>, <code>Play</code>, or <code>Both</code>, determining whether the button can be clicked while Unity is in Editor mode, Play mode, or both.</p>
+<h2 id="constructor">Constructor</h2>
+<pre><code class="lang-csharp">public ButtonAttribute(ButtonMode mode = ButtonMode.Both)
+</code></pre><p>Initializes a new instance of the <code>ButtonAttribute</code> class with an optional <code>ButtonMode</code> parameter. If no parameter is given, the button defaults to being active in both Editor and Play modes.</p>
+<h2 id="enums">Enums</h2>
+<h3 id="buttonmode">ButtonMode</h3>
+<p>Defines the modes in which the button is operational.</p>
+<h4 id="editor">Editor</h4>
+<pre><code class="lang-csharp">Editor
+</code></pre><p>The button will only work in the Unity Editor mode when Unity is not in Play Mode.</p>
+<h4 id="play">Play</h4>
+<pre><code class="lang-csharp">Play
+</code></pre><p>The button will only work when Unity is in Play mode.</p>
+<h4 id="both">Both</h4>
+<pre><code class="lang-csharp">Both
+</code></pre><p>The button will work in both Editor and Play Mode.</p>
+<h2 id="notes">Notes</h2>
+<ul>
+<li>The attribute must target a method and cannot be used on properties or fields.</li>
+<li>To make the button visible, the method must not have any parameters, can not be static and needs to be decorated with the <code>ButtonAttribute</code>.</li>
+<li>The functionality of rendering the button in the Inspector and invoking the method is handled by custom editor scripting, <code>AttributeMonoBehaviourInspector : Editor</code>, <code>AttributeScriptableObjectInspector : AttributeMonoBehaviourInspector</code> and <code>ButtonAttributeHelper</code>.<ul>
+<li>These scripts are automatically used for drawing all classes that derive from <code>MonoBehaviours</code> and <code>ScriptableObjects</code> unless you have created a <code>Custome Editor Script</code>.
+<code>csharp
+[CustomEditor(typeof(MonoBehaviour), true, isFallback = true)]
+[CanEditMultipleObjects]
+public class AttributeMonoBehaviourInspector : Editor</code></li>
+</ul>
+</li>
+</ul>
+<h2 id="see-also">See Also</h2>
+<ul>
+<li>Unity&#39;s custom editor scripting: <a href="https://docs.unity3d.com/ScriptReference/CustomEditor.html">CustomEditor</a></li>
+<li>Unity&#39;s manual on extending the editor: <a href="https://docs.unity3d.com/Manual/ExtendingTheEditor.html">Extending the Editor</a></li>
+</ul>
 </article>
           </div>
           <div class="hidden-sm col-md-2" role="complementary">

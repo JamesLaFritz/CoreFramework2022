@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>| Core Framework Documentation  Required Reference</title>
+    <title>| Core Framework Documentation  Required Reference Attribute</title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="| Core Framework Documentation  Required Reference">
+    <meta name="title" content="| Core Framework Documentation  Required Reference Attribute">
     <meta name="generator" content="docfx 2.59.3.0">
     
     <link rel="shortcut icon" href="../../../favicon.ico">
@@ -77,13 +77,18 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="required-reference">Required Reference</h1>
 
-<p>Requires the field to be not null.
-If it is Null, the field will be displayed in red with a warning icon to the right.
-Use this to notify the user that the field is required and they should fill it in.</p>
-<div class="IMPORTANT"><h5>Important</h5><p>You should still do null checks in your code as this is only for visualization in the Inspector. </p>
+<hr>
+<h1 id="required-reference-attribute">Required Reference Attribute</h1>
+<hr>
+<h2 id="overview">Overview</h2>
+<p>The <code>RequiredReferenceAttribute</code> is a custom attribute developed to be used within Unity&#39;s engine. This attribute aims to enforce a rule where the marked field should not be <code>null</code>. It serves as a tool for developers to ensure that certain references must be set in the Unity Inspector before gameplay begins. This can help prevent runtime errors due to uninitialized references.</p>
+<div class="IMPORTANT"><h5>Important</h5><p>You should still do null checks in your code as this is only for visualization in the Inspector.</p>
 </div>
+<h2 id="usage">Usage</h2>
+<p>Apply the <code>RequiredReferenceAttribute</code> to any serializable field or property in a <code>MonoBehaviour</code> or <code>ScriptableObject</code> to indicate that the reference must be assigned in the Unity Inspector.</p>
+<h3 id="example">Example:</h3>
+<p><img src="../../../Images/Attributes/RequiredReference.gif" alt="Required Reference Example"></p>
 <pre><code class="lang-csharp">using CoreFramework.Attributes;
 using UnityEngine;
 
@@ -91,7 +96,25 @@ public class RequiredReferenceExample : MonoBehaviour
 {
     [RequiredReference] public GameObject requiredReference;
 }
-</code></pre><p><img src="../../../Images/Attributes/RequiredReference.gif" alt="Required Reference Example"></p>
+</code></pre><p>In this example, <code>requiredReference</code> is marked as required. In the Unity Inspector, this field will typically be highlighted or otherwise indicated to show that it must be assigned a value.</p>
+<h2 id="constructor">Constructor</h2>
+<pre><code class="lang-csharp">public RequiredReferenceAttribute()
+</code></pre><p>This attribute does not take parameters and can be applied without any additional information.</p>
+<h2 id="properties">Properties</h2>
+<p>There are no public properties exposed by <code>RequiredReferenceAttribute</code>.</p>
+<h2 id="notes">Notes</h2>
+<ul>
+<li>The attribute is marked with <code>AttributeUsage</code> set to <code>AttributeTargets.Field | AttributeTargets.Property</code>, meaning it can be applied to fields and properties.</li>
+<li>To enforce the non-null rule in the Unity Editor, custom editor scripting is necessary. By default, Unity does not process attributes to enforce rules; this requires extending the Unity Editor using a custom <code>PropertyDrawer</code> or <code>CustomEditor</code>.</li>
+<li>A common approach is to display a warning or error in the Unity Editor if a required reference is <code>null</code> when the attribute is present.</li>
+<li>This attribute can prevent common null reference exceptions, ensuring that all required components are set before the game runs.</li>
+</ul>
+<h2 id="see-also">See Also</h2>
+<ul>
+<li>Unity Scripting API&#39;s <a href="https://docs.unity3d.com/ScriptReference/PropertyAttribute.html">PropertyAttribute</a></li>
+<li>Extending the Unity Editor with <a href="https://docs.unity3d.com/ScriptReference/PropertyDrawer.html">PropertyDrawer</a></li>
+<li>Customizing the Unity Inspector using <a href="https://docs.unity3d.com/ScriptReference/CustomEditor.html">CustomEditor</a></li>
+</ul>
 </article>
           </div>
           <div class="hidden-sm col-md-2" role="complementary">

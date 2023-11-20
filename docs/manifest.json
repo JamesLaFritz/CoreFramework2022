@@ -10,7 +10,7 @@
     "changefreq": "weekly"
   },
   "homepages": [],
-  "source_base_path": "F:/Projects/Unity/DevEnviroment/Assets/CoreFramework/Documentation~",
+  "source_base_path": "E:/Data/Projects/Unity/Packages/CoreFramework/Documentation~",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -40,6 +40,17 @@
       "output": {
         "resource": {
           "relative_path": "Images/Attributes/Button.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Images/Attributes/ExposedReferenceAttribute.gif",
+      "output": {
+        "resource": {
+          "relative_path": "Images/Attributes/ExposedReferenceAttribute.gif"
         }
       },
       "is_incremental": false,
@@ -245,6 +256,17 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "Images/Logging/Log.png",
+      "output": {
+        "resource": {
+          "relative_path": "Images/Logging/Log.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "Images/Logo.png",
       "output": {
         "resource": {
@@ -339,7 +361,7 @@
       "output": {
         ".html": {
           "relative_path": "License/Third Party Notices.html",
-          "hash": "NhIM0Ird2n1haBbuHHuR+3RNcG8qEx2KDQw+kHydpqg="
+          "hash": "S3Y0VWntvk3nBinYlHrLCvG1DuwsiNb/donEGb21H0s="
         }
       },
       "is_incremental": false,
@@ -363,7 +385,7 @@
       "output": {
         ".html": {
           "relative_path": "Manual/Attributes/ButtonAttribute.html",
-          "hash": "0m1AeubNJWhE6JSxfFHaHG7PTK3WUZhsJ9G9NSa419Y="
+          "hash": "5y5/MyExC/EcP36z1piHMKAWrBxfCxiY9zs5IFtjb+8="
         }
       },
       "is_incremental": false,
@@ -375,7 +397,7 @@
       "output": {
         ".html": {
           "relative_path": "Manual/Attributes/Decorators/HeaderAttribute.html",
-          "hash": "Wl54R15u28iv9UuJ78jd1OB6rJmhfHRLGRtcXGSYlLo="
+          "hash": "shDp3h32WYZCAii8HOH+IBV+GwoHZdkMPFgjQW1Yoqo="
         }
       },
       "is_incremental": false,
@@ -387,7 +409,7 @@
       "output": {
         ".html": {
           "relative_path": "Manual/Attributes/Decorators/InfoBoxAttribute.html",
-          "hash": "DIDSZ6VJiPKbNdn2s3A9iMXV2RsO8Pigje3wZreIjIA="
+          "hash": "z8VwKWYY+kKefZeWY8Ho1LZtHwmu6w5eHS1GIn0lNjc="
         }
       },
       "is_incremental": false,
@@ -399,7 +421,7 @@
       "output": {
         ".html": {
           "relative_path": "Manual/Attributes/Properties/Drop Down Selection/InputAxis.html",
-          "hash": "5io5gUCqKTzHRzBpXML6ZgSjpWiEcjzF1B1H274aajY="
+          "hash": "CdYoNi+DC0sLJCBBI3UKvDQPZGI2Ew60yGrjl59Tacg="
         }
       },
       "is_incremental": false,
@@ -411,7 +433,7 @@
       "output": {
         ".html": {
           "relative_path": "Manual/Attributes/Properties/Drop Down Selection/Scene.html",
-          "hash": "M+OOm/tu02VlLuvRIEZ5ils9XCe9JU07agmRFjxvfyo="
+          "hash": "LodusvnmccRVwJACPVqxz5YAcUw5xMaEaVi0QcB0V7M="
         }
       },
       "is_incremental": false,
@@ -423,7 +445,7 @@
       "output": {
         ".html": {
           "relative_path": "Manual/Attributes/Properties/Drop Down Selection/Tag.html",
-          "hash": "Vzaj3zPeazTfWtRqk1Sa+gatXo3b4mzqV+Xk1p6isX8="
+          "hash": "CkI3/+rkGudGKa2S75LhmETO17D4kbwu0WOz2kBAp9c="
         }
       },
       "is_incremental": false,
@@ -435,7 +457,19 @@
       "output": {
         ".html": {
           "relative_path": "Manual/Attributes/Properties/FolderPathAttribute.html",
-          "hash": "4mo8/uFQ3zjAnWVSnm2Q39fS8jx/9yOMpGmiNF8SwUs="
+          "hash": "ZaxgTC1V3YKayn7y6zbQyCftZxHl0VCEaU610Ppe0kE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Manual/Attributes/Properties/Modifiers/ExposedReferenceAttribute.md",
+      "output": {
+        ".html": {
+          "relative_path": "Manual/Attributes/Properties/Modifiers/ExposedReferenceAttribute.html",
+          "hash": "CS4m3GxIO71kRLa3X1IZA7MU7lKXE+EjkaA8tj6q1iw="
         }
       },
       "is_incremental": false,
@@ -447,7 +481,7 @@
       "output": {
         ".html": {
           "relative_path": "Manual/Attributes/Properties/Modifiers/Icon.html",
-          "hash": "/3KBi3rHEX7ykSGv4ThtXRXALsJ2NX62C9lBvcTLG0U="
+          "hash": "NS+PzY/afdipoESFNylYxP2J2+70VSUcOMHqrVz2HGI="
         }
       },
       "is_incremental": false,
@@ -459,7 +493,7 @@
       "output": {
         ".html": {
           "relative_path": "Manual/Attributes/Properties/Modifiers/ReadOnly.html",
-          "hash": "hvlqLx0EFjIdsT2XX4/S80dOplki2guC7sn932ALx/k="
+          "hash": "t+LYBvT2JYTiNpHPRU7ldyucsObw4DpXSZYblzuXxaQ="
         }
       },
       "is_incremental": false,
@@ -471,7 +505,7 @@
       "output": {
         ".html": {
           "relative_path": "Manual/Attributes/Properties/RequiredReferenceAttribute.html",
-          "hash": "dC8rTokUzFsQqk5c7Lb4Vp+u0F5RrBQPrdp54E161p0="
+          "hash": "fLwwhkomci/dJibGYAOs9Tg7+MpE/jw/tRDnacqMhXY="
         }
       },
       "is_incremental": false,
@@ -483,7 +517,7 @@
       "output": {
         ".html": {
           "relative_path": "Manual/Attributes/Properties/ShowIfBoolAttribute.html",
-          "hash": "/rzKZ8jh26EiaTiyBKm60DKL+Li+yzbi3tbyTdwWCus="
+          "hash": "qrsTs8Dj2WGynexvaIT60RcRBXXZSml/B+WRaMpw5gM="
         }
       },
       "is_incremental": false,
@@ -495,7 +529,7 @@
       "output": {
         ".html": {
           "relative_path": "Manual/Attributes/Properties/ShowIfEnumValueAttribute.html",
-          "hash": "adwI1g5prWegXk1PiZiQ3p73ezkXoDm19hoji4aKuac="
+          "hash": "52Sky/J1z6jh7+7GGiAzGxIaI472xtrUUS0DpDFPNJQ="
         }
       },
       "is_incremental": false,
@@ -514,12 +548,108 @@
       "version": ""
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "Manual/Bootstrapper.md",
+      "output": {
+        ".html": {
+          "relative_path": "Manual/Bootstrapper.html",
+          "hash": "6ND1T2mTRBVRGapeBHuPJ7oM+8PFABuT/KMKCpyLst0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Manual/CoreFrameworkMenu.md",
+      "output": {
+        ".html": {
+          "relative_path": "Manual/CoreFrameworkMenu.html",
+          "hash": "/VRqO+IZ8kQk9tX0GrZxRwHfUkEPJ4Qf9nSwvYkr8yg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Manual/Interactable.md",
+      "output": {
+        ".html": {
+          "relative_path": "Manual/Interactable.html",
+          "hash": "k/UfNWJcsae3e/qa+GIg4muY75Vel1Uz3SS6ONsa4TY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Manual/Logging/DebugMonoBehaviour.md",
+      "output": {
+        ".html": {
+          "relative_path": "Manual/Logging/DebugMonoBehaviour.html",
+          "hash": "IcJBNmw42FHprqNBOLpHXKH0I9zrSCRbX1y4zdntdkA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Manual/Logging/DebugScriptableObject.md",
+      "output": {
+        ".html": {
+          "relative_path": "Manual/Logging/DebugScriptableObject.html",
+          "hash": "CMUaufJt4W7MZKlhYt0kwLQbun4WNLWpnqIhEX80mC4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Manual/Logging/Log.md",
+      "output": {
+        ".html": {
+          "relative_path": "Manual/Logging/Log.html",
+          "hash": "czn+FmpPohSe/4DcrwNt38g/GrEbbvo55Ivww6VbBDA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Manual/Logging/Logging.md",
+      "output": {
+        ".html": {
+          "relative_path": "Manual/Logging/Logging.html",
+          "hash": "g9ZNWsCOY/bEqEGkcJInG9z6Fe7Mk09hIy55j7MDSRA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "Manual/Singleton.md",
+      "output": {
+        ".html": {
+          "relative_path": "Manual/Singleton.html",
+          "hash": "es6/Wp3QJKnI4WVuI7a9vl64Xo+bxvWr72uXCIinLlk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "Manual/toc.yml",
       "output": {
         ".html": {
           "relative_path": "Manual/toc.html",
-          "hash": "rrmmPLr2qSMZPzFtHhyHJgBI3PjYdPC9Nsf6KgsMPW8="
+          "hash": "MNOK8Xi0veUfHvsOS/Dg91Y8/7YVMYelkZ3o4Q9R4rI="
         }
       },
       "is_incremental": false,
@@ -527,11 +657,107 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/CoreFramework.Attributes.ButtonAttribute.Mode.yml",
+      "source_relative_path": "api/CoreFramework.Animation.AnimationParameter.yml",
       "output": {
         ".html": {
-          "relative_path": "api/CoreFramework.Attributes.ButtonAttribute.Mode.html",
-          "hash": "t7iurt4QCpiAaELxte71XkUW3qsCyqZ76M/N3Zi+X3k="
+          "relative_path": "api/CoreFramework.Animation.AnimationParameter.html",
+          "hash": "cWIhKeowlf/iXAr2aBM1x5SxBAAzF7gyGnBnnikTL3g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.Animation.AnimatorFieldAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.Animation.AnimatorFieldAttribute.html",
+          "hash": "Xpt1/chPuN7kqlIXKEMAifT/xDPW/bjgM/55hRsniIE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.Animation.AnimatorParameterAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.Animation.AnimatorParameterAttribute.html",
+          "hash": "XQ8AJGCpi3HK6zvRfTZ/rA4H3yMktwxBtAQsovNCkr0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.Animation.BoolAnimationParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.Animation.BoolAnimationParameter.html",
+          "hash": "ul6UqfnNQnawUTgHn+Lv4M+uCvK/Ak97sFia+Gblwa4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.Animation.FloatAnimationParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.Animation.FloatAnimationParameter.html",
+          "hash": "ZjB6WKPVQKoj+sH36wlJTWeGPXQyUGj5FFSNFoigVdI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.Animation.IntAnimationParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.Animation.IntAnimationParameter.html",
+          "hash": "xVDDJaRDkPHsCo72gxaAA1QHMSbr53jOqshA8OOUPzA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.Animation.TriggerAnimationParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.Animation.TriggerAnimationParameter.html",
+          "hash": "5rNMGg7A1pMRvzl11Yzfqcc+2am7e9e87EmV1gsMGVM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.Animation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.Animation.html",
+          "hash": "49XilgcPq6MVarJCfF47GQqdV4r2rHchR0qaAr4maGY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.Attributes.ButtonAttribute.ButtonMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.Attributes.ButtonAttribute.ButtonMode.html",
+          "hash": "4UvCEB2bDyWG2olKIzMzh3tldcEzxFXwWXNSGHkm3Wc="
         }
       },
       "is_incremental": false,
@@ -543,7 +769,19 @@
       "output": {
         ".html": {
           "relative_path": "api/CoreFramework.Attributes.ButtonAttribute.html",
-          "hash": "36KowFNPoFk2V0ng6LXT8uYCsuLLZ4w3udreHV+vSio="
+          "hash": "h9bTh0lLq5w3IKwwcy2OOFULJ8ro7HfU7irHjx+Dy/U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.Attributes.ExposedReferenceAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.Attributes.ExposedReferenceAttribute.html",
+          "hash": "z4hzqJfiaXz+VAxgL9SGBuYcvtLwBpzj7M9IxjG0fRQ="
         }
       },
       "is_incremental": false,
@@ -555,7 +793,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CoreFramework.Attributes.FolderPathAttribute.html",
-          "hash": "u7XqPot5KRf704omQjqOFqdsHuBeY/Vy/mvt8FcwqDM="
+          "hash": "3H0Vdd5iD2+RdEUNzhYyUUHKV7WTZRjUk2FTBUq182s="
         }
       },
       "is_incremental": false,
@@ -579,7 +817,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CoreFramework.Attributes.HeaderAttribute.html",
-          "hash": "BT+7pzXF+7S4pV0eOVYyT7ebnjWr0SoisACx5JOcW5g="
+          "hash": "kJe5qwAiWL+m9jbiGZpj5xbY9PUF/4mEfR4TtPxDu20="
         }
       },
       "is_incremental": false,
@@ -603,7 +841,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CoreFramework.Attributes.InfoBoxAttribute.html",
-          "hash": "fWYGOIEcilxiwv/jqpONSdKRcp/S2G1HtX5y2hMk8bo="
+          "hash": "AJeSsWCbFRoFhBGnra5qtWvmjlCFW//1g8C+BqL7MIM="
         }
       },
       "is_incremental": false,
@@ -651,7 +889,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CoreFramework.Attributes.RequiredReferenceAttribute.html",
-          "hash": "k/YM6x6zLS+QXxl5Ph9PuoqOByXrJgy+k8SiqBLOsZg="
+          "hash": "nM0P0K5+B57qUkEg0J4tSL5mvNuLKjeferW4lhePBIg="
         }
       },
       "is_incremental": false,
@@ -675,7 +913,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CoreFramework.Attributes.ShowIfBoolAttribute.html",
-          "hash": "HX6MyNwmtmUqABXiq71pT6hLGLzCb3nF2LNIp0vFhYc="
+          "hash": "4pEvQAmJEiiPDvhjTKBmtbA2C7LUZFPKtgkCNjAZLcI="
         }
       },
       "is_incremental": false,
@@ -687,7 +925,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CoreFramework.Attributes.ShowIfEnumValueAttribute.html",
-          "hash": "wvC/8Ilnu3Os81Udvygsp+t42wBDc+IMpomzQsOt9qM="
+          "hash": "yqlcORXntdHscrx/G/1k91SxrHRZz6rkUfVHLxChU1Q="
         }
       },
       "is_incremental": false,
@@ -711,7 +949,2431 @@
       "output": {
         ".html": {
           "relative_path": "api/CoreFramework.Attributes.html",
-          "hash": "gtSXWqj0TnF+Fw4IgpdvJ6p9C21st8B9THQZd25u8+0="
+          "hash": "4hRh6iGfnpwU7JZBE+wX5evMxagpSU6bLJGGX7EM6f0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.Bootstrapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.Bootstrapper.html",
+          "hash": "s7Ar68Pp2/ac5U1U6Mubz/jR5Rbwa60cFdAevXCFgyw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.CoreFrameworkMenu.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.CoreFrameworkMenu.html",
+          "hash": "74PnOauEJVgs4l3Y+lGWMZb4KMy4qKoSF3Qir8+1Y04="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.DebugMonoBehaviour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.DebugMonoBehaviour.html",
+          "hash": "/OnQmkLhcw/C9QhyYkBDyx5bIV2XCK4Va2gvUYGnNGY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.DebugScriptableObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.DebugScriptableObject.html",
+          "hash": "xcyi7zQ9Ixryo8WvLHNBcuWT/LGaN25JQEYLLmdF2yg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.Destroy.DestroyAfterTime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.Destroy.DestroyAfterTime.html",
+          "hash": "pVZdYLVUcCfgbWgeyKKI2BuVT0zAH8FFwNApTKwjlU4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.Destroy.DestroyNoChildren.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.Destroy.DestroyNoChildren.html",
+          "hash": "Tz51AeGrKdaVGUkQRPo6RIY41nCAC/4SaifaRIRkw0c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.Destroy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.Destroy.html",
+          "hash": "R/0jlgpi7PEIicYviDJjrXHBELCHXh/92IbukL9KLKk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.Extensions.ArrayExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.Extensions.ArrayExtensions.html",
+          "hash": "3IKnMA66M7hFOCPE75iJDD2z6sKNoZNAw2oLadz6CQs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.Extensions.GameObjectExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.Extensions.GameObjectExtensions.html",
+          "hash": "WSBSjVVWyiXZaU6UTNZPLrTbB4dG6ZdTqnpe+7gZsE8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.Extensions.QuaternionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.Extensions.QuaternionExtensions.html",
+          "hash": "kKtQNfYhUTHhD1Q9kw7VIy6h/48Ca1Q4J+Lq+6CY3Cg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.Extensions.TextExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.Extensions.TextExtensions.html",
+          "hash": "M5BjxZuuF88C10EBuMmoDky+pb8oe8ZeUpwk8kBdIxA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.Extensions.Vector2Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.Extensions.Vector2Extensions.html",
+          "hash": "/j2sttiSJz76mYkIjGzexbImeD8aKw0BVLrLB6wqUZQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.Extensions.Vector3Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.Extensions.Vector3Extensions.html",
+          "hash": "c1DDvDmasvmwrI4T8loXBnZ20etzAGq/C7TfQlsaYcw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.Extensions.Vector4Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.Extensions.Vector4Extensions.html",
+          "hash": "RmUdIRl+pFo1fwQ230jn7FD3VyuInqvWSLhUnkoHJ+4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.Extensions.html",
+          "hash": "XOxKr5MgtSZugQVeRdZsq2oaSjnIxr4bpIMIKyW3Sk0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.Functional.Option-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.Functional.Option-1.html",
+          "hash": "F72PZfZ8Vr3CUfCpmwHrA/gPeTVV4jX9MbL5b2T+ZGs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.Functional.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.Functional.html",
+          "hash": "QTWeJNOvfuA9BXGDeDAlYkCGDalSfAr1Os/akxGnmLA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.Interactable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.Interactable.html",
+          "hash": "tAP4oi7u9nfMTdB5ri1okusmI4gD2LVSCHmeChEjaW4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.Log.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.Log.html",
+          "hash": "tNkoeryY0OZeC69P8i5apYWVGfDlwf0oNBeQr7Z13Ns="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.Saving.ISavable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.Saving.ISavable.html",
+          "hash": "CH2w60gjYVrhghSpgFvvyJZ/HwFUlUzbMYIltst5B4A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.Saving.JsonStatics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.Saving.JsonStatics.html",
+          "hash": "1AEjtys0HO7Kuhapt2vwz4BO2oW/T+Gm1l5mVCDHNqE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.Saving.JsonStrategy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.Saving.JsonStrategy.html",
+          "hash": "n2xJ5fsSGqabLxc3Bwe1bKITnE/q3yWXrv98G7r8JDg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.Saving.SavableEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.Saving.SavableEntity.html",
+          "hash": "qFVk/puCyRxdczYoxBOfSVT/OrzwIQ15yUlMsvModtI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.Saving.SaveSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.Saving.SaveSystem.html",
+          "hash": "SSPvERFIOQONU1SP8Y2k0JnSFtbvtcHVs881gqAcKhA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.Saving.SavingStrategy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.Saving.SavingStrategy.html",
+          "hash": "c/w5UeHsEHKDxtQ6hQAJosEJkaXx0uMNXFZ/rY/LT7k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.Saving.VersionControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.Saving.VersionControl.html",
+          "hash": "7mD+wJUfh69aSuao98XP675Ce5Cw7yyB3vOhN5x614s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.Saving.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.Saving.html",
+          "hash": "fH99PZhPUwJe9G9UiZHpZPuR0iWixOmyLnu7ti9UQho="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.BaseMonoBehaviour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.BaseMonoBehaviour.html",
+          "hash": "NnL6+HjfcpIvjS/DvmWlatqHWeyt5Axip5gWdbVpqqE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.BaseObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.BaseObject.html",
+          "hash": "etAAqpJn+uadB7nfFx4G/e/ztxrMibe7myRwpO+oFIk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.AnimationCurveGameEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.AnimationCurveGameEvent.html",
+          "hash": "o+ZvopfNQtgB3NQVUlBo5An8n7nBFMAI1o1IMFvzE7A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.AnimationCurveUnityEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.AnimationCurveUnityEvent.html",
+          "hash": "xwQExgUL7cmDt1jn2vwsDT77Xca7EsQp9+bs1AQRnrI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.AudioClipGameEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.AudioClipGameEvent.html",
+          "hash": "ylhgupwUyCkAt710hFtWi/UukMnCkZGEMFxp+CWLTmA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.AudioClipGameEventListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.AudioClipGameEventListener.html",
+          "hash": "7YNkNBss629CN6GdVJilimkccboMDxYVr21ZxLD5MJc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.AudioClipUnityEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.AudioClipUnityEvent.html",
+          "hash": "ddhDgBvxx0dGsHdaFtQglLXLfJssgn4W95brV1EwhEQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.BaseGameEvent-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.BaseGameEvent-1.html",
+          "hash": "zJg8ymTcMjWr14GvtVWelOjxw2U9EFRP68HdQwY4OPw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.BaseGameEvent-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.BaseGameEvent-2.html",
+          "hash": "wlCXpf8zLSC+26no/Vticb2dXUzeo+x5QPJS84Ndcvc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.BaseGameEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.BaseGameEvent.html",
+          "hash": "6EGS7C+VBpQFxpaKEOZ0KJwqgCGRVnjAhunN4yK/Evk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.BoolGameEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.BoolGameEvent.html",
+          "hash": "1+W3bHPLsaPhcf6ljwf+BF5xC9APYWzp7GvAUW9S/uE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.BoolUnityEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.BoolUnityEvent.html",
+          "hash": "l4ck/RQAF0yIhX7v66hA3tI3z9g9e/2grOaKNf2KS6U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.BoundsGameEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.BoundsGameEvent.html",
+          "hash": "bBs9Ut02h8SU7kaABadgdKPb+ruSNKCZmHO8mp1/35s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.BoundsUnityEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.BoundsUnityEvent.html",
+          "hash": "agR8VWBL5+hoDQKDPmveyzUfb7rnXD/TAG6slKFZOWY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.ByteGameEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.ByteGameEvent.html",
+          "hash": "PuaA+dkQFOfEeDwMunXB6rQ33T1HnVz20gWAk5HdULg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.ByteUnityEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.ByteUnityEvent.html",
+          "hash": "Qt/nUvIPx4/jRjDMTX+kCzm0txb7FdQ8fpgsNw94jgc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.CharGameEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.CharGameEvent.html",
+          "hash": "bwYPba+SGh0TPYkZWgpJvf4bxq6zH7fFknCRn9XUXV4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.CharUnityEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.CharUnityEvent.html",
+          "hash": "anZ+Ill+QHbTAYwIdX6KlFkXrWi2C4H9jua3+Vv6tAA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Color32GameEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Color32GameEvent.html",
+          "hash": "fwlHDL6AnMjk3MSt7+iCihoim/dklVyO710ZEyIat/w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Color32UnityEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Color32UnityEvent.html",
+          "hash": "VB/CW1fV6b2cpoLoXHpodaIjWh+Bvz75u2oB3wg9r0A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.ColorGameEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.ColorGameEvent.html",
+          "hash": "u3AX84XHM9eZo9W8mZd+CUkjVddiFK4PW8OcX93Kk5E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.ColorUnityEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.ColorUnityEvent.html",
+          "hash": "zbQOY3AOXRONNvGr0Ogx9A8JxwZ0aHJv9imEOmjrWwE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.DoubleGameEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.DoubleGameEvent.html",
+          "hash": "sU/rSRlW5d63ucvxdcycYxeJ6zmOGLFW+9i9OL1j4cM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.DoubleUnityEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.DoubleUnityEvent.html",
+          "hash": "U352CDEI4a0R1K3PEOQKBZVbOVEd3UD2TfYX4FCB2LU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.FloatGameEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.FloatGameEvent.html",
+          "hash": "NdRGY6d90NFCcVxpaMXN6xzwEIIhmRzMbs3qmxpmN1s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.FloatUnityEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.FloatUnityEvent.html",
+          "hash": "GTIdth2Tmp37kQy6/mRdLqmflbmB0ph5pOMfAE4IrGQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.GameEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.GameEvent.html",
+          "hash": "VNscYVa1OLGx2xajG60U7xHqPynDZmwRcMRT0zFhO08="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.GameObjectBoolGameEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.GameObjectBoolGameEvent.html",
+          "hash": "ctTriFAEwrqSaCc4cZqZbAvYNsbMTTErNmzVmPlT+ZE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.GameObjectFloatGameEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.GameObjectFloatGameEvent.html",
+          "hash": "HTIyGNKXX/T7Za+usuoo502U5CjVTZCA7Yms7fN4nVw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.GameObjectGameEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.GameObjectGameEvent.html",
+          "hash": "P3O5aix+RBwnoiJZlWuhkjuV5T34b+PV2LcXVkRtBLM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.GameObjectIntGameEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.GameObjectIntGameEvent.html",
+          "hash": "pF25Km86Z/QP/6bWBm4ejWAEEyo2xwjAlU28UbYBX5Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.GameObjectUnityEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.GameObjectUnityEvent.html",
+          "hash": "T8hEp7zPht/tCc74TCmB0I1J7GPZa0FGhGSRnzO1+7w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.IGameEvent-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.IGameEvent-1.html",
+          "hash": "dGmNAvISyGzT6KG16Qm+9gjFuPlEjjMOS0Kr3ApvDnc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.IGameEvent-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.IGameEvent-2.html",
+          "hash": "2WZjsbFNYUORo0mcn/rED2mNv7m49ESTH3J2sRHg9+4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.IGameEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.IGameEvent.html",
+          "hash": "K6o1KmX8EE6IjHJYY+cnLiiUP78WvhjxiwAkW0LYAYY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.IntGameEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.IntGameEvent.html",
+          "hash": "8oq7yofPeuaD/RYtUiOX20CYvOWrB+LalmJbTy6LaaE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.IntUnityEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.IntUnityEvent.html",
+          "hash": "VLoShE6xDRkdDNDCKZWOdK+A4M/bTcOaIYmf4tN7B5Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.LayerMaskGameEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.LayerMaskGameEvent.html",
+          "hash": "zRDQ/0aRhXDjL+qsApJtwojsGQH5Fbrs+Fb//nQ2h7M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.LayerMaskUnityEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.LayerMaskUnityEvent.html",
+          "hash": "ZOfhsLZhG8JPQCjpWluhs5poyd+lqJAUqS6L+NjNKaw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.BoolGameEventListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.BoolGameEventListener.html",
+          "hash": "tpcj1UbAGN11fjEcGyJMtRs2OidPCiPFhSyzV7V6yP8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.BoundsGameEventListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.BoundsGameEventListener.html",
+          "hash": "S2Lc4u63+DQvxlAXUS4TJJ7hXdPTWWXlKBJqe0LWU0Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.ByteGameEventListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.ByteGameEventListener.html",
+          "hash": "lE+oz3L3qQtDm+hSE00l5/hLTKDXoYNgWw4R3xIYJJM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.CodedGameEventListener-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.CodedGameEventListener-1.html",
+          "hash": "dM7OlJr3ekzcn+5UX/7NJd7Ep1xjElsJiv+KR0r8AXA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.CodedGameEventListener-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.CodedGameEventListener-2.html",
+          "hash": "cIr7p9uIQGD5j5d2KpTfU+TkW0FgJwFq4qbpwCAE04I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.CodedGameEventListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.CodedGameEventListener.html",
+          "hash": "5k4x292gvrbRGkij5nuGDfl/Q8o55Gl2g+fJLXDWheE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.Color32GameEventListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.Color32GameEventListener.html",
+          "hash": "FJ5QkWNTptbwrMvbfiIhlwzLGpuVpiA+GVAyInM19ms="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.ColorGameEventListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.ColorGameEventListener.html",
+          "hash": "xCBpcmyl0Zprsp3Vx7SLDycBTICLHL6tq0DPdihKYUQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.DoubleGameEventListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.DoubleGameEventListener.html",
+          "hash": "NArwwekbn3zBXwVxENuLRjwOxTw+WwWl6Qkx/26SajA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.FloatGameEventListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.FloatGameEventListener.html",
+          "hash": "JryCg9Ca1gfKJQMDxl0raRJS2SuNh88N/by/s6341oc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.GameEventListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.GameEventListener.html",
+          "hash": "nBVwGBaMgYnl+quurhwXX3dBnFhYpbY3Yl8IJl84EUc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.GameObjectGameEventListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.GameObjectGameEventListener.html",
+          "hash": "UbKs5AV8YHg/Q4+67OG+p9lUTNkb1fzeS9BFM1cjrfY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.IGameEventListener-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.IGameEventListener-1.html",
+          "hash": "lPQpD0+pvviEIUMkkxH/os3l+WpRj6Nyewkn9/HvL5I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.IGameEventListener-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.IGameEventListener-2.html",
+          "hash": "eJx0BUl0Bot+XESU1g4O1HqnhGzETyRuEGWVZPWwC2o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.IGameEventListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.IGameEventListener.html",
+          "hash": "KDW/9Cupc6LCG4k/MsisQC0hAjOVwAH8x8XbiQeChgM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.IntGameEventListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.IntGameEventListener.html",
+          "hash": "tdcIKcZD8/vkLKbBp8vwl9b0sDamL3ic+hZupILIopY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.LayerMaskGameEventListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.LayerMaskGameEventListener.html",
+          "hash": "RDZWArjp2TZ4LmrFMuSZ2F0DVlf3rY+5GQykYdMi7sc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.LongGameEventListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.LongGameEventListener.html",
+          "hash": "FftYL4+UmlLLmdiLXfj3AjJoeAeugIUvEyfSnGQLPk0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.ObjectGameEventListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.ObjectGameEventListener.html",
+          "hash": "eKs4CU2iYCEsJLIK3SgARsE/SivPqEVFJlSDr11XQYs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.QuaternionGameEventListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.QuaternionGameEventListener.html",
+          "hash": "orce4IC56RokxPHHRWMN36kuWgNksCNN4SaxVH92pfc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.SByteGameEventListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.SByteGameEventListener.html",
+          "hash": "EfPBATSh19QByHCnaDebSSDuzF72URMwckXuSL1SVNg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.SceneGameEventListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.SceneGameEventListener.html",
+          "hash": "C9CssYYZ9oRtVl7DiJIkwlEojXJUtRfmvPOZc5gPxQk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.ShortGameEventListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.ShortGameEventListener.html",
+          "hash": "uxpzEBfPr9y7nTc+WHaETgVGPjvUWOPohuMDwAt5Ic4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.StringGameEventListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.StringGameEventListener.html",
+          "hash": "jrN/9rWYa2ZhayVhTRdS/O1684cIKBdmBn0mo2vU6cs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.UIntGameEventListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.UIntGameEventListener.html",
+          "hash": "zkfubc61wrhun9lwFtfyPaS2BrSKqbzlSj60uV8B/4Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.ULongGameEventListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.ULongGameEventListener.html",
+          "hash": "uW+fOHJmn4qrWyX5AnMtd2C702fj5+g9HP5WqH3JyKQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.Vector2GameEventListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.Vector2GameEventListener.html",
+          "hash": "1T7oF/t/qp795NSBr49jrIjgL2Jq53wDbESs8eI+Azw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.Vector3GameEventListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.Vector3GameEventListener.html",
+          "hash": "mLSkZYfGK+SK+MVcNIZ9fWApp9lAqsMALJLMB4rTBbM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.Vector4GameEventListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.Vector4GameEventListener.html",
+          "hash": "MAhExbvUbv+qYoBjDbLHydp1+WPBUmMqzGrH1cQeKyo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Listeners.html",
+          "hash": "iOIyucjZN1FtEBauOUnX/LZs4yOPZV5Ttmzwzpu0Ouo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.LongGameEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.LongGameEvent.html",
+          "hash": "LdQ91DMlQ3Wiu1KQRfEfZfp40wlssUvHISrZX9T7vqc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.LongUnityEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.LongUnityEvent.html",
+          "hash": "8MniWl0KQ8WWL/mdP4Rnxct+M5Qg6E+Yl6BY46bFZh4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.ObjectGameEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.ObjectGameEvent.html",
+          "hash": "kXrDcJqn7x5ln4GgSwSzEsLmDOswGRMGSRBrvp5ezpY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.ObjectUnityEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.ObjectUnityEvent.html",
+          "hash": "rSJwYsjSfvlAB6UWZe2+B3mcOxyfQy91Bd4CeUWYt+A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.QuaternionGameEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.QuaternionGameEvent.html",
+          "hash": "awfhsi99vVf83Gq4TyW4CercAD/XgrYbQR6vP6NfISk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.QuaternionUnityEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.QuaternionUnityEvent.html",
+          "hash": "xLXOvoS0ur1QavweNOM+qAyHcoMu7Qh+/Lk0WhbU8f8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.SByteGameEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.SByteGameEvent.html",
+          "hash": "/3e4fSW1oFVNFHgo+VuhZUCePpoJDaILGSjnyveOdE0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.SByteUnityEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.SByteUnityEvent.html",
+          "hash": "LTBfr3fmCmrnZrag00znKDg80a4p5zEc2UnKA2q3RzE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.SceneGameEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.SceneGameEvent.html",
+          "hash": "22946GXEKx3/aQ6AplQ/y98TzNgIfk49s7GEO2JpBSY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.SceneUnityEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.SceneUnityEvent.html",
+          "hash": "EBWRmNZn0tGBFRDQ8ATiHSjsVEpximUjhIecTytA6vY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.ShortGameEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.ShortGameEvent.html",
+          "hash": "TNYPHycdUHngwyA6PmkPu9v9PQP6Xe5CfVIzX3XUuFA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.ShortUnityEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.ShortUnityEvent.html",
+          "hash": "DJhjNVdAso0Mx7YUNHzEyXUh6ZwjIJJiQiSzNrmqcR8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.StringGameEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.StringGameEvent.html",
+          "hash": "wT+7qLpUfwpxm/LOX8BVIvG5/xp80EmXVX5s1zJi/zg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.StringUnityEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.StringUnityEvent.html",
+          "hash": "cX+Zn8NaFxj05SooinGJ++IaGuKTPKjUgcp/oPv3jbc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.UIntGameEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.UIntGameEvent.html",
+          "hash": "NWvS8qU7OfwZPj8yTPIo3dUXhiy7DhTiECqgU77yDsQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.UIntUnityEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.UIntUnityEvent.html",
+          "hash": "lvmixkEm0PgXmMWuwc25LVsomn3/luMECnYNYfOkevE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.ULongGameEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.ULongGameEvent.html",
+          "hash": "zb2QpR0XkBiZfoC62BEiY62dyKjn+6LpWgsvmOeHJF0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.ULongUnityEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.ULongUnityEvent.html",
+          "hash": "Ob1Vb2cQW28H+PYuiUrYy0Ms4PDCC1tD2nW0Qc4UHe8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.UShortGameEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.UShortGameEvent.html",
+          "hash": "N9M4nb+ERo3U3aStZLjlwJG5BFnLR807nxXHVFKpOcg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.UShortUnityEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.UShortUnityEvent.html",
+          "hash": "mWvZy5YkRLqZ935lc8sGeaMoRvksRQL7dHLEitiGZsY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.UnityGameEventListener-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.UnityGameEventListener-2.html",
+          "hash": "fd9jZrJxOWXiz4chlv3Sz0mjRTPExgRlLmbXm3v4BaY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.UnityGameEventListener-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.UnityGameEventListener-3.html",
+          "hash": "fUAMv8lbCHcWhpcN4EZxHGbg6Z+tmNyXmGjCHIdxrns="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.UnityGameEventListener-4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.UnityGameEventListener-4.html",
+          "hash": "2R9H9ha2DZC6TGTpA8E1MlzFEi0VlzZ4z5hssLD/Eio="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.UnityGameEventListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.UnityGameEventListener.html",
+          "hash": "BEhFbIaAt3kMYxfsqG/1b0LlYGLeXlhDIhj6wIhDW1Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Vector2GameEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Vector2GameEvent.html",
+          "hash": "OK54Jx4fg2NmYMnTQEBZFRNVVP1h68ivJtOWFLyvChU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Vector2UnityEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Vector2UnityEvent.html",
+          "hash": "lLTuUb/zXyGtMtRUkah4Pa5GKPbt3WlwBkE9ETtGCK0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Vector3GameEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Vector3GameEvent.html",
+          "hash": "eYS45L4Lu03gUfOvX5li+riKzzz+nksruQEJx89MIj8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Vector3UnityEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Vector3UnityEvent.html",
+          "hash": "gBtRG2KsK5zoXIWPU+NyNczzDP8TgYGTGa9UdjKDXDU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Vector4GameEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Vector4GameEvent.html",
+          "hash": "xHkZbHgM+FJk7G3U/0vF8t+0khpVeTql5Wx28+GwGxs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Vector4UnityEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.Vector4UnityEvent.html",
+          "hash": "8/85uaTvUdwAjILLzPhm9yBgdvDzHUPR0iRQf97WcrE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Events.html",
+          "hash": "GMPrWURtP871ucKbhnkipOMFq3wOeYVeGIZbzOzJsQM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.References.AnimationCurveReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.References.AnimationCurveReference.html",
+          "hash": "gUVsKesfJRaR+vX/0MAIGwyAePECSHLl+0xHyKXkd5g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.References.AudioClipReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.References.AudioClipReference.html",
+          "hash": "51iP/01YfxHjYu3qbdpPZG7yFQ48y7xR/Wd1IkSVfBI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.References.BaseReference-3.Selection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.References.BaseReference-3.Selection.html",
+          "hash": "2fB/wT9qBXY0sjePduwKLANhsU22o5Y8Kis+Z6mzzlo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.References.BaseReference-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.References.BaseReference-3.html",
+          "hash": "Z6UWz3nE7rIJgKIfD6a6V77ZZDXiSTqOBvtW8KaVaLw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.References.BaseReference-4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.References.BaseReference-4.html",
+          "hash": "Pl7zbLkA8mTYSHCbeb3CFTzBcaXz+K0tPNV+XTX9W9I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.References.BoolReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.References.BoolReference.html",
+          "hash": "+4980NWJKifOfukoJBUYEIvURyro3fbwG3e0N+LTez8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.References.BoundsReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.References.BoundsReference.html",
+          "hash": "UdpCpKU/eJfyq9mAn2/buhmUrA+cj8ka9VMNPflqNjc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.References.ByteReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.References.ByteReference.html",
+          "hash": "fy8+EsZtCvpQYkbpy4px8eNZuSoLARCH0tovHTJ+Qpg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.References.CharReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.References.CharReference.html",
+          "hash": "nJlVCETEgca+0m7rzO94a09kfs/dgHVkykc4hkXJTG4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.References.Color32Reference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.References.Color32Reference.html",
+          "hash": "kx4xQYiZZEmC/VZz8MNaoyQ0rD2ajfRV2AARspOsVPs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.References.ColorReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.References.ColorReference.html",
+          "hash": "6BUrWd+aUgGMhEts+WRyRkJGhcGBz2pwNOpwyd3x/ug="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.References.DoubleReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.References.DoubleReference.html",
+          "hash": "6/70ZKjTEOAvZ8VRecWM9P53t3U7OrWSoRBvnKGPd4Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.References.FloatReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.References.FloatReference.html",
+          "hash": "kGfpk571w2wZfF2OoniAgD5NYnBX4T8puVod8sHxORM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.References.GameObjectReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.References.GameObjectReference.html",
+          "hash": "5YqfeJqNBIdIMGPCBSYK9vpMt0OlYWETapd74JKq0T8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.References.IntReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.References.IntReference.html",
+          "hash": "p/vRtuca4gxUh3V4ItCq/bvNTDh0bv+rW4UDR1VW+cA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.References.LayerMaskReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.References.LayerMaskReference.html",
+          "hash": "WyB9WYoBbQ7VeC/vzMYUqshipTw7GP3Qm+CgjnjRsb4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.References.LongReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.References.LongReference.html",
+          "hash": "DsNXWd+loqLOXRuNGdFgTDznAvwhkt1K+mJeFDhjx+o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.References.ObjectReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.References.ObjectReference.html",
+          "hash": "WjETXVRy89aMrRGb6yu+GO7z/tRICGHniOsY0NmpKRE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.References.QuaternionReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.References.QuaternionReference.html",
+          "hash": "49UKwuJcYKNJYeVuHenapqO7YEUgaSsjLPHqm9G7oQc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.References.SByteReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.References.SByteReference.html",
+          "hash": "r+GITTKVav6gwiA/ojr2vbWpqshvrd8ajMOVGD3R7TY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.References.SceneReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.References.SceneReference.html",
+          "hash": "t5I65CgE4iWIjzlq2SIpQh6r7znHeAr8JrUfdeA2HMo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.References.ShortReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.References.ShortReference.html",
+          "hash": "+qly9EhnYOMBtJK/3Dv3aqVZ3FFfEEpXVP2pSdCzG3w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.References.StringReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.References.StringReference.html",
+          "hash": "M+Bc7VCnM1nfAZVjahPzDrkLZ6e+rj85sX03TRGk2Rk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.References.UIntReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.References.UIntReference.html",
+          "hash": "RzhEQHqmQ0v16Ze+3HHXx/nlW0t45cHtSFnpVfLaY8o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.References.ULongReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.References.ULongReference.html",
+          "hash": "qAL283whyVmq7DKMv1XkoVfUHWJRnXro380tNAxX62U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.References.UShortReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.References.UShortReference.html",
+          "hash": "cS5FH8+p7kyi3hX/Z90KrzTnBlPRtmFkKYmWbpx+E9o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.References.Vector2Reference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.References.Vector2Reference.html",
+          "hash": "Qcm1GYZy70zw2UVqG9go7WUO/yReMQBYazG3QEvchjM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.References.Vector3Reference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.References.Vector3Reference.html",
+          "hash": "ypQI7MDxArNgGg2Dst1wH6kv/4pQWgtybqOSIVdQt/U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.References.Vector4Reference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.References.Vector4Reference.html",
+          "hash": "OBNIe1AfuZ8ET2DPiCzNm7jb+HPNQ8DmYT0iAWA3AZU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.References.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.References.html",
+          "hash": "r3qhYRmq9trFdpUAAGtWgGuXQW2ZLIckGkMLMy6PbAc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.SceneInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.SceneInfo.html",
+          "hash": "Fgosqj2OfFqfrjlTjGffiq4cpERGWEdeQMUFzgdydwc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.AnimationCurveVariable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.AnimationCurveVariable.html",
+          "hash": "xqbarxmRA3efV98PLawj4BxUg9Ndli3iok7duvgTYdk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.AudioClipVariable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.AudioClipVariable.html",
+          "hash": "0tmS2z2HVSOVZcjdanxa8dFYos7LqcRruH5KvfOuTXU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.BaseVariable-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.BaseVariable-2.html",
+          "hash": "N01A9gR/4x0TcxpBYXM/oZVqgNFKqWIM2YGWWJ6W20Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.BoolVariable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.BoolVariable.html",
+          "hash": "1Wo8UQ8/2V0sitK0LNXOtMA92ktU6rO11sCjJ/eC1b0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.BoundsVariable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.BoundsVariable.html",
+          "hash": "AfF24LtsYe+arESVmwKMfTivFEq7KjV5DJy6XzJbGUQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.ByteVariable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.ByteVariable.html",
+          "hash": "HYK+Klv+SZLqfWXrD5V08bxoaFgfq+Bqgp8qddZtmZ8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.CharVariable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.CharVariable.html",
+          "hash": "r+Qpm+DbcuhUhhQWeZA4g7YDn8b0KOv0zbWhstqbx8I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.Color32Variable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.Color32Variable.html",
+          "hash": "sqJsANHXEstOlH4t5sSgEzzMk9UF2phR8xyqe+oqFo0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.ColorVariable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.ColorVariable.html",
+          "hash": "Yr0D757046HJncsC705qJ9tl0UMmerxUBytwy+VY0pc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.DoubleVariable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.DoubleVariable.html",
+          "hash": "+Dzn4ECxxvfoBiciKjTT524HZnUAn5GkV1+gDeVrGx4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.FloatVariable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.FloatVariable.html",
+          "hash": "RMAxjW+yGtFJl+5NkBsYlR2smdux8jYjRJU0qQCEjcM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.GameObjectVariable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.GameObjectVariable.html",
+          "hash": "EXwzMBxFssU2GHlNet0F6aBpJuvQR2x/0pQJp16EFyU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.IntVariable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.IntVariable.html",
+          "hash": "nYZTvYhNIhE8/JnqBletZCQZJ1kDtoW8SyDCz5CSIHY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.LayerMaskVariable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.LayerMaskVariable.html",
+          "hash": "hLvRq0NQLeeUmtK90MuPzsHmKLKpLzFEtYU97DFbK00="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.LongVariable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.LongVariable.html",
+          "hash": "PBOi0nviIKi6p+07fi/sm7bFnQux5N4ZUTeXjHm10Bs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.ObjectVariable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.ObjectVariable.html",
+          "hash": "ZRUg6HdRnEfzFRVTtB3944CqyH+jk3N11DQREu/aKXM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.QuaternionVariable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.QuaternionVariable.html",
+          "hash": "RLTVI6jONXQEp9DMFWpItIt8bP2SRwQOAQa9nsKeBpY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.SByteVariable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.SByteVariable.html",
+          "hash": "fLRoY2fL2Ca2SE9kh8kPmnR0X3VQl+VxHFpPnqY9KdI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.SceneVariable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.SceneVariable.html",
+          "hash": "sVPJ+O/LQZI5fUYfwerOAMELe549FvcLH5J3+DCG1/4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.ShortVariable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.ShortVariable.html",
+          "hash": "UXwQWtpthPSaoU0xKzUWhTjSsgRYpGa9j9gXPyfrptI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.StringVariable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.StringVariable.html",
+          "hash": "ajxh+Lxei1wxqbFRkE7qjmLxZc6lKmZGATqTL1cpqjg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.UIntVariable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.UIntVariable.html",
+          "hash": "fub107Ri75LbOjk1nhkIbaAEmq13ooWjfvVIMdw21VM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.ULongVariable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.ULongVariable.html",
+          "hash": "v0WPhgL4Zs5q7zWllNiKywwP2d+WDr0uq9g9vAF0rG4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.UShortVariable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.UShortVariable.html",
+          "hash": "Kt+WrkZqntnRSOjt6tU6VgZxmS9+H5bg48DFWZ5qvQw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.VariableTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.VariableTypes.html",
+          "hash": "R1xUw0S8vwk0zE3GKsDHRtRHOqJnixNQk3k0oVuSJiE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.Vector2Variable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.Vector2Variable.html",
+          "hash": "d/eKKi2TSBDd13+LVD+E7h5CovBOWJnTJKGLXgwAVwo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.Vector3Variable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.Vector3Variable.html",
+          "hash": "JPZp0pXsfspFzmjW/i1G/Vood8umOEfxMSXEZa2BpUU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.Vector4Variable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.Vector4Variable.html",
+          "hash": "Rynb48cJ7OfmtO9gjATB8ze8M619tZPnQhV0bbj0T5M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables.html",
+          "hash": "VhBDaF7DdFBV9VaoeFXmEcVYzwJwRAG4qzM/S8maxKY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Utility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.Utility.html",
+          "hash": "/jJ3Sd6qqPyWPbr+f09s1V2F8taeqiEUOfcabs+qgEI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.ScriptableObjectArchitecture.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.ScriptableObjectArchitecture.html",
+          "hash": "f5bxSSSqhZjQFtptzC2fII4X3PNH+SNMdC6kFx8zLLU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.Settings.CoreFrameWorkSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.Settings.CoreFrameWorkSettings.html",
+          "hash": "jRXg9MDZATrFFZU8mqBprrk55g5+qyuTAvZVLLJ7kjE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.Settings.CoreFrameworkSettingsSO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.Settings.CoreFrameworkSettingsSO.html",
+          "hash": "YrLYNx41cym8c2s3ps9prCbs2L10G9GoGPEH2LQkVlI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.Settings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.Settings.html",
+          "hash": "OyIT1EsrzbIvI8lWrf9FHmDaL/F+dCJ2X8MX7YwQfQE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.Singleton-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.Singleton-1.html",
+          "hash": "mbugKJlAAP5v/tYb55iBX8lsKV/4woOjAscQmLQIsE8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.Utilities.Application.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.Utilities.Application.html",
+          "hash": "wx4NNoV33ZjrIysYi+YnimXUOEwbg7Sh9hnhIuwoSIs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.Utilities.CountdownTimer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.Utilities.CountdownTimer.html",
+          "hash": "b4vVWJng229SlyREG7ZVBYGeyM7cMW7JAQnoLJqdvQU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.Utilities.StopwatchTimer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.Utilities.StopwatchTimer.html",
+          "hash": "cOnfBJyXVOOreHYFO4xEgSoP12lsLEvKGdOh8+5oIvA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.Utilities.Timer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.Utilities.Timer.html",
+          "hash": "uWx06wi/OEGjBJxon0FINyz+cD/MlPDqIXkG6CFo1mA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.Utilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.Utilities.html",
+          "hash": "+eudsYE5wcKC0BmbfxkYONEvA6pM1Vy4lOV0f4p51aA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFramework.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFramework.html",
+          "hash": "Axe18QjPhjwyX0Qf3vM7AXQtn+VgfbfaJo6QOh3c+Ec="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFrameworkEditor.Animation.AnimationParameterDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFrameworkEditor.Animation.AnimationParameterDrawer.html",
+          "hash": "KxsoVCYFGVnDvLrdOgg5YMyuEUN48aCmQ4vvybi7xsM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFrameworkEditor.Animation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFrameworkEditor.Animation.html",
+          "hash": "S+PA3GfBOkLv9MCTyTuIv5ulZJDDeJwFP7XAmNMRm1A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFrameworkEditor.Attributes.ExposedReferencePropertyDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFrameworkEditor.Attributes.ExposedReferencePropertyDrawer.html",
+          "hash": "g1ML/UxHM97koIDxv9Tt2qvh6HbhtWaHbu7aNeMsUFs="
         }
       },
       "is_incremental": false,
@@ -723,7 +3385,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CoreFrameworkEditor.Attributes.FolderPathAttributeDrawer.html",
-          "hash": "wxgz926j8/0TWKYHISzJFyf6WNT85n0dK4LxvxSSnMI="
+          "hash": "rvUbeGeRM8Pd10BqvYMrsI0zwPoztMTFptfivRFu7yA="
         }
       },
       "is_incremental": false,
@@ -735,7 +3397,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CoreFrameworkEditor.Attributes.HeaderAttributeDecoratorDrawer.html",
-          "hash": "xNYWZntr/K0tlF152fMLmyr+vDQ8F8tIVp3OtYWVHTQ="
+          "hash": "Uiepel+cFMjHtCTAqPamnUMEsSFAlV6UJO/p48ma0fM="
         }
       },
       "is_incremental": false,
@@ -747,7 +3409,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CoreFrameworkEditor.Attributes.InfoBoxDecoratorDrawer.html",
-          "hash": "cc4QMRQMaYiluu9dcCNh5houCeVkH5lWYibVj5WIQLQ="
+          "hash": "YBiSxcIhCH/UaBjS1Lzsbj4B0vnsvTgXtAJzexaJgZk="
         }
       },
       "is_incremental": false,
@@ -759,7 +3421,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CoreFrameworkEditor.Attributes.InputAxisPropertyDrawer.html",
-          "hash": "WVaHBFpVKZY3J0b5bzCGcN7lwcOsGrD3sFWv3AR2Xl0="
+          "hash": "Vm8LH4sm+QJ8Jo32v7z/PCagWhHEAUa9PgSWRYy+uO8="
         }
       },
       "is_incremental": false,
@@ -771,7 +3433,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CoreFrameworkEditor.Attributes.ReadOnlyPropertyDrawer.html",
-          "hash": "MCwVxCw8ILajWk/eNPVuWiX6pJ/SDShoKvxmAWrBjvg="
+          "hash": "F3MGyINBNBGo3elJtzxlhmXau3EGDyOrkLnxTdYJ7sQ="
         }
       },
       "is_incremental": false,
@@ -783,7 +3445,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CoreFrameworkEditor.Attributes.RequiredReferencePropertyDrawer.html",
-          "hash": "6WAPTzsLPyiXj4KVqHThxltp5XQTlFhredRO9szARPs="
+          "hash": "Qvj1LU7Sz3pM7gEdRH1GYY9DATFnLtYXVfZhOclBhq0="
         }
       },
       "is_incremental": false,
@@ -795,7 +3457,19 @@
       "output": {
         ".html": {
           "relative_path": "api/CoreFrameworkEditor.Attributes.SceneAttributePropertyDrawer.html",
-          "hash": "UKyMqakWv4P9nOndeLYXvt6tz+3DrDTCboxHmhKgJe4="
+          "hash": "EIZ17mLWIdHceGvBleRXqUq2fa3DDSSBHewmmb4gIlU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFrameworkEditor.Attributes.SerializedObjectExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFrameworkEditor.Attributes.SerializedObjectExtensions.html",
+          "hash": "wEqwZhHpbWTFMxNFJhqJ9/lRh85hhWQHZclnzg+deqI="
         }
       },
       "is_incremental": false,
@@ -819,7 +3493,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CoreFrameworkEditor.Attributes.ShowIfEnumPropertyDrawer.html",
-          "hash": "yJrNMPkDvs/U7p8d+YmfWkui3aTo6VxJ0NGWmo7cyQY="
+          "hash": "uGswQmXPT5DzrZLOZJUfOKAUXBI6AE8NbfCjVLQDBmc="
         }
       },
       "is_incremental": false,
@@ -831,7 +3505,7 @@
       "output": {
         ".html": {
           "relative_path": "api/CoreFrameworkEditor.Attributes.TagAttributePropertyDrawer.html",
-          "hash": "2eKimucPA5Y6OiIai7Sc6fv22eyJUk6Jum9x19co7Lo="
+          "hash": "8a+BDJt3kDCLFjSoLadxZ55dfiTN//E6FgxRKJ9NJSU="
         }
       },
       "is_incremental": false,
@@ -843,7 +3517,187 @@
       "output": {
         ".html": {
           "relative_path": "api/CoreFrameworkEditor.Attributes.html",
-          "hash": "mbX+sI/iCezeuJ29w0W7dyhmzuogHT9jyFxyGtCdgmQ="
+          "hash": "kP0aEU9oQQ8Elf7w4l3YVPVyUJ6LJdj4imTOKcsw4sE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFrameworkEditor.CreateGameObjectFromUnityScript.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFrameworkEditor.CreateGameObjectFromUnityScript.html",
+          "hash": "yVrj4iUO9Oj3qdHiuUVEZ6wgQlbFo2UfL9heh+AKlwQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFrameworkEditor.Inspector.AttributeMonoBehaviourInspector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFrameworkEditor.Inspector.AttributeMonoBehaviourInspector.html",
+          "hash": "7zyZjR59ya9LYIxzY5hX/+aJpRffHrANHS+JkKLUGQ4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFrameworkEditor.Inspector.AttributeScriptableObjectInspector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFrameworkEditor.Inspector.AttributeScriptableObjectInspector.html",
+          "hash": "28geGh+TPnNcjj6IC/0XwhN4drsAD5E1Kgm6Jnx9Vv4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFrameworkEditor.Inspector.ButtonAttributeHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFrameworkEditor.Inspector.ButtonAttributeHelper.html",
+          "hash": "F70MKso9VQ6cf5c37173oS1zplkzpUmbtH2UqLJG3lg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFrameworkEditor.Inspector.QuaternionDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFrameworkEditor.Inspector.QuaternionDrawer.html",
+          "hash": "S8HrLphKPebnoncE65Fsaw7fyl4EgOBiOt1jfiTXNHE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFrameworkEditor.Inspector.Vector4Drawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFrameworkEditor.Inspector.Vector4Drawer.html",
+          "hash": "OiCwMjXPgqyzyfdVEySWFMcOqLZWxVJGzCDwMyLehgk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFrameworkEditor.Inspector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFrameworkEditor.Inspector.html",
+          "hash": "odqEqyE1DQjrGK4kpG6gveC2LQ4CCkHSqLs1hIstv+8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFrameworkEditor.PropertyDrawerHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFrameworkEditor.PropertyDrawerHelper.html",
+          "hash": "4d+vwqFMrw4TGuKPpoHMUIGxPjrk+fiypY6/vm/B1lA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFrameworkEditor.Saving.SaveEditorWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFrameworkEditor.Saving.SaveEditorWindow.html",
+          "hash": "KP5027zEuAkKsUauhku8ncY5i9bcDqQSTvwxMQT474g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFrameworkEditor.Saving.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFrameworkEditor.Saving.html",
+          "hash": "Is+PHdIh4AIY9IC0MCfSDRviHkjD31PoyoPbqVihTR0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFrameworkEditor.ScriptableObjectArchitecture.PropertyDrawers.SceneInfoPropertyDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFrameworkEditor.ScriptableObjectArchitecture.PropertyDrawers.SceneInfoPropertyDrawer.html",
+          "hash": "2fDCP45knyZzvGV8x/MGLSu4CeuHQKv4ODZpVw3p8FE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFrameworkEditor.ScriptableObjectArchitecture.PropertyDrawers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFrameworkEditor.ScriptableObjectArchitecture.PropertyDrawers.html",
+          "hash": "NN903e8t6CPrGvwRVycw6CB3duuWqMHke4A1v9ivEAU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFrameworkEditor.Settings.CoreFrameworkSettingsEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFrameworkEditor.Settings.CoreFrameworkSettingsEditor.html",
+          "hash": "2kPbiHrYKBC22Fwbv35XP/cMKmW3HdJlqOUjnB3NIHI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFrameworkEditor.Settings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFrameworkEditor.Settings.html",
+          "hash": "MsYwxNKCBYhdnXorKTh2ZEPYFHi7ZuhxgebdFpPmlc4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CoreFrameworkEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CoreFrameworkEditor.html",
+          "hash": "bqeILbm5yJxBFaGv9qrb0An7Xxcixz6pLYZy8x9FS14="
         }
       },
       "is_incremental": false,
@@ -855,7 +3709,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "yz61sP0eZXd072TyVTX99D2N6AxFE9Z0URRZKFgHFsY="
+          "hash": "NIqDnvMiqLN+Rp/qqJAa1/f7UP/07YGGI1dGSRdaaiA="
         }
       },
       "is_incremental": false,
@@ -867,7 +3721,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "xm9RemUjYibjUyNmPhJz6I/K97Uplw58bJULsVNqUIk="
+          "hash": "Du8PmiB6cBdBHDrwalFky0u9Wf/cBafmzzD2llGva/g="
         }
       },
       "is_incremental": false,
@@ -879,7 +3733,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "CNEugnYIWvW8fO5h5gp6jsoRg0usaS7ZFbYvHO/CsiU="
+          "hash": "IsFrsbspNjnNj6L7Eve3YxkBUMHBDBt2hO9l3/TPDuI="
         }
       },
       "is_incremental": false,
@@ -898,14 +3752,14 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 18,
-          "skipped_file_count": 18
+          "total_file_count": 27,
+          "skipped_file_count": 27
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 41,
-          "skipped_file_count": 39
+          "total_file_count": 269,
+          "skipped_file_count": 269
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,

@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>| Core Framework Documentation  Scene</title>
+    <title>| Core Framework Documentation  Exposed Reference Attribute</title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="| Core Framework Documentation  Scene">
+    <meta name="title" content="| Core Framework Documentation  Exposed Reference Attribute">
     <meta name="generator" content="docfx 2.59.3.0">
     
     <link rel="shortcut icon" href="../../../../favicon.ico">
@@ -79,55 +79,40 @@
             <article class="content wrap" id="_content" data-uid="">
 
 <hr>
-<h1 id="scene">Scene</h1>
+<h1 id="exposed-reference-attribute">Exposed Reference Attribute</h1>
 <hr>
 <h2 id="overview">Overview</h2>
-<p>The <code>SceneAttribute</code> is a custom attribute for use within the Unity editor that enables a dropdown list for selecting scenes.
-This dropdown is populated with scenes that are included in the project&#39;s build settings,
-providing an easy way to reference scenes without hard-coding their names or indices.
-This attribute can be applied to fields or properties of type <code>string</code> or <code>int</code>.</p>
+<p>The <code>ExposedReferenceAttribute</code> is designed for use in Unity&#39;s Editor to enhance the usability of reference type properties such as ScriptableObjects, allowing for a cleaner and more organized presentation in the Inspector. This custom attribute can be particularly helpful for improving the user interface when dealing with complex data structures or a large number of ScriptableObject references.</p>
 <h2 id="usage">Usage</h2>
-<p>When you apply the <code>SceneAttribute</code> to a string or integer field within a MonoBehaviour or ScriptableObject,
-the Unity Inspector provides a dropdown menu from which you can select a scene.
-If you&#39;re using a string, it will store the scene&#39;s name. If you&#39;re using an integer, it will store the scene&#39;s build index.</p>
-<div class="IMPORTANT"><h5>Important</h5><p>Must be used with a &#39;string&#39; or &#39;integer&#39; typed field.</p>
-</div>
+<p>When you apply the <code>ExposedReferenceAttribute</code> to a reference field or property in a MonoBehaviour or ScriptableObject, Unity will display this field or property with a foldout in the Inspector. This allows you to expand and collapse the details of the referenced object inline without having to navigate to a different asset or Inspector window.</p>
 <h3 id="example">Example:</h3>
-<p><img src="../../../../Images/Attributes/Scene.gif" alt="Scene Example"></p>
-<pre><code class="lang-csharp">using CoreFramework.Attributes;
-using UnityEngine;
-
-public class LevelLoader : MonoBehaviour
+<p><img src="../../../../Images/Attributes/ExposedReferenceAttribute.gif" alt="Exposed Reference Example"></p>
+<pre><code class="lang-csharp">public class GameSettings : MonoBehaviour
 {
-    [Scene] public string nextLevelName;
-    [Scene] public int nextLevelIndex;
+    [ExposedReference]
+    public GameDifficultySettings difficultySettings;
 }
-</code></pre><p>In the above example, <code>nextLevelName</code> will have a dropdown list with all the scene names,
-and <code>nextLevelIndex</code> will have a dropdown list with all the scene indices from the build settings.
-You can select the desired scene directly from these dropdowns in the Unity Inspector.</p>
+</code></pre><p>In this example, the <code>difficultySettings</code> field, which is assumed to be a ScriptableObject or a reference type, will be shown in the Inspector as a foldout. Users can click on the foldout to view and edit properties of <code>difficultySettings</code> directly within the <code>GameSettings</code> Inspector view.</p>
 <h2 id="attribute-declaration">Attribute Declaration</h2>
 <pre><code class="lang-csharp">[AttributeUsage(AttributeTargets.Field | AttributeTargets.Property)]
-public class SceneAttribute : PropertyAttribute { }
+public class ExposedReferenceAttribute : PropertyAttribute { }
 </code></pre><h2 id="attribute-details">Attribute Details</h2>
 <ul>
-<li><code>[AttributeUsage(AttributeTargets.Field | AttributeTargets.Property)]</code>: This indicates that the attribute can be used on fields and properties.</li>
-<li><code>public class SceneAttribute : PropertyAttribute</code>: The class is derived from <code>PropertyAttribute</code>, which is part of Unity&#39;s scripting API and is used to create custom attributes for Inspector fields.</li>
+<li><code>[AttributeUsage(AttributeTargets.Field | AttributeTargets.Property)]</code>: Specifies that the <code>ExposedReferenceAttribute</code> can be used on fields and properties within classes.</li>
+<li><code>public class ExposedReferenceAttribute : PropertyAttribute { }</code>: This is the class definition for the attribute. It inherits from <code>PropertyAttribute</code>, which is the base class for property attributes in Unity that influence how properties are drawn in the Inspector.</li>
 </ul>
 <h2 id="functionality">Functionality</h2>
-<p>The attribute itself is a marker that tells Unity&#39;s Inspector to use a custom property drawer when displaying fields with this attribute.
-This means that in order to see the dropdown in the editor,
-a custom property drawer must be implemented that looks for <code>SceneAttribute</code>and creates a dropdown list.</p>
+<p>Just like the <code>IconAttribute</code>, the <code>ExposedReferenceAttribute</code> only tags the property with metadata. It does not itself provide the functionality to render the foldout in the Inspector. You would typically need a custom editor script or property drawer to interpret and draw the property accordingly.</p>
 <h2 id="considerations">Considerations</h2>
 <ul>
-<li>This attribute simplifies scene management by preventing hard-coded strings or indices, reducing the risk of errors when scenes are renamed or the build settings are modified.</li>
-<li>The scenes that appear in the dropdown are those added to the build settings, so it&#39;s important to keep the build settings up to date with the scenes you want to be selectable.</li>
+<li>A property drawer <code>ExposedReferencePropertyDrawer</code> script defines how the property is rendered in the Inspector.</li>
+<li>This attribute is beneficial for nested ScriptableObjects or complex objects, providing a more user-friendly interface to edit properties without navigating away from the current context.</li>
 </ul>
 <h2 id="see-also">See Also</h2>
 <ul>
-<li>Unity Scripting API&#39;s <a href="https://docs.unity3d.com/ScriptReference/PropertyAttribute.html">PropertyAttribute</a></li>
-<li>Unity&#39;s build settings for managing which scenes are included in the build.</li>
-<li>Unity&#39;s <a href="https://docs.unity3d.com/ScriptReference/PropertyDrawer.html">CustomPropertyDrawer</a> for creating the inspector GUI elements for custom attributes.</li>
-<li>Unity Editor&#39;s <a href="https://docs.unity3d.com/ScriptReference/EditorGUI.Popup.html">EditorGUI.Popup</a> or <a href="https://docs.unity3d.com/ScriptReference/EditorGUILayout.Popup.html">EditorGUILayout.Popup</a>, which might be used within a custom property drawer to render the dropdown list.</li>
+<li>Unity Scripting API&#39;s <a href="https://docs.unity3d.com/ScriptReference/Editor.html">CustomEditor</a> and <a href="https://docs.unity3d.com/ScriptReference/PropertyDrawer.html">PropertyDrawer</a>, which are essential for customizing how objects and properties are drawn in the Inspector.</li>
+<li><a href="https://docs.unity3d.com/ScriptReference/SerializedProperty.html">SerializedProperty</a> documentation for understanding how properties are serialized and handled in custom editors.</li>
+<li>Examples of editor scripting in Unity to provide advanced functionalities and better user experiences for developers working within the Unity Editor.</li>
 </ul>
 </article>
           </div>

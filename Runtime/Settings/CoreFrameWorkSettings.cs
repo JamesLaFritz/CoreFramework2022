@@ -4,9 +4,15 @@ namespace CoreFramework.Settings
     {
         public static CoreFrameworkSettingsSO settingsSO;
 
-        public static string StartScene => settingsSO == null ? "SampleScene" : settingsSO.startScene;
+        /// <summary>
+        /// The name of the starting scene. Defaults to "SampleScene" if SettingsSO is not set.
+        /// </summary>
+        public static string StartScene => SettingsSO == null ? null : SettingsSO.startScene;
 
-        public static string BootScene => settingsSO == null ? "Bootstrapper" : settingsSO.startScene;
+        /// <summary>
+        /// The name of the boot scene. Defaults to "Bootstrapper" if SettingsSO is not set.
+        /// </summary>
+        public static string BootScene => SettingsSO == null ? null : SettingsSO.bootScene;
 
         public static bool ShowDebug => settingsSO == null || settingsSO.showDebug;
 

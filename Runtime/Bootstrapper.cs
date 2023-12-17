@@ -10,17 +10,26 @@ namespace CoreFramework
             Application.runInBackground = true;
             //await UnityServices.InitializeAsync();
 
+            // Asynchronous initialization of services can be added here.
+            // await UnityServices.InitializeAsync();
+            
+            if (Settings.CoreFrameWorkSettings.StartScene == null) return;
+
+            // Load the start scene additively if it's the only scene currently loaded.
             if (SceneManager.loadedSceneCount == 1)
                 SceneManager.LoadScene(Settings.CoreFrameWorkSettings.StartScene, LoadSceneMode.Additive);
         }
         
         [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
-        static void Init()
+        private static void Init()
         {
 #if UNITY_EDITOR
             var currentlyLoadedEditorScene = SceneManager.GetActiveScene();
 #endif
-        
+            
+            if (Settings.CoreFrameWorkSettings.BootScene == null) return;
+
+            // Load the designated boot scene if it's not already loaded.
             if (SceneManager.GetSceneByName(Settings.CoreFrameWorkSettings.BootScene).isLoaded != true)
                 SceneManager.LoadScene(Settings.CoreFrameWorkSettings.BootScene);
 
@@ -28,7 +37,9 @@ namespace CoreFramework
             if (currentlyLoadedEditorScene.IsValid())
                 SceneManager.LoadSceneAsync(currentlyLoadedEditorScene.name, LoadSceneMode.Additive);
 #else
-        SceneManager.LoadSceneAsync(Settings.CoreFrameWorkSettings.StartScene, LoadSceneMode.Additive);
+            if (Settings.CoreFrameWorkSettings.StartScene == null) return;
+            // Load the start scene additively in a built game.
+            SceneManager.LoadSceneAsync(Settings.CoreFrameWorkSettings.StartScene, LoadSceneMode.Additive);
 #endif
         }
     }

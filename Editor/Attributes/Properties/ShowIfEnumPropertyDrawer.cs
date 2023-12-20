@@ -56,7 +56,7 @@ namespace CoreFrameworkEditor.Attributes
         {
             if (attribute is not ShowIfEnumValueAttribute attr) return new Label("ShowIfEnumValueAttribute not found.");
             var showIfProp =
-                property.FindProperty(attr.EnumName, out _errorMessage);
+                property.FindSerializedProperty(attr.EnumName, out _errorMessage);
             
             // Create a new VisualElement that will serve as the root of your property GUI.
             var container = new VisualElement();
@@ -98,7 +98,7 @@ namespace CoreFrameworkEditor.Attributes
             ShowIfEnumValueAttribute attr = attribute as ShowIfEnumValueAttribute;
             if (attr == null) return base.GetPropertyHeight(property, label);
             var showIfProp =
-                property.FindProperty(attr.EnumName, out _errorMessage);
+                property.FindSerializedProperty(attr.EnumName, out _errorMessage);
             if (showIfProp == null) return base.GetPropertyHeight(property, label);
             if (property.ShouldShow(showIfProp.enumValueIndex == attr.EnumIndex, attr.Show))
                 return EditorGUI.GetPropertyHeight(property, label, true);

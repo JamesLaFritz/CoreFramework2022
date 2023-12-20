@@ -10,7 +10,9 @@
 #endregion
 
 using System;
+using System.Linq;
 using System.Reflection;
+using System.Runtime.CompilerServices;
 using CoreFramework.Extensions;
 using CoreFramework.Functional;
 using UnityEditor;
@@ -44,19 +46,48 @@ namespace CoreFrameworkEditor
         /// <param name="propertyName">The name of the property to find.</param>
         /// <param name="errorMessage">Output parameter that will contain an error message if the property isn't found.</param>
         /// <returns>The found SerializedProperty, or null if it couldn't be found.</returns>
-        public static SerializedProperty FindProperty(this SerializedProperty self, string propertyName,
+        public static SerializedProperty FindSerializedProperty(this SerializedProperty self, string propertyName,
                                                       out string errorMessage)
         {
             var prop = self.serializedObject.FindProperty(propertyName);
             errorMessage = string.Empty;
             if (prop != null) return prop;
-            if (!self.propertyPath.Contains($".{self.name}")) return null;
-            var propPath =
-                self.propertyPath.Substring(
-                    0, self.propertyPath.IndexOf($".{self.name}", StringComparison.Ordinal));
-            prop = self.serializedObject.FindProperty($"{propPath}.{propertyName}");
+            var propPath = "";
+
+            if (self.propertyPath.Contains($".{self.name}"))
+                propPath =
+                    self.propertyPath.Substring(
+                        0, self.propertyPath.IndexOf($".{self.name}", StringComparison.Ordinal)) +
+                    ".";
+            prop = self.serializedObject.FindProperty($"{propPath}{propertyName}");
             if (prop != null) return prop;
             errorMessage = $"The Field name {propertyName} cannot be found in {propPath}";
+            return null;
+        }
+        
+        public static Object GetTargetedObject(this SerializedProperty self) => self.serializedObject.targetObject;
+
+        public static Type GetTargetedObjectType(this SerializedProperty self) => self.GetTargetedObject().GetType();
+
+        public static FieldInfo[] GetFieldInfoArray(this SerializedProperty self) =>
+            self.GetTargetedObject().GetType()
+                .GetFields(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance)
+                .Where(f => f.GetCustomAttribute<CompilerGeneratedAttribute>() == null)
+                .ToArray();
+
+        public static FieldInfo FindField(this SerializedProperty self, string fieldName)
+        {
+            var filedInfos = self.GetFieldInfoArray();
+            if (filedInfos == null || filedInfos.Length < 1) return null;
+            return filedInfos.FirstOrDefault(fieldInfo =>
+                string.Compare(fieldInfo.Name, fieldName, StringComparison.Ordinal) == 0);
+        }
+
+        public static object GetValueOfField(this SerializedProperty self, string fieldName)
+        {
+            var obj = self.GetTargetedObject();
+            var field = self.FindField(fieldName);
+            if (field != null) return field.GetValue(obj);
             return null;
         }
 

@@ -30,7 +30,7 @@ namespace CoreFrameworkEditor.Attributes
         {
             ShowIfBoolAttribute attr = attribute as ShowIfBoolAttribute;
             if (attr == null) return; 
-            var showIfProp = property.FindProperty(attr.BoolName, out _errorMessage);
+            var showIfProp = property.FindSerializedProperty(attr.BoolName, out _errorMessage);
             if (showIfProp == null)
             {
                 EditorGUI.LabelField(position, label.text, _errorMessage);
@@ -59,7 +59,7 @@ namespace CoreFrameworkEditor.Attributes
             var container = new VisualElement();
             
             // Find the boolean property that dictates visibility
-            var showIfProp = property.FindProperty(attr.BoolName, out _errorMessage);
+            var showIfProp = property.FindSerializedProperty(attr.BoolName, out _errorMessage);
             if (showIfProp is not { propertyType: SerializedPropertyType.Boolean })
             {
                 Label propertyLabel = new Label(property.displayName) { name = property.displayName + "Label" };
@@ -90,7 +90,7 @@ namespace CoreFrameworkEditor.Attributes
         {
             ShowIfBoolAttribute attr = attribute as ShowIfBoolAttribute;
             if (attr == null) return base.GetPropertyHeight(property, label);
-            var showIfProp = property.FindProperty(attr.BoolName, out _errorMessage);
+            var showIfProp = property.FindSerializedProperty(attr.BoolName, out _errorMessage);
             if (showIfProp == null) return base.GetPropertyHeight(property, label);
             if ((showIfProp.boolValue && attr.Show) ||
                 (!showIfProp.boolValue && !attr.Show))

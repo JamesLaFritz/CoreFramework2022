@@ -40,21 +40,21 @@ namespace CoreFrameworkEditor
         /// <summary>
         /// Finds the specified property by it's name.
         /// </summary>
-        /// <param name="property">The property</param>
-        /// <param name="propertyName">The property name</param>
-        /// <param name="errorMessage">The error message</param>
-        /// <returns>The serialized property</returns>
-        public static SerializedProperty FindProperty(SerializedProperty property, string propertyName,
+        /// <param name="self">The reference property from which to search.</param>
+        /// <param name="propertyName">The name of the property to find.</param>
+        /// <param name="errorMessage">Output parameter that will contain an error message if the property isn't found.</param>
+        /// <returns>The found SerializedProperty, or null if it couldn't be found.</returns>
+        public static SerializedProperty FindProperty(this SerializedProperty self, string propertyName,
                                                       out string errorMessage)
         {
-            SerializedProperty prop = property.serializedObject.FindProperty(propertyName);
+            var prop = self.serializedObject.FindProperty(propertyName);
             errorMessage = string.Empty;
             if (prop != null) return prop;
-            if (!property.propertyPath.Contains($".{property.name}")) return null;
-            string propPath =
-                property.propertyPath.Substring(
-                    0, property.propertyPath.IndexOf($".{property.name}", StringComparison.Ordinal));
-            prop = property.serializedObject.FindProperty($"{propPath}.{propertyName}");
+            if (!self.propertyPath.Contains($".{self.name}")) return null;
+            var propPath =
+                self.propertyPath.Substring(
+                    0, self.propertyPath.IndexOf($".{self.name}", StringComparison.Ordinal));
+            prop = self.serializedObject.FindProperty($"{propPath}.{propertyName}");
             if (prop != null) return prop;
             errorMessage = $"The Field name {propertyName} cannot be found in {propPath}";
             return null;

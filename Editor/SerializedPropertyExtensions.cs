@@ -22,7 +22,7 @@ namespace CoreFrameworkEditor
     /// Bit Cake Studio's BitStrap
     /// https://assetstore.unity.com/publishers/4147
     /// </summary>
-    public static class PropertyDrawerHelper
+    public static class SerializedPropertyExtensions
     {
         public static T GetAttribute<T>(this SerializedProperty self) where T : Attribute
         {
@@ -60,11 +60,16 @@ namespace CoreFrameworkEditor
             return null;
         }
 
-        public static bool ShouldShow(bool showIfProp, bool show)
+        /// <summary>
+        /// Determines whether a property should be shown based on two boolean conditions.
+        /// </summary>
+        /// <param name="self">The SerializedProperty to show</param>
+        /// <param name="showIfProp">The first boolean condition.</param>
+        /// <param name="show">The second boolean condition.</param>
+        /// <returns>True if the conditions match, otherwise false.</returns>
+        public static bool ShouldShow(this SerializedProperty self, bool showIfProp, bool show)
         {
-            if ((showIfProp && show) || (!showIfProp && !show))
-                return true;
-            return false;
+            return (showIfProp && show) || (!showIfProp && !show);
         }
     }
 }

@@ -54,11 +54,12 @@ namespace CoreFrameworkEditor.Attributes
         /// <inheritdoc />
         public override VisualElement CreatePropertyGUI(SerializedProperty property)
         {
-            ShowIfEnumValueAttribute attr = attribute as ShowIfEnumValueAttribute;
-            if (attr == null) return base.CreatePropertyGUI(property);
-            SerializedProperty showIfProp =
-                PropertyDrawerHelper.FindProperty(property, attr.EnumName, out _errorMessage);
-            VisualElement root = new VisualElement();
+            if (attribute is not ShowIfEnumValueAttribute attr) return new Label("ShowIfEnumValueAttribute not found.");
+            var showIfProp =
+                property.FindProperty(attr.EnumName, out _errorMessage);
+            
+            // Create a new VisualElement that will serve as the root of your property GUI.
+            var container = new VisualElement();
 
             if (showIfProp == null)
             {
@@ -76,7 +77,19 @@ namespace CoreFrameworkEditor.Attributes
             if (PropertyDrawerHelper.ShouldShow(showIfProp.enumValueIndex == attr.EnumIndex, attr.Show))
                 root.Add(new PropertyField(property, property.displayName));
 
-            return root;
+            // Set the initial visibility
+            UpdateVisibility(showIfProp);
+
+            container.Add(propertyField);
+
+            return container;
+
+            // A callback that updates the visibility of the property field
+            void UpdateVisibility(SerializedProperty enumProperty)
+            {
+                var shouldBeVisible = property.ShouldShow(enumProperty.enumValueIndex == attr.EnumIndex, attr.Show);
+                container.visible = shouldBeVisible;
+            }
         }
 
         /// <inheritdoc />
@@ -84,10 +97,10 @@ namespace CoreFrameworkEditor.Attributes
         {
             ShowIfEnumValueAttribute attr = attribute as ShowIfEnumValueAttribute;
             if (attr == null) return base.GetPropertyHeight(property, label);
-            SerializedProperty showIfProp =
-                PropertyDrawerHelper.FindProperty(property, attr.EnumName, out _errorMessage);
+            var showIfProp =
+                property.FindProperty(attr.EnumName, out _errorMessage);
             if (showIfProp == null) return base.GetPropertyHeight(property, label);
-            if (PropertyDrawerHelper.ShouldShow(showIfProp.enumValueIndex == attr.EnumIndex, attr.Show))
+            if (property.ShouldShow(showIfProp.enumValueIndex == attr.EnumIndex, attr.Show))
                 return EditorGUI.GetPropertyHeight(property, label, true);
             return -EditorGUIUtility.standardVerticalSpacing;
         }

@@ -20,7 +20,7 @@ namespace CoreFrameworkEditor.Inspector
         /// <summary>
         /// The button attribute helper
         /// </summary>
-        private readonly ButtonAttributeHelper _helper = new ButtonAttributeHelper();
+        private readonly ButtonAttributeHelper _helper = new();
 
         private void OnEnable()
         {

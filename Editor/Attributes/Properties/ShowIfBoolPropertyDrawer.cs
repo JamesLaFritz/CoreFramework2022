@@ -30,7 +30,7 @@ namespace CoreFrameworkEditor.Attributes
         {
             ShowIfBoolAttribute attr = attribute as ShowIfBoolAttribute;
             if (attr == null) return; 
-            SerializedProperty showIfProp = PropertyDrawerHelper.FindProperty(property, attr.BoolName, out _errorMessage);
+            var showIfProp = property.FindProperty(attr.BoolName, out _errorMessage);
             if (showIfProp == null)
             {
                 EditorGUI.LabelField(position, label.text, _errorMessage);
@@ -41,7 +41,7 @@ namespace CoreFrameworkEditor.Attributes
             EditorGUI.indentLevel = 0;
             using (new EditorGUI.PropertyScope(position, label, property))
             {
-                if (PropertyDrawerHelper.ShouldShow(showIfProp.boolValue, attr.Show))
+                if (property.ShouldShow(showIfProp.boolValue, attr.Show))
                 {
                     EditorGUI.PropertyField(position, property, label, true);
                 }
@@ -53,12 +53,14 @@ namespace CoreFrameworkEditor.Attributes
         /// <inheritdoc />
         public override VisualElement CreatePropertyGUI(SerializedProperty property)
         {
-            ShowIfBoolAttribute attr = attribute as ShowIfBoolAttribute;
-            if (attr == null) return new VisualElement();
-
-            SerializedProperty showIfProp = PropertyDrawerHelper.FindProperty(property, attr.BoolName, out _errorMessage);
-
-            if (showIfProp == null)
+            if (attribute is not ShowIfBoolAttribute attr) return new Label("ShowIfBoolAttribute not found.");
+            
+            // Main container for our property
+            var container = new VisualElement();
+            
+            // Find the boolean property that dictates visibility
+            var showIfProp = property.FindProperty(attr.BoolName, out _errorMessage);
+            if (showIfProp is not { propertyType: SerializedPropertyType.Boolean })
             {
                 Label propertyLabel = new Label(property.displayName) { name = property.displayName + "Label" };
                 Label label = new Label(_errorMessage);
@@ -71,7 +73,16 @@ namespace CoreFrameworkEditor.Attributes
 
             PropertyDrawerHelper.ShouldShow(showIfProp.boolValue, attr.Show);
 
-            return field;
+            container.Add(propertyField);
+
+            return container;
+
+            // A callback that updates the visibility of the property field
+            void UpdateVisibility(SerializedProperty boolProperty)
+            {
+                var shouldBeVisible = property.ShouldShow(boolProperty.boolValue, attr.Show);
+                container.visible = shouldBeVisible;
+            }
         }
 
         /// <inheritdoc />
@@ -79,7 +90,7 @@ namespace CoreFrameworkEditor.Attributes
         {
             ShowIfBoolAttribute attr = attribute as ShowIfBoolAttribute;
             if (attr == null) return base.GetPropertyHeight(property, label);
-            SerializedProperty showIfProp = PropertyDrawerHelper.FindProperty(property, attr.BoolName, out _errorMessage);
+            var showIfProp = property.FindProperty(attr.BoolName, out _errorMessage);
             if (showIfProp == null) return base.GetPropertyHeight(property, label);
             if ((showIfProp.boolValue && attr.Show) ||
                 (!showIfProp.boolValue && !attr.Show))

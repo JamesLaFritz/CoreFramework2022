@@ -70,18 +70,20 @@ namespace CoreFrameworkEditor
         public static Type GetTargetedObjectType(this SerializedProperty self) => self.GetTargetedObject().GetType();
 
         public static FieldInfo[] GetFieldInfoArray(this SerializedProperty self) =>
-            self.GetTargetedObject().GetType()
+            self.GetTargetedObjectType()
                 .GetFields(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance)
                 .Where(f => f.GetCustomAttribute<CompilerGeneratedAttribute>() == null)
                 .ToArray();
 
-        public static FieldInfo FindField(this SerializedProperty self, string fieldName)
-        {
-            var filedInfos = self.GetFieldInfoArray();
-            if (filedInfos == null || filedInfos.Length < 1) return null;
-            return filedInfos.FirstOrDefault(fieldInfo =>
-                string.Compare(fieldInfo.Name, fieldName, StringComparison.Ordinal) == 0);
-        }
+        /// <summary>
+        /// Returns the FieldInfo object that represents the field with the specified name in the target object of the serialized property.
+        /// </summary>
+        /// <param name="self">The serialized property.</param>
+        /// <param name="fieldName">The name of the field.</param>
+        /// <returns>The FieldInfo object that represents the field with the specified name in the target object of the serialized property.</returns>
+        public static FieldInfo FindField(this SerializedProperty self, string fieldName) =>
+            self.GetTargetedObjectType().GetField(fieldName,
+                BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
 
         public static object GetValueOfField(this SerializedProperty self, string fieldName)
         {

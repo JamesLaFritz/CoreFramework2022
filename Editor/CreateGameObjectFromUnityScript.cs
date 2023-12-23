@@ -66,10 +66,15 @@ namespace CoreFrameworkEditor
                         if (DragAndDrop.objectReferences.Length == 1 &&
                             DragAndDrop.objectReferences[0] is MonoScript)
                         {
+                            var monoScript = DragAndDrop.objectReferences[0] as MonoScript;
+                            Debug.Assert(monoScript != null, nameof(monoScript) + " != null");
                             // Check if the dragged object is a script
-                            System.Type type = (DragAndDrop.objectReferences[0] as MonoScript)!.GetClass();
-                            // Check if the script is a MonoBehaviour
-                            if (type.IsSubclassOf(typeof(MonoBehaviour)))
+                            var type = monoScript.GetClass();
+                            if (type == null || !type.IsSubclassOf(typeof(MonoBehaviour)))
+                            {
+                                Debug.LogWarning($"Can not add {monoScript.name} to Scene as {monoScript.GetType()} is not a MonoBehaviour");
+                            }
+                            else
                             {
                                 // Create a new GameObject and add the script as a component.
                                 GameObject newGo = new GameObject(DragAndDrop.objectReferences[0].name);

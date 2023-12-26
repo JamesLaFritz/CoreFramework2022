@@ -7,6 +7,7 @@ namespace CoreFramework
     {
         public static void Info(string msg, Object context, string callingMethod = "")
         {
+#if UNITY_EDITOR || DEBUG
             msg = !string.IsNullOrWhiteSpace(callingMethod)
                 ? $"<color=brown><i>{callingMethod}</i></color>- {msg}"
                 : $"- {msg}";
@@ -15,10 +16,12 @@ namespace CoreFramework
                 $"<size={CoreFrameWorkSettings.InfoSize}><b>Info: <color=blue><i>{context.name}</i></color></b> {msg}</size>";
 
             Debug.Log(msg, context);
+#endif
         }
         
         public static void Warn(string msg, Object context, string callingMethod = "")
         {
+#if UNITY_EDITOR || DEBUG
             msg = !string.IsNullOrWhiteSpace(callingMethod)
                 ? $"<color=olive><i>{callingMethod}</i></color>- {msg}"
                 : $"- <color=yellow>{msg}</color>";
@@ -28,6 +31,7 @@ namespace CoreFramework
                 $"<color=blue><i>{context.name}</i></color></b> {msg}</size>";
 
             Debug.LogWarning(msg, context);
+#endif
         }
         
         public static void Error(string msg, Object context, string callingMethod = "")

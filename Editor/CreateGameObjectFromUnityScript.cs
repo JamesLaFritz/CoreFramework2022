@@ -79,19 +79,21 @@ namespace CoreFrameworkEditor
                                 // Create a new GameObject and add the script as a component.
                                 var newGo = new GameObject(DragAndDrop.objectReferences[0].name);
                                 Selection.activeGameObject = newGo;
-
-                                Undo.RegisterCreatedObjectUndo(newGo, $"Created {newGo.name}");
-                                
                                 var component = newGo.AddComponent(type);
-                                while (UnityEditorInternal.ComponentUtility.MoveComponentUp(component)) ;
-
-                                EditorApplication.delayCall += () =>
+                                Undo.RegisterCreatedObjectUndo(newGo, $"Created {newGo.name}");
+                                if (component != null)
                                 {
-                                    var sceneHierarchyType =
-                                        System.Type.GetType("UnityEditor.SceneHierarchyWindow,UnityEditor");
-                                    EditorWindow hierarchyWindow = EditorWindow.GetWindow(sceneHierarchyType);
-                                    hierarchyWindow.SendEvent(EditorGUIUtility.CommandEvent("Rename"));
-                                };
+                                    while (UnityEditorInternal.ComponentUtility.MoveComponentUp(component)) ;
+
+                                    EditorApplication.delayCall += () =>
+                                    {
+                                        var sceneHierarchyType =
+                                            System.Type.GetType("UnityEditor.SceneHierarchyWindow,UnityEditor");
+                                        var hierarchyWindow = EditorWindow.GetWindow(sceneHierarchyType);
+                                        hierarchyWindow.SendEvent(EditorGUIUtility.CommandEvent("Rename"));
+                                    };
+                                }
+                                else Undo.PerformUndo();
                             }
                         }
                     }

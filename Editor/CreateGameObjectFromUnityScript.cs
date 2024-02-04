@@ -77,8 +77,21 @@ namespace CoreFrameworkEditor
                             else
                             {
                                 // Create a new GameObject and add the script as a component.
-                                GameObject newGo = new GameObject(DragAndDrop.objectReferences[0].name);
-                                newGo.AddComponent(type);
+                                var newGo = new GameObject(DragAndDrop.objectReferences[0].name);
+                                Selection.activeGameObject = newGo;
+
+                                Undo.RegisterCreatedObjectUndo(newGo, $"Created {newGo.name}");
+                                
+                                var component = newGo.AddComponent(type);
+                                while (UnityEditorInternal.ComponentUtility.MoveComponentUp(component)) ;
+
+                                EditorApplication.delayCall += () =>
+                                {
+                                    var sceneHierarchyType =
+                                        System.Type.GetType("UnityEditor.SceneHierarchyWindow,UnityEditor");
+                                    EditorWindow hierarchyWindow = EditorWindow.GetWindow(sceneHierarchyType);
+                                    hierarchyWindow.SendEvent(EditorGUIUtility.CommandEvent("Rename"));
+                                };
                             }
                         }
                     }

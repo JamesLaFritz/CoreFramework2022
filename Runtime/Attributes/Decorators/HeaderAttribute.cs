@@ -4,7 +4,6 @@
 
 using System;
 using UnityEngine;
-using Header = CoreFramework.Attributes.HeaderAttribute;
 
 namespace CoreFramework.Attributes
 {

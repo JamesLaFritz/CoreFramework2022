@@ -3,7 +3,6 @@
 // James LaFritz
 
 using System;
-using UnityEngine;
 
 namespace CoreFramework.Attributes
 {

@@ -84,7 +84,6 @@ namespace CoreFrameworkEditor.Attributes
                 return new Label(SInvalidTypeMessage) { name = "unity-invalid-type-label" };
 
             var scenes = GetScenes() ?? new[] { "" };
-
             var scenesList = scenes!.ToList();
 
             PopupField<string> popupField;

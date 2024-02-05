@@ -3,6 +3,7 @@
 // James LaFritz
 
 using CoreFramework.Attributes;
+using CoreFramework.Extensions;
 using CoreFramework.ScriptableObjectArchitecture.Events;
 using UnityEngine;
 using UnityEngine.Serialization;
@@ -14,19 +15,22 @@ namespace CoreFramework
     /// can be interacted with.
     /// <seealso href="https://docs.unity3d.com/ScriptReference/MonoBehaviour.html"/>
     /// </summary>
-    public abstract class Interactable : DebugMonoBehaviour
+    [HelpURL("https://jameslafritz.github.io/CoreFramework2022/api/CoreFramework.Interactable.html")]
+    public abstract class Interactable : MonoBehaviour
     {
+        [SerializeField] protected bool ShowDebugInfo;
+        
         /// <summary>
         /// Is this a one time use interactable?
         /// </summary>
-        [SerializeField] protected bool isOneShot;
+        [SerializeField] protected bool IsOneShot;
 
         /// <summary>
         /// The amount of time it takes for this interactable to cool down before it can be used again.
         /// </summary>
         [SerializeField]
-        [ShowIfBool("isOneShot", false)]
-        protected float coolDown;
+        [ShowIfBool("IsOneShot", false)]
+        protected float CoolDown;
 
         /// <summary>
         /// The tag of the GameObject that can interact with this item.
@@ -42,12 +46,12 @@ namespace CoreFramework
         /// <summary>
         /// Has this interactable been interacted with.
         /// </summary>
-        [SerializeField, ReadOnly] protected bool isActivated;
+        [SerializeField, ReadOnly] protected bool IsActivated;
 
         /// <summary>
         /// can this interactable be used.
         /// </summary>
-        [SerializeField, ReadOnly] protected bool canUse = true;
+        [SerializeField, ReadOnly] protected bool CanUse = true;
 
         /// <summary>
         /// The time that this interactable was last used.
@@ -62,8 +66,8 @@ namespace CoreFramework
         {
             get
             {
-                if (!canUse) return false;
-                if (isOneShot && isActivated) return false;
+                if (!CanUse) return false;
+                if (IsOneShot && IsActivated) return false;
                 return IsCoolDownEnded;
             }
         }
@@ -72,7 +76,7 @@ namespace CoreFramework
         /// Describes whether cool down has ended for this interactable.
         /// </summary>
         /// <returns>If the current time - the last used time >= the cool down amount.</returns>
-        public bool IsCoolDownEnded => Time.time - _lastUse >= coolDown;
+        public bool IsCoolDownEnded => Time.time - _lastUse >= CoolDown;
 
         #region Unity Methods
 
@@ -94,7 +98,7 @@ namespace CoreFramework
         /// <param name="other">The other</param>
         private void OnTriggerEnter(Collider other)
         {
-            Info($"Colliding with {other.name} that has a tag of {other.tag}");
+            this.Info($"Colliding with {other.name} that has a tag of {other.tag}", ShowDebugInfo);
             if (!other.CompareTag(_interactTag)) return;
 
             Interact();
@@ -111,7 +115,7 @@ namespace CoreFramework
                 return;
 
             _lastUse = Time.time;
-            isActivated = true;
+            IsActivated = true;
             
             OnInteract();
         }

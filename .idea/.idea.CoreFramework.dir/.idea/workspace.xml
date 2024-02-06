@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17d58b0b-cf30-46e5-8c2f-749f9ec33cc2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Runtime/Extensions/ArrayExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Runtime/Extensions/ArrayExtensions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Runtime/Extensions/ObjectExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Runtime/Extensions/ObjectExtensions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Runtime/Extensions/QuaternionExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Runtime/Extensions/QuaternionExtensions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Runtime/Extensions/TextExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Runtime/Extensions/TextExtensions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Runtime/Extensions/TransformExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Runtime/Extensions/TransformExtensions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Runtime/Extensions/Vector4Extensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Runtime/Extensions/Vector4Extensions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Runtime/Functional/Option.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Runtime/Functional/Option.cs" afterDir="false" />
-    </list>
+    <list default="true" id="17d58b0b-cf30-46e5-8c2f-749f9ec33cc2" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,7 +40,9 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   },
@@ -69,7 +63,7 @@
       <option name="presentableId" value="Default" />
       <updated>1700501453021</updated>
       <workItem from="1700501457960" duration="1127000" />
-      <workItem from="1707342937334" duration="299000" />
+      <workItem from="1707342937334" duration="701000" />
     </task>
     <servers />
   </component>

@@ -1,13 +1,40 @@
-﻿using System.IO;
+﻿#region Header
+// SavingStrategy.cs
+// Author: James LaFritz
+// Description: 
+// Represents an abstract strategy pattern implementation for saving game data. The class provides a foundation
+// for creating specific saving mechanisms by exposing methods for saving and loading states. Derived classes
+// will implement the concrete behavior for reading and writing save files based on the data captured by Capture 
+// and Restore methods.
+//
+// The class utilizes the power of Newtonsoft Json.NET library to represent the state as a JObject, 
+// which offers flexibility in serializing and deserializing complex data structures.
+//
+// Developers can use different saving strategies (e.g., binary, XML, JSON) by extending this abstract class and 
+// implementing the required methods.
+//
+// Reference: [ScriptableObject](https://docs.unity3d.com/ScriptReference/ScriptableObject.html)
+#endregion
+
+using System.IO;
 using Newtonsoft.Json.Linq;
 using UnityEngine;
 
 namespace CoreFramework.Saving
 {
     /// <summary>
-    /// Abstract class that saving strategies will inherit from.
-    /// Manage the actual reading and writing of save files based on the data collected by Capture and Restore methods.
-    /// <seealso href="https://docs.unity3d.com/ScriptReference/ScriptableObject.html"/>
+    /// Represents an abstract strategy pattern implementation for saving game data. The class provides a foundation
+    /// for creating specific saving mechanisms by exposing methods for saving and loading states. Derived classes
+    /// will implement the concrete behavior for reading and writing save files based on the data captured by Capture 
+    /// and Restore methods.
+    ///
+    /// The class utilizes the power of Newtonsoft Json.NET library to represent the state as a JObject, 
+    /// which offers flexibility in serializing and deserializing complex data structures.
+    ///
+    /// Developers can use different saving strategies (e.g., binary, XML, JSON) by extending this abstract class and 
+    /// implementing the required methods.
+    ///
+    /// Reference: [ScriptableObject](https://docs.unity3d.com/ScriptReference/ScriptableObject.html)
     /// </summary>
     public abstract class SavingStrategy : ScriptableObject
     {

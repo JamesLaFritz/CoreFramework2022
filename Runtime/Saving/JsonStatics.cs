@@ -1,4 +1,11 @@
-﻿using System.Collections.Generic;
+﻿#region Header
+// JsonStatics.cs
+// Author: James LaFritz
+// Description: 
+// Contains static utility methods for JSON serialization and deserialization of Unity's Vector3.
+#endregion
+
+using System.Collections.Generic;
 using Newtonsoft.Json.Linq;
 using UnityEngine;
 

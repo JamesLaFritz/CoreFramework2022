@@ -1,4 +1,20 @@
-﻿using System.Collections.Generic;
+﻿#region Header
+// SavableEntity.cs
+// Author: James LaFritz
+// Description: 
+// A MonoBehaviour for all game objects that need to save data.
+// This class provides functionality to save and load the state of game objects in Unity.
+// for all game objects that need to save data.
+//
+// This class gives the GameObject a unique ID in the scene file. The ID is
+// used for saving and restoring the state related to this GameObject. This
+// ID can be manually overridden to link GameObjects between scenes (such as
+// recurring characters, the player, or a score board). Take care not to set
+// this in a prefab unless you want to link all instances between scenes.
+// UnityEngine.ExecuteAlways
+#endregion
+
+using System.Collections.Generic;
 using System.Text.RegularExpressions;
 using Newtonsoft.Json.Linq;
 #if UNITY_EDITOR
@@ -16,12 +32,15 @@ namespace CoreFramework.Saving
     ///
     /// This class gives the GameObject a unique ID in the scene file. The ID is
     /// used for saving and restoring the state related to this GameObject. This
-    /// ID can be manually override to link GameObjects between scenes (such as
-    /// recurring characters, the player or a score board). Take care not to set
+    /// ID can be manually overridden to link GameObjects between scenes (such as
+    /// recurring characters, the player, or a score board). Take care not to set
     /// this in a prefab unless you want to link all instances between scenes.
-    /// <a href="https://docs.unity3d.com/ScriptReference/ExecuteAlways.html">UnityEngine.ExecuteAlways</a>
-    /// <seealso href="https://docs.unity3d.com/ScriptReference/MonoBehaviour.html"/>
+    /// [UnityEngine.ExecuteAlways](https://docs.unity3d.com/ScriptReference/ExecuteAlways.html)
     /// </summary>
+    /// <remarks>
+    /// To be placed on any GameObject that has `ISavable` components that
+    /// require saving.
+    /// </remarks>
     [ExecuteAlways]
     public class SavableEntity : MonoBehaviour
     {
@@ -32,14 +51,17 @@ namespace CoreFramework.Saving
                  "left empty. Do not set in a prefab unless you want all instances to " +
                  "be linked.")]
         [SerializeField]
-        private string uniqueIdentifier = "";
+        private string _uniqueIdentifier = "";
 
-        [Header("Debug")] [SerializeField] private bool logInfo;
+        /// <summary>
+        /// Flag to determine if debug log information should be displayed.
+        /// </summary>
+        [Header("Debug")] [SerializeField] private bool _logInfo;
 
         #endregion
 
         /// <summary>
-        /// <para>Cached State.</para>
+        /// A static cache of SavableEntity instances by their unique identifiers.
         /// </summary>
         private static readonly Dictionary<string, SavableEntity> GlobalLookup = new();
 
@@ -51,13 +73,13 @@ namespace CoreFramework.Saving
         /// <returns>Unique Identifier for this object.</returns>
         public string GetUniqueIdentifier()
         {
-            return uniqueIdentifier;
+            return _uniqueIdentifier;
         }
 
         /// <summary>
-        /// Will capture the state of all `<see cref="ISavable"/>s` on this component.
+        /// Captures and returns the state of all `ISavable` components attached to the GameObject.
         /// </summary>
-        /// <returns><a href="https://www.newtonsoft.com/json/help/html/T_Newtonsoft_Json_Linq_JToken.htm">JToken</a> object that represents the state.</returns>
+        /// <returns>A [JToken](https://www.newtonsoft.com/json/help/html/T_Newtonsoft_Json_Linq_JToken.htm) object representing the state of the entity.</returns>
         public JToken Capture()
         {
             JObject state = new();
@@ -74,10 +96,10 @@ namespace CoreFramework.Saving
         }
 
         /// <summary>
-        /// Will restore the state of all `<see cref="ISavable"/>s` on this component that was captured by `CaptureState`.
+        /// Restores the state of all `ISavable` components on the GameObject using the provided state data.
         /// </summary>
-        /// <param name="state"><a href="https://www.newtonsoft.com/json/help/html/T_Newtonsoft_Json_Linq_JToken.htm">JToken</a> object that represents the state of the entity.</param>
-        /// <param name="currentFileVersion">The current version of the save file.</param>
+        /// <param name="state">A [JToken](https://www.newtonsoft.com/json/help/html/T_Newtonsoft_Json_Linq_JToken.htm) object representing the state of the entity.</param>
+        /// <param name="currentFileVersion">The current version of the save file to ensure compatibility.</param>
         public void Restore(JToken state, int currentFileVersion)
         {
             IDictionary<string, JToken> stateDict = state.ToObject<JObject>();
@@ -125,7 +147,7 @@ namespace CoreFramework.Saving
 
         private void LogToken(string component, JToken token, string callingMethod)
         {
-            if (!logInfo) return;
+            if (!_logInfo) return;
             var message = $"<color=blue>{name}:</color> <color=brown>{callingMethod}:</color>";
             message += $" <color=darkblue>{component ?? "null"}</color>";
             message += $" = <color=teal>{token ?? "null"}</color>";

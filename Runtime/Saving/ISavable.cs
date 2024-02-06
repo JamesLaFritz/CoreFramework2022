@@ -1,4 +1,12 @@
-﻿using Newtonsoft.Json.Linq;
+﻿#region Header
+// SavableEntity.cs
+// Author: James LaFritz
+// Description: 
+// Defines methods for components to save and restore their state.
+// Components that contain data which need to persist between sessions should implement this interface.
+#endregion
+
+using Newtonsoft.Json.Linq;
 
 namespace CoreFramework.Saving
 {

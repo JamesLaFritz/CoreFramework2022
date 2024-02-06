@@ -1,4 +1,20 @@
-﻿using System.Collections;
+﻿#region Header
+// SaveSystem.cs
+// Author: James LaFritz
+// Description: MonoBehaviour script responsible for interfacing with the Json saving system in the Core Framework.
+// This script manages the saving and loading of game states, including the state of all SavableEntity 
+// objects within a Unity scene. It ensures game progress and configurations are persisted and can 
+// be loaded across game sessions or after game restarts.
+//
+// It provides methods to save, load, and delete game states to and from specified save files. Additionally, 
+// it uses the Json.NET library for serializing and deserializing game state data.
+//
+// Only one instance of this component should exist, and it should be shared across all scenes.
+#endregion
+
+
+using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -26,9 +42,14 @@ namespace CoreFramework.Saving
         [Header("Config Data")]
         [Tooltip("Toggle this to true if you want the saving system to save state for inactive objects.")]
         [SerializeField]
-        private bool includeInactive;
+        private bool _includeInactive;
 
-        [SerializeField] private SavingStrategy strategy;
+        /// <summary>
+        /// This field is a reference to the saving strategy that will be used by the save system. 
+        /// The `SavingStrategy` is an abstract class or interface which can have different implementations,
+        /// such as saving to JSON, binary, etc.
+        /// </summary>
+        [SerializeField] private SavingStrategy _strategy;
 
         #endregion
 
@@ -79,15 +100,15 @@ namespace CoreFramework.Saving
         /// <param name="saveFile">The name of the save file to Delete</param>
         public void Delete(string saveFile)
         {
-            if (!strategy) return;
-            File.Delete(strategy.GetPath(saveFile)!);
+            if (!_strategy) return;
+            File.Delete(_strategy.GetPath(saveFile)!);
         }
 
         public IEnumerable<string> ListSaves()
         {
-            if (strategy == null) return Enumerable.Empty<string>();
+            if (_strategy == null) return Enumerable.Empty<string>();
 
-            return Directory.EnumerateFiles(SavingStrategy.BasePath!, "*" + strategy.Extension)
+            return Directory.EnumerateFiles(SavingStrategy.BasePath!, "*" + _strategy.Extension)
                 .Select(Path.GetFileNameWithoutExtension);
         }
 
@@ -97,24 +118,28 @@ namespace CoreFramework.Saving
 
         private IDictionary<string, JToken> LoadFile(string saveFile)
         {
-            if (!strategy)
+            if (!_strategy)
             {
                 Debug.LogError("Saving strategy is null. Please set a saving strategy in the inspector.");
                 return new JObject().ToObject<IDictionary<string, JToken>>();
             }
 
-            JObject stateObject = strategy.LoadFromFile(saveFile);
+            var stateObject = _strategy.LoadFromFile(saveFile);
             IDictionary<string, JToken> state = stateObject.ToObject<JObject>();
             if (state == null) return new JObject().ToObject<IDictionary<string, JToken>>();
             
-            var currentFileVersion = 0;
-            if (state.ContainsKey("CurrentFileVersion"))
+            var currentFileVersion = new Version();
+            if (state.TryGetValue("CurrentFileVersion", out var value))
             {
-                currentFileVersion = (int)state["CurrentFileVersion"];
+                if (!Version.TryParse(value.ToString(), out currentFileVersion))
+                {
+                    Debug.LogError("Save file has been corrupted. " +
+                                   $"Expected version: {CurrentFileVersion}, " +
+                                   $"Minimum Expected version: {MinFileVersion}");
+                }
+                else if (currentFileVersion >= CurrentFileVersion || currentFileVersion >= MinFileVersion)
+                    return state;
             }
-
-            if (currentFileVersion >= CurrentFileVersion || currentFileVersion >= MinFileVersion)
-                return state;
 
             Debug.LogWarning("Save file is from an older version of the game and is not supported. " +
                              $"Expected version: {CurrentFileVersion}, " +
@@ -125,19 +150,19 @@ namespace CoreFramework.Saving
 
         private void SaveFile(string saveFile, IDictionary<string, JToken> state)
         {
-            if (!strategy)
+            if (!_strategy)
             {
                 Debug.LogError("Saving strategy is null. Please set a saving strategy in the inspector.");
                 return;
             }
 
-            strategy.SaveToFile(saveFile, JObject.FromObject(state!));
+            _strategy.SaveToFile(saveFile, JObject.FromObject(state!));
         }
 
         private void CaptureState(IDictionary<string, JToken> state)
         {
-            state["CurrentFileVersion"] = CurrentFileVersion;
-            foreach (SavableEntity entity in FindObjectsOfType<SavableEntity>(includeInactive))
+            state["CurrentFileVersion"] = CurrentFileVersion.ToString();
+            foreach (var entity in FindObjectsOfType<SavableEntity>(_includeInactive))
             {
                 state[entity.GetUniqueIdentifier()!] = entity.Capture();
             }
@@ -153,7 +178,7 @@ namespace CoreFramework.Saving
                 currentFileVersion = (int)state["CurrentFileVersion"];
             }
 
-            foreach (SavableEntity entity in FindObjectsOfType<SavableEntity>(includeInactive))
+            foreach (var entity in FindObjectsOfType<SavableEntity>(_includeInactive))
             {
                 var id = entity.GetUniqueIdentifier();
                 if (!string.IsNullOrWhiteSpace(id) && state.ContainsKey(id))

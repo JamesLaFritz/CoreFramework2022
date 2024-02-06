@@ -1,4 +1,21 @@
-﻿using System.IO;
+﻿#region Header
+// JsonStrategy.cs
+// Author: James LaFritz
+// Description: 
+// Represents a concrete implementation of the SavingStrategy that provides the mechanism 
+// to save and load game data as JSON files. Utilizing Newtonsoft's Json.NET library, the strategy offers 
+// a human-readable way of representing game states and allows developers to serialize and deserialize 
+// complex data structures into and from JSON format.
+//
+// The class exposes methods to save a game state to a JSON file and load a state from a JSON file. 
+// Developers can easily incorporate the strategy into their Unity project, offering a straightforward 
+// mechanism for managing game saves in JSON format.
+//
+// Reference: [CreateAssetMenu(menuName = "SavingStrategies/Json", fileName = "JsonStrategy")]
+#endregion
+
+
+using System.IO;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using UnityEngine;

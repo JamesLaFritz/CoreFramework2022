@@ -1,6 +1,10 @@
+#region Header
 // ArrayExtensions.cs
-// 07-19-2022
-// James LaFritz
+// Author: James LaFritz
+// Description: Bunch of utility extension methods to the Array class. Also, it contains some System.Linq like methods that does not generate garbage.
+// From Bit Cake Studio's BitStrap
+// https://assetstore.unity.com/publishers/4147
+#endregion
 
 using CoreFramework.Functional;
 

@@ -1,12 +1,11 @@
-#region Description
-
+#region Header
 // Option.cs
-// 09-07-2021
-// James LaFritz
-//
-// From Bit Cake Studio's BitStrap
+// Author: James LaFritz
+// Description:
+// Represents an option type that may or may not contain a value.
+// This struct is used with LINQ for functional programming purposes, providing a way to handle null values more elegantly.
+// From Bit Cake Studio's BitStrap.
 // https://assetstore.unity.com/publishers/4147
-
 #endregion
 
 using System;
@@ -14,30 +13,29 @@ using System;
 namespace CoreFramework.Functional
 {
 	/// <summary>
-	/// From Bit Cake Studio's BitStrap
-	/// https://assetstore.unity.com/publishers/4147
-	/// Used with LINQ.
+	/// Represents an option type that may or may not contain a value.
 	/// </summary>
+	/// <typeparam name="TA">The type of the option.</typeparam>
 	public readonly struct Option<TA>
 	{
 		/// <summary>
-		/// The is value
+		/// Determines if the type TA is a value type.
 		/// </summary>
 		// ReSharper disable once StaticMemberInGenericType
 		private static readonly bool IsValue;
 
 		/// <summary>
-		/// The value
+		/// The value of the option.
 		/// </summary>
 		private readonly TA _value;
 
 		/// <summary>
-		/// The is some
+		/// Indicates whether the option contains a value.
 		/// </summary>
 		private readonly bool _isSome;
 
 		/// <summary>
-		/// Gets the value of the is some
+		/// Indicates whether the option is some (contains a value).
 		/// </summary>
 		private bool IsSome => _isSome && (IsValue || !ReferenceEquals(_value, null)) && !_value.Equals(null);
 
@@ -52,7 +50,7 @@ namespace CoreFramework.Functional
 		/// <summary>
 		/// Initializes a new instance of the "Option"
 		/// </summary>
-		/// <param name="value">The value</param>
+		/// <param name="value">The value of the option.</param>
 		public Option(TA value)
 		{
 			_value = value;
@@ -61,31 +59,35 @@ namespace CoreFramework.Functional
 		}
 
 		/// <summary>
-		/// Initializes a new instance of the"Option" class
+		/// Implicitly converts a value to an Option.
 		/// </summary>
+		/// <param name="value">The value to convert.</param>
+		/// <remarks>If the provided value is not null, creates an Option wrapping the value; otherwise, creates an empty Option.</remarks>
 		public static implicit operator Option<TA>(TA value)
 		{
 			return new Option<TA>(value);
 		}
 
 		/// <summary>
-		/// Matches the some
+		/// Matches the option, executing one of the provided functions based on whether the option is some or none.
 		/// </summary>
-		/// <typeparam name="TB">The tb</typeparam>
-		/// <param name="some">The some</param>
-		/// <param name="none">The none</param>
-		/// <returns>The tb</returns>
+		/// <typeparam name="TB">The type of the result.</typeparam>
+		/// <param name="some">The function to execute if the option is some.</param>
+		/// <param name="none">The function to execute if the option is none.</param>
+		/// <returns>The result of executing one of the provided functions.</returns>
+		/// <remarks>If the option contains a value, executes the 'some' function with the value; otherwise, executes the 'none' function.</remarks>
 		public TB Match<TB>(Func<TA, TB> some, Func<TB> none)
 		{
 			return IsSome ? some(_value) : none();
 		}
 
 		/// <summary>
-		/// Selects the select
+		/// Transforms the value of the option if it is some.
 		/// </summary>
-		/// <typeparam name="TB">The tb</typeparam>
-		/// <param name="select">The select</param>
-		/// <returns>An option of tb</returns>
+		/// <typeparam name="TB">The type of the transformed value.</typeparam>
+		/// <param name="select">The function to transform the value.</param>
+		/// <returns>An option containing the transformed value, or none if the original option was none.</returns>
+		/// <remarks>If the option contains a value, applies the 'select' function to the value and returns an Option containing the result; otherwise, returns an empty Option.</remarks>
 		public Option<TB> Select<TB>(Func<TA, TB> select)
 		{
 			return IsSome ? select(_value) : default(Option<TB>);

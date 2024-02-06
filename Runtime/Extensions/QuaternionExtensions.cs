@@ -1,6 +1,8 @@
+#region Header
 // QuaternionExtensions.cs
-// 07-19-2022
-// James LaFritz
+// Author: James LaFritz
+// Description: Extension methods for <a href="https://docs.unity3d.com/ScriptReference/Quaternion.html">Quaternion</a>.
+#endregion
 
 using UnityEngine;
 
@@ -16,6 +18,8 @@ namespace CoreFramework.Extensions
         /// instance where the component values are equal to this
         /// <a href="https://docs.unity3d.com/ScriptReference/Quaternion.html">Quaternion</a>'s components.
         /// </summary>
+        /// <param name="quaternion">The quaternion to convert.</param>
+        /// <returns>A Vector4 representation of the quaternion.</returns>
         public static Vector4 ToVector4(this Quaternion quaternion)
         {
             return new Vector4(quaternion.x, quaternion.y, quaternion.z, quaternion.w);

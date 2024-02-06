@@ -1,22 +1,28 @@
+#region Header
 // TextExtensions.cs
-// 07-19-2022
-// James LaFritz
+// Author: James LaFritz
+// Description: Extension methods for text manipulation.
+// Code From Indie Wafflus Found at https://pastebin.com/qSVNV0k7
+#endregion
 
 namespace CoreFramework.Extensions
 {
     /// <summary>
+    /// Extension methods for text manipulation.
     /// Code From Indie Wafflus
     /// Found at https://pastebin.com/qSVNV0k7
     /// </summary>
     public static class TextExtensions
     {
         /// <summary>
-        /// Is the character a White Space.
+        /// Determines if the character is a white space character.
         /// Based on
         /// StackOverflow Thread Efficient way to remove ALL whitespace from String: https://stackoverflow.com/a/37347881
         /// and
         /// StackOverflow Thread How do I remove all non alphanumeric characters from a string except dash: https://stackoverflow.com/questions/3210393/how-do-i-remove-all-non-alphanumeric-characters-from-a-string-except-dash
         /// </summary>
+        /// <param name="character">The character to check.</param>
+        /// <returns>True if the character is a white space character, otherwise false.</returns>
         public static bool IsWhitespace(this char character)
         {
             switch (character)
@@ -58,8 +64,10 @@ namespace CoreFramework.Extensions
         }
 
         /// <summary>
-        /// Removes all white space from a string.
+        /// Removes all white space characters from the given text.
         /// </summary>
+        /// <param name="text">The text from which to remove white space characters.</param>
+        /// <returns>The text with all white space characters removed.</returns>
         public static string RemoveWhitespaces(this string text)
         {
             int textLength = text.Length;
@@ -79,10 +87,10 @@ namespace CoreFramework.Extensions
         }
 
         /// <summary>
-        /// Removes all non alphanumeric characters from a string.
+        /// Removes all non alphanumeric characters from the given text.
         /// </summary>
-        /// <param name="text"></param>
-        /// <returns></returns>
+        /// <param name="text">The text from which to remove non-alphanumeric characters.</param>
+        /// <returns>The text with all non-alphanumeric characters removed.</returns>
         public static string RemoveSpecialCharacters(this string text)
         {
             int textLength = text.Length;

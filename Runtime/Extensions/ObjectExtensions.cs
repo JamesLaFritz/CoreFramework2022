@@ -1,5 +1,7 @@
 ﻿#region Header
 // ObjectExtensions.cs
+// Author: James LaFritz
+// Description: Provides extension methods for the UnityEngine.Object class.
 #endregion
 
 using CoreFramework.Settings;
@@ -14,7 +16,7 @@ namespace CoreFramework.Extensions
         /// </summary>
         /// <param name="context">The context within which the log should be displayed.</param>
         /// <param name="msg">The message to log.</param>
-        /// <param name="debugInfo">Is this object showing it's debug info.</param>
+        /// <param name="debugInfo">Is this object showing its debug info.</param>
         /// <param name="callingMethod">The optional calling method from which the log originates.</param>
         public static void Info(this Object context, string msg, bool debugInfo, string callingMethod = "")
         {

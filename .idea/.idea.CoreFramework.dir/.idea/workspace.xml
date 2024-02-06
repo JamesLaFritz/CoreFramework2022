@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17d58b0b-cf30-46e5-8c2f-749f9ec33cc2" name="Changes" comment="" />
+    <list default="true" id="17d58b0b-cf30-46e5-8c2f-749f9ec33cc2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Runtime/Extensions/ArrayExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Runtime/Extensions/ArrayExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Runtime/Extensions/ObjectExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Runtime/Extensions/ObjectExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Runtime/Extensions/QuaternionExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Runtime/Extensions/QuaternionExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Runtime/Extensions/TextExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Runtime/Extensions/TextExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Runtime/Extensions/TransformExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Runtime/Extensions/TransformExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Runtime/Extensions/Vector4Extensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Runtime/Extensions/Vector4Extensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Runtime/Functional/Option.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Runtime/Functional/Option.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +22,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Runtime/Extensions/ArrayExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Runtime/Extensions/ObjectExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Runtime/ScriptableObjectArchitecture/Events/Listeners/CodedGameEventListener.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Runtime/ScriptableObjectArchitecture/Events/Listeners/IGameEventListener.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Runtime/ScriptableObjectArchitecture/Events/Listeners/Unity Event Inspector/Typed Unity Events/System Types/BoolGameEventListener.cs" root0="SKIP_HIGHLIGHTING" />
@@ -23,9 +33,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2YRvxQXdQp5n99hMVo2yPaB2f8U" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -38,12 +48,14 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)"
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
     "rider.external.source.directories": [
-      "C:\\Users\\ktmar\\AppData\\Local\\JetBrains\\Shared\\vAny\\DecompilerCache",
-      "C:\\Users\\ktmar\\AppData\\Local\\JetBrains\\Shared\\vAny\\SourcesCache",
+      "C:\\Users\\ktmar\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache",
+      "C:\\Users\\ktmar\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache",
       "C:\\Users\\ktmar\\AppData\\Local\\Symbols\\src"
     ]
   }
@@ -57,11 +69,23 @@
       <option name="presentableId" value="Default" />
       <updated>1700501453021</updated>
       <workItem from="1700501457960" duration="1127000" />
+      <workItem from="1707342937334" duration="299000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

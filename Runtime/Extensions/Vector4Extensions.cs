@@ -1,6 +1,8 @@
+#region Header
 // Vector4Extensions.cs
-// 07-19-2022
-// James LaFritz
+// Author: James LaFritz
+// Description: Extension methods for <a href="https://docs.unity3d.com/ScriptReference/Vector4.html">UnityEngine.Vector4</a>.
+#endregion
 
 using UnityEngine;
 

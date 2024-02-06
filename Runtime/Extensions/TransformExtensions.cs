@@ -1,9 +1,18 @@
-﻿using System.Collections.Generic;
+﻿#region Header
+// TransformExtensions.cs
+// Author: James LaFritz
+// Description: Extension methods for transforming objects.
+#endregion
+
+using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
 namespace CoreFramework.Extensions
 {
+    /// <summary>
+    /// Extension methods for transforming objects.
+    /// </summary>
     public static class TransformExtensions
     {
         /// <summary>

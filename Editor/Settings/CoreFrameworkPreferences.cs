@@ -1,6 +1,6 @@
 ﻿#region Header
 // CoreFrameworkSettingSO.cs
-// ktmar
+// Author: James LaFritz
 #endregion
 
 using CoreFramework.Settings;

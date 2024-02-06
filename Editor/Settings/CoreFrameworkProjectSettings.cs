@@ -1,22 +1,33 @@
 ﻿#region Header
 // CoreFrameworkProjectSettings.cs
+// Author: James LaFritz
+// Description: ScriptableSingleton for managing Core Framework project-specific settings.
 #endregion
 
-using CoreFramework.Attributes;
 using CoreFramework.Settings;
 using UnityEditor;
 using UnityEngine;
 
 namespace CoreFrameworkEditor.Settings
 {
+    /// <summary>
+    /// ScriptableSingleton for managing Core Framework project-specific settings.
+    /// </summary>
     [FilePath("ProjectSettings/CoreFrameworkProjectSettings.asset", FilePathAttribute.Location.ProjectFolder)]
     public class CoreFrameworkProjectSettings : ScriptableSingleton<CoreFrameworkProjectSettings>
     {
+        /// <summary>
+        /// The name of the initial scene to start the application.
+        /// </summary>
         [SerializeField] private string _startScene;
+        
+        /// <summary>
+        /// The name of the bootstrapper scene that initializes the application.
+        /// </summary>
         [SerializeField] private string _bootScene;
 
         /// <summary>
-        /// The name of the initial scene to start the application.
+        /// Gets or sets the name of the initial scene to start the application.
         /// </summary>
         public string StartScene
         {
@@ -30,7 +41,7 @@ namespace CoreFrameworkEditor.Settings
         }
 
         /// <summary>
-        /// The name of the bootstrapper scene that initializes the application.
+        /// Gets or sets the name of the bootstrapper scene that initializes the application.
         /// </summary>
         public string BootScene
         {

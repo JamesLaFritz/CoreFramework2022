@@ -1,5 +1,6 @@
 ﻿#region Header
 // CoreFrameworkPreferencesProvider.cs
+// Author: James LaFritz
 #endregion
 
 using System.Collections.Generic;
@@ -9,9 +10,11 @@ namespace CoreFrameworkEditor.Settings
 {
     public class CoreFrameworkPreferencesProvider : SettingsProvider
     {
+        private const string SettingsPath = "Preferences/Core Framework/Settings";
+        
         /// <inheritdoc />
-        private CoreFrameworkPreferencesProvider(string path, SettingsScope scopes
-            , IEnumerable<string> keywords = null) : base(path, scopes, keywords) {}
+        private CoreFrameworkPreferencesProvider(string path, SettingsScope scopes = SettingsScope.User,
+            IEnumerable<string> keywords = null) : base(path, scopes, keywords) {}
 
         #region Overrides of SettingsProvider
 
@@ -32,6 +35,9 @@ namespace CoreFrameworkEditor.Settings
 
         [SettingsProvider]
         public static SettingsProvider CreateCoreFrameworkPreferencesProvider() =>
-            new CoreFrameworkPreferencesProvider("Preferences/Core Framework/Settings", SettingsScope.User);
+            new CoreFrameworkPreferencesProvider(SettingsPath);
+
+        [MenuItem("Core Framework/Preference Settings", priority = 1)]
+        private static void ProjectSettingsMenuItem() => SettingsService.OpenUserPreferences(SettingsPath);
     }
 }

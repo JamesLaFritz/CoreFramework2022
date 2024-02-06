@@ -1,3 +1,10 @@
+#region Header
+// Bootstrapper.cs
+// Author: James LaFritz
+// Description: Handles the initial bootstrapping of the application, ensuring that
+// essential settings are applied and that the initial scene is loaded.
+#endregion
+
 using System;
 using CoreFramework.Settings;
 using UnityEngine;
@@ -5,13 +12,18 @@ using UnityEngine.SceneManagement;
 
 namespace CoreFramework
 {
+    /// <summary>
+    /// Handles the initial bootstrapping of the application, ensuring that
+    /// essential settings are applied and that the initial scene is loaded.
+    /// </summary>
+    [HelpURL("https://jameslafritz.github.io/CoreFramework2022/Manual/Bootstrapper.html")]
     public class Bootstrapper : MonoBehaviour
     {
         /// <summary>
         /// Asynchronously initializes necessary services and loads the starting scene
         /// when the application begins.
         /// </summary>
-        private /*async*/ void Start()
+        private void Start()
         {
             Application.runInBackground = true;
             //await UnityServices.InitializeAsync();

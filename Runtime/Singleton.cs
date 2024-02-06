@@ -1,8 +1,15 @@
+#region Header
+// CoreFrameworkMenu.cs
+// Author: James LaFritz
+// Description: Provides a generic Singleton class for MonoBehaviour types. Ensures that only one instance of the MonoBehaviour exists within the application. If no instance is found, one will be created.
+#endregion
+
 using UnityEngine;
 
 namespace CoreFramework
 {
     // ReSharper disable once ClassWithVirtualMembersNeverInherited.Global
+    [HelpURL("https://jameslafritz.github.io/CoreFramework2022/Manual/Singleton.html")]
     public class Singleton<T> : MonoBehaviour where T : Component
     {
         // ReSharper disable once InconsistentNaming

@@ -1,6 +1,9 @@
 ﻿#region Header
-// CoreFrameworkSettingSO.cs
+// CoreFrameworkPreferences.cs
 // Author: James LaFritz
+// Description: ScriptableSingleton managing Core Framework preferences for debugging logs and log message font sizes.
+// This class provides fields and properties for toggling debugging logs and adjusting font sizes 
+// for informational, warning, and error log messages.
 #endregion
 
 using CoreFramework.Settings;
@@ -9,6 +12,11 @@ using UnityEngine;
 
 namespace CoreFrameworkEditor.Settings
 {
+    /// <summary>
+    /// The `CoreFrameworkPreferences` class is a ScriptableSingleton managing Core Framework preferences for debugging logs 
+    /// and log message font sizes. It provides fields and properties for toggling debugging logs and adjusting font sizes 
+    /// for informational, warning, and error log messages.
+    /// </summary>
     [FilePath("CoreFrameworkPreferences.asset", FilePathAttribute.Location.PreferencesFolder)]
     public class CoreFrameworkPreferences : ScriptableSingleton<CoreFrameworkPreferences>
     {

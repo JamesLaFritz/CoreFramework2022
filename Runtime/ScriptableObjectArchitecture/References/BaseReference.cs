@@ -78,7 +78,7 @@ namespace CoreFramework.ScriptableObjectArchitecture.References
         /// <summary>
         /// Gets or sets the value of the value.
         /// </summary>
-        public virtual TBase Value
+        public TBase Value
         {
             get => selection == Selection.Value ? constantValue : variable != null ? variable.Value : default;
             set
@@ -97,12 +97,9 @@ namespace CoreFramework.ScriptableObjectArchitecture.References
                     newValue = constantValue = value;
                 }
 
-                if (newValue != null && newValue.Equals(oldValue)) return;
-
-                if (selection == Selection.Value)
-                {
-                    Raise();
-                }
+                if ((newValue != null && newValue.Equals(oldValue)) || selection == Selection.ScriptableObject) return;
+                
+                Raise();
             }
         }
 
@@ -259,7 +256,8 @@ namespace CoreFramework.ScriptableObjectArchitecture.References
         /// <summary>
         /// The change unity event
         /// </summary>
-        [SerializeField] private TUEvent changeUnityEvent;
+        [SerializeField] [ShowIfEnumValue("selection", (int) Selection.Value)]
+        private TUEvent changeUnityEvent;
 
         /// <summary>
         /// Initializes a new instance of the <see cref="BaseReference{TBase,TVariable,TEvent,TUEvent}"/> class
@@ -277,24 +275,6 @@ namespace CoreFramework.ScriptableObjectArchitecture.References
         }
 
         #region Overrides of BaseReference<TBase,TVariable, TEvent>
-
-        /// <inheritdoc />
-        public override TBase Value
-        {
-            get => base.Value;
-            set
-            {
-                TBase oldValue = Value;
-                base.Value = value;
-
-                if (selection == Selection.Value) return;
-
-                TBase newValue = Value;
-                if (newValue.Equals(oldValue)) return;
-
-                changeUnityEvent?.Invoke(Value);
-            }
-        }
 
         /// <inheritdoc />
         protected override void Raise(TBase value)

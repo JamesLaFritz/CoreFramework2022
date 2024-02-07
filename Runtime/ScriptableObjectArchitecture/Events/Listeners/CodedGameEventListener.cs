@@ -33,7 +33,7 @@ namespace CoreFramework.ScriptableObjectArchitecture.Events
         /// <summary>
         /// Disables this instance
         /// </summary>
-        public virtual void Disable()
+        public void Disable()
         {
             if (@event != null) @event.RemoveListener(this);
             _onResponse = null;
@@ -56,7 +56,7 @@ namespace CoreFramework.ScriptableObjectArchitecture.Events
     /// <seealso cref="CodedGameEventListener"/>
     /// <seealso cref="IGameEventListener{T}"/>
     [Serializable]
-    public class CodedGameEventListener<T> : CodedGameEventListener, IGameEventListener<T>
+    public class CodedGameEventListener<T> : IGameEventListener<T>
     {
         /// <summary>
         /// The typed game event
@@ -77,19 +77,15 @@ namespace CoreFramework.ScriptableObjectArchitecture.Events
             if (typedGameEvent != null) typedGameEvent.AddListener(this);
             _typedOnResponse = response;
         }
-
-        #region Overrides of CodedGameEventListener
-
-        /// <inheritdoc />
-        public override void Disable()
+        
+        /// <summary>
+        /// Disables this instance
+        /// </summary>
+        public void Disable()
         {
-            base.Disable();
-
             if (typedGameEvent != null) typedGameEvent.RemoveListener(this);
             _typedOnResponse = null;
         }
-
-        #endregion
 
         #region Implementation of IGameEventListener<in T>
 
@@ -97,6 +93,54 @@ namespace CoreFramework.ScriptableObjectArchitecture.Events
         public void OnEventRaised(T value)
         {
             _typedOnResponse?.Invoke(value);
+        }
+
+        #endregion
+    }
+    
+    /// <summary>
+    /// The coded game event listener class
+    /// </summary>
+    /// <seealso cref="CodedGameEventListener"/>
+    /// <seealso cref="IGameEventListener{T}"/>
+    [Serializable]
+    public class CodedGameEventListener<T1, T2> : IGameEventListener<T1, T2>
+    {
+        /// <summary>
+        /// The typed game event
+        /// </summary>
+        [SerializeField] private BaseGameEvent<T1, T2> typedGameEvent;
+
+        /// <summary>
+        /// The typed on response
+        /// </summary>
+        private Action<T1, T2> _typedOnResponse;
+
+        /// <summary>
+        /// Enables the response
+        /// </summary>
+        /// <param name="response">The response</param>
+        public void Enable(Action<T1, T2> response)
+        {
+            if (typedGameEvent != null) typedGameEvent.AddListener(this);
+            _typedOnResponse = response;
+        }
+
+        /// <summary>
+        /// Disables this instance
+        /// </summary>
+        public void Disable()
+        {
+            if (typedGameEvent != null) typedGameEvent.RemoveListener(this);
+            _typedOnResponse = null;
+        }
+
+        #region Implementation of IGameEventListener<in T, in T2>
+
+        /// <inheritdoc />
+        public void OnEventRaised(T1 value1, T2 value2)
+        {
+            _typedOnResponse?.Invoke(value1, value2);
         }
 
         #endregion

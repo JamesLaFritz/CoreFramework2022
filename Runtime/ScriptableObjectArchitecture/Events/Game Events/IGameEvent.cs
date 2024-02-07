@@ -74,4 +74,34 @@ namespace CoreFramework.ScriptableObjectArchitecture.Events
         /// </summary>
         void RemoveAll();
     }
+    
+    /// <summary>
+    /// Interface to Implement A Game Event That takes one parameter.
+    /// </summary>
+    /// <typeparam name="T1">The Parameter type of the game event</typeparam>
+    /// <typeparam name="T2">The Parameter type of the game event</typeparam>
+    public interface IGameEvent<T1, T2>
+    {
+        /// <summary>
+        /// Raise the Event.
+        /// </summary>
+        void Raise(T1 value1, T2 value2);
+
+        /// <summary>
+        /// Add a <see cref="IGameEventListener{T}"/> that gets notified when the event is raised.
+        /// </summary>
+        /// <param name="listener">The <see cref="IGameEventListener{T}"/> to add.</param>
+        void AddListener(IGameEventListener<T1, T2> listener);
+
+        /// <summary>
+        /// Remove a <see cref="IGameEventListener{T}"/> from the Event.
+        /// </summary>
+        /// <param name="listener">The <see cref="IGameEventListener{T}"/> to remove.</param>
+        void RemoveListener(IGameEventListener<T1, T2> listener);
+
+        /// <summary>
+        /// Remove all Listeners from the game event.
+        /// </summary>
+        void RemoveAll();
+    }
 }

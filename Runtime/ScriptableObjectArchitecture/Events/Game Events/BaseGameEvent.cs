@@ -113,4 +113,56 @@ namespace CoreFramework.ScriptableObjectArchitecture.Events
 
         #endregion
     }
+    
+    /// <summary>
+    /// Base <see cref="ScriptableObject"/> class for all Scriptable Object Architecture Game Event Assets. That Takes 2 Type Parameters.
+    /// Implements <seealso cref="IGameEvent{T1, T2}"/>.
+    /// </summary>
+    [System.Serializable]
+    public abstract class BaseGameEvent<T1, T2> : BaseGameEvent, IGameEvent<T1, T2>
+    {
+        private readonly List<IGameEventListener<T1, T2>> _typedListeners = new();
+        
+        [SerializeField] private T1 debugValue1;
+        
+        [SerializeField] private T2 debugValue2;
+
+        #region Implementation of IGameEvent<T>
+
+        /// <inheritdoc />
+        public void Raise(T1 value1, T2 value2)
+        {
+            for (int i = _typedListeners.Count - 1; i >= 0; i--)
+                _typedListeners[i].OnEventRaised(value1, value2);
+
+            base.Raise();
+        }
+
+        /// <inheritdoc />
+        public void AddListener(IGameEventListener<T1, T2> listener)
+        {
+            if (!_typedListeners.Contains(listener))
+                _typedListeners.Add(listener);
+        }
+
+        /// <inheritdoc />
+        public void RemoveListener(IGameEventListener<T1, T2> listener)
+        {
+            if (_typedListeners.Contains(listener))
+                _typedListeners.Remove(listener);
+        }
+
+        #endregion
+
+        #region Overrides of BaseGameEvent
+
+        /// <inheritdoc />
+        //[Button(ButtonAttribute.Mode.Play)]
+        public override void Raise()
+        {
+            Raise(debugValue1, debugValue2);
+        }
+
+        #endregion
+    }
 }

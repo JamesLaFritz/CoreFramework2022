@@ -117,4 +117,61 @@ namespace CoreFramework.ScriptableObjectArchitecture.Events
         [UsedImplicitly]
         protected void OnEventRaised() => response?.Invoke(debugValue);
     }
+    
+    public abstract class UnityGameEventListener<TType1, TType2, TEvent, TResponse> : UnityGameEventListener, IGameEventListener<TType1, TType2>
+        where TEvent : class, IGameEvent<TType1, TType2> where TResponse : UnityEvent<TType1, TType2>
+    {
+        /// <summary>
+        /// The game event
+        /// </summary>
+        [SerializeField] private TEvent gameEvent;
+
+        /// <summary>
+        /// The response
+        /// </summary>
+        [SerializeField] private TResponse response;
+
+        /// <summary>
+        /// The debug value
+        /// </summary>
+        [SerializeField] private TType1 debugValue1;
+
+        /// <summary>
+        /// The debug value
+        /// </summary>
+        [SerializeField] private TType2 debugValue2;
+
+        /// <summary>
+        /// Ons the enable
+        /// </summary>
+        private void OnEnable()
+        {
+            gameEvent?.AddListener(this);
+        }
+
+        /// <summary>
+        /// Ons the disable
+        /// </summary>
+        private void OnDisable()
+        {
+            gameEvent?.RemoveListener(this);
+        }
+
+        #region Implementation of IGameEventListener<in TType>
+
+        /// <inheritdoc />
+        public void OnEventRaised(TType1 value1, TType2 value2)
+        {
+            response?.Invoke(value1, value2);
+        }
+
+        #endregion
+
+        /// <summary>
+        /// Ons the event raised
+        /// </summary>
+        [Button(ButtonAttribute.ButtonMode.Play)]
+        [UsedImplicitly]
+        protected void OnEventRaised() => response?.Invoke(debugValue1, debugValue2);
+    }
 }

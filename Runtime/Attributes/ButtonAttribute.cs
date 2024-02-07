@@ -46,7 +46,6 @@ namespace CoreFramework.Attributes
         /// <param name="mode">The Unity Editor <see cref="ButtonMode"/> that the button should be clickable.</param>
         public ButtonAttribute(ButtonMode mode = ButtonMode.Both)
         {
-            Debug.Assert(mode != ButtonMode.Both, "ButtonAttribute.Mode.Both is not a valid mode.");
             Mode = mode;
         }
     }

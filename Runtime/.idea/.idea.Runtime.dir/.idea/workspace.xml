@@ -5,374 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2c09c20-8f7a-464f-a5ed-094cdbaa013a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/.idea.CoreFramework.dir/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/.idea.CoreFramework.dir/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/.idea.CoreFramework.dir/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/.idea.CoreFramework.dir/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CHANGELOG-GRAPH.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Attributes/Properties/Modifiers/ExposedReferencePropertyDrawer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Attributes/Properties/Modifiers/ExposedReferencePropertyDrawer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Attributes/Properties/SerializedObjectExtension.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Attributes/Properties/SerializedObjectExtension.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Event Listeners.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Event Listeners/AnimationCurveGameEventListenerIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Event Listeners/AnimationCurveGameEventListenerIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Event Listeners/AudioClipGameEventListenerIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Event Listeners/AudioClipGameEventListenerIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Event Listeners/BoolGameEventListenerIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Event Listeners/BoolGameEventListenerIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Event Listeners/BoundsGameEventListenerIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Event Listeners/BoundsGameEventListenerIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Event Listeners/ByteGameEventListenerIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Event Listeners/ByteGameEventListenerIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Event Listeners/CharGameEventListenerIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Event Listeners/CharGameEventListenerIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Event Listeners/Color32GameEventListenerIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Event Listeners/Color32GameEventListenerIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Event Listeners/ColorGameEventListenerIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Event Listeners/ColorGameEventListenerIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Event Listeners/DoubleGameEventListenerIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Event Listeners/DoubleGameEventListenerIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Event Listeners/FloatGameEventListenerIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Event Listeners/FloatGameEventListenerIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Event Listeners/GameEventListenerIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Event Listeners/GameEventListenerIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Event Listeners/GameObjectGameEventListenerIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Event Listeners/GameObjectGameEventListenerIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Event Listeners/IntegerGameEventListenerIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Event Listeners/IntegerGameEventListenerIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Event Listeners/LayerMaskGameEventListenerIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Event Listeners/LayerMaskGameEventListenerIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Event Listeners/LongGameEventListenerIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Event Listeners/LongGameEventListenerIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Event Listeners/ObjectGameEventListenerIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Event Listeners/ObjectGameEventListenerIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Event Listeners/QuaternionGameEventListenerIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Event Listeners/QuaternionGameEventListenerIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Event Listeners/SceneGameEventListenerIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Event Listeners/SceneGameEventListenerIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Event Listeners/ShortGameEventListenerIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Event Listeners/ShortGameEventListenerIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Event Listeners/SignedByteGameEventListenerIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Event Listeners/SignedByteGameEventListenerIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Event Listeners/StringGameEventListenerIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Event Listeners/StringGameEventListenerIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Event Listeners/UnsignedIntGameEventListenerIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Event Listeners/UnsignedIntGameEventListenerIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Event Listeners/UnsignedLongGameEventListenerIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Event Listeners/UnsignedLongGameEventListenerIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Event Listeners/UnsignedShortGameEventListenerIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Event Listeners/UnsignedShortGameEventListenerIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Event Listeners/Vector2GameEventListenerIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Event Listeners/Vector2GameEventListenerIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Event Listeners/Vector3GameEventListenerIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Event Listeners/Vector3GameEventListenerIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Event Listeners/Vector4GameEventListenerIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Event Listeners/Vector4GameEventListenerIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Event Listeners/VoidGameEventListenerIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Event Listeners/VoidGameEventListenerIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Events.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Events/AnimationCurveGameEventIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Events/AnimationCurveGameEventIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Events/AudioClipGameEventIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Events/AudioClipGameEventIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Events/BoolGameEventIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Events/BoolGameEventIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Events/BoundsGameEventIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Events/BoundsGameEventIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Events/ByteGameEventIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Events/ByteGameEventIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Events/CharGameEventIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Events/CharGameEventIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Events/Color32GameEventIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Events/Color32GameEventIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Events/ColorGameEventIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Events/ColorGameEventIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Events/DoubleGameEventIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Events/DoubleGameEventIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Events/FloatGameEventIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Events/FloatGameEventIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Events/GameEventIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Events/GameEventIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Events/GameObjectBoolGameEventIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Events/GameObjectBoolGameEventIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Events/GameObjectFloatGameEventIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Events/GameObjectFloatGameEventIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Events/GameObjectGameEventIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Events/GameObjectGameEventIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Events/GameObjectIntegerGameEventIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Events/GameObjectIntegerGameEventIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Events/IntegerGameEventIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Events/IntegerGameEventIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Events/LayerMaskGameEventIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Events/LayerMaskGameEventIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Events/LongGameEventIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Events/LongGameEventIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Events/ObjectGameEventIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Events/ObjectGameEventIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Events/QuaternionGameEventIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Events/QuaternionGameEventIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Events/SceneGameEventIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Events/SceneGameEventIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Events/ShortGameEventIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Events/ShortGameEventIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Events/SignedByteGameEventIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Events/SignedByteGameEventIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Events/StringGameEventIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Events/StringGameEventIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Events/UnsignedIntegerGameEventIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Events/UnsignedIntegerGameEventIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Events/UnsignedLongGameEventIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Events/UnsignedLongGameEventIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Events/UnsignedShortGameEventIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Events/UnsignedShortGameEventIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Events/Vector2GameEventIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Events/Vector2GameEventIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Events/Vector3GameEventIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Events/Vector3GameEventIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Events/Vector4GameEventIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Events/Vector4GameEventIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Events/VoidGameEventIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Game Events/VoidGameEventIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Icons.pdn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Icons.pdn.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/InteractableIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/InteractableIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/References.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/References/AnimationCurveReferenceIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/References/AnimationCurveReferenceIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/References/AudioClipReferenceIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/References/AudioClipReferenceIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/References/BoolReferenceIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/References/BoolReferenceIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/References/BoundsReferenceIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/References/BoundsReferenceIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/References/ByteReferenceIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/References/ByteReferenceIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/References/CharReferenceIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/References/CharReferenceIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/References/Color32ReferenceIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/References/Color32ReferenceIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/References/ColorReferenceIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/References/ColorReferenceIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/References/DoubleReferenceIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/References/DoubleReferenceIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/References/FloatReferenceIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/References/FloatReferenceIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/References/GameObjectReferenceIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/References/GameObjectReferenceIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/References/IntReferenceIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/References/IntReferenceIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/References/LayerMaskReferenceIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/References/LayerMaskReferenceIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/References/LongReferenceIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/References/LongReferenceIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/References/ObjectReferenceIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/References/ObjectReferenceIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/References/QuaternionReferenceIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/References/QuaternionReferenceIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/References/ReferenceIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/References/ReferenceIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/References/SceneReferenceIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/References/SceneReferenceIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/References/ShortReferenceIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/References/ShortReferenceIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/References/SignedByteReferenceIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/References/SignedByteReferenceIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/References/StringReferenceIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/References/StringReferenceIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/References/UnsignedIntReferenceIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/References/UnsignedIntReferenceIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/References/UnsignedLongReferenceIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/References/UnsignedLongReferenceIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/References/UnsignedShortReferenceIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/References/UnsignedShortReferenceIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/References/Vector2ReferenceIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/References/Vector2ReferenceIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/References/Vector3ReferenceIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/References/Vector3ReferenceIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/References/Vector4ReferenceIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/References/Vector4ReferenceIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Save.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Save/JSONSavingStrategyIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Save/JSONSavingStrategyIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Save/Save.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Save/Save.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Save/SaveEntityIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Save/SaveEntityIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Save/SaveSystemIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Save/SaveSystemIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Save/SavingStrategyIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Save/SavingStrategyIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Save/VersionControlIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Save/VersionControlIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/ScriptableObjects.pdn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/ScriptableObjects.pdn.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Unity Responses.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Unity Responses/AnimationCurveUnityResponseIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Unity Responses/AnimationCurveUnityResponseIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Unity Responses/AudioClipUnityResponseIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Unity Responses/AudioClipUnityResponseIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Unity Responses/BoolUnityResponseIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Unity Responses/BoolUnityResponseIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Unity Responses/BoundsUnityResponseIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Unity Responses/BoundsUnityResponseIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Unity Responses/ByteUnityResponseIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Unity Responses/ByteUnityResponseIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Unity Responses/CharUnityResponseIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Unity Responses/CharUnityResponseIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Unity Responses/Color32UnityResponseIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Unity Responses/Color32UnityResponseIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Unity Responses/ColorUnityResponseIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Unity Responses/ColorUnityResponseIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Unity Responses/DoubleUnityResponseIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Unity Responses/DoubleUnityResponseIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Unity Responses/FloatUnityResponseIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Unity Responses/FloatUnityResponseIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Unity Responses/GameObjectUnityResponseIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Unity Responses/GameObjectUnityResponseIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Unity Responses/IntegerUnityResponseIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Unity Responses/IntegerUnityResponseIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Unity Responses/LaverMaskUnityResponseIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Unity Responses/LaverMaskUnityResponseIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Unity Responses/LongUnityResponseIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Unity Responses/LongUnityResponseIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Unity Responses/ObjectUnityResponseIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Unity Responses/ObjectUnityResponseIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Unity Responses/QuaternionUnityResponseIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Unity Responses/QuaternionUnityResponseIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Unity Responses/SceneUnityResponseIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Unity Responses/SceneUnityResponseIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Unity Responses/ShortUnityResponseIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Unity Responses/ShortUnityResponseIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Unity Responses/SignedByteUnityResponseIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Unity Responses/SignedByteUnityResponseIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Unity Responses/StringUnityResponseIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Unity Responses/StringUnityResponseIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Unity Responses/UnityResponseIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Unity Responses/UnityResponseIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Unity Responses/UnsignedIntegerUnityResponseIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Unity Responses/UnsignedIntegerUnityResponseIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Unity Responses/UnsignedLongUnityResponseIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Unity Responses/UnsignedLongUnityResponseIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Unity Responses/UnsignedShortUnityResponseIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Unity Responses/UnsignedShortUnityResponseIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Unity Responses/Vector2UnityResponseIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Unity Responses/Vector2UnityResponseIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Unity Responses/Vector3UnityResponseIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Unity Responses/Vector3UnityResponseIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Unity Responses/Vector4UnityResponseIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Unity Responses/Vector4UnityResponseIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Unity Responses/VoidUnityResponseIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Unity Responses/VoidUnityResponseIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Variables.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Variables/AnimationCurveVariableIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Variables/AnimationCurveVariableIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Variables/AudioClipVariableIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Variables/AudioClipVariableIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Variables/BoolVariableIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Variables/BoolVariableIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Variables/BoundsVariableIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Variables/BoundsVariableIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Variables/ByteVariableIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Variables/ByteVariableIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Variables/CharVariableIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Variables/CharVariableIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Variables/Color32VariableIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Variables/Color32VariableIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Variables/ColorVariableIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Variables/ColorVariableIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Variables/DoubleVariableIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Variables/DoubleVariableIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Variables/FloatVariableIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Variables/FloatVariableIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Variables/GameObjectVariableIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Variables/GameObjectVariableIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Variables/IntVariableIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Variables/IntVariableIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Variables/LayerMaskVariableIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Variables/LayerMaskVariableIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Variables/LongVariableIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Variables/LongVariableIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Variables/ObjectVariableIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Variables/ObjectVariableIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Variables/QuaternionVariableIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Variables/QuaternionVariableIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Variables/SceneVariableIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Variables/SceneVariableIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Variables/ShortVariableIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Variables/ShortVariableIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Variables/SignedByteVariableIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Variables/SignedByteVariableIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Variables/StringVariableIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Variables/StringVariableIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Variables/UnsignedIntVariableIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Variables/UnsignedIntVariableIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Variables/UnsignedLongVariableIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Variables/UnsignedLongVariableIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Variables/UnsignedShortVariableIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Editor/Icons/Variables/UnsignedShortVariableIcon.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Runtime.dir/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Runtime.dir/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Runtime.dir/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScriptableObjectArchitecture/References/BaseReference.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScriptableObjectArchitecture/References/BaseReference.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScriptableObjectArchitecture/References/System.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScriptableObjectArchitecture/References/System/BoolReference.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScriptableObjectArchitecture/References/System/BoolReference.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScriptableObjectArchitecture/References/System/ByteReference.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScriptableObjectArchitecture/References/System/ByteReference.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScriptableObjectArchitecture/References/System/CharReference.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScriptableObjectArchitecture/References/System/CharReference.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScriptableObjectArchitecture/References/System/DoubleReference.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScriptableObjectArchitecture/References/System/DoubleReference.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScriptableObjectArchitecture/References/System/FloatReference.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScriptableObjectArchitecture/References/System/FloatReference.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScriptableObjectArchitecture/References/System/IntReference.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScriptableObjectArchitecture/References/System/IntReference.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScriptableObjectArchitecture/References/System/LongReference.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScriptableObjectArchitecture/References/System/LongReference.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScriptableObjectArchitecture/References/System/SByteReference.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScriptableObjectArchitecture/References/System/SByteReference.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScriptableObjectArchitecture/References/System/ShortReference.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScriptableObjectArchitecture/References/System/ShortReference.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScriptableObjectArchitecture/References/System/StringReference.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScriptableObjectArchitecture/References/System/StringReference.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScriptableObjectArchitecture/References/System/UIntReference.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScriptableObjectArchitecture/References/System/UIntReference.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScriptableObjectArchitecture/References/System/ULongReference.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScriptableObjectArchitecture/References/System/ULongReference.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScriptableObjectArchitecture/References/System/UShortReference.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScriptableObjectArchitecture/References/System/UShortReference.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScriptableObjectArchitecture/References/Unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScriptableObjectArchitecture/References/Unity/AnimationCurveReference.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScriptableObjectArchitecture/References/Unity/AnimationCurveReference.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScriptableObjectArchitecture/References/Unity/AudioClipReference.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScriptableObjectArchitecture/References/Unity/AudioClipReference.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScriptableObjectArchitecture/References/Unity/BoundsReference.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScriptableObjectArchitecture/References/Unity/BoundsReference.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScriptableObjectArchitecture/References/Unity/Color32Reference.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScriptableObjectArchitecture/References/Unity/Color32Reference.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScriptableObjectArchitecture/References/Unity/ColorReference.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScriptableObjectArchitecture/References/Unity/ColorReference.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScriptableObjectArchitecture/References/Unity/GameObjectReference.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScriptableObjectArchitecture/References/Unity/GameObjectReference.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScriptableObjectArchitecture/References/Unity/LayerMaskReference.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScriptableObjectArchitecture/References/Unity/LayerMaskReference.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScriptableObjectArchitecture/References/Unity/ObjectReference.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScriptableObjectArchitecture/References/Unity/ObjectReference.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScriptableObjectArchitecture/References/Unity/QuaternionReference.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScriptableObjectArchitecture/References/Unity/QuaternionReference.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScriptableObjectArchitecture/References/Unity/SceneReference.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScriptableObjectArchitecture/References/Unity/SceneReference.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScriptableObjectArchitecture/References/Unity/Vector2Reference.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScriptableObjectArchitecture/References/Unity/Vector2Reference.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScriptableObjectArchitecture/References/Unity/Vector3Reference.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScriptableObjectArchitecture/References/Unity/Vector3Reference.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScriptableObjectArchitecture/References/Unity/Vector4Reference.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScriptableObjectArchitecture/References/Unity/Vector4Reference.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Runtime.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Runtime.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamesLaFritz.CoreFramework.Runtime.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JamesLaFritz.CoreFramework.Runtime.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScriptableObjectArchitecture/Events/Game Events/BaseGameEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ScriptableObjectArchitecture/Events/Game Events/BaseGameEvent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScriptableObjectArchitecture/Events/Game Events/IGameEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ScriptableObjectArchitecture/Events/Game Events/IGameEvent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScriptableObjectArchitecture/Events/Listeners/CodedGameEventListener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ScriptableObjectArchitecture/Events/Listeners/CodedGameEventListener.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScriptableObjectArchitecture/Events/Listeners/IGameEventListener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ScriptableObjectArchitecture/Events/Listeners/IGameEventListener.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScriptableObjectArchitecture/Events/Listeners/UnityGameEventListener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ScriptableObjectArchitecture/Events/Listeners/UnityGameEventListener.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScriptableObjectArchitecture/References/BaseReference.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ScriptableObjectArchitecture/References/BaseReference.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScriptableObjectArchitecture/ScriptableObjectVariables/BaseVariable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ScriptableObjectArchitecture/ScriptableObjectVariables/BaseVariable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -388,26 +31,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://G:/My Drive/Unity/CoreFramework/Runtime/Bootstrapper.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Bootstrapper.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Extensions/GameObjectExtensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://G:/My Drive/Unity/CoreFramework/Runtime/Extensions/GameObjectExtensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://G:/My Drive/Unity/CoreFramework/Runtime/Extensions/GameObjectExtensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Extensions/TransformExtensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://G:/My Drive/Unity/CoreFramework/Runtime/Extensions/Vector2Extensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://G:/My Drive/Unity/CoreFramework/Runtime/Extensions/Vector2Extensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://G:/My Drive/Unity/CoreFramework/Runtime/Extensions/Vector2Extensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Extensions/Vector2Extensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://G:/My Drive/Unity/CoreFramework/Runtime/Extensions/Vector2Extensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://G:/My Drive/Unity/CoreFramework/Runtime/Extensions/Vector2Extensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://G:/My Drive/Unity/CoreFramework/Runtime/Extensions/Vector2Extensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Extensions/Vector3Extensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://G:/My Drive/Unity/CoreFramework/Runtime/Extensions/Vector3Extensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Extensions/Vector4Extensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://G:/My Drive/Unity/CoreFramework/Runtime/Extensions/Vector4Extensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Settings/CoreFrameWorkSettings.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://G:/My Drive/Unity/CoreFramework/Runtime/Settings/CoreFrameWorkSettings.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://G:/My Drive/Unity/CoreFramework/Runtime/Settings/CoreFrameWorkSettings.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://I:/My Drive/Unity/CoreFramework/Runtime/ScriptableObjectArchitecture/Events/Game Events/BaseGameEvent.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ScriptableObjectArchitecture/Events/Game Events/BaseGameEvent.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -449,7 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1702806618610</updated>
       <workItem from="1702806619093" duration="5340000" />
-      <workItem from="1707273667646" duration="613000" />
+      <workItem from="1707273667646" duration="1669000" />
     </task>
     <task id="LOCAL-00001" summary="Added null checking to Bootstrapper to prevent errors. This makes it so that you can have the Core Framework in your project and not be forced to use the bootstrapper">
       <option name="closed" value="true" />
@@ -525,6 +154,5 @@
     <MESSAGE value="Documentation Updated&#10;Vector(2)(3)(4) added Range Extension" />
     <MESSAGE value="Added OrNull to fix some NullReferenceExceptions when a GameObject is slated to be destroyed." />
     <MESSAGE value="Added some useful Transformation extensions and their equivalents to Game Object." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added some useful Transformation extensions and their equivalents to Game Object." />
   </component>
 </project>

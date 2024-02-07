@@ -23,7 +23,8 @@ namespace CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables
         [SerializeField] [ShowIfBool("readOnly")]
         private bool raiseWarning = true;
 
-        [Tooltip("Can the value of the variable be clamped.")] [SerializeField, HideInInspector] protected bool clampable;
+        [Tooltip("Can the value of the variable be clamped.")] [SerializeField, HideInInspector]
+        protected bool clampable;
 
         /// <summary>
         /// The value of this variable
@@ -44,13 +45,13 @@ namespace CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables
         /// <summary>
         /// The Min value of this variable. Only if this variable is clamped.
         /// </summary>
-        [SerializeField] [ShowIfBool("m_isClamped")]
+        [SerializeField] [ShowIfBool("isClamped")]
         protected TType minValue;
 
         /// <summary>
         /// The Max value of this variable. Only if this variable is clamped.
         /// </summary>
-        [SerializeField] [ShowIfBool("m_isClamped")]
+        [SerializeField] [ShowIfBool("isClamped")]
         protected TType maxValue;
 
         /// <summary>
@@ -99,7 +100,7 @@ namespace CoreFramework.ScriptableObjectArchitecture.ScriptableObjectVariables
                 return IsClamped ? ClampValue(tValue) : tValue;
 
             RaiseReadonlyWarning();
-            return this.value;
+            return value;
         }
 
         /// <summary>

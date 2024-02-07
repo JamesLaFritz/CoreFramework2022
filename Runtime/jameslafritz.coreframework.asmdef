@@ -1,12 +1,8 @@
 {
-    "name": "jameslafritz.coreframework.Editor",
-    "rootNamespace": "CoreFrameworkEditor",
-    "references": [
-        "jameslafritz.coreframework"
-    ],
-    "includePlatforms": [
-        "Editor"
-    ],
+    "name": "jameslafritz.coreframework",
+    "rootNamespace": "CoreFramework",
+    "references": [],
+    "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,

@@ -1,5 +1,5 @@
 {
-  "name": "com.jameslaFritz.coreframework",
+  "name": "com.jameslafritz.coreframework",
   "version": "2.0.0",
   "displayName": "Core Framework",
   "description": "Framework that contains useful Modules to be Used in Unity Project.",
@@ -27,6 +27,7 @@
   ],
   "dependencies": {
     "com.unity.2d.sprite": "1.0.0",
+    "com.unity.nuget.newtonsoft-json": "3.0.2",
     "com.unity.timeline": "1.6.4",
     "com.unity.ugui": "1.0.0",
     "com.unity.modules.animation": "1.0.0",
@@ -35,5 +36,6 @@
     "com.unity.modules.physics2d": "1.0.0",
     "com.unity.modules.ui": "1.0.0",
     "com.unity.modules.uielements": "1.0.0"
-  }
+  },
+  "type": "library"
 }

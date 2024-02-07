@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e2c09c20-8f7a-464f-a5ed-094cdbaa013a" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="JamesLaFritz &lt;ktmarine1999@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://G:/My Drive/Unity/CoreFramework/Runtime/Bootstrapper.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Bootstrapper.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Extensions/GameObjectExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://G:/My Drive/Unity/CoreFramework/Runtime/Extensions/GameObjectExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://G:/My Drive/Unity/CoreFramework/Runtime/Extensions/GameObjectExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Extensions/TransformExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://G:/My Drive/Unity/CoreFramework/Runtime/Extensions/Vector2Extensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://G:/My Drive/Unity/CoreFramework/Runtime/Extensions/Vector2Extensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://G:/My Drive/Unity/CoreFramework/Runtime/Extensions/Vector2Extensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Extensions/Vector2Extensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://G:/My Drive/Unity/CoreFramework/Runtime/Extensions/Vector2Extensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://G:/My Drive/Unity/CoreFramework/Runtime/Extensions/Vector2Extensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://G:/My Drive/Unity/CoreFramework/Runtime/Extensions/Vector2Extensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Extensions/Vector3Extensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://G:/My Drive/Unity/CoreFramework/Runtime/Extensions/Vector3Extensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Extensions/Vector4Extensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://G:/My Drive/Unity/CoreFramework/Runtime/Extensions/Vector4Extensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Settings/CoreFrameWorkSettings.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://G:/My Drive/Unity/CoreFramework/Runtime/Settings/CoreFrameWorkSettings.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://G:/My Drive/Unity/CoreFramework/Runtime/Settings/CoreFrameWorkSettings.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2ZfIGPcMWVIjTrNoSQgmLUYrxuz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.google.cloudcode.ide_session_index": "20231217_0000",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  },
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\ktmar\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache",
+      "C:\\Users\\ktmar\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache",
+      "C:\\Users\\ktmar\\AppData\\Local\\Symbols\\src"
+    ]
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e2c09c20-8f7a-464f-a5ed-094cdbaa013a" name="Changes" comment="" />
+      <created>1702806618610</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702806618610</updated>
+      <workItem from="1702806619093" duration="5340000" />
+    </task>
+    <task id="LOCAL-00001" summary="Added null checking to Bootstrapper to prevent errors. This makes it so that you can have the Core Framework in your project and not be forced to use the bootstrapper">
+      <option name="closed" value="true" />
+      <created>1702808038894</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702808038894</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Default the Start Scene and Boot Scene to be null if there is no Settings Scritable Object">
+      <option name="closed" value="true" />
+      <created>1702808247412</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702808247412</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Documentation Updated">
+      <option name="closed" value="true" />
+      <created>1702808376233</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1702808376233</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Documentation Updated&#10;Vector(2)(3)(4) added Range Extension">
+      <option name="closed" value="true" />
+      <created>1702808510570</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702808510570</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added OrNull to fix some NullReferenceExceptions when a GameObject is slated to be destroyed.">
+      <option name="closed" value="true" />
+      <created>1702809298564</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1702809298564</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added some useful Transformation extensions and their equivalents to Game Object.">
+      <option name="closed" value="true" />
+      <created>1702810557771</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1702810557771</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Added null checking to Bootstrapper to prevent errors. This makes it so that you can have the Core Framework in your project and not be forced to use the bootstrapper" />
+    <MESSAGE value="Default the Start Scene and Boot Scene to be null if there is no Settings Scritable Object" />
+    <MESSAGE value="Documentation Updated" />
+    <MESSAGE value="Documentation Updated&#10;Vector(2)(3)(4) added Range Extension" />
+    <MESSAGE value="Added OrNull to fix some NullReferenceExceptions when a GameObject is slated to be destroyed." />
+    <MESSAGE value="Added some useful Transformation extensions and their equivalents to Game Object." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added some useful Transformation extensions and their equivalents to Game Object." />
+  </component>
+</project>

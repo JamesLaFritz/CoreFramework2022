@@ -40,7 +40,7 @@ namespace CoreFrameworkEditor.Saving
         /// <summary>
         /// The revision version component of the current save file format.
         /// </summary>
-        [SerializeField] private int _revision;
+        [SerializeField] private int _revision = 1;
 
         /// <summary>
         /// Represents the latest version of the save file format. This should be incremented whenever 

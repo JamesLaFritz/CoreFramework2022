@@ -27,12 +27,12 @@ namespace CoreFramework.Saving
         /// Represents the latest version of the save file format. This should be incremented whenever 
         /// there's a change in the structure or data stored in save files.
         /// </summary>
-        public static Version CurrentFileVersion = new();
+        public static Version CurrentFileVersion = new(0, 0, 0, 1);
 
         /// <summary>
         /// Denotes the earliest version of the save file that the game still supports. This allows the game 
         /// to handle older save files by potentially migrating or upgrading them to the current format.
         /// </summary>
-        public static Version MinFileVersion = new();
+        public static Version MinFileVersion = new(0, 0, 0, 1);
     }
 }

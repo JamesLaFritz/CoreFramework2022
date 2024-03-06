@@ -26,7 +26,6 @@ namespace CoreFramework
         private void Start()
         {
             Application.runInBackground = true;
-            //await UnityServices.InitializeAsync();
 
             // Asynchronous initialization of services can be added here.
             // await UnityServices.InitializeAsync();

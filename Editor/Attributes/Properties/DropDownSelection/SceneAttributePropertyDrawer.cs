@@ -30,6 +30,50 @@ namespace CoreFrameworkEditor.Attributes
         #region Overrides of PropertyDrawer
 
         /// <inheritdoc />
+        public override VisualElement CreatePropertyGUI(SerializedProperty property)
+        {
+            if (property == null) return new Label("Property is null") { name = "unity-invalid-type-label" };
+
+            if (property.propertyType is not (SerializedPropertyType.String or SerializedPropertyType.Integer))
+                return new Label(SInvalidTypeMessage) { name = "unity-invalid-type-label" };
+
+            var scenes = GetScenes() ?? new[] { "" };
+            var scenesList = scenes!.ToList();
+
+            PopupField<string> popupField;
+
+            if (property.propertyType == SerializedPropertyType.Integer)
+            {
+                popupField =
+                    new PopupField<string>(property.displayName, scenesList, property.intValue);
+
+                popupField.RegisterValueChangedCallback((evt) =>
+                {
+                    if (evt.newValue == evt.previousValue) return;
+                    property.intValue = scenesList.IndexOf(evt.newValue);
+                    property.serializedObject?.ApplyModifiedProperties();
+                });
+
+                //return this.CreatePropertyGUIContainer(popupField);
+                return popupField;
+            }
+
+            popupField =
+                new PopupField<string>(property.displayName, scenesList, scenesList.IndexOf(property.stringValue));
+
+            popupField.RegisterValueChangedCallback((evt) =>
+            {
+                if (evt.newValue == evt.previousValue) return;
+                property.stringValue = evt.newValue;
+
+                property.serializedObject?.ApplyModifiedProperties();
+            });
+
+            //return this.CreatePropertyGUIContainer(popupField);
+            return popupField;
+        }
+
+        /// <inheritdoc />
         public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)
         {
             if (property == null) return;
@@ -73,50 +117,6 @@ namespace CoreFrameworkEditor.Attributes
                     }
                 }
             }
-        }
-
-        /// <inheritdoc />
-        public override VisualElement CreatePropertyGUI(SerializedProperty property)
-        {
-            if (property == null) return new Label("Property is null") { name = "unity-invalid-type-label" };
-
-            if (property.propertyType is not (SerializedPropertyType.String or SerializedPropertyType.Integer))
-                return new Label(SInvalidTypeMessage) { name = "unity-invalid-type-label" };
-
-            var scenes = GetScenes() ?? new[] { "" };
-            var scenesList = scenes!.ToList();
-
-            PopupField<string> popupField;
-
-            if (property.propertyType == SerializedPropertyType.Integer)
-            {
-                popupField =
-                    new PopupField<string>(property.displayName, scenesList, property.intValue);
-
-                popupField.RegisterValueChangedCallback((evt) =>
-                {
-                    if (evt.newValue == evt.previousValue) return;
-                    property.intValue = scenesList.IndexOf(evt.newValue);
-                    property.serializedObject?.ApplyModifiedProperties();
-                });
-
-                //return this.CreatePropertyGUIContainer(popupField);
-                return popupField;
-            }
-
-            popupField =
-                new PopupField<string>(property.displayName, scenesList, scenesList.IndexOf(property.stringValue));
-
-            popupField.RegisterValueChangedCallback((evt) =>
-            {
-                if (evt.newValue == evt.previousValue) return;
-                property.stringValue = evt.newValue;
-
-                property.serializedObject?.ApplyModifiedProperties();
-            });
-
-            //return this.CreatePropertyGUIContainer(popupField);
-            return popupField;
         }
 
         /// <inheritdoc />

@@ -30,8 +30,7 @@ namespace CoreFrameworkEditor.Attributes
         {
             ShowIfEnumValueAttribute attr = attribute as ShowIfEnumValueAttribute;
             if (attr == null) return;
-            SerializedProperty showIfProp =
-                PropertyDrawerHelper.FindProperty(property, attr.EnumName, out _errorMessage);
+            SerializedProperty showIfProp = property.FindSerializedProperty(attr.EnumName, out _errorMessage);
             if (showIfProp == null)
             {
                 EditorGUI.LabelField(position, label.text, _errorMessage);
@@ -42,7 +41,7 @@ namespace CoreFrameworkEditor.Attributes
             EditorGUI.indentLevel = 0;
             using (new EditorGUI.PropertyScope(position, label, property))
             {
-                if (PropertyDrawerHelper.ShouldShow(showIfProp.enumValueIndex == attr.EnumIndex, attr.Show))
+                if (property.ShouldShow(showIfProp.enumValueIndex == attr.EnumIndex, attr.Show))
                 {
                     EditorGUI.PropertyField(position, property, label, true);
                 }
@@ -74,13 +73,10 @@ namespace CoreFrameworkEditor.Attributes
                 return propertyLabel;
             }
 
-            if (PropertyDrawerHelper.ShouldShow(showIfProp.enumValueIndex == attr.EnumIndex, attr.Show))
-                root.Add(new PropertyField(property, property.displayName));
-
-            // Set the initial visibility
             UpdateVisibility(showIfProp);
-
-            container.Add(propertyField);
+            
+            container.TrackPropertyValue(showIfProp, UpdateVisibility );
+            container.Add(new PropertyField(property, property.displayName) { name = property.displayName });
 
             return container;
 

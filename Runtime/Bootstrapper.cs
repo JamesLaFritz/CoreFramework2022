@@ -56,7 +56,8 @@ namespace CoreFramework
                 SceneManager.LoadSceneAsync(currentlyLoadedEditorScene.name, LoadSceneMode.Additive);
 #else
             if (string.IsNullOrWhiteSpace(CoreFrameWorkSettings.StartScene) ||
-                string.Compare(CoreFrameWorkSettings.StartScene, "None", StringComparison.Ordinal) == 0) return;
+                string.Compare(CoreFrameWorkSettings.StartScene, "None", StringComparison.Ordinal) == 0 ||
+                !SceneManager.GetSceneByName(CoreFrameWorkSettings.StartScene).isLoaded) return;
             // Load the start scene additively in a built game.
             SceneManager.LoadSceneAsync(Settings.CoreFrameWorkSettings.StartScene, LoadSceneMode.Additive);
 #endif

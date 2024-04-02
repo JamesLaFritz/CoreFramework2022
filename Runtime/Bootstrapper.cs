@@ -52,7 +52,7 @@ namespace CoreFramework
                 SceneManager.LoadScene(CoreFrameWorkSettings.BootScene);
 
 #if UNITY_EDITOR
-            if (currentlyLoadedEditorScene.IsValid())
+            if (currentlyLoadedEditorScene.IsValid() && !currentlyLoadedEditorScene.isLoaded)
                 SceneManager.LoadSceneAsync(currentlyLoadedEditorScene.name, LoadSceneMode.Additive);
 #else
             if (string.IsNullOrWhiteSpace(CoreFrameWorkSettings.StartScene) ||
